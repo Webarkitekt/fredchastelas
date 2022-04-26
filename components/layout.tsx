@@ -17,7 +17,7 @@ export const Layout = ({
       </Head>
       <Header data={data?.header}/>
       <main>{children}</main>
-      <Footer/>
+      <Footer data={data?.header}/>
     </div>
   )
 }

@@ -70,8 +70,6 @@ export type Query = {
   getDocumentFields: Scalars['JSON'];
   getGlobalDocument: GlobalDocument;
   getGlobalList: GlobalConnection;
-  getPostDocument: PostDocument;
-  getPostList: PostConnection;
   getPagesDocument: PagesDocument;
   getPagesList: PagesConnection;
 };
@@ -112,19 +110,6 @@ export type QueryGetGlobalDocumentArgs = {
 
 
 export type QueryGetGlobalListArgs = {
-  before?: InputMaybe<Scalars['String']>;
-  after?: InputMaybe<Scalars['String']>;
-  first?: InputMaybe<Scalars['Float']>;
-  last?: InputMaybe<Scalars['Float']>;
-};
-
-
-export type QueryGetPostDocumentArgs = {
-  relativePath?: InputMaybe<Scalars['String']>;
-};
-
-
-export type QueryGetPostListArgs = {
   before?: InputMaybe<Scalars['String']>;
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
@@ -178,7 +163,7 @@ export type CollectionDocumentsArgs = {
   last?: InputMaybe<Scalars['Float']>;
 };
 
-export type DocumentNode = GlobalDocument | PostDocument | PagesDocument;
+export type DocumentNode = GlobalDocument | PagesDocument;
 
 export type GlobalHeaderNav = {
   __typename?: 'GlobalHeaderNav';
@@ -217,35 +202,6 @@ export type GlobalConnection = Connection & {
   pageInfo?: Maybe<PageInfo>;
   totalCount: Scalars['Float'];
   edges?: Maybe<Array<Maybe<GlobalConnectionEdges>>>;
-};
-
-export type Post = {
-  __typename?: 'Post';
-  title?: Maybe<Scalars['String']>;
-  body?: Maybe<Scalars['String']>;
-};
-
-export type PostDocument = Node & Document & {
-  __typename?: 'PostDocument';
-  id: Scalars['ID'];
-  sys: SystemInfo;
-  data: Post;
-  form: Scalars['JSON'];
-  values: Scalars['JSON'];
-  dataJSON: Scalars['JSON'];
-};
-
-export type PostConnectionEdges = {
-  __typename?: 'PostConnectionEdges';
-  cursor?: Maybe<Scalars['String']>;
-  node?: Maybe<PostDocument>;
-};
-
-export type PostConnection = Connection & {
-  __typename?: 'PostConnection';
-  pageInfo?: Maybe<PageInfo>;
-  totalCount: Scalars['Float'];
-  edges?: Maybe<Array<Maybe<PostConnectionEdges>>>;
 };
 
 export type PagesBlocksHero = {
@@ -343,8 +299,6 @@ export type Mutation = {
   createDocument: DocumentNode;
   updateGlobalDocument: GlobalDocument;
   createGlobalDocument: GlobalDocument;
-  updatePostDocument: PostDocument;
-  createPostDocument: PostDocument;
   updatePagesDocument: PagesDocument;
   createPagesDocument: PagesDocument;
 };
@@ -383,18 +337,6 @@ export type MutationCreateGlobalDocumentArgs = {
 };
 
 
-export type MutationUpdatePostDocumentArgs = {
-  relativePath: Scalars['String'];
-  params: PostMutation;
-};
-
-
-export type MutationCreatePostDocumentArgs = {
-  relativePath: Scalars['String'];
-  params: PostMutation;
-};
-
-
 export type MutationUpdatePagesDocumentArgs = {
   relativePath: Scalars['String'];
   params: PagesMutation;
@@ -408,7 +350,6 @@ export type MutationCreatePagesDocumentArgs = {
 
 export type DocumentMutation = {
   global?: InputMaybe<GlobalMutation>;
-  post?: InputMaybe<PostMutation>;
   pages?: InputMaybe<PagesMutation>;
 };
 
@@ -423,11 +364,6 @@ export type GlobalHeaderMutation = {
 
 export type GlobalMutation = {
   header?: InputMaybe<GlobalHeaderMutation>;
-};
-
-export type PostMutation = {
-  title?: InputMaybe<Scalars['String']>;
-  body?: InputMaybe<Scalars['String']>;
 };
 
 export type PagesBlocksHeroMutation = {
@@ -502,8 +438,6 @@ export type ContentQueryQuery = { __typename?: 'Query', getPagesDocument: { __ty
 
 export type GlobalPartsFragment = { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined };
 
-export type PostPartsFragment = { __typename?: 'Post', title?: string | null | undefined, body?: string | null | undefined };
-
 export type PagesPartsFragment = { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined } | { __typename: 'PagesBlocksContent', body?: any | null | undefined, color?: string | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | null | undefined> | null | undefined };
 
 export type GetGlobalDocumentQueryVariables = Exact<{
@@ -517,18 +451,6 @@ export type GetGlobalListQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type GetGlobalListQuery = { __typename?: 'Query', getGlobalList: { __typename?: 'GlobalConnection', totalCount: number, edges?: Array<{ __typename?: 'GlobalConnectionEdges', node?: { __typename?: 'GlobalDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined } } | null | undefined } | null | undefined> | null | undefined } };
-
-export type GetPostDocumentQueryVariables = Exact<{
-  relativePath: Scalars['String'];
-}>;
-
-
-export type GetPostDocumentQuery = { __typename?: 'Query', getPostDocument: { __typename?: 'PostDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Post', title?: string | null | undefined, body?: string | null | undefined } } };
-
-export type GetPostListQueryVariables = Exact<{ [key: string]: never; }>;
-
-
-export type GetPostListQuery = { __typename?: 'Query', getPostList: { __typename?: 'PostConnection', totalCount: number, edges?: Array<{ __typename?: 'PostConnectionEdges', node?: { __typename?: 'PostDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Post', title?: string | null | undefined, body?: string | null | undefined } } | null | undefined } | null | undefined> | null | undefined } };
 
 export type GetPagesDocumentQueryVariables = Exact<{
   relativePath: Scalars['String'];
@@ -563,12 +485,6 @@ export const LayoutQueryFragmentFragmentDoc = gql`
   }
 }
     ${GlobalPartsFragmentDoc}`;
-export const PostPartsFragmentDoc = gql`
-    fragment PostParts on Post {
-  title
-  body
-}
-    `;
 export const PagesPartsFragmentDoc = gql`
     fragment PagesParts on Pages {
   blocks {
@@ -666,47 +582,6 @@ export const GetGlobalListDocument = gql`
   }
 }
     ${GlobalPartsFragmentDoc}`;
-export const GetPostDocumentDocument = gql`
-    query getPostDocument($relativePath: String!) {
-  getPostDocument(relativePath: $relativePath) {
-    sys {
-      filename
-      basename
-      breadcrumbs
-      path
-      relativePath
-      extension
-    }
-    id
-    data {
-      ...PostParts
-    }
-  }
-}
-    ${PostPartsFragmentDoc}`;
-export const GetPostListDocument = gql`
-    query getPostList {
-  getPostList {
-    totalCount
-    edges {
-      node {
-        id
-        sys {
-          filename
-          basename
-          breadcrumbs
-          path
-          relativePath
-          extension
-        }
-        data {
-          ...PostParts
-        }
-      }
-    }
-  }
-}
-    ${PostPartsFragmentDoc}`;
 export const GetPagesDocumentDocument = gql`
     query getPagesDocument($relativePath: String!) {
   getPagesDocument(relativePath: $relativePath) {
@@ -759,12 +634,6 @@ export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) 
       },
     getGlobalList(variables?: GetGlobalListQueryVariables, options?: C): Promise<{data: GetGlobalListQuery, variables: GetGlobalListQueryVariables, query: string}> {
         return requester<{data: GetGlobalListQuery, variables: GetGlobalListQueryVariables, query: string}, GetGlobalListQueryVariables>(GetGlobalListDocument, variables, options);
-      },
-    getPostDocument(variables: GetPostDocumentQueryVariables, options?: C): Promise<{data: GetPostDocumentQuery, variables: GetPostDocumentQueryVariables, query: string}> {
-        return requester<{data: GetPostDocumentQuery, variables: GetPostDocumentQueryVariables, query: string}, GetPostDocumentQueryVariables>(GetPostDocumentDocument, variables, options);
-      },
-    getPostList(variables?: GetPostListQueryVariables, options?: C): Promise<{data: GetPostListQuery, variables: GetPostListQueryVariables, query: string}> {
-        return requester<{data: GetPostListQuery, variables: GetPostListQueryVariables, query: string}, GetPostListQueryVariables>(GetPostListDocument, variables, options);
       },
     getPagesDocument(variables: GetPagesDocumentQueryVariables, options?: C): Promise<{data: GetPagesDocumentQuery, variables: GetPagesDocumentQueryVariables, query: string}> {
         return requester<{data: GetPagesDocumentQuery, variables: GetPagesDocumentQueryVariables, query: string}, GetPagesDocumentQueryVariables>(GetPagesDocumentDocument, variables, options);

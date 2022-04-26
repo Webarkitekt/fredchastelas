@@ -4,7 +4,6 @@
     "resolveType": "multiCollectionDocumentList",
     "collections": [
       "global",
-      "post",
       "pages"
     ]
   },
@@ -29,18 +28,6 @@
     "type": "GlobalConnection",
     "resolveType": "collectionDocumentList",
     "collection": "global"
-  },
-  "PostDocument": {
-    "type": "PostDocument",
-    "resolveType": "collectionDocument",
-    "collection": "post",
-    "createPostDocument": "create",
-    "updatePostDocument": "update"
-  },
-  "PostConnection": {
-    "type": "PostConnection",
-    "resolveType": "collectionDocumentList",
-    "collection": "post"
   },
   "PagesBlocks": {
     "type": "PagesBlocks",

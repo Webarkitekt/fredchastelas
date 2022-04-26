@@ -51,8 +51,6 @@ type Query {
   getDocumentFields: JSON!
   getGlobalDocument(relativePath: String): GlobalDocument!
   getGlobalList(before: String, after: String, first: Float, last: Float): GlobalConnection!
-  getPostDocument(relativePath: String): PostDocument!
-  getPostList(before: String, after: String, first: Float, last: Float): PostConnection!
   getPagesDocument(relativePath: String): PagesDocument!
   getPagesList(before: String, after: String, first: Float, last: Float): PagesConnection!
 }
@@ -80,7 +78,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float): DocumentConnection!
 }
 
-union DocumentNode = GlobalDocument | PostDocument | PagesDocument
+union DocumentNode = GlobalDocument | PagesDocument
 
 type GlobalHeaderNav {
   href: String
@@ -113,31 +111,6 @@ type GlobalConnection implements Connection {
   pageInfo: PageInfo
   totalCount: Float!
   edges: [GlobalConnectionEdges]
-}
-
-type Post {
-  title: String
-  body: String
-}
-
-type PostDocument implements Node & Document {
-  id: ID!
-  sys: SystemInfo!
-  data: Post!
-  form: JSON!
-  values: JSON!
-  dataJSON: JSON!
-}
-
-type PostConnectionEdges {
-  cursor: String
-  node: PostDocument
-}
-
-type PostConnection implements Connection {
-  pageInfo: PageInfo
-  totalCount: Float!
-  edges: [PostConnectionEdges]
 }
 
 type PagesBlocksHero {
@@ -221,15 +194,12 @@ type Mutation {
   createDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
   updateGlobalDocument(relativePath: String!, params: GlobalMutation!): GlobalDocument!
   createGlobalDocument(relativePath: String!, params: GlobalMutation!): GlobalDocument!
-  updatePostDocument(relativePath: String!, params: PostMutation!): PostDocument!
-  createPostDocument(relativePath: String!, params: PostMutation!): PostDocument!
   updatePagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
   createPagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
 }
 
 input DocumentMutation {
   global: GlobalMutation
-  post: PostMutation
   pages: PagesMutation
 }
 
@@ -244,11 +214,6 @@ input GlobalHeaderMutation {
 
 input GlobalMutation {
   header: GlobalHeaderMutation
-}
-
-input PostMutation {
-  title: String
-  body: String
 }
 
 input PagesBlocksHeroMutation {

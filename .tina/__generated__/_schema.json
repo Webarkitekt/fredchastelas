@@ -71,38 +71,6 @@
       ]
     },
     {
-      "label": "Blog Posts",
-      "name": "post",
-      "path": "content/post",
-      "fields": [
-        {
-          "type": "string",
-          "label": "Title",
-          "name": "title",
-          "namespace": [
-            "post",
-            "title"
-          ]
-        },
-        {
-          "type": "string",
-          "label": "Blog Post Body",
-          "name": "body",
-          "isBody": true,
-          "ui": {
-            "component": "textarea"
-          },
-          "namespace": [
-            "post",
-            "body"
-          ]
-        }
-      ],
-      "namespace": [
-        "post"
-      ]
-    },
-    {
       "label": "Pages",
       "name": "pages",
       "path": "content/pages",

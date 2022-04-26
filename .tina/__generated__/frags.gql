@@ -9,11 +9,6 @@ fragment GlobalParts on Global {
   }
 }
 
-fragment PostParts on Post {
-  title
-  body
-}
-
 fragment PagesParts on Pages {
   blocks {
     __typename

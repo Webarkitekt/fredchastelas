@@ -51,27 +51,6 @@ export default defineSchema({
       ],
     },
     {
-      label: "Blog Posts",
-      name: "post",
-      path: "content/post",
-      fields: [
-        {
-          type: "string",
-          label: "Title",
-          name: "title",
-        },
-        {
-          type: "string",
-          label: "Blog Post Body",
-          name: "body",
-          isBody: true,
-          ui: {
-            component: "textarea",
-          },
-        },
-      ],
-    },
-    {
       label: "Pages",
       name: "pages",
       path: "content/pages",
