@@ -101,6 +101,7 @@ export type QueryGetDocumentListArgs = {
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
   last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
 };
 
 
@@ -114,6 +115,7 @@ export type QueryGetGlobalListArgs = {
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
   last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
 };
 
 
@@ -127,6 +129,7 @@ export type QueryGetPagesListArgs = {
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
   last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
 };
 
 export type DocumentConnectionEdges = {
@@ -161,6 +164,7 @@ export type CollectionDocumentsArgs = {
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
   last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
 };
 
 export type DocumentNode = GlobalDocument | PagesDocument;
@@ -296,6 +300,7 @@ export type Mutation = {
   __typename?: 'Mutation';
   addPendingDocument: DocumentNode;
   updateDocument: DocumentNode;
+  deleteDocument: DocumentNode;
   createDocument: DocumentNode;
   updateGlobalDocument: GlobalDocument;
   createGlobalDocument: GlobalDocument;
@@ -315,6 +320,12 @@ export type MutationUpdateDocumentArgs = {
   collection?: InputMaybe<Scalars['String']>;
   relativePath: Scalars['String'];
   params: DocumentMutation;
+};
+
+
+export type MutationDeleteDocumentArgs = {
+  collection?: InputMaybe<Scalars['String']>;
+  relativePath: Scalars['String'];
 };
 
 
