@@ -3,8 +3,9 @@
     "type": "DocumentConnection",
     "resolveType": "multiCollectionDocumentList",
     "collections": [
-      "page",
-      "post"
+      "global",
+      "post",
+      "pages"
     ]
   },
   "Node": {
@@ -17,17 +18,17 @@
     "createDocument": "create",
     "updateDocument": "update"
   },
-  "PageDocument": {
-    "type": "PageDocument",
+  "GlobalDocument": {
+    "type": "GlobalDocument",
     "resolveType": "collectionDocument",
-    "collection": "page",
-    "createPageDocument": "create",
-    "updatePageDocument": "update"
+    "collection": "global",
+    "createGlobalDocument": "create",
+    "updateGlobalDocument": "update"
   },
-  "PageConnection": {
-    "type": "PageConnection",
+  "GlobalConnection": {
+    "type": "GlobalConnection",
     "resolveType": "collectionDocumentList",
-    "collection": "page"
+    "collection": "global"
   },
   "PostDocument": {
     "type": "PostDocument",
@@ -40,5 +41,28 @@
     "type": "PostConnection",
     "resolveType": "collectionDocumentList",
     "collection": "post"
+  },
+  "PagesBlocks": {
+    "type": "PagesBlocks",
+    "resolveType": "unionData",
+    "typeMap": {
+      "hero": "PagesBlocksHero",
+      "content": "PagesBlocksContent",
+      "introduction": "PagesBlocksIntroduction",
+      "feature": "PagesBlocksFeature",
+      "textAndImage": "PagesBlocksTextAndImage"
+    }
+  },
+  "PagesDocument": {
+    "type": "PagesDocument",
+    "resolveType": "collectionDocument",
+    "collection": "pages",
+    "createPagesDocument": "create",
+    "updatePagesDocument": "update"
+  },
+  "PagesConnection": {
+    "type": "PagesConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "pages"
   }
 }

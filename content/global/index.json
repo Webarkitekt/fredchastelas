@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": [
+      {
+        "href": "seminaires-et-cours",
+        "label": "Séminaires et cours"
+      },
+      {
+        "href": "regulation-emotionnelle-tipi",
+        "label": "Régulation émotionelle Tipi"
+      },
+      {
+        "href": "accompagnement",
+        "label": "Accompagnement"
+      },
+      {
+        "href": "coaching-en-entreprise",
+        "label": "Coaching en entreprise"
+      },
+      {
+        "href": "a-propos",
+        "label": "A propos"
+      }
+    ]
+  }
+}

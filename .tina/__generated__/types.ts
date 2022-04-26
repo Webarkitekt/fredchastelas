@@ -61,16 +61,24 @@ export type Connection = {
 
 export type Query = {
   __typename?: 'Query';
+  getOptimizedQuery?: Maybe<Scalars['String']>;
   getCollection: Collection;
   getCollections: Array<Collection>;
   node: Node;
   getDocument: DocumentNode;
   getDocumentList: DocumentConnection;
   getDocumentFields: Scalars['JSON'];
-  getPageDocument: PageDocument;
-  getPageList: PageConnection;
+  getGlobalDocument: GlobalDocument;
+  getGlobalList: GlobalConnection;
   getPostDocument: PostDocument;
   getPostList: PostConnection;
+  getPagesDocument: PagesDocument;
+  getPagesList: PagesConnection;
+};
+
+
+export type QueryGetOptimizedQueryArgs = {
+  queryString: Scalars['String'];
 };
 
 
@@ -98,12 +106,12 @@ export type QueryGetDocumentListArgs = {
 };
 
 
-export type QueryGetPageDocumentArgs = {
+export type QueryGetGlobalDocumentArgs = {
   relativePath?: InputMaybe<Scalars['String']>;
 };
 
 
-export type QueryGetPageListArgs = {
+export type QueryGetGlobalListArgs = {
   before?: InputMaybe<Scalars['String']>;
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
@@ -117,6 +125,19 @@ export type QueryGetPostDocumentArgs = {
 
 
 export type QueryGetPostListArgs = {
+  before?: InputMaybe<Scalars['String']>;
+  after?: InputMaybe<Scalars['String']>;
+  first?: InputMaybe<Scalars['Float']>;
+  last?: InputMaybe<Scalars['Float']>;
+};
+
+
+export type QueryGetPagesDocumentArgs = {
+  relativePath?: InputMaybe<Scalars['String']>;
+};
+
+
+export type QueryGetPagesListArgs = {
   before?: InputMaybe<Scalars['String']>;
   after?: InputMaybe<Scalars['String']>;
   first?: InputMaybe<Scalars['Float']>;
@@ -157,34 +178,45 @@ export type CollectionDocumentsArgs = {
   last?: InputMaybe<Scalars['Float']>;
 };
 
-export type DocumentNode = PageDocument | PostDocument;
+export type DocumentNode = GlobalDocument | PostDocument | PagesDocument;
 
-export type Page = {
-  __typename?: 'Page';
-  body?: Maybe<Scalars['JSON']>;
+export type GlobalHeaderNav = {
+  __typename?: 'GlobalHeaderNav';
+  href?: Maybe<Scalars['String']>;
+  label?: Maybe<Scalars['String']>;
 };
 
-export type PageDocument = Node & Document & {
-  __typename?: 'PageDocument';
+export type GlobalHeader = {
+  __typename?: 'GlobalHeader';
+  nav?: Maybe<Array<Maybe<GlobalHeaderNav>>>;
+};
+
+export type Global = {
+  __typename?: 'Global';
+  header?: Maybe<GlobalHeader>;
+};
+
+export type GlobalDocument = Node & Document & {
+  __typename?: 'GlobalDocument';
   id: Scalars['ID'];
   sys: SystemInfo;
-  data: Page;
+  data: Global;
   form: Scalars['JSON'];
   values: Scalars['JSON'];
   dataJSON: Scalars['JSON'];
 };
 
-export type PageConnectionEdges = {
-  __typename?: 'PageConnectionEdges';
+export type GlobalConnectionEdges = {
+  __typename?: 'GlobalConnectionEdges';
   cursor?: Maybe<Scalars['String']>;
-  node?: Maybe<PageDocument>;
+  node?: Maybe<GlobalDocument>;
 };
 
-export type PageConnection = Connection & {
-  __typename?: 'PageConnection';
+export type GlobalConnection = Connection & {
+  __typename?: 'GlobalConnection';
   pageInfo?: Maybe<PageInfo>;
   totalCount: Scalars['Float'];
-  edges?: Maybe<Array<Maybe<PageConnectionEdges>>>;
+  edges?: Maybe<Array<Maybe<GlobalConnectionEdges>>>;
 };
 
 export type Post = {
@@ -216,15 +248,105 @@ export type PostConnection = Connection & {
   edges?: Maybe<Array<Maybe<PostConnectionEdges>>>;
 };
 
+export type PagesBlocksHero = {
+  __typename?: 'PagesBlocksHero';
+  headline?: Maybe<Scalars['String']>;
+  tagline?: Maybe<Scalars['String']>;
+};
+
+export type PagesBlocksContent = {
+  __typename?: 'PagesBlocksContent';
+  body?: Maybe<Scalars['JSON']>;
+  color?: Maybe<Scalars['String']>;
+};
+
+export type PagesBlocksIntroductionImage = {
+  __typename?: 'PagesBlocksIntroductionImage';
+  src?: Maybe<Scalars['String']>;
+  alt?: Maybe<Scalars['String']>;
+};
+
+export type PagesBlocksIntroduction = {
+  __typename?: 'PagesBlocksIntroduction';
+  title?: Maybe<Scalars['String']>;
+  text?: Maybe<Scalars['String']>;
+  image?: Maybe<PagesBlocksIntroductionImage>;
+};
+
+export type PagesBlocksFeatureLink = {
+  __typename?: 'PagesBlocksFeatureLink';
+  label?: Maybe<Scalars['String']>;
+  url?: Maybe<Scalars['String']>;
+};
+
+export type PagesBlocksFeature = {
+  __typename?: 'PagesBlocksFeature';
+  subhead?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  link?: Maybe<PagesBlocksFeatureLink>;
+};
+
+export type PagesBlocksTextAndImageImage = {
+  __typename?: 'PagesBlocksTextAndImageImage';
+  src?: Maybe<Scalars['String']>;
+  alt?: Maybe<Scalars['String']>;
+};
+
+export type PagesBlocksTextAndImageLink = {
+  __typename?: 'PagesBlocksTextAndImageLink';
+  label?: Maybe<Scalars['String']>;
+  url?: Maybe<Scalars['String']>;
+};
+
+export type PagesBlocksTextAndImage = {
+  __typename?: 'PagesBlocksTextAndImage';
+  title?: Maybe<Scalars['String']>;
+  text?: Maybe<Scalars['String']>;
+  image?: Maybe<PagesBlocksTextAndImageImage>;
+  link?: Maybe<PagesBlocksTextAndImageLink>;
+};
+
+export type PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage;
+
+export type Pages = {
+  __typename?: 'Pages';
+  blocks?: Maybe<Array<Maybe<PagesBlocks>>>;
+};
+
+export type PagesDocument = Node & Document & {
+  __typename?: 'PagesDocument';
+  id: Scalars['ID'];
+  sys: SystemInfo;
+  data: Pages;
+  form: Scalars['JSON'];
+  values: Scalars['JSON'];
+  dataJSON: Scalars['JSON'];
+};
+
+export type PagesConnectionEdges = {
+  __typename?: 'PagesConnectionEdges';
+  cursor?: Maybe<Scalars['String']>;
+  node?: Maybe<PagesDocument>;
+};
+
+export type PagesConnection = Connection & {
+  __typename?: 'PagesConnection';
+  pageInfo?: Maybe<PageInfo>;
+  totalCount: Scalars['Float'];
+  edges?: Maybe<Array<Maybe<PagesConnectionEdges>>>;
+};
+
 export type Mutation = {
   __typename?: 'Mutation';
   addPendingDocument: DocumentNode;
   updateDocument: DocumentNode;
   createDocument: DocumentNode;
-  updatePageDocument: PageDocument;
-  createPageDocument: PageDocument;
+  updateGlobalDocument: GlobalDocument;
+  createGlobalDocument: GlobalDocument;
   updatePostDocument: PostDocument;
   createPostDocument: PostDocument;
+  updatePagesDocument: PagesDocument;
+  createPagesDocument: PagesDocument;
 };
 
 
@@ -249,15 +371,15 @@ export type MutationCreateDocumentArgs = {
 };
 
 
-export type MutationUpdatePageDocumentArgs = {
+export type MutationUpdateGlobalDocumentArgs = {
   relativePath: Scalars['String'];
-  params: PageMutation;
+  params: GlobalMutation;
 };
 
 
-export type MutationCreatePageDocumentArgs = {
+export type MutationCreateGlobalDocumentArgs = {
   relativePath: Scalars['String'];
-  params: PageMutation;
+  params: GlobalMutation;
 };
 
 
@@ -272,13 +394,35 @@ export type MutationCreatePostDocumentArgs = {
   params: PostMutation;
 };
 
-export type DocumentMutation = {
-  page?: InputMaybe<PageMutation>;
-  post?: InputMaybe<PostMutation>;
+
+export type MutationUpdatePagesDocumentArgs = {
+  relativePath: Scalars['String'];
+  params: PagesMutation;
 };
 
-export type PageMutation = {
-  body?: InputMaybe<Scalars['JSON']>;
+
+export type MutationCreatePagesDocumentArgs = {
+  relativePath: Scalars['String'];
+  params: PagesMutation;
+};
+
+export type DocumentMutation = {
+  global?: InputMaybe<GlobalMutation>;
+  post?: InputMaybe<PostMutation>;
+  pages?: InputMaybe<PagesMutation>;
+};
+
+export type GlobalHeaderNavMutation = {
+  href?: InputMaybe<Scalars['String']>;
+  label?: InputMaybe<Scalars['String']>;
+};
+
+export type GlobalHeaderMutation = {
+  nav?: InputMaybe<Array<InputMaybe<GlobalHeaderNavMutation>>>;
+};
+
+export type GlobalMutation = {
+  header?: InputMaybe<GlobalHeaderMutation>;
 };
 
 export type PostMutation = {
@@ -286,21 +430,93 @@ export type PostMutation = {
   body?: InputMaybe<Scalars['String']>;
 };
 
-export type PagePartsFragment = { __typename?: 'Page', body?: any | null | undefined };
+export type PagesBlocksHeroMutation = {
+  headline?: InputMaybe<Scalars['String']>;
+  tagline?: InputMaybe<Scalars['String']>;
+};
 
-export type PostPartsFragment = { __typename?: 'Post', title?: string | null | undefined, body?: string | null | undefined };
+export type PagesBlocksContentMutation = {
+  body?: InputMaybe<Scalars['JSON']>;
+  color?: InputMaybe<Scalars['String']>;
+};
 
-export type GetPageDocumentQueryVariables = Exact<{
+export type PagesBlocksIntroductionImageMutation = {
+  src?: InputMaybe<Scalars['String']>;
+  alt?: InputMaybe<Scalars['String']>;
+};
+
+export type PagesBlocksIntroductionMutation = {
+  title?: InputMaybe<Scalars['String']>;
+  text?: InputMaybe<Scalars['String']>;
+  image?: InputMaybe<PagesBlocksIntroductionImageMutation>;
+};
+
+export type PagesBlocksFeatureLinkMutation = {
+  label?: InputMaybe<Scalars['String']>;
+  url?: InputMaybe<Scalars['String']>;
+};
+
+export type PagesBlocksFeatureMutation = {
+  subhead?: InputMaybe<Scalars['String']>;
+  title?: InputMaybe<Scalars['String']>;
+  link?: InputMaybe<PagesBlocksFeatureLinkMutation>;
+};
+
+export type PagesBlocksTextAndImageImageMutation = {
+  src?: InputMaybe<Scalars['String']>;
+  alt?: InputMaybe<Scalars['String']>;
+};
+
+export type PagesBlocksTextAndImageLinkMutation = {
+  label?: InputMaybe<Scalars['String']>;
+  url?: InputMaybe<Scalars['String']>;
+};
+
+export type PagesBlocksTextAndImageMutation = {
+  title?: InputMaybe<Scalars['String']>;
+  text?: InputMaybe<Scalars['String']>;
+  image?: InputMaybe<PagesBlocksTextAndImageImageMutation>;
+  link?: InputMaybe<PagesBlocksTextAndImageLinkMutation>;
+};
+
+export type PagesBlocksMutation = {
+  hero?: InputMaybe<PagesBlocksHeroMutation>;
+  content?: InputMaybe<PagesBlocksContentMutation>;
+  introduction?: InputMaybe<PagesBlocksIntroductionMutation>;
+  feature?: InputMaybe<PagesBlocksFeatureMutation>;
+  textAndImage?: InputMaybe<PagesBlocksTextAndImageMutation>;
+};
+
+export type PagesMutation = {
+  blocks?: InputMaybe<Array<InputMaybe<PagesBlocksMutation>>>;
+};
+
+export type LayoutQueryFragmentFragment = { __typename?: 'Query', getGlobalDocument: { __typename?: 'GlobalDocument', data: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined } } };
+
+export type ContentQueryQueryVariables = Exact<{
   relativePath: Scalars['String'];
 }>;
 
 
-export type GetPageDocumentQuery = { __typename?: 'Query', getPageDocument: { __typename?: 'PageDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Page', body?: any | null | undefined } } };
+export type ContentQueryQuery = { __typename?: 'Query', getPagesDocument: { __typename?: 'PagesDocument', data: { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined } | { __typename: 'PagesBlocksContent', body?: any | null | undefined, color?: string | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | null | undefined> | null | undefined } } };
 
-export type GetPageListQueryVariables = Exact<{ [key: string]: never; }>;
+export type GlobalPartsFragment = { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined };
+
+export type PostPartsFragment = { __typename?: 'Post', title?: string | null | undefined, body?: string | null | undefined };
+
+export type PagesPartsFragment = { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined } | { __typename: 'PagesBlocksContent', body?: any | null | undefined, color?: string | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | null | undefined> | null | undefined };
+
+export type GetGlobalDocumentQueryVariables = Exact<{
+  relativePath: Scalars['String'];
+}>;
 
 
-export type GetPageListQuery = { __typename?: 'Query', getPageList: { __typename?: 'PageConnection', totalCount: number, edges?: Array<{ __typename?: 'PageConnectionEdges', node?: { __typename?: 'PageDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Page', body?: any | null | undefined } } | null | undefined } | null | undefined> | null | undefined } };
+export type GetGlobalDocumentQuery = { __typename?: 'Query', getGlobalDocument: { __typename?: 'GlobalDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined } } };
+
+export type GetGlobalListQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type GetGlobalListQuery = { __typename?: 'Query', getGlobalList: { __typename?: 'GlobalConnection', totalCount: number, edges?: Array<{ __typename?: 'GlobalConnectionEdges', node?: { __typename?: 'GlobalDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined } } | null | undefined } | null | undefined> | null | undefined } };
 
 export type GetPostDocumentQueryVariables = Exact<{
   relativePath: Scalars['String'];
@@ -314,20 +530,104 @@ export type GetPostListQueryVariables = Exact<{ [key: string]: never; }>;
 
 export type GetPostListQuery = { __typename?: 'Query', getPostList: { __typename?: 'PostConnection', totalCount: number, edges?: Array<{ __typename?: 'PostConnectionEdges', node?: { __typename?: 'PostDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Post', title?: string | null | undefined, body?: string | null | undefined } } | null | undefined } | null | undefined> | null | undefined } };
 
-export const PagePartsFragmentDoc = gql`
-    fragment PageParts on Page {
-  body
+export type GetPagesDocumentQueryVariables = Exact<{
+  relativePath: Scalars['String'];
+}>;
+
+
+export type GetPagesDocumentQuery = { __typename?: 'Query', getPagesDocument: { __typename?: 'PagesDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined } | { __typename: 'PagesBlocksContent', body?: any | null | undefined, color?: string | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | null | undefined> | null | undefined } } };
+
+export type GetPagesListQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type GetPagesListQuery = { __typename?: 'Query', getPagesList: { __typename?: 'PagesConnection', totalCount: number, edges?: Array<{ __typename?: 'PagesConnectionEdges', node?: { __typename?: 'PagesDocument', id: string, sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, data: { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined } | { __typename: 'PagesBlocksContent', body?: any | null | undefined, color?: string | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | null | undefined> | null | undefined } } | null | undefined } | null | undefined> | null | undefined } };
+
+export const GlobalPartsFragmentDoc = gql`
+    fragment GlobalParts on Global {
+  header {
+    __typename
+    nav {
+      __typename
+      href
+      label
+    }
+  }
 }
     `;
+export const LayoutQueryFragmentFragmentDoc = gql`
+    fragment LayoutQueryFragment on Query {
+  getGlobalDocument(relativePath: "index.json") {
+    data {
+      ...GlobalParts
+    }
+  }
+}
+    ${GlobalPartsFragmentDoc}`;
 export const PostPartsFragmentDoc = gql`
     fragment PostParts on Post {
   title
   body
 }
     `;
-export const GetPageDocumentDocument = gql`
-    query getPageDocument($relativePath: String!) {
-  getPageDocument(relativePath: $relativePath) {
+export const PagesPartsFragmentDoc = gql`
+    fragment PagesParts on Pages {
+  blocks {
+    __typename
+    ... on PagesBlocksHero {
+      headline
+      tagline
+    }
+    ... on PagesBlocksContent {
+      body
+      color
+    }
+    ... on PagesBlocksIntroduction {
+      title
+      text
+      image {
+        __typename
+        src
+        alt
+      }
+    }
+    ... on PagesBlocksFeature {
+      subhead
+      title
+      link {
+        __typename
+        label
+        url
+      }
+    }
+    ... on PagesBlocksTextAndImage {
+      title
+      text
+      image {
+        __typename
+        src
+        alt
+      }
+      link {
+        __typename
+        label
+        url
+      }
+    }
+  }
+}
+    `;
+export const ContentQueryDocument = gql`
+    query ContentQuery($relativePath: String!) {
+  getPagesDocument(relativePath: $relativePath) {
+    data {
+      ...PagesParts
+    }
+  }
+}
+    ${PagesPartsFragmentDoc}`;
+export const GetGlobalDocumentDocument = gql`
+    query getGlobalDocument($relativePath: String!) {
+  getGlobalDocument(relativePath: $relativePath) {
     sys {
       filename
       basename
@@ -338,14 +638,14 @@ export const GetPageDocumentDocument = gql`
     }
     id
     data {
-      ...PageParts
+      ...GlobalParts
     }
   }
 }
-    ${PagePartsFragmentDoc}`;
-export const GetPageListDocument = gql`
-    query getPageList {
-  getPageList {
+    ${GlobalPartsFragmentDoc}`;
+export const GetGlobalListDocument = gql`
+    query getGlobalList {
+  getGlobalList {
     totalCount
     edges {
       node {
@@ -359,13 +659,13 @@ export const GetPageListDocument = gql`
           extension
         }
         data {
-          ...PageParts
+          ...GlobalParts
         }
       }
     }
   }
 }
-    ${PagePartsFragmentDoc}`;
+    ${GlobalPartsFragmentDoc}`;
 export const GetPostDocumentDocument = gql`
     query getPostDocument($relativePath: String!) {
   getPostDocument(relativePath: $relativePath) {
@@ -407,20 +707,70 @@ export const GetPostListDocument = gql`
   }
 }
     ${PostPartsFragmentDoc}`;
+export const GetPagesDocumentDocument = gql`
+    query getPagesDocument($relativePath: String!) {
+  getPagesDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...PagesParts
+    }
+  }
+}
+    ${PagesPartsFragmentDoc}`;
+export const GetPagesListDocument = gql`
+    query getPagesList {
+  getPagesList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...PagesParts
+        }
+      }
+    }
+  }
+}
+    ${PagesPartsFragmentDoc}`;
 export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) => Promise<R>
   export function getSdk<C>(requester: Requester<C>) {
     return {
-      getPageDocument(variables: GetPageDocumentQueryVariables, options?: C): Promise<{data: GetPageDocumentQuery, variables: GetPageDocumentQueryVariables, query: string}> {
-        return requester<{data: GetPageDocumentQuery, variables: GetPageDocumentQueryVariables, query: string}, GetPageDocumentQueryVariables>(GetPageDocumentDocument, variables, options);
+      ContentQuery(variables: ContentQueryQueryVariables, options?: C): Promise<{data: ContentQueryQuery, variables: ContentQueryQueryVariables, query: string}> {
+        return requester<{data: ContentQueryQuery, variables: ContentQueryQueryVariables, query: string}, ContentQueryQueryVariables>(ContentQueryDocument, variables, options);
       },
-    getPageList(variables?: GetPageListQueryVariables, options?: C): Promise<{data: GetPageListQuery, variables: GetPageListQueryVariables, query: string}> {
-        return requester<{data: GetPageListQuery, variables: GetPageListQueryVariables, query: string}, GetPageListQueryVariables>(GetPageListDocument, variables, options);
+    getGlobalDocument(variables: GetGlobalDocumentQueryVariables, options?: C): Promise<{data: GetGlobalDocumentQuery, variables: GetGlobalDocumentQueryVariables, query: string}> {
+        return requester<{data: GetGlobalDocumentQuery, variables: GetGlobalDocumentQueryVariables, query: string}, GetGlobalDocumentQueryVariables>(GetGlobalDocumentDocument, variables, options);
+      },
+    getGlobalList(variables?: GetGlobalListQueryVariables, options?: C): Promise<{data: GetGlobalListQuery, variables: GetGlobalListQueryVariables, query: string}> {
+        return requester<{data: GetGlobalListQuery, variables: GetGlobalListQueryVariables, query: string}, GetGlobalListQueryVariables>(GetGlobalListDocument, variables, options);
       },
     getPostDocument(variables: GetPostDocumentQueryVariables, options?: C): Promise<{data: GetPostDocumentQuery, variables: GetPostDocumentQueryVariables, query: string}> {
         return requester<{data: GetPostDocumentQuery, variables: GetPostDocumentQueryVariables, query: string}, GetPostDocumentQueryVariables>(GetPostDocumentDocument, variables, options);
       },
     getPostList(variables?: GetPostListQueryVariables, options?: C): Promise<{data: GetPostListQuery, variables: GetPostListQueryVariables, query: string}> {
         return requester<{data: GetPostListQuery, variables: GetPostListQueryVariables, query: string}, GetPostListQueryVariables>(GetPostListDocument, variables, options);
+      },
+    getPagesDocument(variables: GetPagesDocumentQueryVariables, options?: C): Promise<{data: GetPagesDocumentQuery, variables: GetPagesDocumentQueryVariables, query: string}> {
+        return requester<{data: GetPagesDocumentQuery, variables: GetPagesDocumentQueryVariables, query: string}, GetPagesDocumentQueryVariables>(GetPagesDocumentDocument, variables, options);
+      },
+    getPagesList(variables?: GetPagesListQueryVariables, options?: C): Promise<{data: GetPagesListQuery, variables: GetPagesListQueryVariables, query: string}> {
+        return requester<{data: GetPagesListQuery, variables: GetPagesListQueryVariables, query: string}, GetPagesListQueryVariables>(GetPagesListDocument, variables, options);
       }
     };
   }

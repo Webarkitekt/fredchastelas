@@ -1,8 +1,61 @@
-fragment PageParts on Page {
-  body
+fragment GlobalParts on Global {
+  header {
+    __typename
+    nav {
+      __typename
+      href
+      label
+    }
+  }
 }
 
 fragment PostParts on Post {
   title
   body
+}
+
+fragment PagesParts on Pages {
+  blocks {
+    __typename
+    ... on PagesBlocksHero {
+      headline
+      tagline
+    }
+    ... on PagesBlocksContent {
+      body
+      color
+    }
+    ... on PagesBlocksIntroduction {
+      title
+      text
+      image {
+        __typename
+        src
+        alt
+      }
+    }
+    ... on PagesBlocksFeature {
+      subhead
+      title
+      link {
+        __typename
+        label
+        url
+      }
+    }
+    ... on PagesBlocksTextAndImage {
+      title
+      text
+      image {
+        __typename
+        src
+        alt
+      }
+      link {
+        __typename
+        label
+        url
+      }
+    }
+  }
 }

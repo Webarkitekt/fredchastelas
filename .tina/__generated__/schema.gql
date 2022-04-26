@@ -42,16 +42,19 @@ interface Connection {
 }
 
 type Query {
+  getOptimizedQuery(queryString: String!): String
   getCollection(collection: String): Collection!
   getCollections: [Collection!]!
   node(id: String): Node!
   getDocument(collection: String, relativePath: String): DocumentNode!
   getDocumentList(before: String, after: String, first: Float, last: Float): DocumentConnection!
   getDocumentFields: JSON!
-  getPageDocument(relativePath: String): PageDocument!
-  getPageList(before: String, after: String, first: Float, last: Float): PageConnection!
+  getGlobalDocument(relativePath: String): GlobalDocument!
+  getGlobalList(before: String, after: String, first: Float, last: Float): GlobalConnection!
   getPostDocument(relativePath: String): PostDocument!
   getPostList(before: String, after: String, first: Float, last: Float): PostConnection!
+  getPagesDocument(relativePath: String): PagesDocument!
+  getPagesList(before: String, after: String, first: Float, last: Float): PagesConnection!
 }
 
 type DocumentConnectionEdges {
@@ -77,30 +80,39 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float): DocumentConnection!
 }
 
-union DocumentNode = PageDocument | PostDocument
+union DocumentNode = GlobalDocument | PostDocument | PagesDocument
 
-type Page {
-  body: JSON
+type GlobalHeaderNav {
+  href: String
+  label: String
 }
 
-type PageDocument implements Node & Document {
+type GlobalHeader {
+  nav: [GlobalHeaderNav]
+}
+
+type Global {
+  header: GlobalHeader
+}
+
+type GlobalDocument implements Node & Document {
   id: ID!
   sys: SystemInfo!
-  data: Page!
+  data: Global!
   form: JSON!
   values: JSON!
   dataJSON: JSON!
 }
 
-type PageConnectionEdges {
+type GlobalConnectionEdges {
   cursor: String
-  node: PageDocument
+  node: GlobalDocument
 }
 
-type PageConnection implements Connection {
+type GlobalConnection implements Connection {
   pageInfo: PageInfo
   totalCount: Float!
-  edges: [PageConnectionEdges]
+  edges: [GlobalConnectionEdges]
 }
 
 type Post {
@@ -128,28 +140,176 @@ type PostConnection implements Connection {
   edges: [PostConnectionEdges]
 }
 
+type PagesBlocksHero {
+  headline: String
+  tagline: String
+}
+
+type PagesBlocksContent {
+  body: JSON
+  color: String
+}
+
+type PagesBlocksIntroductionImage {
+  src: String
+  alt: String
+}
+
+type PagesBlocksIntroduction {
+  title: String
+  text: String
+  image: PagesBlocksIntroductionImage
+}
+
+type PagesBlocksFeatureLink {
+  label: String
+  url: String
+}
+
+type PagesBlocksFeature {
+  subhead: String
+  title: String
+  link: PagesBlocksFeatureLink
+}
+
+type PagesBlocksTextAndImageImage {
+  src: String
+  alt: String
+}
+
+type PagesBlocksTextAndImageLink {
+  label: String
+  url: String
+}
+
+type PagesBlocksTextAndImage {
+  title: String
+  text: String
+  image: PagesBlocksTextAndImageImage
+  link: PagesBlocksTextAndImageLink
+}
+
+union PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage
+
+type Pages {
+  blocks: [PagesBlocks]
+}
+
+type PagesDocument implements Node & Document {
+  id: ID!
+  sys: SystemInfo!
+  data: Pages!
+  form: JSON!
+  values: JSON!
+  dataJSON: JSON!
+}
+
+type PagesConnectionEdges {
+  cursor: String
+  node: PagesDocument
+}
+
+type PagesConnection implements Connection {
+  pageInfo: PageInfo
+  totalCount: Float!
+  edges: [PagesConnectionEdges]
+}
+
 type Mutation {
   addPendingDocument(collection: String!, relativePath: String!, template: String): DocumentNode!
   updateDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
   createDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
-  updatePageDocument(relativePath: String!, params: PageMutation!): PageDocument!
-  createPageDocument(relativePath: String!, params: PageMutation!): PageDocument!
+  updateGlobalDocument(relativePath: String!, params: GlobalMutation!): GlobalDocument!
+  createGlobalDocument(relativePath: String!, params: GlobalMutation!): GlobalDocument!
   updatePostDocument(relativePath: String!, params: PostMutation!): PostDocument!
   createPostDocument(relativePath: String!, params: PostMutation!): PostDocument!
+  updatePagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
+  createPagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
 }
 
 input DocumentMutation {
-  page: PageMutation
+  global: GlobalMutation
   post: PostMutation
+  pages: PagesMutation
 }
 
-input PageMutation {
-  body: JSON
+input GlobalHeaderNavMutation {
+  href: String
+  label: String
+}
+
+input GlobalHeaderMutation {
+  nav: [GlobalHeaderNavMutation]
+}
+
+input GlobalMutation {
+  header: GlobalHeaderMutation
 }
 
 input PostMutation {
   title: String
   body: String
+}
+
+input PagesBlocksHeroMutation {
+  headline: String
+  tagline: String
+}
+
+input PagesBlocksContentMutation {
+  body: JSON
+  color: String
+}
+
+input PagesBlocksIntroductionImageMutation {
+  src: String
+  alt: String
+}
+
+input PagesBlocksIntroductionMutation {
+  title: String
+  text: String
+  image: PagesBlocksIntroductionImageMutation
+}
+
+input PagesBlocksFeatureLinkMutation {
+  label: String
+  url: String
+}
+
+input PagesBlocksFeatureMutation {
+  subhead: String
+  title: String
+  link: PagesBlocksFeatureLinkMutation
+}
+
+input PagesBlocksTextAndImageImageMutation {
+  src: String
+  alt: String
+}
+
+input PagesBlocksTextAndImageLinkMutation {
+  label: String
+  url: String
+}
+
+input PagesBlocksTextAndImageMutation {
+  title: String
+  text: String
+  image: PagesBlocksTextAndImageImageMutation
+  link: PagesBlocksTextAndImageLinkMutation
+}
+
+input PagesBlocksMutation {
+  hero: PagesBlocksHeroMutation
+  content: PagesBlocksContentMutation
+  introduction: PagesBlocksIntroductionMutation
+  feature: PagesBlocksFeatureMutation
+  textAndImage: PagesBlocksTextAndImageMutation
+}
+
+input PagesMutation {
+  blocks: [PagesBlocksMutation]
 }
 
 schema {
