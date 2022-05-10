@@ -2384,10 +2384,10 @@
   resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-0.50.2.tgz#d44998aac125a68d96d097e49ff84d1c1ff7a7c2"
   integrity sha512-5oBWtkXG8vu/W9txQrcIb7r2GC6XlgpPsO2EKdjGF4gTWZVlwah73OHqL/QogZWIbZ/4znPL1QkZVwGZuYURiw==
 
-"@tinacms/cli@^0.60.12":
-  version "0.60.12"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-0.60.12.tgz#51cf87e172a86211d00fe0200898cdd75fb1cc4c"
-  integrity sha512-1XD4OpKMUR6MdD3npD9yG0DW30tZwTVeK3Pc0KoiSE21xZzcD0VT+YBUcvSjRCqwAuBwstjdIUEdQ7OGzO/O+Q==
+"@tinacms/cli@^0.60.16":
+  version "0.60.16"
+  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-0.60.16.tgz#a50a16829b9d0207795e7a58555023b455678c15"
+  integrity sha512-Kbj9JlJ8CiuRNXqQjPEDwz2BzFQ+h1awzfTe6L9kpn8IWJ8prpXKoBQdmwaajIE+Li1a+XtDtmPw3yBdWKWfdw==
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
@@ -2398,7 +2398,7 @@
     "@graphql-tools/graphql-file-loader" "^7.2.0"
     "@graphql-tools/load" "^7.3.2"
     "@tinacms/datalayer" "0.1.1"
-    "@tinacms/graphql" "0.59.11"
+    "@tinacms/graphql" "0.60.1"
     "@tinacms/metrics" "0.0.3"
     "@tinacms/schema-tools" "0.0.3"
     "@yarnpkg/esbuild-plugin-pnp" "^2.0.1-rc.3"
@@ -2452,10 +2452,10 @@
     prettier "^2.2.1"
     yup "^0.32.9"
 
-"@tinacms/graphql@0.59.11":
-  version "0.59.11"
-  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-0.59.11.tgz#bf30609d4e83f4560ef439c0606953dbf04bcf4d"
-  integrity sha512-pJeO52s5ffjsDdGNQHvwQBzledf6mnyYCrIshw/PsFhIZzaURQxNFYJU/x4QSPU+NmVKm63QMiTVIS6qIrjrbw==
+"@tinacms/graphql@0.60.1":
+  version "0.60.1"
+  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-0.60.1.tgz#1ebfd21681a73a22030196eeb3d8b9578cb1f3e6"
+  integrity sha512-iwGchWULb4oBElj1YeWYCD+OJnfbsFI9YBmmvm6BhNmT4V1l00oQt+2bkQ3earIVhSMquBl5bGMa7gIoaF3yRQ==
   dependencies:
     "@graphql-tools/relay-operation-optimizer" "^6.4.1"
     "@tinacms/datalayer" "0.1.1"
@@ -4729,22 +4729,7 @@ character-reference-invalid@^2.0.0:
   resolved "https://registry.yarnpkg.com/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz#85c66b041e43b47210faf401278abf808ac45cb9"
   integrity sha512-iBZ4F4wRbyORVsu0jPV7gXkOsGYjGHPmAyv+HiHG8gi5PtC9KI2j1+v8/tlibRvjoWX027ypmG/n0HtO5t7unw==
 
-chokidar@^3.5.1:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
-  integrity sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==
-  dependencies:
-    anymatch "~3.1.2"
-    braces "~3.0.2"
-    glob-parent "~5.1.2"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.6.0"
-  optionalDependencies:
-    fsevents "~2.3.2"
-
-chokidar@^3.5.3:
+chokidar@^3.5.1, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -6102,18 +6087,7 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fast-glob@^3.1.1, fast-glob@^3.2.4, fast-glob@^3.2.5:
-  version "3.2.7"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.7.tgz#fd6cb7a2d7e9aa7a7846111e85a196d6b2f766a1"
-  integrity sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==
-  dependencies:
-    "@nodelib/fs.stat" "^2.0.2"
-    "@nodelib/fs.walk" "^1.2.3"
-    glob-parent "^5.1.2"
-    merge2 "^1.3.0"
-    micromatch "^4.0.4"
-
-fast-glob@^3.2.11, fast-glob@^3.2.9:
+fast-glob@^3.1.1, fast-glob@^3.2.11, fast-glob@^3.2.4, fast-glob@^3.2.5, fast-glob@^3.2.9:
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
   integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
