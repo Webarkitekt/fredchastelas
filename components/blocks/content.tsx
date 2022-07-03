@@ -8,7 +8,7 @@ export const Content = ({ data, parentField = "" }) => {
   return (
     <Section>
       <Container
-        className={`max-w-4xl prose prose-lg`}
+        className={`max-w-4xl richtext lg:richtext-lg`}
         data-tinafield={`${parentField}.body`}
         size="large"
       >
@@ -32,16 +32,6 @@ export const contentBlockSchema : TinaTemplate = {
       type: "rich-text",
       label: "Body",
       name: "body",
-    },
-    {
-      type: "string",
-      label: "Color",
-      name: "color",
-      options: [
-        { label: "Default", value: "default" },
-        { label: "Tint", value: "tint" },
-        { label: "Primary", value: "primary" },
-      ],
-    },
+    }
   ],
 };

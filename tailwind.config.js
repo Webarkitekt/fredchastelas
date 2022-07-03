@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors : {
+      colors: {
         interaction: {
           default: "#FF922D"
         },
@@ -14,8 +14,36 @@ module.exports = {
       },
       fontFamily: {
         serif: "Baskervville"
-      }
+      },
+      typography: ({theme}) => ({
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': theme('colors.gray[500]'),
+            '--tw-prose-headings': theme('colors.gray[700]'),
+            '--tw-prose-bold': theme('colors.gray[700]'),
+            '--tw-prose-links': theme('colors.interaction[default]'),
+            h2: {
+              fontWeight: 300,
+              fontFamily: theme('fontFamily.serif'),
+              fontSize: '2.5rem'
+            }
+          }
+        },
+        lg: {
+          css: [
+            {
+              h2:{
+                fontSize: ('3rem')
+              }
+            }
+          ]
+        }
+      })
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')({
+      className: 'richtext'
+    })
+  ],
 }

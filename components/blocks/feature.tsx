@@ -3,12 +3,13 @@ import type {TinaTemplate} from "tinacms";
 
 export const Feature = ({data, parentField}) => {
     return (
-        <div className="max-w-screen-xl mx-auto lg:px-16">
-            <div className="relative pt-32 lg:pl-20 lg:pr-10 pb-16 mb-20 lg:mb-32">
+        <div className=" mx-auto ">
+            <div className="relative pt-32 pb-16 mb-20 lg:mb-32">
                 <div className="absolute right-[120px] top-14 w-[340px] h-[95%] bg-gray-100"/>
-                <div className="relative z-10 bg-primary py-10 px-6 lg:py-20 lg:px-36 rellax" data-rellax-speed="1">
-                    <div className="uppercase text-white mb-8" data-tinafield={`${parentField}.subhead`}>{data.subhead}</div>
-                    <h2 className="font-serif text-4xl lg:text-5xl mb-8 text-white leading-snug lg:leading-[1.4]" data-tinafield={`${parentField}.title`}>
+                <div className="relative z-10 bg-secondary py-10 px-6 lg:py-20 lg:px-36  rellax" data-rellax-speed="1">
+                    <div className="max-w-2xl mx-auto">
+                    <div className="uppercase text-primary mb-8" data-tinafield={`${parentField}.subhead`}>{data.subhead}</div>
+                    <h2 className="font-serif text-gray-800 text-4xl lg:text-5xl mb-8 leading-snug lg:leading-[1.4]" data-tinafield={`${parentField}.title`}>
                         {data.title}
                     </h2>
                     <a href={data.link.url} className="text-interaction-default align-middle" data-tinafield={`${parentField}.link`}>
@@ -18,6 +19,7 @@ export const Feature = ({data, parentField}) => {
                                   stroke="#FF922D" stroke-width="1.5" stroke-linecap="square"/>
                         </svg>
                     </a>
+                    </div>
                 </div>
 
                 <div className="absolute z-10 bottom-0 left-0 rellax hidden lg:block" data-rellax-percentage="0.5">

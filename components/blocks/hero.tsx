@@ -4,7 +4,7 @@ import HeroGraphic from '../../public/hero-graphic.svg'
 
 export const Hero = ({ data, parentField }) => {
   return(
-    <div className="bg-secondary h-screen lg:h-[30rem] mb-20 lg:mb-32 relative overflow-hidden ">
+    <div className="bg-secondary h-screen lg:h-[30rem] mb-20 relative overflow-hidden ">
       <div className="absolute inset-0">
         <div className="absolute right-0 bottom-0 text-white">
           <HeroGraphic/>

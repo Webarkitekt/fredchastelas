@@ -7,15 +7,15 @@ export const Container = ({
                             ...props
                           }) => {
   const verticalPadding = {
-    small: "py-8",
-    medium: "py-12",
-    large: "py-24",
-    default: "py-12",
+    small: "pb-8",
+    medium: "pb-12",
+    large: "pb-24",
+    default: "pb-12",
   };
 
   return (
     <div
-      className={`max-w-7xl mx-auto px-6 sm:px-8 ${verticalPadding[size]} ${className}`}
+      className={`max-w-7xl mx-auto ${verticalPadding[size]} ${className}`}
       {...props}
     >
       {children}

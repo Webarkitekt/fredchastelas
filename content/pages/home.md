@@ -1,6 +1,6 @@
 ---
 blocks:
-  - headline: 'Vivre pleinement '
+  - headline: Vivre pleinement
     tagline: 'Libérer nos émotions, bousculer nos croyances'
     _template: hero
   - title: Ma démarche
@@ -13,26 +13,28 @@ blocks:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1650730662/portrait-fred_x7aikv.jpg
     _template: introduction
-  - subhead: RÉGULATION ÉMOTIONELLE TIPI
+  - subhead: RÉGULATION ÉMOTIONELLE
     title: >-
       Vos émotions envahissantes ne sont pas une fatalité. Vous pouvez vous en
       libérer facilement et définitivement !
     link:
-      label: Libérez vous de vos émotions perturbatrices
+      label: En savoir plus
       url: /regulation-emotionelle-tipi
     _template: feature
   - title: Accompagnement
-    text: >
+    body: >
       Pour celles et ceux déterminés à se libérer de leurs blocages émotionnels
       et leurs schémas de souffrance, j’ai conçu un programme d’accompagnement
       global.
     image:
-      src: >-
-        https://res.cloudinary.com/guikem/image/upload/v1650928304/accompagnement_i74war.jpg
-      alt: Placeholder
+      src: ''
+      alt: ''
     link:
       label: Découvrir le bonheur d’être enfin vous-même
       url: /accompagnement
     _template: textAndImage
+  - subhead: dssqfdsdfs
+    title: Titlefdfdsfds
+    _template: events
 ---
 

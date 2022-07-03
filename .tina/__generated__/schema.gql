@@ -7,6 +7,7 @@ scalar JSON
 
 type SystemInfo {
   filename: String!
+  title: String
   basename: String!
   breadcrumbs(excludeExtension: Boolean): [String!]!
   path: String!
@@ -30,38 +31,38 @@ interface Node {
 
 """"""
 interface Document {
-  sys: SystemInfo
   id: ID!
-  form: JSON!
-  values: JSON!
+  _sys: SystemInfo
+  _values: JSON!
 }
 
 """A relay-compliant pagination connection"""
 interface Connection {
   totalCount: Float!
+  pageInfo: PageInfo!
 }
 
 type Query {
   getOptimizedQuery(queryString: String!): String
-  getCollection(collection: String): Collection!
-  getCollections: [Collection!]!
+  collection(collection: String): Collection!
+  collections: [Collection!]!
   node(id: String): Node!
-  getDocument(collection: String, relativePath: String): DocumentNode!
-  getDocumentList(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
-  getDocumentFields: JSON!
-  getGlobalDocument(relativePath: String): GlobalDocument!
-  getGlobalList(before: String, after: String, first: Float, last: Float, sort: String): GlobalConnection!
-  getPagesDocument(relativePath: String): PagesDocument!
-  getPagesList(before: String, after: String, first: Float, last: Float, sort: String): PagesConnection!
+  document(collection: String, relativePath: String): DocumentNode!
+  global(relativePath: String): Global!
+  globalConnection(before: String, after: String, first: Float, last: Float, sort: String): GlobalConnection!
+  pages(relativePath: String): Pages!
+  pagesConnection(before: String, after: String, first: Float, last: Float, sort: String): PagesConnection!
+  events(relativePath: String): Events!
+  eventsConnection(before: String, after: String, first: Float, last: Float, sort: String): EventsConnection!
 }
 
 type DocumentConnectionEdges {
-  cursor: String
+  cursor: String!
   node: DocumentNode
 }
 
 type DocumentConnection implements Connection {
-  pageInfo: PageInfo
+  pageInfo: PageInfo!
   totalCount: Float!
   edges: [DocumentConnectionEdges]
 }
@@ -78,7 +79,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
 }
 
-union DocumentNode = GlobalDocument | PagesDocument
+union DocumentNode = Global | Pages | Events
 
 type GlobalHeaderNav {
   href: String
@@ -89,26 +90,20 @@ type GlobalHeader {
   nav: [GlobalHeaderNav]
 }
 
-type Global {
+type Global implements Node & Document {
   header: GlobalHeader
-}
-
-type GlobalDocument implements Node & Document {
   id: ID!
-  sys: SystemInfo!
-  data: Global!
-  form: JSON!
-  values: JSON!
-  dataJSON: JSON!
+  _sys: SystemInfo!
+  _values: JSON!
 }
 
 type GlobalConnectionEdges {
-  cursor: String
-  node: GlobalDocument
+  cursor: String!
+  node: Global
 }
 
 type GlobalConnection implements Connection {
-  pageInfo: PageInfo
+  pageInfo: PageInfo!
   totalCount: Float!
   edges: [GlobalConnectionEdges]
 }
@@ -120,7 +115,6 @@ type PagesBlocksHero {
 
 type PagesBlocksContent {
   body: JSON
-  color: String
 }
 
 type PagesBlocksIntroductionImage {
@@ -156,36 +150,61 @@ type PagesBlocksTextAndImageLink {
 }
 
 type PagesBlocksTextAndImage {
+  showIllustrations: Boolean
+  bgColor: String
   title: String
-  text: String
+  body: JSON
   image: PagesBlocksTextAndImageImage
+  image_position: String
   link: PagesBlocksTextAndImageLink
 }
 
-union PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage
-
-type Pages {
-  blocks: [PagesBlocks]
+type PagesBlocksEvents {
+  subhead: String
+  title: String
 }
 
-type PagesDocument implements Node & Document {
+union PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage | PagesBlocksEvents
+
+type Pages implements Node & Document {
+  blocks: [PagesBlocks]
   id: ID!
-  sys: SystemInfo!
-  data: Pages!
-  form: JSON!
-  values: JSON!
-  dataJSON: JSON!
+  _sys: SystemInfo!
+  _values: JSON!
 }
 
 type PagesConnectionEdges {
-  cursor: String
-  node: PagesDocument
+  cursor: String!
+  node: Pages
 }
 
 type PagesConnection implements Connection {
-  pageInfo: PageInfo
+  pageInfo: PageInfo!
   totalCount: Float!
   edges: [PagesConnectionEdges]
+}
+
+type Events implements Node & Document {
+  title: String
+  start_date: String
+  end_date: String
+  location: String
+  type: String
+  description: JSON
+  id: ID!
+  _sys: SystemInfo!
+  _values: JSON!
+}
+
+type EventsConnectionEdges {
+  cursor: String!
+  node: Events
+}
+
+type EventsConnection implements Connection {
+  pageInfo: PageInfo!
+  totalCount: Float!
+  edges: [EventsConnectionEdges]
 }
 
 type Mutation {
@@ -193,15 +212,18 @@ type Mutation {
   updateDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
   deleteDocument(collection: String, relativePath: String!): DocumentNode!
   createDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
-  updateGlobalDocument(relativePath: String!, params: GlobalMutation!): GlobalDocument!
-  createGlobalDocument(relativePath: String!, params: GlobalMutation!): GlobalDocument!
-  updatePagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
-  createPagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
+  updateGlobal(relativePath: String!, params: GlobalMutation!): Global!
+  createGlobal(relativePath: String!, params: GlobalMutation!): Global!
+  updatePages(relativePath: String!, params: PagesMutation!): Pages!
+  createPages(relativePath: String!, params: PagesMutation!): Pages!
+  updateEvents(relativePath: String!, params: EventsMutation!): Events!
+  createEvents(relativePath: String!, params: EventsMutation!): Events!
 }
 
 input DocumentMutation {
   global: GlobalMutation
   pages: PagesMutation
+  events: EventsMutation
 }
 
 input GlobalHeaderNavMutation {
@@ -224,7 +246,6 @@ input PagesBlocksHeroMutation {
 
 input PagesBlocksContentMutation {
   body: JSON
-  color: String
 }
 
 input PagesBlocksIntroductionImageMutation {
@@ -260,10 +281,18 @@ input PagesBlocksTextAndImageLinkMutation {
 }
 
 input PagesBlocksTextAndImageMutation {
+  showIllustrations: Boolean
+  bgColor: String
   title: String
-  text: String
+  body: JSON
   image: PagesBlocksTextAndImageImageMutation
+  image_position: String
   link: PagesBlocksTextAndImageLinkMutation
+}
+
+input PagesBlocksEventsMutation {
+  subhead: String
+  title: String
 }
 
 input PagesBlocksMutation {
@@ -272,10 +301,20 @@ input PagesBlocksMutation {
   introduction: PagesBlocksIntroductionMutation
   feature: PagesBlocksFeatureMutation
   textAndImage: PagesBlocksTextAndImageMutation
+  events: PagesBlocksEventsMutation
 }
 
 input PagesMutation {
   blocks: [PagesBlocksMutation]
+}
+
+input EventsMutation {
+  title: String
+  start_date: String
+  end_date: String
+  location: String
+  type: String
+  description: JSON
 }
 
 schema {
