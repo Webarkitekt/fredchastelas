@@ -3,7 +3,7 @@ import type {TinaTemplate} from "tinacms";
 
 export const Introduction = ({data, parentField}) => {
     return (
-        <div className="lg:flex max-w-screen-md mx-auto mb-20 lg:mb-32">
+        <div className="lg:flex max-w-screen-md mx-auto mt-20 lg:mt-32">
             <div className="relative">
                 <div data-tinafield={`${parentField}.image`}
                     className="relative z-10 rounded-full overflow-hidden aspect-square lg:mr-10 mb-12 w-48 mx-auto lg:mb-0 lg:w-[13rem]">

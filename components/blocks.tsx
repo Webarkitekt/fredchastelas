@@ -32,6 +32,8 @@ export const Blocks = (props: Pages) => {
         <>
             {props.blocks
                 ? props.blocks.map(function (block, i) {
+                    const nextBlock = i> 0 ? props.blocks[i+1] : null;
+
                     switch (block.__typename) {
                         case "PagesBlocksEvents":
                             return (
@@ -80,12 +82,16 @@ export const Blocks = (props: Pages) => {
                                 </div>
                             );
                         case "PagesBlocksContent":
+                            let bottomSpacing
+                            if (nextBlock && nextBlock.__typename === "PagesBlocksTextAndImage") {
+                                let bottomSpacing = nextBlock?.bgColor === 'bg-secondary' || i + 1 === props.blocks.length ? "pb-24" : "";
+                            }
                             return (
                                 <div
                                     data-tinafield={`blocks.${i}`}
                                     key={i + block.__typename}
                                 >
-                                    <Content data={block} parentField={`blocks.${i}`}/>
+                                    <Content data={block} parentField={`blocks.${i}`} className={`${bottomSpacing}`}/>
                                 </div>
                              );
                         default:

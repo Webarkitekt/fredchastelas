@@ -4,7 +4,7 @@ import type {TinaTemplate} from "tinacms";
 export const Feature = ({data, parentField}) => {
     return (
         <div className=" mx-auto ">
-            <div className="relative pt-32 pb-16 mb-20 lg:mb-32">
+            <div className="relative pt-32  mb-20 lg:mb-24">
                 <div className="absolute right-[120px] top-14 w-[340px] h-[95%] bg-gray-100"/>
                 <div className="relative z-10 bg-secondary py-10 px-6 lg:py-20 lg:px-36  rellax" data-rellax-speed="1">
                     <div className="max-w-2xl mx-auto">
@@ -12,8 +12,8 @@ export const Feature = ({data, parentField}) => {
                     <h2 className="font-serif text-gray-800 text-4xl lg:text-5xl mb-8 leading-snug lg:leading-[1.4]" data-tinafield={`${parentField}.title`}>
                         {data.title}
                     </h2>
-                    <a href={data.link.url} className="text-interaction-default align-middle" data-tinafield={`${parentField}.link`}>
-                        <span className="inline">{data.link.label}</span>
+                    <a href={data.link?.url} className="text-interaction-default align-middle" data-tinafield={`${parentField}.link`}>
+                        <span className="inline">{data.link?.label}</span>
                         <svg className="inline w-10" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9 17.8969H27.5101M27.5101 17.8969L23.4938 14M27.5101 17.8969L23.4938 21.7938"
                                   stroke="#FF922D" stroke-width="1.5" stroke-linecap="square"/>

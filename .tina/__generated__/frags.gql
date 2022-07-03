@@ -17,6 +17,8 @@ fragment PagesParts on Pages {
       tagline
     }
     ... on PagesBlocksContent {
+      name
+      bgColor
       body
     }
     ... on PagesBlocksIntroduction {

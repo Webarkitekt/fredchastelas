@@ -114,6 +114,8 @@ type PagesBlocksHero {
 }
 
 type PagesBlocksContent {
+  name: String
+  bgColor: String
   body: JSON
 }
 
@@ -245,6 +247,8 @@ input PagesBlocksHeroMutation {
 }
 
 input PagesBlocksContentMutation {
+  name: String
+  bgColor: String
   body: JSON
 }
 
