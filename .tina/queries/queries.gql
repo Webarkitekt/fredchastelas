@@ -1,8 +1,29 @@
-query ContentQuery($relativePath: String!) {
-  getPagesDocument(relativePath: $relativePath) {
-    data {
-      ...PagesParts
+query PageQuery {
+  ...LayoutQueryFragment
+}
+
+query EventsQuery {
+  eventsConnection {
+    edges {
+      node {
+        id
+        _values
+        _sys {
+          filename
+        }
+      }
     }
   }
 }
 
+query ContentQuery($relativePath: String!) {
+  pages(relativePath: $relativePath) {
+    ...PagesParts
+  }
+}
+
+query EventQuery($relativePath: String!) {
+  events(relativePath: $relativePath) {
+    ...EventsParts
+  }
+}
