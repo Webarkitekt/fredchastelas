@@ -83,8 +83,10 @@ export const Blocks = (props: Pages) => {
                             );
                         case "PagesBlocksContent":
                             let bottomSpacing
-                            if (nextBlock && nextBlock.__typename === "PagesBlocksTextAndImage") {
-                                let bottomSpacing = nextBlock?.bgColor === 'bg-secondary' || i + 1 === props.blocks.length ? "pb-24" : "";
+                            if ( nextBlock && (nextBlock.__typename === "PagesBlocksTextAndImage" || nextBlock.__typename === "PagesBlocksContent" )) {
+                                bottomSpacing = nextBlock.bgColor === 'bg-secondary' ? "pb-24" : "";
+                            } else if (i + 1 === props.blocks.length){
+                                bottomSpacing = "pb-24"
                             }
                             return (
                                 <div
