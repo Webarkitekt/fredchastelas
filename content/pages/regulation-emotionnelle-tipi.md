@@ -45,21 +45,17 @@ blocks:
       ce, définitivement.
 
 
-
       **Bien que simple, cette méthode est très précise**. C’est pour cette
-      raison qu’elle nécessite un
-
-      **accompagnement **ou un **apprentissage **en bonne et due forme.
-      **L’enjeu, à terme, n’est autre que la
+      raison qu’elle nécessite un **accompagnement** ou un **apprentissage** en
+      bonne et due forme. **L’enjeu, à terme, n’est autre que la
 
       libération complète et définitive de tous nos blocages émotionnels**.
 
 
-
-      \- [Video youtube sur la régulation émotionnelle de Luc
+      *   [Video youtube sur la régulation émotionnelle de Luc
       Nicon](https://www.youtube.com/watch?v=FdOt3Ryt1x0)
 
-      \- Lecture: *Revivre sensoriellement *de Luc Nicon
+      *   Lecture: *Revivre sensoriellement* de Luc Nicon
     _template: content
 ---
 
