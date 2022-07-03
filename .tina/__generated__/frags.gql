@@ -18,7 +18,6 @@ fragment PagesParts on Pages {
     }
     ... on PagesBlocksContent {
       body
-      color
     }
     ... on PagesBlocksIntroduction {
       title
@@ -39,18 +38,34 @@ fragment PagesParts on Pages {
       }
     }
     ... on PagesBlocksTextAndImage {
+      showIllustrations
+      bgColor
       title
-      text
+      body
       image {
         __typename
         src
         alt
       }
+      image_position
       link {
         __typename
         label
         url
       }
     }
+    ... on PagesBlocksEvents {
+      subhead
+      title
+    }
   }
+}
+
+fragment EventsParts on Events {
+  title
+  start_date
+  end_date
+  location
+  type
+  description
 }
