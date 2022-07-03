@@ -11,11 +11,36 @@ export default function HomePage(
         variables: props.variables,
         data: props.data,
     });
-    return (
-        <Layout rawData={data}>
-            <Blocks {...data.pages} />
-        </Layout>
-    );
+
+    if (data && data.pages){
+        return (
+            <Layout rawData={data}>
+                <Blocks id={""} _sys={{
+                    __typename: "SystemInfo",
+                    filename: "",
+                    title: "",
+                    basename: "",
+                    breadcrumbs: [],
+                    path: "",
+                    relativePath: "",
+                    extension: "",
+                    template: "",
+                    collection: {
+                        __typename: "Collection",
+                        name: "",
+                        slug: "",
+                        label: "",
+                        path: "",
+                        format: "",
+                        matches: "",
+                        templates: [],
+                        fields: [],
+                        documents: undefined
+                    }
+                }} _values={undefined} {...data.pages} />
+            </Layout>
+        );
+    }
 }
 
 export const getStaticProps = async ({ params }) => {

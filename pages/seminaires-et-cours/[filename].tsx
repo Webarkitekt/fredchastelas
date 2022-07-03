@@ -19,7 +19,6 @@ const query = `query getEvent($relativePath: String!) {
 export default function EventsPage(
     props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
-    console.log('props', props)
     const {data} = useTina({
         query: props.query,
         variables: props.variables,
@@ -39,8 +38,11 @@ export const getStaticProps = async (ctx) => {
     const variables = {
         relativePath: ctx.params.filename + ".md",
     };
-    let data = {};
+    let data = {
+        events: null
+    };
     try {
+        // @ts-ignore
         data = await staticRequest({
             query,
             variables,
@@ -68,9 +70,7 @@ export const getStaticProps = async (ctx) => {
  */
 export const getStaticPaths = async () => {
 
-    console.log('hohé');
-
-    const eventsResponse = await staticRequest({
+    const eventsResponse : any = await staticRequest({
             query: `{
             eventsConnection {
                 edges {
@@ -88,8 +88,7 @@ export const getStaticPaths = async () => {
     );
 
 
-
-    const paths = eventsResponse.eventsConnection.edges.map((event) => {
+    const paths = eventsResponse?.eventsConnection.edges.map((event) => {
         return { params: { filename: event.node._sys.filename } };
     });
 
