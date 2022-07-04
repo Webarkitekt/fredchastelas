@@ -2528,20 +2528,6 @@
   dependencies:
     zod "^3.14.3"
 
-"@tinacms/schema-tools@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-0.0.6.tgz#a326a17a8f960f13c43796d7cde8f266a8bde97a"
-  integrity sha512-AWB0pHpy696yM4zCRFKDJMfR1Emh/VLY4C2tNvB/5VgIE6X8i2pcSLKsdIfHMvkHpy6r+uoaywWZcBRv2KoPBw==
-  dependencies:
-    zod "^3.14.3"
-
-"@tinacms/schema-tools@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-0.0.4.tgz#dd020c7218a6718b755eaba093dd8ba2064fa72e"
-  integrity sha512-MnOS75o22ce21mbX48uHgHV0yA7R7g4vZzD2g3WYxKg2yQTAuZUyJFwSZav1I7e6WAR4DQAOqymLgK51W1eE2A==
-  dependencies:
-    zod "^3.14.3"
-
 "@tinacms/sharedctx@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@tinacms/sharedctx/-/sharedctx-0.1.1.tgz#8ca3446348b87653095a4a3bda797ddaa65d4d38"
@@ -11103,9 +11089,9 @@ zen-observable@0.8.15, zen-observable@^0.8.0:
   integrity sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==
 
 zod@^3.14.3:
-  version "3.14.4"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.14.4.tgz#e678fe9e5469f4663165a5c35c8f3dc66334a5d6"
-  integrity sha512-U9BFLb2GO34Sfo9IUYp0w3wJLlmcyGoMd75qU9yf+DrdGA4kEx6e+l9KOkAlyUO0PSQzZCa3TR4qVlcmwqSDuw==
+  version "3.17.3"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.17.3.tgz#86abbc670ff0063a4588d85a4dcc917d6e4af2ba"
+  integrity sha512-4oKP5zvG6GGbMlqBkI5FESOAweldEhSOZ6LI6cG+JzUT7ofj1ZOC0PJudpQOpT1iqOFpYYtX5Pw0+o403y4bcg==
 
 zustand@3.6.7:
   version "3.6.7"
