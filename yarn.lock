@@ -2387,10 +2387,10 @@
     lodash.isplainobject "^4.0.6"
     lodash.merge "^4.6.2"
 
-"@tinacms/auth@^0.50.2":
-  version "0.50.2"
-  resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-0.50.2.tgz#d44998aac125a68d96d097e49ff84d1c1ff7a7c2"
-  integrity sha512-5oBWtkXG8vu/W9txQrcIb7r2GC6XlgpPsO2EKdjGF4gTWZVlwah73OHqL/QogZWIbZ/4znPL1QkZVwGZuYURiw==
+"@tinacms/auth@^0.50.3":
+  version "0.50.3"
+  resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-0.50.3.tgz#92d7b5a055fb37528ab72e3a9bb0d89b7fa766dd"
+  integrity sha512-vucKZyi2Wj83tGU3VBd/mwlgbmgTXclps6/slOPyEzJUH0Sl31vmXs3ATCG0jeIpp4Tu6IBVCVPlmvGcNpE9OQ==
 
 "@tinacms/cli@^0.60.25":
   version "0.60.25"
@@ -2525,20 +2525,6 @@
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-0.0.6.tgz#a326a17a8f960f13c43796d7cde8f266a8bde97a"
   integrity sha512-AWB0pHpy696yM4zCRFKDJMfR1Emh/VLY4C2tNvB/5VgIE6X8i2pcSLKsdIfHMvkHpy6r+uoaywWZcBRv2KoPBw==
-  dependencies:
-    zod "^3.14.3"
-
-"@tinacms/schema-tools@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-0.0.6.tgz#a326a17a8f960f13c43796d7cde8f266a8bde97a"
-  integrity sha512-AWB0pHpy696yM4zCRFKDJMfR1Emh/VLY4C2tNvB/5VgIE6X8i2pcSLKsdIfHMvkHpy6r+uoaywWZcBRv2KoPBw==
-  dependencies:
-    zod "^3.14.3"
-
-"@tinacms/schema-tools@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-0.0.4.tgz#dd020c7218a6718b755eaba093dd8ba2064fa72e"
-  integrity sha512-MnOS75o22ce21mbX48uHgHV0yA7R7g4vZzD2g3WYxKg2yQTAuZUyJFwSZav1I7e6WAR4DQAOqymLgK51W1eE2A==
   dependencies:
     zod "^3.14.3"
 
