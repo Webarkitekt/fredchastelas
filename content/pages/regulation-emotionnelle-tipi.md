@@ -1,7 +1,10 @@
 ---
 blocks:
-  - headline: Régulation émotionnelle TIPI
-    tagline: ''
+  - image:
+      src: >-
+        https://res.cloudinary.com/guikem/image/upload/v1657319489/Hero2_qi3q8b.jpg
+    headline: Régulation émotionnelle TIPI
+    tagline: Libérez vous de vos émotions pertubatrices
     _template: hero
   - name: Description
     body: >

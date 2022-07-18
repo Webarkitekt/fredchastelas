@@ -108,7 +108,13 @@ type GlobalConnection implements Connection {
   edges: [GlobalConnectionEdges]
 }
 
+type PagesBlocksHeroImage {
+  src: String
+  alt: String
+}
+
 type PagesBlocksHero {
+  image: PagesBlocksHeroImage
   headline: String
   tagline: String
 }
@@ -241,7 +247,13 @@ input GlobalMutation {
   header: GlobalHeaderMutation
 }
 
+input PagesBlocksHeroImageMutation {
+  src: String
+  alt: String
+}
+
 input PagesBlocksHeroMutation {
+  image: PagesBlocksHeroImageMutation
   headline: String
   tagline: String
 }

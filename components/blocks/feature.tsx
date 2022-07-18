@@ -4,7 +4,7 @@ import type {TinaTemplate} from "tinacms";
 export const Feature = ({data, parentField}) => {
     return (
         <div className=" mx-auto ">
-            <div className="relative pt-32  mb-20 lg:mb-24">
+            <div className="relative pt-32 pb-16 mb-20 lg:mb-32">
                 <div className="absolute right-[120px] top-14 w-[340px] h-[95%] bg-gray-100"/>
                 <div className="relative z-10 bg-secondary py-10 px-6 lg:py-20 lg:px-36  rellax" data-rellax-speed="1">
                     <div className="max-w-2xl mx-auto">

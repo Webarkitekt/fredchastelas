@@ -13,6 +13,11 @@ fragment PagesParts on Pages {
   blocks {
     __typename
     ... on PagesBlocksHero {
+      image {
+        __typename
+        src
+        alt
+      }
       headline
       tagline
     }

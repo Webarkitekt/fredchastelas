@@ -72,11 +72,15 @@ export const getStaticPaths = async () => {
 
     const eventsResponse : any = await staticRequest({
             query: `{
-            eventsConnection {
+              eventsConnection {
                 edges {
                   node {
                     id
-                    _values
+                    start_date
+                    end_date
+                    title
+                    location
+                    description
                     _sys {
                       filename
                     }

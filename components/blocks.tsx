@@ -10,24 +10,8 @@ import {client} from "../.tina/client";
 import {EventsQuery} from "../.tina/__generated__/types";
 import {useTina} from "tinacms/dist/edit-state";
 
-const getEventsList = () => {
-    const [initialData, setData] = useState(null);
-
-    useEffect(() => {
-        const fetchContent = async () => {
-            const events = await client.queries.EventsQuery();
-            setData(events);
-        };
-        fetchContent();
-    }, []);
-
-    const data = initialData;
-
-    return data?.data?.eventsConnection
-};
-
-
 export const Blocks = (props: Pages) => {
+
     return (
         <>
             {props.blocks
@@ -41,7 +25,7 @@ export const Blocks = (props: Pages) => {
                                     data-tinafield={`blocks.${i}`}
                                     key={i + block.__typename}
                                 >
-                                    <EventsList data={block} eventsList={getEventsList()} parentField={`blocks.${i}`}/>
+                                    <EventsList data={block} parentField={`blocks.${i}`}/>
                                 </div>
                             );
 

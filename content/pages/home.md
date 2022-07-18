@@ -1,40 +1,38 @@
 ---
 blocks:
-  - headline: Vivre pleinement
+  - image:
+      src: >-
+        https://res.cloudinary.com/guikem/image/upload/v1657315958/Hero_k3xwov.jpg
+    headline: Vivre pleinement
     tagline: 'Libérer nos émotions, bousculer nos croyances'
     _template: hero
   - title: Ma démarche
     text: >-
-      Que ce soit en stage ou en consultation individuelle, pour surmonter une
-      difficulté spécifique ou pour développer une meilleure connaissance de
-      soi, j’accompagne celles et ceux qui veulent se libérer de leurs blocages
-      émotionnels et leurs croyances limitantes, et vivre enfin pleinement.
+      Enseignant de méditation depuis plus de quinze ans, j’anime régulièrement
+      des stages et des cours sur différents thèmes permettant d’approfondir la
+      connaissance de soi. 
+
+
+      J’accompagne aussi et forme à la régulation émotionnelle toutes les
+      personnes désirant se libérer de leurs émotions envahissantes et des
+      blocages qui en découlent. Je travaille également à la guérison des
+      blessures psychologiques (rejet, abandon, injustice...) avec l’approche
+      Écoute Ton Corps de Lise Bourbeau.
     image:
       src: >-
-        https://res.cloudinary.com/guikem/image/upload/v1650730662/portrait-fred_x7aikv.jpg
+        https://res.cloudinary.com/guikem/image/upload/v1657319289/portrait-fred_v8h2mr.jpg
+      alt: Frédéric Chastelas
     _template: introduction
-  - subhead: RÉGULATION ÉMOTIONELLE
-    title: >-
+  - subhead: Régulation émotionnelle
+    title: >
       Vos émotions envahissantes ne sont pas une fatalité. Vous pouvez vous en
       libérer facilement et définitivement !
     link:
       label: En savoir plus
       url: /regulation-emotionelle-tipi
     _template: feature
-  - title: Accompagnement
-    body: >
-      Pour celles et ceux déterminés à se libérer de leurs blocages émotionnels
-      et leurs schémas de souffrance, j’ai conçu un programme d’accompagnement
-      global.
-    image:
-      src: ''
-      alt: ''
-    link:
-      label: Découvrir le bonheur d’être enfin vous-même
-      url: /accompagnement
-    _template: textAndImage
-  - subhead: dssqfdsdfs
-    title: Titlefdfdsfds
+  - subhead: Retrouvez nos prochains évènements
+    title: Séminaires et cours de méditation
     _template: events
 ---
 
