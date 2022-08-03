@@ -9,7 +9,7 @@ export default function Home(props) {
             <div>
                 {eventsList.map((events) => (
                     <div key={events.node.id}>
-                        <Link href={`/seminaires-et-cours/${events.node._sys.filename}`}>
+                        <Link href={`/stages/${events.node._sys.filename}`}>
                             <a>{events.node._sys.filename}</a>
                         </Link>
                     </div>

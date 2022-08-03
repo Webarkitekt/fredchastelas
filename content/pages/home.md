@@ -31,8 +31,31 @@ blocks:
       label: En savoir plus
       url: /regulation-emotionelle-tipi
     _template: feature
-  - subhead: Retrouvez nos prochains évènements
-    title: Séminaires et cours de méditation
+  - subhead: ''
+    title: Prochains stages et cours
     _template: events
+  - title: Témoignages
+    testimonial:
+      - type: Régulation TIPI
+        author: Christelle
+        text: >-
+          La formation en régulation émotionnelle proposée par Frédéric est
+          extrêmement puissante et permet de maîtriser un outil extraodinaire en
+          seulement quelques séances. Frédéric est un formateur expérimenté, qui
+          de part son écoute attentive, répond à toutes les interrogations.
+          Depuis la formation, j’utilise la régulation émotionnelle
+          régulièrement et les bienfaits sont flagrants!
+      - type: Séminaire
+        author: Sara
+        text: >-
+          Sincèrement merci ! Le stage du weekend dernier m’a fait profondément
+          du bien. Plein de prises de conscience et déblocages importants. Par
+          conséquent, cette semaine tout a été différent autant à la maison
+          qu’au travail. J’ai ressenti une serenité toute nouvelle et un recul
+          dans la résolution des conflits au travail qui m’ont permis d’être
+          plus juste et pertinent. Merci donc pour la formation que tu as
+          construite et tous les outils et enseignements que tu as partagés avec
+          nous, c’était des véritables cadeaux.
+    _template: testimonials
 ---
 

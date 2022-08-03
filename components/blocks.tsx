@@ -6,6 +6,7 @@ import {Feature} from "./blocks/feature";
 import {TextAndImage} from "./blocks/text-and-image";
 import {Content} from "./blocks/content";
 import {EventsList} from "./blocks/eventsList";
+import {Testimonials} from "./blocks/testimonials";
 import {client} from "../.tina/client";
 import {EventsQuery} from "../.tina/__generated__/types";
 import {useTina} from "tinacms/dist/edit-state";
@@ -63,6 +64,15 @@ export const Blocks = (props: Pages) => {
                                     key={i + block.__typename}
                                 >
                                     <TextAndImage data={block} parentField={`blocks.${i}`}/>
+                                </div>
+                            );
+                        case "PagesBlocksTestimonials":
+                            return (
+                                <div
+                                    data-tinafield={`blocks.${i}`}
+                                    key={i + block.__typename}
+                                >
+                                    <Testimonials data={block} parentField={`blocks.${i}`}/>
                                 </div>
                             );
                         case "PagesBlocksContent":

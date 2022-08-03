@@ -10,15 +10,13 @@ export const Event = (data) => {
 
     data = data.data
 
-    console.log(data)
-
-    const start_date = new Date(data?._values.start_date);
+    const start_date = new Date(data._values.start_date);
     let formattedStartDate = "";
     if (!isNaN(start_date.getTime())) {
         formattedStartDate = format(start_date, "dd MMM", {locale: fr});
     }
 
-    const end_date = new Date(data?._values.end_date);
+    const end_date = new Date(data._values.end_date);
     let formattedEndDate = "";
     if (!isNaN(end_date.getTime())) {
         formattedEndDate = format(end_date, "dd MMM yyyy", {locale: fr});

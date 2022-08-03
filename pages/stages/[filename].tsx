@@ -1,4 +1,3 @@
-import {Event} from "../../components/event";
 import {staticRequest} from "tinacms";
 import {useTina} from "tinacms/dist/edit-state";
 import {Layout} from "../../components/layout";
@@ -26,7 +25,11 @@ export default function EventsPage(
     });
     if (data && data.events) {
         return (
-            <Event {...data.events} />
+            <Layout>
+                <div>
+                    {data.events.title}
+                </div>
+            </Layout>
         );
     }
     return (

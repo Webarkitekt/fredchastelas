@@ -61,6 +61,15 @@ fragment PagesParts on Pages {
         url
       }
     }
+    ... on PagesBlocksTestimonials {
+      title
+      testimonial {
+        __typename
+        type
+        author
+        text
+      }
+    }
     ... on PagesBlocksEvents {
       subhead
       title

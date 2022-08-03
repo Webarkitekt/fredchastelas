@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper {
+    overflow: visible;
+}
+
+.swiper-button-disabled {
+    @apply opacity-20
+}

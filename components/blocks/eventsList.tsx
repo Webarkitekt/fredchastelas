@@ -27,8 +27,8 @@ export const EventsList = ({data: data, parentField = ""}) => {
             <Container className={'mx-5 max-w-screen-xl lg:mx-auto pb-24 lg:pb-48'}>
                 <div className="lg:flex lg:flex-col  mb-12 lg:mb-24 justify-between">
                     <h2 className="font-serif text-4xl lg:text-5xl  text-gray-700 ">{data.title}</h2>
-                    <Link key={'seminaires-et-cours'}
-                          href={'/seminaires-et-cours/'}
+                    <Link key={'stages'}
+                          href={'/stages/'}
                           passHref>
                         <a className="text-interaction-default flex items-center">
                             Voir tous
@@ -42,11 +42,9 @@ export const EventsList = ({data: data, parentField = ""}) => {
                 </div>
                 <div className="flex flex-col gap-8 lg:flex-row lg:gap-5">
                     {loading ? (
-                            <h4>Chargement...</h4>) :
-                        (eventsList && eventsList.map((event) => (
-
-                                    <Event data={event.node}/>
-
+                        <h4>Chargement...</h4>) :
+                            (eventsList && eventsList.map((event) => (
+                                <Event data={event.node}/>
                             ))
                         )
                     }

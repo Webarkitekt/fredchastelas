@@ -167,12 +167,23 @@ type PagesBlocksTextAndImage {
   link: PagesBlocksTextAndImageLink
 }
 
+type PagesBlocksTestimonialsTestimonial {
+  type: String
+  author: String
+  text: String
+}
+
+type PagesBlocksTestimonials {
+  title: String
+  testimonial: [PagesBlocksTestimonialsTestimonial]
+}
+
 type PagesBlocksEvents {
   subhead: String
   title: String
 }
 
-union PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage | PagesBlocksEvents
+union PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage | PagesBlocksTestimonials | PagesBlocksEvents
 
 type Pages implements Node & Document {
   blocks: [PagesBlocks]
@@ -306,6 +317,17 @@ input PagesBlocksTextAndImageMutation {
   link: PagesBlocksTextAndImageLinkMutation
 }
 
+input PagesBlocksTestimonialsTestimonialMutation {
+  type: String
+  author: String
+  text: String
+}
+
+input PagesBlocksTestimonialsMutation {
+  title: String
+  testimonial: [PagesBlocksTestimonialsTestimonialMutation]
+}
+
 input PagesBlocksEventsMutation {
   subhead: String
   title: String
@@ -317,6 +339,7 @@ input PagesBlocksMutation {
   introduction: PagesBlocksIntroductionMutation
   feature: PagesBlocksFeatureMutation
   textAndImage: PagesBlocksTextAndImageMutation
+  testimonials: PagesBlocksTestimonialsMutation
   events: PagesBlocksEventsMutation
 }
 

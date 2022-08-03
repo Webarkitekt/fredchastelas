@@ -5,6 +5,7 @@ import {contentBlockSchema} from "../components/blocks/content";
 import {introductionBlockSchema} from "../components/blocks/introduction";
 import {featureBlockSchema} from "../components/blocks/feature";
 import {textAndImageBlockSchema} from "../components/blocks/text-and-image";
+import {testimonialsBlockSchema} from "../components/blocks/testimonials";
 
 
 const schema = defineSchema({
@@ -67,6 +68,7 @@ const schema = defineSchema({
                         introductionBlockSchema,
                         featureBlockSchema,
                         textAndImageBlockSchema,
+                        testimonialsBlockSchema,
                         {
                             name: "events",
                             label: "Events",
@@ -110,7 +112,7 @@ const schema = defineSchema({
             ],
         },
         {
-            label: "Séminaires et cours",
+            label: "Stages",
             name: "events",
             path: "content/events",
             fields: [

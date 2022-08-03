@@ -15,8 +15,14 @@ query global($relativePath: String!) {
   }
 }
 
-query globalConnection {
-  globalConnection {
+query globalConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String) {
+  globalConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+  ) {
     totalCount
     edges {
       node {
@@ -54,8 +60,14 @@ query pages($relativePath: String!) {
   }
 }
 
-query pagesConnection {
-  pagesConnection {
+query pagesConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String) {
+  pagesConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+  ) {
     totalCount
     edges {
       node {
@@ -93,8 +105,14 @@ query events($relativePath: String!) {
   }
 }
 
-query eventsConnection {
-  eventsConnection {
+query eventsConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String) {
+  eventsConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+  ) {
     totalCount
     edges {
       node {
