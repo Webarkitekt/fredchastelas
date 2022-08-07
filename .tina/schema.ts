@@ -5,8 +5,6 @@ import {contentBlockSchema} from "../components/blocks/content";
 import {introductionBlockSchema} from "../components/blocks/introduction";
 import {featureBlockSchema} from "../components/blocks/feature";
 import {textAndImageBlockSchema} from "../components/blocks/text-and-image";
-import {testimonialsBlockSchema} from "../components/blocks/testimonials";
-
 
 const schema = defineSchema({
     collections: [
@@ -68,7 +66,46 @@ const schema = defineSchema({
                         introductionBlockSchema,
                         featureBlockSchema,
                         textAndImageBlockSchema,
-                        testimonialsBlockSchema,
+                        {
+                            name: "testimonials",
+                            label: "Témoignages",
+                            ui: {
+                                previewSrc: "/blocks/testimonials.png",
+                            },
+                            fields: [
+                                {
+                                    type: 'string',
+                                    label: 'Title',
+                                    name: 'title'
+                                },
+                                {
+                                    type: 'object',
+                                    label: 'Témoignage',
+                                    name: 'testimonial',
+                                    list: true,
+                                    fields: [
+                                        {
+                                            type: "string",
+                                            label: "Type",
+                                            name: "type",
+                                        },
+                                        {
+                                            type: "string",
+                                            label: "Auteur",
+                                            name: "author",
+                                        },
+                                        {
+                                            type: "string",
+                                            label: "Témoignage",
+                                            name: "text",
+                                            ui: {
+                                                component: "textarea"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
                         {
                             name: "events",
                             label: "Events",

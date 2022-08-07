@@ -1,6 +1,5 @@
 import * as React from 'react'
 import {useState} from "react";
-import type {TinaTemplate} from "tinacms";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -42,46 +41,4 @@ export const Testimonials = ({data, parentField}) => {
             </div>
         </div>
     )
-}
-
-
-export const testimonialsBlockSchema: TinaTemplate = {
-    name: "testimonials",
-    label: "Témoignages",
-    ui: {
-        previewSrc: "/blocks/testimonials.png",
-    },
-    fields: [
-        {
-            type: 'string',
-            label: 'Title',
-            name: 'title'
-        },
-        {
-            type: 'object',
-            label: 'Témoignage',
-            name: 'testimonial',
-            list: true,
-            fields: [
-                {
-                    type: "string",
-                    label: "Type",
-                    name: "type",
-                },
-                {
-                    type: "string",
-                    label: "Auteur",
-                    name: "author",
-                },
-                {
-                    type: "string",
-                    label: "Témoignage",
-                    name: "text",
-                    ui: {
-                        component: "textarea"
-                    }
-                }
-            ]
-        }
-    ]
 }

@@ -9,3 +9,7 @@
 .swiper-button-disabled {
     @apply opacity-20
 }
+
+.richtext img {
+    @apply mx-auto;
+}

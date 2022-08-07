@@ -2,10 +2,6 @@
   "header": {
     "nav": [
       {
-        "href": "stages",
-        "label": "Stages"
-      },
-      {
         "href": "regulation-emotionnelle-tipi",
         "label": "Régulation émotionelle Tipi"
       },

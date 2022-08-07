@@ -65,7 +65,7 @@ export const Header = ({data}) => {
                             </nav>
                         </div>
                         <div className="hidden xl:flex items-center justify-end ">
-                            <a href="/contact"
+                            <a href="mailto:frederic.chastelas@gmail.com"
                                className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-gray-700 rounded-lg shadow-sm text-base font-semibold text-gray-700 hover:bg-white hover:text-gray-800 transition">
                                 Me contacter
                             </a>
