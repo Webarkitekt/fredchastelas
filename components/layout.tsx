@@ -12,8 +12,9 @@ export const Layout = ({
     return (
         <div>
             <Head>
+                <title>Frédéric Chastelas - Régulation émotionnelle TIPI, cours et stages de méditation</title>
+                <meta property="og:title" content="Frédéric Chastelas - Régulation émotionnelle TIPI, cours et stages de méditation" key="title" />
                 <link rel="shortcut icon" href="/favicon.ico"/>
-                <meta name="theme-color" content="#E6FAF8"/>
             </Head>
             <Header data={data?.header}/>
             <main>{children}</main>

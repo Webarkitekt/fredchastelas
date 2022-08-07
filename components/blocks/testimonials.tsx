@@ -13,8 +13,8 @@ export const Testimonials = ({data, parentField}) => {
     const [nextEl, setNextEl] = useState<HTMLElement | null>(null)
 
     return (
-        <div className="max-w-2xl bg-gray-100 p-28 mx-auto mb-20">
-            <h2 className="font-serif text-3xl lg:text-5xl text-gray-600 pb-12">{data.title}</h2>
+        <div className="max-w-2xl bg-gray-100 p-8 lg:p-28 mx-auto mb-20">
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-600 pb-12">{data.title}</h2>
             <Swiper
                 modules={[Navigation]}
                 slidesPerView={1}
@@ -25,7 +25,7 @@ export const Testimonials = ({data, parentField}) => {
                             <div className={'text-sm uppercase pb-2'}>
                                 {testimonial.type}
                             </div>
-                            <div className={'font-serif text-xl pb-2'}>
+                            <div className={'text-gray-500 leading-relaxed text-xl font-serif font-light pb-2'}>
                                 {testimonial.text}
                             </div>
                             <div className={'text-gray-700 italic text-right'}>

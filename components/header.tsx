@@ -1,4 +1,7 @@
 import React from "react";
+import { Fragment } from 'react'
+import { Popover, Transition } from '@headlessui/react'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from "next/link";
 import Logo from  "../public/logo.svg";
 
@@ -34,18 +37,27 @@ export const Header = ({data}) => {
     });
 
     return (
-        <div className={`w-full flex-shrink px-4 py-6 sm:px-6 lg:px-8 backdrop-blur-lg sticky top-0 z-50 bg-white transition-transform ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}>
-            <div className="max-w-screen-2xl mx-auto flex justify-between items-center  md:justify-start">
-                <div className="flex-col space-y-4 w-full">
-                    <div className="flex justify-start items-center justify-between">
-                        <a href="/">
-                            <span className="sr-only">Frédéric Chastelas</span>
-                            <div className="w-[130px] ">
-                                <Logo/>
+        <div className={`sticky top-0 z-50 bg-white transition-transform ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}>
+
+            <div className="relative pt-6 pb-6">
+                <Popover>
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+                        <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
+                            <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+                                <div className="flex items-center justify-between w-full md:w-auto">
+                                    <a href="/">
+                                        <span className="sr-only">Workflow</span>
+                                        <Logo/>
+                                    </a>
+                                    <div className="-mr-2 flex items-center md:hidden">
+                                        <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+                                            <span className="sr-only">Ouvrir le menu principal</span>
+                                            <MenuIcon className="h-8 w-8" aria-hidden="true" />
+                                        </Popover.Button>
+                                    </div>
+                                </div>
                             </div>
-                        </a>
-                        <div className="hidden xl:flex">
-                            <nav className="hidden justify-start xl:flex xl:flex-1 space-x-5">
+                            <div className="hidden md:flex md:space-x-10">
                                 {data.nav &&
                                     data.nav.map((item, i) => {
                                         const activeItem =
@@ -62,18 +74,71 @@ export const Header = ({data}) => {
                                         );
                                     })
                                 }
-                            </nav>
-                        </div>
-                        <div className="hidden xl:flex items-center justify-end ">
-                            <a href="mailto:frederic.chastelas@gmail.com"
-                               className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-gray-700 rounded-lg shadow-sm text-base font-semibold text-gray-700 hover:bg-white hover:text-gray-800 transition">
-                                Me contacter
-                            </a>
-                        </div>
+                            </div>
+                            <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
+                                <span className="inline-flex rounded-md">
+                                  <a href="mailto:frederic.chastelas@gmail.com"
+                                       className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-gray-700 rounded-lg text-base font-semibold text-gray-700 hover:bg-white hover:text-gray-800 transition">
+                                        Me contacter
+                                    </a>
+                                </span>
+                            </div>
+                        </nav>
                     </div>
 
-                </div>
-
+                    <Transition
+                        as={Fragment}
+                        enter="duration-150 ease-out"
+                        enterFrom="opacity-0 scale-95"
+                        enterTo="opacity-100 scale-100"
+                        leave="duration-100 ease-in"
+                        leaveFrom="opacity-100 scale-100"
+                        leaveTo="opacity-0 scale-95"
+                    >
+                        <Popover.Panel
+                            focus
+                            className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                        >
+                            <div className=" rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+                                <div className="px-5 pt-4 pb-4 flex items-center justify-between">
+                                    <div>
+                                        <Logo/>
+                                    </div>
+                                    <div className="-mr-2">
+                                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+                                            <span className="sr-only">Close menu</span>
+                                            <XIcon className="h-8 w-8" aria-hidden="true" />
+                                        </Popover.Button>
+                                    </div>
+                                </div>
+                                <div className="px-2 pt-2 pb-3">
+                                    {data.nav &&
+                                        data.nav.map((item, i) => {
+                                            const activeItem =
+                                                item.href === ""
+                                                    ? typeof location !== "undefined" &&
+                                                    location.pathname == "/"
+                                                    : windowUrl.includes(item.href);
+                                            return (
+                                                <Link key={`${item.label}-${i}`} href={`${prefix}/${item.href}`} passHref>
+                                                    <a className="block px-3 py-2 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-5">
+                                                        {item.label}
+                                                    </a>
+                                                </Link>
+                                            );
+                                        })
+                                    }
+                                </div>
+                                <a
+                                    href="mailto:frederic.chastelas@gmail.com"
+                                    className="block w-full px-5 py-3 text-xl text-center font-medium text-gray-700 bg-gray-50 hover:bg-gray-100"
+                                >
+                                    Me contacter
+                                </a>
+                            </div>
+                        </Popover.Panel>
+                    </Transition>
+                </Popover>
             </div>
         </div>
     )
