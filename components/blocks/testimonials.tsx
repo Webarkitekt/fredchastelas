@@ -14,7 +14,7 @@ export const Testimonials = ({data, parentField}) => {
 
     return (
         <div className="max-w-2xl bg-gray-100 p-8 lg:p-28 mx-auto mb-20">
-            <h2 className="font-serif text-4xl lg:text-5xl text-gray-600 pb-12">{data.title}</h2>
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-800 pb-12">{data.title}</h2>
             <Swiper
                 modules={[Navigation]}
                 slidesPerView={1}
