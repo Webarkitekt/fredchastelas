@@ -29,7 +29,7 @@ blocks:
       libérer facilement et définitivement !
     link:
       label: En savoir plus
-      url: /regulation-emotionelle-tipi
+      url: /regulation-emotionnelle-tipi
     _template: feature
   - title: Témoignages
     testimonial:
