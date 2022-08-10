@@ -2,20 +2,6 @@ query PageQuery {
   ...LayoutQueryFragment
 }
 
-query EventsQuery {
-  eventsConnection {
-    edges {
-      node {
-        id
-        _values
-        _sys {
-          filename
-        }
-      }
-    }
-  }
-}
-
 query ContentQuery($relativePath: String!) {
   pages(relativePath: $relativePath) {
     ...PagesParts

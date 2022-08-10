@@ -1,7 +1,7 @@
 import { Blocks } from "../components/blocks";
-import { ExperimentalGetTinaClient } from "../.tina/__generated__/types";
 import { useTina } from "tinacms/dist/edit-state";
 import { Layout } from "../components/layout";
+import { client } from '../.tina/__generated__/client'
 
 export default function HomePage(
     props: AsyncReturnType<typeof getStaticProps>["props"]
@@ -15,37 +15,14 @@ export default function HomePage(
     if (data && data.pages){
         return (
             <Layout rawData={data}>
-                <Blocks id={""} _sys={{
-                    __typename: "SystemInfo",
-                    filename: "",
-                    title: "",
-                    basename: "",
-                    breadcrumbs: [],
-                    path: "",
-                    relativePath: "",
-                    extension: "",
-                    template: "",
-                    collection: {
-                        __typename: "Collection",
-                        name: "",
-                        slug: "",
-                        label: "",
-                        path: "",
-                        format: "",
-                        matches: "",
-                        templates: [],
-                        fields: [],
-                        documents: undefined
-                    }
-                }} _values={undefined} {...data.pages} />
+                <Blocks {...data.pages} />
             </Layout>
         );
     }
 }
 
 export const getStaticProps = async ({ params }) => {
-    const client = ExperimentalGetTinaClient();
-    const tinaProps = await client.ContentQuery({
+    const tinaProps = await client.queries.ContentQuery({
         relativePath: `${params.filename}.md`,
     });
     return {
@@ -58,8 +35,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export const getStaticPaths = async () => {
-    const client = ExperimentalGetTinaClient();
-    const pagesListData = await client.pagesConnection();
+    const pagesListData = await client.queries.pagesConnection();
     return {
         paths: pagesListData.data.pagesConnection.edges.map((page) => ({
             params: { filename: page.node._sys.filename },

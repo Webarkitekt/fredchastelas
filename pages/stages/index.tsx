@@ -1,5 +1,7 @@
 import { getStaticPropsForTina } from 'tinacms'
 import { Layout } from '../../components/layout'
+import {client} from "../../.tina/client";
+
 import Link from 'next/link'
 export default function Home(props) {
     const eventsList = props.data.eventsConnection.edges

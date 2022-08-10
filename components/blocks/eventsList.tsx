@@ -2,7 +2,7 @@ import {Event} from "../../components/event";
 import {Container} from "../container";
 import {Section} from "../section";
 import Link from "next/link";
-import {client} from "../../.tina/client";
+import { client } from '../../.tina/__generated__/client'
 import {useEffect, useState} from "react";
 
 
@@ -14,7 +14,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
     useEffect(() => {
         const fetchContent = async () => {
             setLoading(true);
-            const events = await client.queries.EventsQuery()
+            const events = await client.queries.eventsConnection({sort: 'start_date',last: 4})
             setData(events.data.eventsConnection.edges)
             setLoading(false);
         };

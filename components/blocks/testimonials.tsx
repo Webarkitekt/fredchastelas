@@ -20,7 +20,7 @@ export const Testimonials = ({data, parentField}) => {
                 slidesPerView={1}
                 navigation={{prevEl, nextEl}}>
                 {data.testimonial.map((testimonial, i) => (
-                    <SwiperSlide key={i} className={'max-w-2xl'}>
+                    <SwiperSlide key={i} className={'max-w-2xl cursor-grab'}>
                         <div className={'text-gray-500'}>
                             <div className={'text-sm uppercase pb-2'}>
                                 {testimonial.type}

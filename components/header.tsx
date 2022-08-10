@@ -46,7 +46,7 @@ export const Header = ({data}) => {
                             <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                                 <div className="flex items-center justify-between w-full md:w-auto">
                                     <a href="/">
-                                        <span className="sr-only">Workflow</span>
+                                        <span className="sr-only">Frédéric Chastelas</span>
                                         <Logo/>
                                     </a>
                                     <div className="-mr-2 flex items-center md:hidden">

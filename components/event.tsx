@@ -10,13 +10,13 @@ export const Event = (data) => {
 
     data = data.data
 
-    const start_date = new Date(data._values.start_date);
+    const start_date = new Date(data.start_date);
     let formattedStartDate = "";
     if (!isNaN(start_date.getTime())) {
         formattedStartDate = format(start_date, "dd MMM", {locale: fr});
     }
 
-    const end_date = new Date(data._values.end_date);
+    const end_date = new Date(data.end_date);
     let formattedEndDate = "";
     if (!isNaN(end_date.getTime())) {
         formattedEndDate = format(end_date, "dd MMM yyyy", {locale: fr});
@@ -38,16 +38,16 @@ export const Event = (data) => {
                     href={`/seminaires-et-cours/` + data._sys.filename}
                     passHref
                 >
-                    <a className="lg:w-1/4 ">
+                    <a className="lg:w-1/4 flex flex-col">
                         <div className="mb-2">
-                            <div className="font-serif italic text-primary text-lg">{data._values.type}</div>
+                            <div className="font-serif italic text-primary text-lg">{data.type}</div>
                             <div className="flex font-bold text-xl items-center gap-2 mb-1 pb-1 border-b border-[#9ABECB]">
                                 {date}
                             </div>
-                            <div className="text-primary">{data._values.location}</div>
+                            <div className="text-primary">{data.location}</div>
                         </div>
-                        <div className="bg-gray-100 p-4 lg:p-6">
-                            <h3 className="font-serif text-xl lg:text-2xl text-gray-800">{data._values.title}</h3>
+                        <div className="bg-gray-100 p-4 lg:p-6 flex-grow">
+                            <h3 className="font-serif text-xl lg:text-2xl text-gray-800">{data.title}</h3>
                         </div>
                         <hr className="border-interaction-default border-b-4 mt-1"/>
                     </a>

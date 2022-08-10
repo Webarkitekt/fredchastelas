@@ -49,11 +49,17 @@ type Query {
   node(id: String): Node!
   document(collection: String, relativePath: String): DocumentNode!
   global(relativePath: String): Global!
-  globalConnection(before: String, after: String, first: Float, last: Float, sort: String): GlobalConnection!
+  globalConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: GlobalFilter): GlobalConnection!
   pages(relativePath: String): Pages!
-  pagesConnection(before: String, after: String, first: Float, last: Float, sort: String): PagesConnection!
+  pagesConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: PagesFilter): PagesConnection!
   events(relativePath: String): Events!
-  eventsConnection(before: String, after: String, first: Float, last: Float, sort: String): EventsConnection!
+  eventsConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: EventsFilter): EventsConnection!
+}
+
+input DocumentFilter {
+  global: GlobalFilter
+  pages: PagesFilter
+  events: EventsFilter
 }
 
 type DocumentConnectionEdges {
@@ -76,7 +82,7 @@ type Collection {
   matches: String
   templates: [JSON]
   fields: [JSON]
-  documents(before: String, after: String, first: Float, last: Float, sort: String): DocumentConnection!
+  documents(before: String, after: String, first: Float, last: Float, sort: String, filter: DocumentFilter): DocumentConnection!
 }
 
 union DocumentNode = Global | Pages | Events
@@ -95,6 +101,26 @@ type Global implements Node & Document {
   id: ID!
   _sys: SystemInfo!
   _values: JSON!
+}
+
+input StringFilter {
+  startsWith: String
+  eq: String
+  exists: Boolean
+  in: [String]
+}
+
+input GlobalHeaderNavFilter {
+  href: StringFilter
+  label: StringFilter
+}
+
+input GlobalHeaderFilter {
+  nav: GlobalHeaderNavFilter
+}
+
+input GlobalFilter {
+  header: GlobalHeaderFilter
 }
 
 type GlobalConnectionEdges {
@@ -192,6 +218,113 @@ type Pages implements Node & Document {
   _values: JSON!
 }
 
+input ImageFilter {
+  startsWith: String
+  eq: String
+  exists: Boolean
+  in: [String]
+}
+
+input PagesBlocksHeroImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksHeroFilter {
+  image: PagesBlocksHeroImageFilter
+  headline: StringFilter
+  tagline: StringFilter
+}
+
+input RichTextFilter {
+  startsWith: String
+  eq: String
+  exists: Boolean
+}
+
+input PagesBlocksContentFilter {
+  name: StringFilter
+  bgColor: StringFilter
+  body: RichTextFilter
+}
+
+input PagesBlocksIntroductionImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksIntroductionFilter {
+  title: StringFilter
+  text: StringFilter
+  image: PagesBlocksIntroductionImageFilter
+}
+
+input PagesBlocksFeatureLinkFilter {
+  label: StringFilter
+  url: StringFilter
+}
+
+input PagesBlocksFeatureFilter {
+  subhead: StringFilter
+  title: StringFilter
+  link: PagesBlocksFeatureLinkFilter
+}
+
+input BooleanFilter {
+  eq: Boolean
+  exists: Boolean
+}
+
+input PagesBlocksTextAndImageImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksTextAndImageLinkFilter {
+  label: StringFilter
+  url: StringFilter
+}
+
+input PagesBlocksTextAndImageFilter {
+  showIllustrations: BooleanFilter
+  bgColor: StringFilter
+  title: StringFilter
+  body: RichTextFilter
+  image: PagesBlocksTextAndImageImageFilter
+  image_position: StringFilter
+  link: PagesBlocksTextAndImageLinkFilter
+}
+
+input PagesBlocksTestimonialsTestimonialFilter {
+  type: StringFilter
+  author: StringFilter
+  text: StringFilter
+}
+
+input PagesBlocksTestimonialsFilter {
+  title: StringFilter
+  testimonial: PagesBlocksTestimonialsTestimonialFilter
+}
+
+input PagesBlocksEventsFilter {
+  subhead: StringFilter
+  title: StringFilter
+}
+
+input PagesBlocksFilter {
+  hero: PagesBlocksHeroFilter
+  content: PagesBlocksContentFilter
+  introduction: PagesBlocksIntroductionFilter
+  feature: PagesBlocksFeatureFilter
+  textAndImage: PagesBlocksTextAndImageFilter
+  testimonials: PagesBlocksTestimonialsFilter
+  events: PagesBlocksEventsFilter
+}
+
+input PagesFilter {
+  blocks: PagesBlocksFilter
+}
+
 type PagesConnectionEdges {
   cursor: String!
   node: Pages
@@ -213,6 +346,23 @@ type Events implements Node & Document {
   id: ID!
   _sys: SystemInfo!
   _values: JSON!
+}
+
+input DatetimeFilter {
+  after: String
+  before: String
+  eq: String
+  exists: Boolean
+  in: [String]
+}
+
+input EventsFilter {
+  title: StringFilter
+  start_date: DatetimeFilter
+  end_date: DatetimeFilter
+  location: StringFilter
+  type: StringFilter
+  description: RichTextFilter
 }
 
 type EventsConnectionEdges {
