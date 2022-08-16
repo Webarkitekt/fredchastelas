@@ -13,9 +13,10 @@ export default function HomePage(
     });
 
     if (data && data.pages){
+        // @ts-ignore
         return (
             <Layout rawData={data}>
-                <Blocks {...data.pages} />
+                <Blocks id={""} _sys={undefined} _values={undefined} {...data.pages} />
             </Layout>
         );
     }
