@@ -31,6 +31,10 @@ blocks:
       label: En savoir plus
       url: /regulation-emotionnelle-tipi
     _template: feature
+  - title: Stages et cours
+    show_all_link: true
+    limit: 4
+    _template: events
   - title: Témoignages
     testimonial:
       - type: Régulation TIPI

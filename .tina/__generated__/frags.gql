@@ -20,10 +20,12 @@ fragment PagesParts on Pages {
       }
       headline
       tagline
+      as_banner
     }
     ... on PagesBlocksContent {
       name
       bgColor
+      size_large
       body
     }
     ... on PagesBlocksIntroduction {
@@ -71,8 +73,20 @@ fragment PagesParts on Pages {
       }
     }
     ... on PagesBlocksEvents {
-      subhead
       title
+      location {
+        ... on Location {
+          name
+          description
+          image
+        }
+        ... on Document {
+          id
+        }
+      }
+      stage
+      show_all_link
+      limit
     }
   }
 }
@@ -81,7 +95,23 @@ fragment EventsParts on Events {
   title
   start_date
   end_date
-  location
+  location {
+    ... on Location {
+      name
+      description
+      image
+    }
+    ... on Document {
+      id
+    }
+  }
   type
+  external_link
   description
+}
+
+fragment LocationParts on Location {
+  name
+  description
+  image
 }

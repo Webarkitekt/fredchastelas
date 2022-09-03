@@ -1,13 +1,22 @@
 import {staticRequest} from "tinacms";
 import {useTina} from "tinacms/dist/edit-state";
 import {Layout} from "../../components/layout";
+import {Hero} from "../../components/blocks/hero";
+import {AsyncReturnType} from "../[filename]";
+import {Content} from "../../components/blocks/content";
+import format from "date-fns/format";
+import {fr} from "date-fns/locale";
 
 const query = `query getEvent($relativePath: String!) {
   events(relativePath: $relativePath) {
       title
       start_date
       end_date
-      location
+      location {
+          ... on Location {
+            name
+          }
+        }
       type
       description
   }
@@ -23,12 +32,32 @@ export default function EventsPage(
         variables: props.variables,
         data: props.data,
     });
+
     if (data && data.events) {
+
+        const start_date = new Date(data.events.start_date);
+        let formattedStartDate = "";
+        if (!isNaN(start_date.getTime())) {
+            formattedStartDate = format(start_date, "dd MMM", {locale: fr});
+        }
+
+        const end_date = new Date(data.events.end_date);
+        let formattedEndDate = "";
+        if (!isNaN(end_date.getTime())) {
+            formattedEndDate = format(end_date, "dd MMM yyyy", {locale: fr});
+        }
+
         return (
             <Layout>
-                <div>
-                    {data.events.title}
-                </div>
+                <Hero data={{
+                    as_banner: true,
+                    headline: data.events.title,
+                    tagline: `${data.events.type} • ${formattedStartDate} au ${formattedEndDate} • ${data.events.location.name}`
+                }} parentField={undefined} />
+                <Content data={{
+                    body: data.events.description
+                }} />
+
             </Layout>
         );
     }
@@ -82,7 +111,11 @@ export const getStaticPaths = async () => {
                     start_date
                     end_date
                     title
-                    location
+                    location {
+                      ... on Location {
+                        name
+                      }
+                    }
                     description
                     _sys {
                       filename

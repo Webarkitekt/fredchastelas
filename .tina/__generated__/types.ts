@@ -79,6 +79,8 @@ export type Query = {
   pagesConnection: PagesConnection;
   events: Events;
   eventsConnection: EventsConnection;
+  location: Location;
+  locationConnection: LocationConnection;
 };
 
 
@@ -147,10 +149,26 @@ export type QueryEventsConnectionArgs = {
   filter?: InputMaybe<EventsFilter>;
 };
 
+
+export type QueryLocationArgs = {
+  relativePath?: InputMaybe<Scalars['String']>;
+};
+
+
+export type QueryLocationConnectionArgs = {
+  before?: InputMaybe<Scalars['String']>;
+  after?: InputMaybe<Scalars['String']>;
+  first?: InputMaybe<Scalars['Float']>;
+  last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
+  filter?: InputMaybe<LocationFilter>;
+};
+
 export type DocumentFilter = {
   global?: InputMaybe<GlobalFilter>;
   pages?: InputMaybe<PagesFilter>;
   events?: InputMaybe<EventsFilter>;
+  location?: InputMaybe<LocationFilter>;
 };
 
 export type DocumentConnectionEdges = {
@@ -189,7 +207,7 @@ export type CollectionDocumentsArgs = {
   filter?: InputMaybe<DocumentFilter>;
 };
 
-export type DocumentNode = Global | Pages | Events;
+export type DocumentNode = Global | Pages | Events | Location;
 
 export type GlobalHeaderNav = {
   __typename?: 'GlobalHeaderNav';
@@ -254,12 +272,14 @@ export type PagesBlocksHero = {
   image?: Maybe<PagesBlocksHeroImage>;
   headline?: Maybe<Scalars['String']>;
   tagline?: Maybe<Scalars['String']>;
+  as_banner?: Maybe<Scalars['Boolean']>;
 };
 
 export type PagesBlocksContent = {
   __typename?: 'PagesBlocksContent';
   name?: Maybe<Scalars['String']>;
   bgColor?: Maybe<Scalars['String']>;
+  size_large?: Maybe<Scalars['Boolean']>;
   body?: Maybe<Scalars['JSON']>;
 };
 
@@ -325,10 +345,15 @@ export type PagesBlocksTestimonials = {
   testimonial?: Maybe<Array<Maybe<PagesBlocksTestimonialsTestimonial>>>;
 };
 
+export type PagesBlocksEventsLocation = Location;
+
 export type PagesBlocksEvents = {
   __typename?: 'PagesBlocksEvents';
-  subhead?: Maybe<Scalars['String']>;
   title?: Maybe<Scalars['String']>;
+  location?: Maybe<PagesBlocksEventsLocation>;
+  stage?: Maybe<Scalars['Boolean']>;
+  show_all_link?: Maybe<Scalars['Boolean']>;
+  limit?: Maybe<Scalars['Float']>;
 };
 
 export type PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage | PagesBlocksTestimonials | PagesBlocksEvents;
@@ -353,10 +378,16 @@ export type PagesBlocksHeroImageFilter = {
   alt?: InputMaybe<StringFilter>;
 };
 
+export type BooleanFilter = {
+  eq?: InputMaybe<Scalars['Boolean']>;
+  exists?: InputMaybe<Scalars['Boolean']>;
+};
+
 export type PagesBlocksHeroFilter = {
   image?: InputMaybe<PagesBlocksHeroImageFilter>;
   headline?: InputMaybe<StringFilter>;
   tagline?: InputMaybe<StringFilter>;
+  as_banner?: InputMaybe<BooleanFilter>;
 };
 
 export type RichTextFilter = {
@@ -368,6 +399,7 @@ export type RichTextFilter = {
 export type PagesBlocksContentFilter = {
   name?: InputMaybe<StringFilter>;
   bgColor?: InputMaybe<StringFilter>;
+  size_large?: InputMaybe<BooleanFilter>;
   body?: InputMaybe<RichTextFilter>;
 };
 
@@ -391,11 +423,6 @@ export type PagesBlocksFeatureFilter = {
   subhead?: InputMaybe<StringFilter>;
   title?: InputMaybe<StringFilter>;
   link?: InputMaybe<PagesBlocksFeatureLinkFilter>;
-};
-
-export type BooleanFilter = {
-  eq?: InputMaybe<Scalars['Boolean']>;
-  exists?: InputMaybe<Scalars['Boolean']>;
 };
 
 export type PagesBlocksTextAndImageImageFilter = {
@@ -429,9 +456,26 @@ export type PagesBlocksTestimonialsFilter = {
   testimonial?: InputMaybe<PagesBlocksTestimonialsTestimonialFilter>;
 };
 
+export type PagesBlocksEventsLocationFilter = {
+  location?: InputMaybe<LocationFilter>;
+};
+
+export type NumberFilter = {
+  lt?: InputMaybe<Scalars['Float']>;
+  lte?: InputMaybe<Scalars['Float']>;
+  gte?: InputMaybe<Scalars['Float']>;
+  gt?: InputMaybe<Scalars['Float']>;
+  eq?: InputMaybe<Scalars['Float']>;
+  exists?: InputMaybe<Scalars['Boolean']>;
+  in?: InputMaybe<Array<InputMaybe<Scalars['Float']>>>;
+};
+
 export type PagesBlocksEventsFilter = {
-  subhead?: InputMaybe<StringFilter>;
   title?: InputMaybe<StringFilter>;
+  location?: InputMaybe<PagesBlocksEventsLocationFilter>;
+  stage?: InputMaybe<BooleanFilter>;
+  show_all_link?: InputMaybe<BooleanFilter>;
+  limit?: InputMaybe<NumberFilter>;
 };
 
 export type PagesBlocksFilter = {
@@ -461,13 +505,16 @@ export type PagesConnection = Connection & {
   edges?: Maybe<Array<Maybe<PagesConnectionEdges>>>;
 };
 
+export type EventsLocation = Location;
+
 export type Events = Node & Document & {
   __typename?: 'Events';
   title?: Maybe<Scalars['String']>;
   start_date?: Maybe<Scalars['String']>;
   end_date?: Maybe<Scalars['String']>;
-  location?: Maybe<Scalars['String']>;
+  location?: Maybe<EventsLocation>;
   type?: Maybe<Scalars['String']>;
+  external_link?: Maybe<Scalars['String']>;
   description?: Maybe<Scalars['JSON']>;
   id: Scalars['ID'];
   _sys: SystemInfo;
@@ -482,12 +529,17 @@ export type DatetimeFilter = {
   in?: InputMaybe<Array<InputMaybe<Scalars['String']>>>;
 };
 
+export type EventsLocationFilter = {
+  location?: InputMaybe<LocationFilter>;
+};
+
 export type EventsFilter = {
   title?: InputMaybe<StringFilter>;
   start_date?: InputMaybe<DatetimeFilter>;
   end_date?: InputMaybe<DatetimeFilter>;
-  location?: InputMaybe<StringFilter>;
+  location?: InputMaybe<EventsLocationFilter>;
   type?: InputMaybe<StringFilter>;
+  external_link?: InputMaybe<StringFilter>;
   description?: InputMaybe<RichTextFilter>;
 };
 
@@ -504,6 +556,35 @@ export type EventsConnection = Connection & {
   edges?: Maybe<Array<Maybe<EventsConnectionEdges>>>;
 };
 
+export type Location = Node & Document & {
+  __typename?: 'Location';
+  name?: Maybe<Scalars['String']>;
+  description?: Maybe<Scalars['JSON']>;
+  image?: Maybe<Scalars['String']>;
+  id: Scalars['ID'];
+  _sys: SystemInfo;
+  _values: Scalars['JSON'];
+};
+
+export type LocationFilter = {
+  name?: InputMaybe<StringFilter>;
+  description?: InputMaybe<RichTextFilter>;
+  image?: InputMaybe<ImageFilter>;
+};
+
+export type LocationConnectionEdges = {
+  __typename?: 'LocationConnectionEdges';
+  cursor: Scalars['String'];
+  node?: Maybe<Location>;
+};
+
+export type LocationConnection = Connection & {
+  __typename?: 'LocationConnection';
+  pageInfo: PageInfo;
+  totalCount: Scalars['Float'];
+  edges?: Maybe<Array<Maybe<LocationConnectionEdges>>>;
+};
+
 export type Mutation = {
   __typename?: 'Mutation';
   addPendingDocument: DocumentNode;
@@ -516,6 +597,8 @@ export type Mutation = {
   createPages: Pages;
   updateEvents: Events;
   createEvents: Events;
+  updateLocation: Location;
+  createLocation: Location;
 };
 
 
@@ -581,10 +664,23 @@ export type MutationCreateEventsArgs = {
   params: EventsMutation;
 };
 
+
+export type MutationUpdateLocationArgs = {
+  relativePath: Scalars['String'];
+  params: LocationMutation;
+};
+
+
+export type MutationCreateLocationArgs = {
+  relativePath: Scalars['String'];
+  params: LocationMutation;
+};
+
 export type DocumentMutation = {
   global?: InputMaybe<GlobalMutation>;
   pages?: InputMaybe<PagesMutation>;
   events?: InputMaybe<EventsMutation>;
+  location?: InputMaybe<LocationMutation>;
 };
 
 export type GlobalHeaderNavMutation = {
@@ -609,11 +705,13 @@ export type PagesBlocksHeroMutation = {
   image?: InputMaybe<PagesBlocksHeroImageMutation>;
   headline?: InputMaybe<Scalars['String']>;
   tagline?: InputMaybe<Scalars['String']>;
+  as_banner?: InputMaybe<Scalars['Boolean']>;
 };
 
 export type PagesBlocksContentMutation = {
   name?: InputMaybe<Scalars['String']>;
   bgColor?: InputMaybe<Scalars['String']>;
+  size_large?: InputMaybe<Scalars['Boolean']>;
   body?: InputMaybe<Scalars['JSON']>;
 };
 
@@ -671,8 +769,11 @@ export type PagesBlocksTestimonialsMutation = {
 };
 
 export type PagesBlocksEventsMutation = {
-  subhead?: InputMaybe<Scalars['String']>;
   title?: InputMaybe<Scalars['String']>;
+  location?: InputMaybe<Scalars['String']>;
+  stage?: InputMaybe<Scalars['Boolean']>;
+  show_all_link?: InputMaybe<Scalars['Boolean']>;
+  limit?: InputMaybe<Scalars['Float']>;
 };
 
 export type PagesBlocksMutation = {
@@ -695,7 +796,14 @@ export type EventsMutation = {
   end_date?: InputMaybe<Scalars['String']>;
   location?: InputMaybe<Scalars['String']>;
   type?: InputMaybe<Scalars['String']>;
+  external_link?: InputMaybe<Scalars['String']>;
   description?: InputMaybe<Scalars['JSON']>;
+};
+
+export type LocationMutation = {
+  name?: InputMaybe<Scalars['String']>;
+  description?: InputMaybe<Scalars['JSON']>;
+  image?: InputMaybe<Scalars['String']>;
 };
 
 export type LayoutQueryFragmentFragment = { __typename?: 'Query', global: { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined } };
@@ -710,20 +818,22 @@ export type ContentQueryQueryVariables = Exact<{
 }>;
 
 
-export type ContentQueryQuery = { __typename?: 'Query', pages: { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', subhead?: string | null | undefined, title?: string | null | undefined } | null | undefined> | null | undefined } };
+export type ContentQueryQuery = { __typename?: 'Query', pages: { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, as_banner?: boolean | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, size_large?: boolean | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', title?: string | null | undefined, stage?: boolean | null | undefined, show_all_link?: boolean | null | undefined, limit?: number | null | undefined, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined } | null | undefined> | null | undefined } };
 
 export type EventQueryQueryVariables = Exact<{
   relativePath: Scalars['String'];
 }>;
 
 
-export type EventQueryQuery = { __typename?: 'Query', events: { __typename?: 'Events', title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, location?: string | null | undefined, type?: string | null | undefined, description?: any | null | undefined } };
+export type EventQueryQuery = { __typename?: 'Query', events: { __typename?: 'Events', title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, type?: string | null | undefined, external_link?: string | null | undefined, description?: any | null | undefined, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined } };
 
 export type GlobalPartsFragment = { __typename?: 'Global', header?: { __typename: 'GlobalHeader', nav?: Array<{ __typename: 'GlobalHeaderNav', href?: string | null | undefined, label?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined };
 
-export type PagesPartsFragment = { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', subhead?: string | null | undefined, title?: string | null | undefined } | null | undefined> | null | undefined };
+export type PagesPartsFragment = { __typename?: 'Pages', blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, as_banner?: boolean | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, size_large?: boolean | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', title?: string | null | undefined, stage?: boolean | null | undefined, show_all_link?: boolean | null | undefined, limit?: number | null | undefined, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined } | null | undefined> | null | undefined };
 
-export type EventsPartsFragment = { __typename?: 'Events', title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, location?: string | null | undefined, type?: string | null | undefined, description?: any | null | undefined };
+export type EventsPartsFragment = { __typename?: 'Events', title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, type?: string | null | undefined, external_link?: string | null | undefined, description?: any | null | undefined, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined };
+
+export type LocationPartsFragment = { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined };
 
 export type GlobalQueryVariables = Exact<{
   relativePath: Scalars['String'];
@@ -749,7 +859,7 @@ export type PagesQueryVariables = Exact<{
 }>;
 
 
-export type PagesQuery = { __typename?: 'Query', pages: { __typename?: 'Pages', id: string, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', subhead?: string | null | undefined, title?: string | null | undefined } | null | undefined> | null | undefined } };
+export type PagesQuery = { __typename?: 'Query', pages: { __typename?: 'Pages', id: string, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, as_banner?: boolean | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, size_large?: boolean | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', title?: string | null | undefined, stage?: boolean | null | undefined, show_all_link?: boolean | null | undefined, limit?: number | null | undefined, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined } | null | undefined> | null | undefined } };
 
 export type PagesConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']>;
@@ -761,14 +871,14 @@ export type PagesConnectionQueryVariables = Exact<{
 }>;
 
 
-export type PagesConnectionQuery = { __typename?: 'Query', pagesConnection: { __typename?: 'PagesConnection', totalCount: number, edges?: Array<{ __typename?: 'PagesConnectionEdges', node?: { __typename?: 'Pages', id: string, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', subhead?: string | null | undefined, title?: string | null | undefined } | null | undefined> | null | undefined } | null | undefined } | null | undefined> | null | undefined } };
+export type PagesConnectionQuery = { __typename?: 'Query', pagesConnection: { __typename?: 'PagesConnection', totalCount: number, edges?: Array<{ __typename?: 'PagesConnectionEdges', node?: { __typename?: 'Pages', id: string, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, blocks?: Array<{ __typename: 'PagesBlocksHero', headline?: string | null | undefined, tagline?: string | null | undefined, as_banner?: boolean | null | undefined, image?: { __typename: 'PagesBlocksHeroImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksContent', name?: string | null | undefined, bgColor?: string | null | undefined, size_large?: boolean | null | undefined, body?: any | null | undefined } | { __typename: 'PagesBlocksIntroduction', title?: string | null | undefined, text?: string | null | undefined, image?: { __typename: 'PagesBlocksIntroductionImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksFeature', subhead?: string | null | undefined, title?: string | null | undefined, link?: { __typename: 'PagesBlocksFeatureLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTextAndImage', showIllustrations?: boolean | null | undefined, bgColor?: string | null | undefined, title?: string | null | undefined, body?: any | null | undefined, image_position?: string | null | undefined, image?: { __typename: 'PagesBlocksTextAndImageImage', src?: string | null | undefined, alt?: string | null | undefined } | null | undefined, link?: { __typename: 'PagesBlocksTextAndImageLink', label?: string | null | undefined, url?: string | null | undefined } | null | undefined } | { __typename: 'PagesBlocksTestimonials', title?: string | null | undefined, testimonial?: Array<{ __typename: 'PagesBlocksTestimonialsTestimonial', type?: string | null | undefined, author?: string | null | undefined, text?: string | null | undefined } | null | undefined> | null | undefined } | { __typename: 'PagesBlocksEvents', title?: string | null | undefined, stage?: boolean | null | undefined, show_all_link?: boolean | null | undefined, limit?: number | null | undefined, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined } | null | undefined> | null | undefined } | null | undefined } | null | undefined> | null | undefined } };
 
 export type EventsQueryVariables = Exact<{
   relativePath: Scalars['String'];
 }>;
 
 
-export type EventsQuery = { __typename?: 'Query', events: { __typename?: 'Events', id: string, title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, location?: string | null | undefined, type?: string | null | undefined, description?: any | null | undefined, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type EventsQuery = { __typename?: 'Query', events: { __typename?: 'Events', id: string, title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, type?: string | null | undefined, external_link?: string | null | undefined, description?: any | null | undefined, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined } };
 
 export type EventsConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']>;
@@ -780,7 +890,26 @@ export type EventsConnectionQueryVariables = Exact<{
 }>;
 
 
-export type EventsConnectionQuery = { __typename?: 'Query', eventsConnection: { __typename?: 'EventsConnection', totalCount: number, edges?: Array<{ __typename?: 'EventsConnectionEdges', node?: { __typename?: 'Events', id: string, title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, location?: string | null | undefined, type?: string | null | undefined, description?: any | null | undefined, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null | undefined } | null | undefined> | null | undefined } };
+export type EventsConnectionQuery = { __typename?: 'Query', eventsConnection: { __typename?: 'EventsConnection', totalCount: number, edges?: Array<{ __typename?: 'EventsConnectionEdges', node?: { __typename?: 'Events', id: string, title?: string | null | undefined, start_date?: string | null | undefined, end_date?: string | null | undefined, type?: string | null | undefined, external_link?: string | null | undefined, description?: any | null | undefined, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, location?: { __typename?: 'Location', name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, id: string } | null | undefined } | null | undefined } | null | undefined> | null | undefined } };
+
+export type LocationQueryVariables = Exact<{
+  relativePath: Scalars['String'];
+}>;
+
+
+export type LocationQuery = { __typename?: 'Query', location: { __typename?: 'Location', id: string, name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+
+export type LocationConnectionQueryVariables = Exact<{
+  before?: InputMaybe<Scalars['String']>;
+  after?: InputMaybe<Scalars['String']>;
+  first?: InputMaybe<Scalars['Float']>;
+  last?: InputMaybe<Scalars['Float']>;
+  sort?: InputMaybe<Scalars['String']>;
+  filter?: InputMaybe<LocationFilter>;
+}>;
+
+
+export type LocationConnectionQuery = { __typename?: 'Query', locationConnection: { __typename?: 'LocationConnection', totalCount: number, edges?: Array<{ __typename?: 'LocationConnectionEdges', node?: { __typename?: 'Location', id: string, name?: string | null | undefined, description?: any | null | undefined, image?: string | null | undefined, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null | undefined } | null | undefined> | null | undefined } };
 
 export const GlobalPartsFragmentDoc = gql`
     fragment GlobalParts on Global {
@@ -813,10 +942,12 @@ export const PagesPartsFragmentDoc = gql`
       }
       headline
       tagline
+      as_banner
     }
     ... on PagesBlocksContent {
       name
       bgColor
+      size_large
       body
     }
     ... on PagesBlocksIntroduction {
@@ -864,8 +995,20 @@ export const PagesPartsFragmentDoc = gql`
       }
     }
     ... on PagesBlocksEvents {
-      subhead
       title
+      location {
+        ... on Location {
+          name
+          description
+          image
+        }
+        ... on Document {
+          id
+        }
+      }
+      stage
+      show_all_link
+      limit
     }
   }
 }
@@ -875,9 +1018,26 @@ export const EventsPartsFragmentDoc = gql`
   title
   start_date
   end_date
-  location
+  location {
+    ... on Location {
+      name
+      description
+      image
+    }
+    ... on Document {
+      id
+    }
+  }
   type
+  external_link
   description
+}
+    `;
+export const LocationPartsFragmentDoc = gql`
+    fragment LocationParts on Location {
+  name
+  description
+  image
 }
     `;
 export const PageQueryDocument = gql`
@@ -1043,6 +1203,54 @@ export const EventsConnectionDocument = gql`
   }
 }
     ${EventsPartsFragmentDoc}`;
+export const LocationDocument = gql`
+    query location($relativePath: String!) {
+  location(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...LocationParts
+  }
+}
+    ${LocationPartsFragmentDoc}`;
+export const LocationConnectionDocument = gql`
+    query locationConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: LocationFilter) {
+  locationConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    totalCount
+    edges {
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...LocationParts
+      }
+    }
+  }
+}
+    ${LocationPartsFragmentDoc}`;
 export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) => Promise<R>
   export function getSdk<C>(requester: Requester<C>) {
     return {
@@ -1072,6 +1280,12 @@ export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) 
       },
     eventsConnection(variables?: EventsConnectionQueryVariables, options?: C): Promise<{data: EventsConnectionQuery, variables: EventsConnectionQueryVariables, query: string}> {
         return requester<{data: EventsConnectionQuery, variables: EventsConnectionQueryVariables, query: string}, EventsConnectionQueryVariables>(EventsConnectionDocument, variables, options);
+      },
+    location(variables: LocationQueryVariables, options?: C): Promise<{data: LocationQuery, variables: LocationQueryVariables, query: string}> {
+        return requester<{data: LocationQuery, variables: LocationQueryVariables, query: string}, LocationQueryVariables>(LocationDocument, variables, options);
+      },
+    locationConnection(variables?: LocationConnectionQueryVariables, options?: C): Promise<{data: LocationConnectionQuery, variables: LocationConnectionQueryVariables, query: string}> {
+        return requester<{data: LocationConnectionQuery, variables: LocationConnectionQueryVariables, query: string}, LocationConnectionQueryVariables>(LocationConnectionDocument, variables, options);
       }
     };
   }

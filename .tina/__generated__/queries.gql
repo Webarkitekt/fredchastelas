@@ -135,3 +135,49 @@ query eventsConnection($before: String, $after: String, $first: Float, $last: Fl
     }
   }
 }
+
+query location($relativePath: String!) {
+  location(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...LocationParts
+  }
+}
+
+query locationConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: LocationFilter) {
+  locationConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    totalCount
+    edges {
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...LocationParts
+      }
+    }
+  }
+}

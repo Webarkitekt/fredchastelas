@@ -5,7 +5,7 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 export const TextAndImage = ({data, parentField}) => {
     return (
         <div className={`${data.bgColor} py-20`}>
-            <div className="max-w-screen-xl mx-auto lg:px-16 ">
+            <div className="max-w-screen-xl mx-auto px-5 lg:px-16 ">
                 <div className={`flex flex-col xl:flex-row justify-items-start relative ${data.image_position === 'right' ? 'xl:flex-row-reverse': ''}`}>
                     {data.image.src &&
                       <div className="xl:w-5/12 relative">
@@ -14,7 +14,7 @@ export const TextAndImage = ({data, parentField}) => {
                             <img src={data.image.src} alt={data.image.alt}/>
                           </div>
                         </div>
-                          {data.showIllustrations ??
+                          {data.showIllustrations &&
                             <div className="absolute z-20 -bottom-12 right-0 hidden lg:block">
                               <svg width="184" height="183" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -63,10 +63,10 @@ export const textAndImageBlockSchema: TinaTemplate = {
         defaultItem: {
             title: "title",
             bgColor: "bg-secondary",
-            showIllustrations: false,
+            showIllustrations: "false",
             body: "",
             image: {
-                src: "http://via.placeholder.com/400x600",
+                src: "http://via.placeholder.com/400x400",
                 alt: ""
             },
             image_position: "left",

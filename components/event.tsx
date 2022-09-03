@@ -29,22 +29,21 @@ export const Event = (data) => {
         date = formattedStartDate;
     }
 
-
     return (
         <>
             {data && (
                 <Link
                     key={data._sys.filename}
-                    href={`/seminaires-et-cours/` + data._sys.filename}
+                    href={data.description.children.length ? `stages-et-cours/` + data._sys.filename : data.external_link ?? ''}
                     passHref
                 >
-                    <a className="lg:w-1/4 flex flex-col">
+                    <a className="lg:w-1/4 flex flex-col" target={data.external_link && `blank`}>
                         <div className="mb-2">
                             <div className="font-serif italic text-primary text-lg">{data.type}</div>
                             <div className="flex font-bold text-xl items-center gap-2 mb-1 pb-1 border-b border-[#9ABECB]">
                                 {date}
                             </div>
-                            <div className="text-primary">{data.location}</div>
+                            <div className="text-primary">{data.location.name}</div>
                         </div>
                         <div className="bg-gray-100 p-4 lg:p-6 flex-grow">
                             <h3 className="font-serif text-xl lg:text-2xl text-gray-800">{data.title}</h3>

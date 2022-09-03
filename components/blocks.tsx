@@ -12,12 +12,18 @@ import {EventsQuery} from "../.tina/__generated__/types";
 import {useTina} from "tinacms/dist/edit-state";
 
 export const Blocks = (props: Pages) => {
-
     return (
         <>
             {props.blocks
                 ? props.blocks.map(function (block, i) {
-                    const nextBlock = i> 0 ? props.blocks[i+1] : null;
+                    const nextBlock = i < props.blocks.length ? props.blocks[i + 1] : null;
+                    let bottomSpacing: string
+
+                    if (nextBlock && (nextBlock.__typename === "PagesBlocksTextAndImage" || nextBlock.__typename === "PagesBlocksContent")) {
+                        bottomSpacing = nextBlock.bgColor === 'bg-secondary' ? "pb-24" : "";
+                    } else if (i + 1 === props.blocks.length) {
+                        bottomSpacing = "mb-24"
+                    }
 
                     switch (block.__typename) {
                         case "PagesBlocksEvents":
@@ -25,6 +31,7 @@ export const Blocks = (props: Pages) => {
                                 <div
                                     data-tinafield={`blocks.${i}`}
                                     key={i + block.__typename}
+
                                 >
                                     <EventsList data={block} parentField={`blocks.${i}`}/>
                                 </div>
@@ -35,6 +42,7 @@ export const Blocks = (props: Pages) => {
                                 <div
                                     data-tinafield={`blocks.${i}`}
                                     key={i + block.__typename}
+                                    className={`${bottomSpacing}`}
                                 >
                                     <Hero data={block} parentField={`blocks.${i}`}/>
                                 </div>
@@ -76,12 +84,6 @@ export const Blocks = (props: Pages) => {
                                 </div>
                             );
                         case "PagesBlocksContent":
-                            let bottomSpacing
-                            if ( nextBlock && (nextBlock.__typename === "PagesBlocksTextAndImage" || nextBlock.__typename === "PagesBlocksContent" )) {
-                                bottomSpacing = nextBlock.bgColor === 'bg-secondary' ? "pb-24" : "";
-                            } else if (i + 1 === props.blocks.length){
-                                bottomSpacing = "pb-24"
-                            }
                             return (
                                 <div
                                     data-tinafield={`blocks.${i}`}
@@ -89,7 +91,7 @@ export const Blocks = (props: Pages) => {
                                 >
                                     <Content data={block} parentField={`blocks.${i}`} className={`${bottomSpacing}`}/>
                                 </div>
-                             );
+                            );
                         default:
                             return null;
                     }

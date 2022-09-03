@@ -54,12 +54,15 @@ type Query {
   pagesConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: PagesFilter): PagesConnection!
   events(relativePath: String): Events!
   eventsConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: EventsFilter): EventsConnection!
+  location(relativePath: String): Location!
+  locationConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: LocationFilter): LocationConnection!
 }
 
 input DocumentFilter {
   global: GlobalFilter
   pages: PagesFilter
   events: EventsFilter
+  location: LocationFilter
 }
 
 type DocumentConnectionEdges {
@@ -85,7 +88,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float, sort: String, filter: DocumentFilter): DocumentConnection!
 }
 
-union DocumentNode = Global | Pages | Events
+union DocumentNode = Global | Pages | Events | Location
 
 type GlobalHeaderNav {
   href: String
@@ -143,11 +146,13 @@ type PagesBlocksHero {
   image: PagesBlocksHeroImage
   headline: String
   tagline: String
+  as_banner: Boolean
 }
 
 type PagesBlocksContent {
   name: String
   bgColor: String
+  size_large: Boolean
   body: JSON
 }
 
@@ -204,9 +209,14 @@ type PagesBlocksTestimonials {
   testimonial: [PagesBlocksTestimonialsTestimonial]
 }
 
+union PagesBlocksEventsLocation = Location
+
 type PagesBlocksEvents {
-  subhead: String
   title: String
+  location: PagesBlocksEventsLocation
+  stage: Boolean
+  show_all_link: Boolean
+  limit: Float
 }
 
 union PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage | PagesBlocksTestimonials | PagesBlocksEvents
@@ -230,10 +240,16 @@ input PagesBlocksHeroImageFilter {
   alt: StringFilter
 }
 
+input BooleanFilter {
+  eq: Boolean
+  exists: Boolean
+}
+
 input PagesBlocksHeroFilter {
   image: PagesBlocksHeroImageFilter
   headline: StringFilter
   tagline: StringFilter
+  as_banner: BooleanFilter
 }
 
 input RichTextFilter {
@@ -245,6 +261,7 @@ input RichTextFilter {
 input PagesBlocksContentFilter {
   name: StringFilter
   bgColor: StringFilter
+  size_large: BooleanFilter
   body: RichTextFilter
 }
 
@@ -268,11 +285,6 @@ input PagesBlocksFeatureFilter {
   subhead: StringFilter
   title: StringFilter
   link: PagesBlocksFeatureLinkFilter
-}
-
-input BooleanFilter {
-  eq: Boolean
-  exists: Boolean
 }
 
 input PagesBlocksTextAndImageImageFilter {
@@ -306,9 +318,26 @@ input PagesBlocksTestimonialsFilter {
   testimonial: PagesBlocksTestimonialsTestimonialFilter
 }
 
+input PagesBlocksEventsLocationFilter {
+  location: LocationFilter
+}
+
+input NumberFilter {
+  lt: Float
+  lte: Float
+  gte: Float
+  gt: Float
+  eq: Float
+  exists: Boolean
+  in: [Float]
+}
+
 input PagesBlocksEventsFilter {
-  subhead: StringFilter
   title: StringFilter
+  location: PagesBlocksEventsLocationFilter
+  stage: BooleanFilter
+  show_all_link: BooleanFilter
+  limit: NumberFilter
 }
 
 input PagesBlocksFilter {
@@ -336,12 +365,15 @@ type PagesConnection implements Connection {
   edges: [PagesConnectionEdges]
 }
 
+union EventsLocation = Location
+
 type Events implements Node & Document {
   title: String
   start_date: String
   end_date: String
-  location: String
+  location: EventsLocation
   type: String
+  external_link: String
   description: JSON
   id: ID!
   _sys: SystemInfo!
@@ -356,12 +388,17 @@ input DatetimeFilter {
   in: [String]
 }
 
+input EventsLocationFilter {
+  location: LocationFilter
+}
+
 input EventsFilter {
   title: StringFilter
   start_date: DatetimeFilter
   end_date: DatetimeFilter
-  location: StringFilter
+  location: EventsLocationFilter
   type: StringFilter
+  external_link: StringFilter
   description: RichTextFilter
 }
 
@@ -376,6 +413,32 @@ type EventsConnection implements Connection {
   edges: [EventsConnectionEdges]
 }
 
+type Location implements Node & Document {
+  name: String
+  description: JSON
+  image: String
+  id: ID!
+  _sys: SystemInfo!
+  _values: JSON!
+}
+
+input LocationFilter {
+  name: StringFilter
+  description: RichTextFilter
+  image: ImageFilter
+}
+
+type LocationConnectionEdges {
+  cursor: String!
+  node: Location
+}
+
+type LocationConnection implements Connection {
+  pageInfo: PageInfo!
+  totalCount: Float!
+  edges: [LocationConnectionEdges]
+}
+
 type Mutation {
   addPendingDocument(collection: String!, relativePath: String!, template: String): DocumentNode!
   updateDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
@@ -387,12 +450,15 @@ type Mutation {
   createPages(relativePath: String!, params: PagesMutation!): Pages!
   updateEvents(relativePath: String!, params: EventsMutation!): Events!
   createEvents(relativePath: String!, params: EventsMutation!): Events!
+  updateLocation(relativePath: String!, params: LocationMutation!): Location!
+  createLocation(relativePath: String!, params: LocationMutation!): Location!
 }
 
 input DocumentMutation {
   global: GlobalMutation
   pages: PagesMutation
   events: EventsMutation
+  location: LocationMutation
 }
 
 input GlobalHeaderNavMutation {
@@ -417,11 +483,13 @@ input PagesBlocksHeroMutation {
   image: PagesBlocksHeroImageMutation
   headline: String
   tagline: String
+  as_banner: Boolean
 }
 
 input PagesBlocksContentMutation {
   name: String
   bgColor: String
+  size_large: Boolean
   body: JSON
 }
 
@@ -479,8 +547,11 @@ input PagesBlocksTestimonialsMutation {
 }
 
 input PagesBlocksEventsMutation {
-  subhead: String
   title: String
+  location: String
+  stage: Boolean
+  show_all_link: Boolean
+  limit: Float
 }
 
 input PagesBlocksMutation {
@@ -503,7 +574,14 @@ input EventsMutation {
   end_date: String
   location: String
   type: String
+  external_link: String
   description: JSON
+}
+
+input LocationMutation {
+  name: String
+  description: JSON
+  image: String
 }
 
 schema {

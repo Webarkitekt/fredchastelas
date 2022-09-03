@@ -110,17 +110,16 @@ const schema = defineSchema({
                             name: "events",
                             label: "Events",
                             ui: {
+                                itemProps: (item) => {
+                                    return { label: item?.title };
+                                },
                                 previewSrc: "/blocks/events.png",
                                 defaultItem: {
                                     title: "Title",
+                                    limit: 0
                                 }
                             },
                             fields: [
-                                {
-                                    type: "string",
-                                    label: "Subhead",
-                                    name: "subhead",
-                                },
                                 {
                                     type: "string",
                                     label: "Title",
@@ -129,6 +128,33 @@ const schema = defineSchema({
                                         component: "textarea"
                                     }
                                 },
+                                {
+                                    type: "reference",
+                                    label: "Lieu",
+                                    name: "location",
+                                    collections: ["location"],
+                                },
+                                {
+                                    type: "boolean",
+                                    label: "Stages",
+                                    name: "stage",
+                                    ui: {
+                                        component: "toggle"
+                                    }
+                                },
+                                {
+                                    type: "boolean",
+                                    label: "Afficher le lien vers tous les évènements",
+                                    name: "show_all_link",
+                                    ui: {
+                                        component: "toggle"
+                                    }
+                                },
+                                {
+                                    type: "number",
+                                    label: "Nombre d'évènements à afficher (0 = tous)",
+                                    name: "limit"
+                                }
                                 /*{
                                     type: "object",
                                     list: true,
@@ -149,7 +175,7 @@ const schema = defineSchema({
             ],
         },
         {
-            label: "Stages",
+            label: "Stages et Cours",
             name: "events",
             path: "content/events",
             fields: [
@@ -163,8 +189,7 @@ const schema = defineSchema({
                     name: "start_date",
                     label: "Date de début",
                     ui: {
-                        dateFormat: "DD MMMM YYYY",
-                        timeFormat: "hh:mm",
+                        dateFormat: "DD MMMM YYYY"
                     }
                 },
                 {
@@ -172,28 +197,61 @@ const schema = defineSchema({
                     name: "end_date",
                     label: "Date de fin",
                     ui: {
-                        dateFormat: "DD MMMM YYYY",
-                        timeFormat: "hh:mm",
+                        dateFormat: "DD MMMM YYYY"
                     }
                 },
                 {
-                    type: "string",
-                    name: "location",
                     label: "Lieu",
+                    name: "location",
+                    type: "reference",
+                    collections: ["location"],
                 },
                 {
                     type: "string",
                     name: "type",
                     label: "Type d'événement",
                 },
+                // {
+                //     type: "boolean",
+                //     name: "stage",
+                //     label: "Stage",
+                //     ui: {
+                //         component: "toggle"
+                //     }
+                // },
+                {
+                    type: "string",
+                    name: "external_link",
+                    label: "Lien externe"
+                },
                 {
                     type: "rich-text",
                     name: "description",
                     label: "Description",
-                }
-
+                },
             ],
         },
+        {
+            label: "Lieu",
+            name: "location",
+            path: "content/locations",
+            fields: [
+                {
+                    label: "Nom",
+                    name: "name",
+                    type: "string",
+                },
+                {
+                    label: "Description",
+                    name: "description",
+                    type: "rich-text"
+                },
+                {
+                    label: "Image",
+                    name: "image",
+                    type: "image"
+                }]
+        }
     ],
 });
 
