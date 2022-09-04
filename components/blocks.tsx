@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import type {Pages} from "../.tina/__generated__/types";
+import type {PagesBlocks} from "../.tina/__generated__/types";
 import {Hero} from "./blocks/hero";
 import {Introduction} from "./blocks/introduction";
 import {Feature} from "./blocks/feature";
@@ -11,17 +11,17 @@ import {client} from "../.tina/client";
 import {EventsQuery} from "../.tina/__generated__/types";
 import {useTina} from "tinacms/dist/edit-state";
 
-export const Blocks = (props: Pages) => {
+export const Blocks = ({blocks}: {blocks:PagesBlocks[]}) => {
     return (
         <>
-            {props.blocks
-                ? props.blocks.map(function (block, i) {
-                    const nextBlock = i < props.blocks.length ? props.blocks[i + 1] : null;
+            {blocks
+                ? blocks.map(function (block, i) {
+                    const nextBlock = i < blocks.length ? blocks[i + 1] : null;
                     let bottomSpacing: string
 
                     if (nextBlock && (nextBlock.__typename === "PagesBlocksTextAndImage" || nextBlock.__typename === "PagesBlocksContent")) {
                         bottomSpacing = nextBlock.bgColor === 'bg-secondary' ? "pb-24" : "";
-                    } else if (i + 1 === props.blocks.length) {
+                    } else if (i + 1 === blocks.length) {
                         bottomSpacing = "mb-24"
                     }
 

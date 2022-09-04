@@ -57,6 +57,22 @@ const schema = defineSchema({
             fields: [
                 {
                     type: "object",
+                    name: "seo",
+                    label: "SEO Information",
+                    fields: [
+                        { type: "string", label: "Title", name: "title" },
+                        {
+                            type: "string",
+                            label: " Description",
+                            name: "description",
+                            ui: {
+                                component: "textarea",
+                            },
+                        },
+                    ],
+                },
+                {
+                    type: "object",
                     list: true,
                     name: "blocks",
                     label: "Page sections",

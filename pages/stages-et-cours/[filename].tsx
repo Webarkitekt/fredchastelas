@@ -2,7 +2,6 @@ import {staticRequest} from "tinacms";
 import {useTina} from "tinacms/dist/edit-state";
 import {Layout} from "../../components/layout";
 import {Hero} from "../../components/blocks/hero";
-import {AsyncReturnType} from "../[filename]";
 import {Content} from "../../components/blocks/content";
 import format from "date-fns/format";
 import {fr} from "date-fns/locale";
@@ -24,9 +23,7 @@ const query = `query getEvent($relativePath: String!) {
 `;
 
 // Use the props returned by get static props
-export default function EventsPage(
-    props: AsyncReturnType<typeof getStaticProps>["props"]
-) {
+export default function EventsPage(props) {
     const {data} = useTina({
         query: props.query,
         variables: props.variables,

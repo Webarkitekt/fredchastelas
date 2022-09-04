@@ -3,9 +3,7 @@ import { useTina } from "tinacms/dist/edit-state";
 import { Layout } from "../components/layout";
 import { client } from '../.tina/__generated__/client'
 
-export default function HomePage(
-    props: AsyncReturnType<typeof getStaticProps>["props"]
-) {
+export default function HomePage(props) {
     const { data } = useTina({
         query: props.query,
         variables: props.variables,
@@ -44,5 +42,3 @@ export const getStaticPaths = async () => {
         fallback: false,
     };
 };
-export type AsyncReturnType<T extends (...args: any) => Promise<any>> =
-    T extends (...args: any) => Promise<infer R> ? R : any;

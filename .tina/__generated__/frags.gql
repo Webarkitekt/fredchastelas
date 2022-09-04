@@ -10,6 +10,11 @@ fragment GlobalParts on Global {
 }
 
 fragment PagesParts on Pages {
+  seo {
+    __typename
+    title
+    description
+  }
   blocks {
     __typename
     ... on PagesBlocksHero {
