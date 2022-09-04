@@ -137,11 +137,6 @@ type GlobalConnection implements Connection {
   edges: [GlobalConnectionEdges]
 }
 
-type PagesSeo {
-  title: String
-  description: String
-}
-
 type PagesBlocksHeroImage {
   src: String
   alt: String
@@ -227,16 +222,10 @@ type PagesBlocksEvents {
 union PagesBlocks = PagesBlocksHero | PagesBlocksContent | PagesBlocksIntroduction | PagesBlocksFeature | PagesBlocksTextAndImage | PagesBlocksTestimonials | PagesBlocksEvents
 
 type Pages implements Node & Document {
-  seo: PagesSeo
   blocks: [PagesBlocks]
   id: ID!
   _sys: SystemInfo!
   _values: JSON!
-}
-
-input PagesSeoFilter {
-  title: StringFilter
-  description: StringFilter
 }
 
 input ImageFilter {
@@ -362,7 +351,6 @@ input PagesBlocksFilter {
 }
 
 input PagesFilter {
-  seo: PagesSeoFilter
   blocks: PagesBlocksFilter
 }
 
@@ -486,11 +474,6 @@ input GlobalMutation {
   header: GlobalHeaderMutation
 }
 
-input PagesSeoMutation {
-  title: String
-  description: String
-}
-
 input PagesBlocksHeroImageMutation {
   src: String
   alt: String
@@ -582,7 +565,6 @@ input PagesBlocksMutation {
 }
 
 input PagesMutation {
-  seo: PagesSeoMutation
   blocks: [PagesBlocksMutation]
 }
 
