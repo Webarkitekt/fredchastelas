@@ -13,7 +13,7 @@ blocks:
   - name: Cours
     bgColor: white
     size_large: true
-    body: "## Cours\n\n### Programme des Cours collectifs\n\n**En présentiel\_:**\n\n*   à la salle zen à Montpellier un jeudi par mois (me contacter)\n*   à Juvignac avec l’association Yoga et bien-être Juvignac (me contacter)\n\n**En visioconférence\_:**\n\n*   Matinée méditation par zoom un dimanche par mois \\\n    (inscrivez vous à mon infolettre pour recevoir chaque mois le lien zoom automatiquement)\n\n### Cours particuliers\_\n\ncours particuliers de méditation à domicile ou en visioconférence\_\n\n### **Tarif horaire : 50€**\n"
+    body: "## Cours\n\n### Programme des Cours collectifs\n\n**En visioconférence\_:**\n\n* Matinée méditation par **zoom** un dimanche par mois\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n### **Tarif horaire : 50€**\n\n"
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
