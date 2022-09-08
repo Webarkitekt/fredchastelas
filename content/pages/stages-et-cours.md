@@ -13,7 +13,7 @@ blocks:
   - name: Cours
     bgColor: white
     size_large: true
-    body: "## Cours\n\n### Programme des Cours collectifs\n\n**En visioconférence\_:**\n\n* Matinée méditation par **zoom** un dimanche par mois\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n### **Tarif horaire : 50€**\n\n"
+    body: "## Cours\n\n### Cours collectifs en visioconférence\n\nMatinée méditation par **zoom** un dimanche par mois\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n### **Tarif horaire : 50€**\n\n"
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
