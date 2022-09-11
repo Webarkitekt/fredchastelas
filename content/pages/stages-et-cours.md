@@ -1,4 +1,7 @@
 ---
+seo:
+  title: Découvrez mes stages et cours de régulation émotionnelle
+  description: Je vous propose des stages et des cours dans des lieux exceptionnels.
 blocks:
   - headline: Stages et cours
     tagline: Participez à nos prochains évènements
@@ -13,7 +16,7 @@ blocks:
   - name: Cours
     bgColor: white
     size_large: true
-    body: "## Cours\n\n### Programme des Cours collectifs\n\n**En visioconférence\_:**\n\n* Matinée méditation par **zoom** un dimanche par mois\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n### **Tarif horaire : 50€**\n\n"
+    body: "## Cours\n\n### Programme des Cours collectifs\n\n**En visioconférence\_:**\n\n* Matinée méditation par **zoom** un dimanche par mois\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n### **Tarif horaire : 50€**\n"
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
@@ -38,5 +41,62 @@ blocks:
       label: Read more
       url: ''
     _template: textAndImage
+  - title: Témoignages
+    testimonial:
+      - type: Stage "l'acceptation de soi"
+        author: Sylvie
+        text: >-
+          Un super weekend sur l’acceptation de soi : révélateur, salvateur.
+          Très enrichissant et bien animé entre exercices, enseignements et
+          méditation. De belles rencontres. Merci !!
+      - type: Stage
+        author: Evelyne
+        text: >-
+          Première venue à ce type d’évènement. Je suis enchantée du fond comme
+          de la forme ! J’entrouvre une porte… que de perspectives !! Merci
+          beaucoup!
+      - type: Stage "l'acceptation de soi"
+        author: Frédéric
+        text: Super weekend ! On voudrait facilement faire un mois sur ce sujet !
+      - type: Stage
+        author: Nicole
+        text: >
+          Le formateur Frederic, nous apporte avec sa quiétude et sa douceur
+          dans ses propos ,une paix intérieure et un apaisement mental. Merci
+          pour la méthodologie qui permet doucement d'arriver à trouver son
+          propre chemin. Merci pour les explications de la méditation.
+
+          J'ai vraiment appris durant cette formation sur l’acceptation MERCI.
+      - type: stage "l’acceptation de soi"
+        author: Nathalie
+        text: >-
+          Weekend très enrichissant. Concepts profonds et très spirituels. Je
+          repars avec une meilleure  compréhension de mon être et certains
+          points comme la différence entre émotions et ressentis sont beaucoup
+          plus clairs à présent. J’ai également pu avoir une belle prise de
+          conscience grâce à l’exercice du pardon. Gratitude !
+      - type: stage "surmonter l'ego"
+        author: Joelle
+        text: >-
+          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
+          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
+          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
+      - type: Stage
+        author: Clara
+        text: >-
+          Merci à Frédéric pour sa qualité de transmission et son écoute
+          bienveillante donnant à ses évènements une dimension hautement
+          favorable à la transformation spirituelle et au partage humain. Se
+          libérer de l'égo est plus complexe qu'il n'y paraît mais grâce à ce
+          week-end ancré dans l'acceptation de soi et l'ouverture aux autres,
+          notre nature profonde s'est déjà un peu révélée alors merci.
+      - type: Conférence
+        author: Mathieu
+        text: >-
+          Conférence passionnante sur comment repérer son ego et s’en défaire ,
+          conférencier didactique , bienveillant et passionné , je recommande.
+          Cette conférence est primordiale pour retrouver un peu de sérénité en
+          soi dans ce monde complexe
+    _template: testimonials
 ---
 

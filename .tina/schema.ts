@@ -29,12 +29,12 @@ const schema = defineSchema({
                     fields: [
                         {
                             type: "object",
-                            label: "Nav Links",
+                            label: "Liens",
                             name: "nav",
                             list: true,
                             ui: {
                                 itemProps: (item) => {
-                                    return { label: item?.label };
+                                    return {label: item?.label};
                                 },
                                 defaultItem: {
                                     href: "home",
@@ -44,7 +44,7 @@ const schema = defineSchema({
                             fields: [
                                 {
                                     type: "string",
-                                    label: "Link",
+                                    label: "Lien (relatif)",
                                     name: "href",
                                 },
                                 {
@@ -55,6 +55,61 @@ const schema = defineSchema({
                             ],
                         },
                     ],
+                }, {
+                    type: "object",
+                    label: "Footer",
+                    name: "footer",
+                    fields: [
+                        {
+                            type: "object",
+                            label: "Liens",
+                            name: "links",
+                            list: true,
+                            ui: {
+                                itemProps: (item) => {
+                                    return {label: item?.label};
+                                },
+                                defaultItem: {
+                                    href: "/lien",
+                                    label: "Label",
+                                },
+                            },
+                            fields: [
+                                {
+                                    type: "string",
+                                    label: "Lien",
+                                    name: "href",
+                                },
+                                {
+                                    type: "string",
+                                    label: "Label",
+                                    name: "label",
+                                },
+                            ],
+                        },
+                        {
+                            type: "object",
+                            label: "Réseaux sociaux",
+                            name: "social_links",
+                            fields: [
+                                {
+                                    type: "string",
+                                    label: "Lien vers le profil facebook",
+                                    name: "facebook_href",
+                                },
+                                {
+                                    type: "string",
+                                    label: "Lien vers le profil twitter",
+                                    name: "twitter_href",
+                                },
+                                {
+                                    type: "string",
+                                    label: "Lien vers le profil instagram",
+                                    name: "instagram_href",
+                                },
+                            ],
+                        }
+                    ],
                 },
             ],
         },
@@ -63,6 +118,22 @@ const schema = defineSchema({
             name: "pages",
             path: "content/pages",
             fields: [
+                {
+                    type: "object",
+                    name: "seo",
+                    label: "SEO Information",
+                    fields: [
+                        { type: "string", label: "Title", name: "title" },
+                        {
+                            type: "string",
+                            label: " Description",
+                            name: "description",
+                            ui: {
+                                component: "textarea",
+                            },
+                        },
+                    ],
+                },
                 {
                     type: "object",
                     list: true,
@@ -77,9 +148,6 @@ const schema = defineSchema({
                         {
                             name: "testimonials",
                             label: "Témoignages",
-                            ui: {
-                                previewSrc: "/blocks/testimonials.png",
-                            },
                             fields: [
                                 {
                                     type: 'string',
@@ -91,6 +159,12 @@ const schema = defineSchema({
                                     label: 'Témoignage',
                                     name: 'testimonial',
                                     list: true,
+                                    ui: {
+                                        itemProps: (item) => {
+                                            return {label: item?.author};
+                                        },
+                                        previewSrc: "/blocks/testimonials.png",
+                                    },
                                     fields: [
                                         {
                                             type: "string",
@@ -119,7 +193,7 @@ const schema = defineSchema({
                             label: "Events",
                             ui: {
                                 itemProps: (item) => {
-                                    return { label: item?.title };
+                                    return {label: item?.title};
                                 },
                                 previewSrc: "/blocks/events.png",
                                 defaultItem: {

@@ -4,14 +4,15 @@
   "scripts": {
     "dev": "yarn tinacms server:start -c \"next dev\" --noTelemetry",
     "dev-data": "yarn tinacms server:start -c \"next dev\" --experimentalData --noTelemetry",
-    "build": "tinacms server:start -c \"next build\"",
-    "start": "tinacms server:start -c \"next start\"",
+    "build": "tinacms server:start -c \"next build\" --experimentalData",
+    "start": "tinacms server:start -c \"next start\" --experimentalData",
     "export": "yarn build && next export"
   },
   "dependencies": {
     "@tinacms/auth": "^0.50.4",
     "autoprefixer": "^10.4.7",
     "next": "12.1.6",
+    "next-seo": "^5.5.0",
     "next-svgr": "^0.0.2",
     "next-tinacms-cloudinary": "^3.5.23",
     "postcss": "^8.4.14",

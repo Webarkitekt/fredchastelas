@@ -2,21 +2,19 @@ import { Blocks } from "../components/blocks";
 import { useTina } from "tinacms/dist/edit-state";
 import { Layout } from "../components/layout";
 import { client } from '../.tina/client'
+import { BlocksPage } from '../components/blocks/blocksPage';
 
 export default function HomePage(props) {
-    const { data } = useTina({
+    const tinaData = useTina({
         query: props.query,
         variables: props.variables,
         data: props.data,
     });
 
+    const data = tinaData.data
+
     if (data && data.pages){
-        // @ts-ignore
-        return (
-            <Layout rawData={data}>
-                <Blocks id={""} _sys={undefined} _values={undefined} {...data.pages} />
-            </Layout>
-        );
+        return <BlocksPage data={data.pages} />
     }
 }
 

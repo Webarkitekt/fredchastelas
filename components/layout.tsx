@@ -1,5 +1,6 @@
 import React from "react";
-import Head from 'next/head'
+import { DefaultSeo } from 'next-seo'
+import { useRouter } from 'next/router'
 import {Header} from "./header";
 import {Footer} from "./footer";
 import layoutData from "../content/global/index.json";
@@ -9,16 +10,17 @@ export const Layout = ({
                            data = layoutData as any,
                            children,
                        }) => {
+    const router = useRouter()
     return (
         <div>
-            <Head>
-                <title>Frédéric Chastelas - Régulation émotionnelle TIPI, cours et stages de méditation</title>
-                <meta property="og:title" content="Frédéric Chastelas - Régulation émotionnelle TIPI, cours et stages de méditation" key="title" />
-                <link rel="shortcut icon" href="/favicon.ico"/>
-            </Head>
+            <DefaultSeo
+                openGraph={{
+                    url: 'https://fredericchastelas.com' + router.asPath,
+                }}
+            />
             <Header data={data?.header}/>
             <main>{children}</main>
-            <Footer data={data?.header}/>
+            <Footer data={data?.footer}/>
         </div>
     )
 }

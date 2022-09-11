@@ -8,6 +8,7 @@ import sub from 'date-fns/sub';
 import {useEffect, useState} from "react";
 import * as React from "react";
 import {TinaMarkdown} from "tinacms/dist/rich-text";
+import LinkArrowRight from "../../public/link-arrow-right.svg";
 
 
 export const EventsList = ({data: data, parentField = ""}) => {
@@ -63,11 +64,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
                               passHref>
                             <a className="text-interaction-default flex items-center">
                                 Voir tous
-                                <svg width="37" height="36" viewBox="0 0 37 36" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9 17.8969H27.5101M27.5101 17.8969L23.4938 14M27.5101 17.8969L23.4938 21.7938"
-                                          stroke="#FF922D" stroke-width="1.5" stroke-linecap="square"></path>
-                                </svg>
+                                <LinkArrowRight/>
                             </a>
                         </Link>
                     )}
