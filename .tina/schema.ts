@@ -5,6 +5,7 @@ import {contentBlockSchema} from "../components/blocks/content";
 import {introductionBlockSchema} from "../components/blocks/introduction";
 import {featureBlockSchema} from "../components/blocks/feature";
 import {textAndImageBlockSchema} from "../components/blocks/text-and-image";
+import {newsletterBlockSchema} from "../components/blocks/newsletter";
 
 const schema = defineSchema({
     config: {
@@ -145,6 +146,7 @@ const schema = defineSchema({
                         introductionBlockSchema,
                         featureBlockSchema,
                         textAndImageBlockSchema,
+                        newsletterBlockSchema,
                         {
                             name: "testimonials",
                             label: "Témoignages",

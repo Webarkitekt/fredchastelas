@@ -16,7 +16,7 @@ export const Testimonials = ({data, parentField}) => {
 
     return (
         <Section>
-            <Container className={'px-5 pt-24 lg:pt-48 max-w-screen-xl lg:mx-auto'}>
+            <Container className={'px-5 pt-24 lg:py-32 max-w-screen-xl lg:mx-auto'}>
                 <div className="max-w-2xl bg-gray-100 p-8 lg:p-28 mx-auto mb-20">
                     <h2 className="font-serif text-4xl lg:text-5xl text-gray-800 pb-12">{data.title}</h2>
                     <Swiper

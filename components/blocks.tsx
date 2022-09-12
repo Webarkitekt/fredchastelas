@@ -7,9 +7,7 @@ import {TextAndImage} from "./blocks/text-and-image";
 import {Content} from "./blocks/content";
 import {EventsList} from "./blocks/eventsList";
 import {Testimonials} from "./blocks/testimonials";
-import {client} from "../.tina/client";
-import {EventsQuery} from "../.tina/__generated__/types";
-import {useTina} from "tinacms/dist/edit-state";
+import {NewsletterBlock} from "./blocks/newsletter";
 
 export const Blocks = ({blocks}: {blocks:PagesBlocks[]}) => {
     return (
@@ -90,6 +88,15 @@ export const Blocks = ({blocks}: {blocks:PagesBlocks[]}) => {
                                     key={i + block.__typename}
                                 >
                                     <Content data={block} parentField={`blocks.${i}`} className={`${bottomSpacing}`}/>
+                                </div>
+                            );
+                        case "PagesBlocksNewsletter":
+                            return (
+                                <div
+                                    data-tinafield={`blocks.${i}`}
+                                    key={i + block.__typename}
+                                >
+                                    <NewsletterBlock data={block} parentField={`blocks.${i}`} className={`${bottomSpacing}`}></NewsletterBlock>
                                 </div>
                             );
                         default:

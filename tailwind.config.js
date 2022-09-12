@@ -44,6 +44,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography')({
       className: 'richtext'
-    })
+    }),
+    require('@tailwindcss/forms')
   ],
 }
