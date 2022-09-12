@@ -1,15 +1,13 @@
 ---
 seo:
   title: Régulation émotionnelle TIPI
-  description: >-
-    Le principe de la régulation émotionnelle est simple mais profond: toute
-    émotion désagréable a une origine précise
+  description: Libérez vous de vos émotions envahissantes
 blocks:
   - image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1657319489/Hero2_qi3q8b.jpg
     headline: Régulation émotionnelle TIPI
-    tagline: Libérez vous de vos émotions pertubatrices
+    tagline: Libérez vous de vos émotions envahissantes
     _template: hero
   - name: Description
     body: >
@@ -68,9 +66,8 @@ blocks:
     _template: content
   - name: Dans quels cas
     bgColor: bg-secondary
-    body: |+
+    body: |
       ## Dans quels cas faire appel à la régulation émotionnelle ?
-
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
