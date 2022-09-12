@@ -35,6 +35,8 @@ blocks:
     show_all_link: true
     limit: 4
     _template: events
+  - style: default
+    _template: newsletter
   - title: Témoignages
     testimonial:
       - type: Régulation TIPI
