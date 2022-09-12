@@ -31,8 +31,6 @@ blocks:
       label: En savoir plus
       url: /regulation-emotionnelle-tipi
     _template: feature
-  - style: default
-    _template: newsletter
   - title: Stages et cours
     show_all_link: true
     limit: 4
