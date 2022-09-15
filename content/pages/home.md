@@ -45,7 +45,7 @@ blocks:
           seulement quelques séances. Frédéric est un formateur expérimenté, qui
           de part son écoute attentive, répond à toutes les interrogations.
           Depuis la formation, j’utilise la régulation émotionnelle
-          régulièrement et les bienfaits sont flagrants!
+          régulièrement et les bienfaits sont flagrants !
       - type: Séminaire
         author: Sara
         text: >-
