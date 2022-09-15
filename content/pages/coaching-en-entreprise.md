@@ -6,7 +6,7 @@ blocks:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1659388750/coaching-en-entreprise_tdn01j.jpg
       alt: Coaching en entreprise
-    headline: Coaching en entreprises
+    headline: Coaching en entreprise
     tagline: Formations et stages
     _template: hero
   - name: Formation
