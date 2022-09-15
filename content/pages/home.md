@@ -4,7 +4,7 @@ blocks:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1657315958/Hero_k3xwov.jpg
     headline: Vivre pleinement
-    tagline: 'Libérer nos émotions, bousculer nos croyances'
+    tagline: 'Libérez vos émotions, bousculez vos croyances'
     _template: hero
   - title: Ma démarche
     text: >-
