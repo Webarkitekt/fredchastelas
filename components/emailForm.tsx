@@ -61,7 +61,7 @@ export const EmailForm = () => {
                         </form>
                         <p className="mt-3 text-sm text-gray-500">
                             Nous nous soucions de la protection de vos données. Lire notre {' '}
-                            <a href="#" className="font-medium text-interaction-default underline">
+                            <a href="/politique-de-confidentialite" className="font-medium text-interaction-default underline">
                                 Politique de confidentialité
                             </a>
                         </p>

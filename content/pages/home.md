@@ -35,6 +35,8 @@ blocks:
     show_all_link: true
     limit: 4
     _template: events
+  - style: default
+    _template: newsletter
   - title: Témoignages
     testimonial:
       - type: Régulation TIPI
@@ -45,7 +47,7 @@ blocks:
           seulement quelques séances. Frédéric est un formateur expérimenté, qui
           de part son écoute attentive, répond à toutes les interrogations.
           Depuis la formation, j’utilise la régulation émotionnelle
-          régulièrement et les bienfaits sont flagrants !
+          régulièrement et les bienfaits sont flagrants!
       - type: Séminaire
         author: Sara
         text: >-
@@ -78,8 +80,8 @@ blocks:
           Le formateur Frederic, nous apporte avec sa quiétude et sa douceur
           dans ses propos ,une paix intérieure et un apaisement mental. Merci
           pour la méthodologie qui permet doucement d'arriver à trouver son
-          propre chemin. Merci pour les explications de la méditation.
-          J'ai vraiment appris durant cette formation sur l’acceptation MERCI.
+          propre chemin. Merci pour les explications de la méditation. J'ai
+          vraiment appris durant cette formation sur l’acceptation MERCI.
       - type: stage "l’acceptation de soi"
         author: Nathalie
         text: >-
