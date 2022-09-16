@@ -12,7 +12,7 @@ blocks:
   - name: Description
     body: >+
       À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
-      notre corps posséde naturellement la
+      notre corps possède naturellement la
 
       **capacité de réguler définitivement nos émotions**! En effet, en
       acquérant un savoir faire simple, chacun
@@ -22,7 +22,7 @@ blocks:
       **régulation émotionnelle nommé Tipi** (Technique d’Identification
       sensorielle
 
-      des Peurs Inconscientes) » est totalement naturel et peut être pratiqué
+      des Peurs Inconscientes) est totalement naturel et peut être pratiqué
       **en accompagnement ou en
 
       autonomie**, quel que soit notre âge.
@@ -34,7 +34,7 @@ blocks:
       émotionnelle**. Leurs difficultés émotionnelles ont disparu et ils ont
       enfin pu commencer à vivre leur vie
 
-      tel qu’ils la souhaitaient.
+      telle qu’ils la souhaitaient.
 
 
       Le principe de la régulation émotionnelle est simple mais profond: toute
@@ -43,9 +43,9 @@ blocks:
       origine précise : un événement que nous avons vécu, un incident qui
       s’est produit, un instant où tout a
 
-      basculé... Si nous** revivons l'empreinte sensorielle traumatique**
-      associée à cet événement en faisant appel à notre** ressenti
-      physique**, alors **notre émotion envahissante est désamorcée**, et
+      basculé... Si nous\*\* revivons l'empreinte sensorielle traumatique\*\*
+      associée à cet événement en faisant appel à notre\*\* ressenti
+      physique\*\*, alors **notre émotion envahissante est désamorcée**, et
 
       ce, **définitivement**.
 
@@ -71,7 +71,7 @@ blocks:
   - showIllustrations: false
     bgColor: bg-secondary
     title: Phobies
-    body: "### La phobie, c’est tout simplement de la peur:\n\n* La claustrophobie : peur d’être enfermé dans un espace clos et étroit.\t\t\t\t\t&#x9;\n* L’agoraphobie : peur d’être seul ou dans un endroit d’où l’on ne pourrait s’échapper\n  aisément ni être secouru si l’on venait à être défaillant (la foule, les grands espaces sont\n  les exemples les plus courants).\t\t\t\t&#x9;\n* La phobie des transports : peur de prendre l’avion, le train, le bateau ou la voiture, peur\n  de conduire, peur de la vitesse, de prendre le métro...\n* Les phobies du vide, du noir, de l’eau, peur de tomber dans le vide ou d’être aspiré versle bas en nageant, la peur du feu...\n* Les phobies animalières : peur des insectes et araignées, des reptiles, des rongeurs...\n* Les phobies comportementales : peur du contact corporel, d’être souillé ou contaminé, de vomir, de saigner, de s’évanouir, de manger certains aliments...\n* Les phobies sociales, scolaires : peur d’être jugé ou observé par les autres > voir les inhibitions.\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "### La phobie, c’est tout simplement de la peur:\n\n* La claustrophobie : peur d’être enfermé dans un espace clos et étroit.\t\t\t\t\t&#x9;\n* L’agoraphobie : peur d’être seul ou dans un endroit d’où l’on ne pourrait s’échapper\n  aisément ni être secouru si l’on venait à être défaillant (la foule, les grands espaces sont\n  les exemples les plus courants).\t\t\t\t&#x9;\n* La phobie des transports : peur de prendre l’avion, le train, le bateau ou la voiture, peur\n  de conduire, peur de la vitesse, de prendre le métro...\n* Les phobies du vide, du noir, de l’eau, peur de tomber dans le vide ou d’être aspiré vers le bas en nageant, la peur du feu...\n* Les phobies animalières : peur des insectes et araignées, des reptiles, des rongeurs...\n* Les phobies comportementales : peur du contact corporel, d’être souillé ou contaminé, de vomir, de saigner, de s’évanouir, de manger certains aliments...\n* Les phobies sociales, scolaires : peur d’être jugé ou observé par les autres > voir les inhibitions.\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1654333945/michael-shannon-mE6zS5LwScM-unsplash_swo4se.jpg
@@ -196,7 +196,7 @@ blocks:
     body: "## Les séances d'accompagnement\n\nLes séances d’accompagnement de régulation émotionnelle permettent d’être accompagné dans le traitement d’une ou plusieurs émotions récurrentes. Lors d’une séance, vous serez accompagné pour **revivre sensoriellement une situation qui génère une réaction émotionnelle.** En étant guidé dans le\nrevécu sensoriel de cette émotion, vous pourrez vous en **libérer définitivement**. Elle ne reviendra plus, que ce soit dans une semaine, un mois ou dix ans!\n\nCes séances s’adressent aux adultes, adolescents et enfants de plus de dix ans. Ce travail, bien que\nrapide, très efficace, et sans risque, nécessite de votre part une implication et un désir véritable de vous\nlibérer de votre difficulté.\n\nPour traiter une difficulté émotionnelle, la séance peut durer jusqu’à cinquante minutes et le nombre de séances dépendra de nombreux facteurs et peut varier entre une et quatre séances.\n\nLes séances se déroulent en visioconférence (Zoom) principalement.\n\n### **Tarif par séance : 50€**\n\nVous pouvez me contacter par email ou téléphone pour que nous évaluions ensemble si la régulation émotionnelle est la solution la plus appropriée à votre difficulté.\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     _template: content
   - name: Devenir autonome
-    body: "## Devenir autonome en régulation émotionnelle\n\nCette formation a pour but d’apprendre et d’acquérir la technique de régulation émotionnelle Tipi. **Elle vous permettra de réguler, par vous-même et de façon définitive, toutes vos émotions\nenvahissantes.**\n\nLa formation que je propose ici est **individuelle et personnalisée**, elle comprend **trois sessions** d’environ **1h30 chacune dans lesquelles nous allons ensemble parcourir un processus d’apprentissage complet.**\n\nCe dernier comprend :\n\n* **L’apprentissage de la méthode**\n* **Apprendre à repère nos peurs inconscientes**\n* **Découvrir les points subtils de la méthode qui nous permettront de réguler toutes les émotions**\n\nVous obtiendrez plusieurs **documents** pour soutenir votre formation et mettre toutes les chances de\nvotre côté pour qu’elle amène une libération complète de vos états émotionnels !\n\nCette formation se déroule principalement en visioconférence (Zoom).\n\n**Contenu des séances** **:**\n\n* **1ere séance** : comprendre et apprendre le processus de régulation émotionnelle\n* **2ème séance** : retour d'expérience, approfondissement des connaissances\n* **3ème séance** : apprendre à repérer ses peurs inconscientes et agrandir son champ d'intervention.\n\n### **Tarif pour la formation complète: 200 €**&#xA;\t\t\t\t\t&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "## Devenir autonome en régulation émotionnelle\n\nCette formation a pour but d’apprendre et d’acquérir la technique de régulation émotionnelle Tipi. **Elle vous permettra de réguler, par vous-même et de façon définitive, toutes vos émotions\nenvahissantes.**\n\nLa formation que je propose ici est **individuelle et personnalisée**, elle comprend **trois sessions** d’environ **1h30 chacune dans lesquelles nous allons ensemble parcourir un processus d’apprentissage complet.**\n\nCe dernier comprend :\n\n* **L’apprentissage de la méthode**\n* **Apprendre à repérer nos peurs inconscientes**\n* **Découvrir les points subtils de la méthode qui nous permettront de réguler toutes les émotions**\n\nVous obtiendrez plusieurs **documents** pour soutenir votre formation et mettre toutes les chances de\nvotre côté pour qu’elle amène une libération complète de vos états émotionnels !\n\nCette formation se déroule principalement en visioconférence (Zoom).\n\n**Contenu des séances** **:**\n\n* **1ere séance** : comprendre et apprendre le processus de régulation émotionnelle\n* **2ème séance** : retour d'expérience, approfondissement des connaissances\n* **3ème séance** : apprendre à repérer ses peurs inconscientes et agrandir son champ d'intervention.\n\n### **Tarif pour la formation complète: 200 €**&#xA;\t\t\t\t\t&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     _template: content
 ---
 
