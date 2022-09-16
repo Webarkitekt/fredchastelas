@@ -28,10 +28,10 @@ blocks:
       autonomie**, quel que soit notre âge.
 
 
-      Depuis 15 ans, des centaines de milliers de personnes ont vu leur vie
+      Depuis 15 ans, des **centaines de milliers de personnes ont vu leur vie
       changer grâce à la régulation
 
-      émotionnelle. Leurs difficultés émotionnelles ont disparu et ils ont
+      émotionnelle**. Leurs difficultés émotionnelles ont disparu et ils ont
       enfin pu commencer à vivre leur vie
 
       tel qu’ils la souhaitaient.
