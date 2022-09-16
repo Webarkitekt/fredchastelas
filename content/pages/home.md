@@ -8,9 +8,9 @@ blocks:
     _template: hero
   - title: Ma démarche
     text: >-
-      Enseignant de méditation depuis plus de quinze ans, j’anime régulièrement
-      des stages et des cours sur différents thèmes permettant d’approfondir la
-      connaissance de soi. 
+      Enseignant du bouddhisme et de la méditation depuis plus de quinze ans,
+      thérapeute et conférencier, j’anime régulièrement des stages et des cours
+      sur différents thèmes permettant d’approfondir la connaissance de soi. 
 
 
       J’accompagne aussi et forme à la régulation émotionnelle toutes les
