@@ -43,13 +43,11 @@ blocks:
       origine précise : un événement que nous avons vécu, un incident qui
       s’est produit, un instant où tout a
 
-      basculé... Si nous revivons cet événement en faisant appel à notre
-      ressenti physique, et en revivant
+      basculé... Si nous** revivons l'empreinte sensorielle traumatique**
+      associée à cet événement en faisant appel à notre** ressenti
+      physique**, alors **notre émotion envahissante est désamorcée**, et
 
-      complétement l’empreinte sensorielle traumatique, alors notre émotion
-      envahissante est désamorcée, et
-
-      ce, définitivement.
+      ce, **définitivement**.
 
 
       **Bien que simple, cette méthode est très précise**. C’est pour cette
