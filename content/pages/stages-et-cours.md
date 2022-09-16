@@ -9,7 +9,7 @@ blocks:
     _template: hero
   - title: |-
       Stages au château de Saint Martin 
-      de Grave
+        de Grave
     location: content/locations/chateau_de_saint_martin_de_grave.md
     _template: events
   - title: Stages à Lérab Ling
