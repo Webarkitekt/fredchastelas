@@ -10,22 +10,22 @@ blocks:
     tagline: Libérez vous de vos émotions envahissantes
     _template: hero
   - name: Description
-    body: >
-      À travers ses recherches, Luc Nicon a mis en évidence le fait que notre
-      corps posséde naturellement la
+    body: >+
+      À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
+      notre corps posséde naturellement la
 
-      capacité de réguler définitivement nos émotions! En effet, en
+      **capacité de réguler définitivement nos émotions**! En effet, en
       acquérant un savoir faire simple, chacun
 
-      d’entre nous peut résoudre, une à une et **définitivement**, les peurs
-      et les réactions émotionnelles qui le bloquent. Ce processus de
-      régulation émotionnelle nommé Tipi (Technique d’Identification
+      d’entre nous peut résoudre, une à une et définitivement, les peurs et
+      les réactions émotionnelles qui le bloquent. Ce processus de
+      **régulation émotionnelle nommé Tipi** (Technique d’Identification
       sensorielle
 
       des Peurs Inconscientes) » est totalement naturel et peut être pratiqué
-      en accompagnement ou en
+      **en accompagnement ou en
 
-      autonomie, quel que soit notre âge.
+      autonomie**, quel que soit notre âge.
 
 
       Depuis 15 ans, des centaines de milliers de personnes ont vu leur vie
@@ -63,6 +63,7 @@ blocks:
       Nicon](https://www.youtube.com/watch?v=FdOt3Ryt1x0 "")
 
       * Lecture: *Revivre sensoriellement* de Luc Nicon
+
     _template: content
   - name: Dans quels cas
     bgColor: bg-secondary
