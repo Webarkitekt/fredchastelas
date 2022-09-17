@@ -43,9 +43,9 @@ blocks:
       origine précise : un événement que nous avons vécu, un incident qui
       s’est produit, un instant où tout a
 
-      basculé... Si nous\*\* revivons l'empreinte sensorielle traumatique\*\*
-      associée à cet événement en faisant appel à notre\*\* ressenti
-      physique\*\*, alors **notre émotion envahissante est désamorcée**, et
+      basculé... Si nous **revivons l'empreinte sensorielle traumatique
+      **associée à cet événement en faisant appel à notre **ressenti
+      physique**, alors **notre émotion envahissante est désamorcée**, et
 
       ce, **définitivement**.
 
