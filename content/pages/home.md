@@ -26,7 +26,7 @@ blocks:
   - subhead: Régulation émotionnelle
     title: >
       Vos émotions envahissantes ne sont pas une fatalité. Vous pouvez vous en
-      libérer facilement et définitivement !
+      libérer simplement et définitivement !
     link:
       label: En savoir plus
       url: /regulation-emotionnelle-tipi
