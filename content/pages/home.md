@@ -39,10 +39,16 @@ blocks:
     _template: newsletter
   - title: Témoignages
     testimonial:
+      - author: Sonia
+        text: >-
+          La régulation émotionnelle me permet d’apprendre à guérir mes peurs au
+          quotidien, en régulant émotionnellement les sensations associées.
+          Frédéric sait faire preuve d’écoute et de bienveillance dans son
+          accompagnement individualisé. Je le recommande de tout cœur!  
       - type: Régulation émotionnelle TIPI
         author: 'Pierre Emmanuel '
         text: ' La technique de régulation émotionnelle Tipi est à la fois simple, rapide, et très efficace ! Bien qu’elle nécessite un entraînement et un certain engagement, Frédéric nous accompagne avec profondeur et bienveillance pour obtenir les meilleurs résultats en un temps record.'
-      - type: Régulation TIPI
+      - type: Régulation émotionnelle TIPI
         author: Christelle
         text: >-
           La formation en régulation émotionnelle proposée par Frédéric est
