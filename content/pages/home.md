@@ -84,7 +84,7 @@ blocks:
       - type: Stage "l'acceptation de soi"
         author: Frédéric
         text: Super weekend ! On voudrait facilement faire un mois sur ce sujet !
-      - type: Stage
+      - type: Stage méditation
         author: Nicole
         text: >
           Le formateur Frederic, nous apporte avec sa quiétude et sa douceur
