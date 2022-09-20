@@ -109,8 +109,8 @@ blocks:
     bgColor: bg-secondary
     title: Inhibitions
     body: >
-      Inhibition dans le sens d’incapacité à agir, de perte de ses moyens
-      physiques et intellectuels face à une situation qui exigerait pourtant
+      Inhibition dans le sens d’**incapacité à agir, de perte de ses moyens
+      physiques et intellectuels **face à une situation qui exigerait pourtant
       que nous agissions. Blocages lors de la prise de parole en public, lors du
       passage d’un examen, pour faire des rencontres ou lors d’une compétition
       sportive, impossibilité de
@@ -118,10 +118,10 @@ blocks:
       dire non...
 
 
-      Quand la personne vit l’impression de ne pas pouvoir y arriver, de ne pas
-      être capable, et de ne pas
+      Quand la personne vit l’**impression de ne pas pouvoir y arriver, de ne
+      pas être capable, et de ne pas
 
-      pouvoir échapper à cette incapacité.
+      pouvoir échapper à cette incapacité.**
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1659831940/istockphoto-1183325152-612x612_hhmo0l.jpg
