@@ -58,7 +58,7 @@ blocks:
       - type: Régulation émotionnelle TIPI
         author: 'Pierre Emmanuel '
         text: ' La technique de régulation émotionnelle Tipi est à la fois simple, rapide, et très efficace ! Bien qu’elle nécessite un entraînement et un certain engagement, Frédéric nous accompagne avec profondeur et bienveillance pour obtenir les meilleurs résultats en un temps record.'
-      - type: Stage méditation
+      - type: Stage "Apprendre à d'accepter pour se transformer"
         author: Sara
         text: >-
           Sincèrement merci ! Le stage du weekend dernier m’a fait profondément
