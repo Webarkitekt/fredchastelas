@@ -58,7 +58,7 @@ blocks:
           de part son écoute attentive, répond à toutes les interrogations.
           Depuis la formation, j’utilise la régulation émotionnelle
           régulièrement et les bienfaits sont flagrants!
-      - type: Séminaire
+      - type: Stage méditation
         author: Sara
         text: >-
           Sincèrement merci ! Le stage du weekend dernier m’a fait profondément
