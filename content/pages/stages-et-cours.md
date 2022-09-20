@@ -66,18 +66,18 @@ blocks:
           plus juste et pertinent. Merci donc pour la formation que tu as
           construite et tous les outils et enseignements que tu as partagés avec
           nous, c’était des véritables cadeaux.
-      - type: Stage "Apprendre à s'accepter pour se transformer"
-        author: Sylvie
-        text: >-
-          Un super weekend sur l’acceptation de soi : révélateur, salvateur.
-          Très enrichissant et bien animé entre exercices, enseignements et
-          méditation. De belles rencontres. Merci !!
       - type: Stage méditation
         author: Evelyne
         text: >-
           Première venue à ce type d’évènement. Je suis enchantée du fond comme
           de la forme ! J’entrouvre une porte… que de perspectives !! Merci
           beaucoup!
+      - type: Stage "Apprendre à s'accepter pour se transformer"
+        author: Sylvie
+        text: >-
+          Un super weekend sur l’acceptation de soi : révélateur, salvateur.
+          Très enrichissant et bien animé entre exercices, enseignements et
+          méditation. De belles rencontres. Merci !!
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Frédéric
         text: Super weekend ! On voudrait facilement faire un mois sur ce sujet !
