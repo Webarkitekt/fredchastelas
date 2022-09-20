@@ -95,7 +95,7 @@ blocks:
           points comme la différence entre émotions et ressentis sont beaucoup
           plus clairs à présent. J’ai également pu avoir une belle prise de
           conscience grâce à l’exercice du pardon. Gratitude !
-      - type: stage "surmonter l'ego"
+      - type: stage "surmonter enfin l'ego"
         author: Joelle
         text: >-
           Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
