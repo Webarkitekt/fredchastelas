@@ -84,11 +84,11 @@ blocks:
     bgColor: bg-secondary
     title: Angoisses
     body: >
-      L’angoisse est le terme utilisé communément pour définir un\*\*
-      ensemble de sensations corporelles\*\* par exemple : l’estomac se noue, la
-      gorge se serre, le cœur accélère, la respiration devient courte... La
-      plupart du temps, les personnes parlent d’angoisse, sans identifier
-      précisément ces sensations.
+      L’angoisse est le terme utilisé communément pour définir un **ensemble
+      de sensations corporelles** par exemple : l’estomac se noue, la gorge se
+      serre, le cœur accélère, la respiration devient courte... La plupart du
+      temps, les personnes parlent d’angoisse, sans identifier précisément ces
+      sensations.
 
 
       **Cet état physique est perçu comme inquiétant, voire paniquant**. Il
