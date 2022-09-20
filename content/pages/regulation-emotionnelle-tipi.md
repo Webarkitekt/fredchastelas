@@ -10,7 +10,7 @@ blocks:
     tagline: Libérez vous de vos émotions envahissantes
     _template: hero
   - name: Description
-    body: >+
+    body: >
       À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
       notre corps possède naturellement la
 
@@ -43,7 +43,7 @@ blocks:
       origine précise : un événement que nous avons vécu, un incident qui
       s’est produit, un instant où tout a
 
-      basculé... Si nous** revivons l'empreinte sensorielle traumatique**
+      basculé... Si nous\*\* revivons l'empreinte sensorielle traumatique\*\*
       associée à cet événement en faisant appel à notre **ressenti
       physique**, alors **notre émotion envahissante est désamorcée**, et
 
@@ -61,7 +61,6 @@ blocks:
       Nicon](https://www.youtube.com/watch?v=FdOt3Ryt1x0 "")
 
       * Lecture: *Revivre sensoriellement* de Luc Nicon
-
     _template: content
   - name: Dans quels cas
     bgColor: bg-secondary
@@ -164,13 +163,13 @@ blocks:
     body: >
       Il ne s’agit pas de coller une étiquette de dépression à toute forme de
       tristesse ou d’absence d’entrain mais si, en dehors d’une phase de deuil,
-      une grande tristesse vous envahit durablement, **vous n’avez plus le goût
-      d’entreprendre ne serait-ce que les petites choses qui vous faisaient
-      plaisir, votre intérêt diminue pour ce qui vous environne, vous ne
-      trouvez plus l’énergie « d’aller vers », **alors il est probable que cet
-      état, survenu éventuellement à la suite d’événements récents, soit
-      engendré par une **peur inconsciente sous-jacente** que vous pourrez
-      éliminer à l’aide du revécu sensoriel.
+      une grande tristesse vous envahit durablement, \*\*vous n’avez plus le
+      goût d’entreprendre ne serait-ce que les petites choses qui vous
+      faisaient plaisir, votre intérêt diminue pour ce qui vous environne,
+      vous ne trouvez plus l’énergie « d’aller vers », \*\*alors il est
+      probable que cet état, survenu éventuellement à la suite d’événements
+      récents, soit engendré par une **peur inconsciente sous-jacente** que
+      vous pourrez éliminer à l’aide du revécu sensoriel.
 
 
       Bien entendu, cela ne doit pas vous dispenser de consulter votre médecin
@@ -187,7 +186,7 @@ blocks:
   - showIllustrations: true
     bgColor: bg-secondary
     title: Autres situations
-    body: "**Finalement toutes les situations dans lesquelles vous ressentez un état de malaise récurrent** et que vous ne souhaitez pas continuer à vivre, que ce soit dans votre vie professionnelle, familiale, relationnelle, amoureuse (jalousie, hypersensibilité...)... peuvent être abordées avec la régulation émotionnelle.\n&#x9;\n\nA chaque fois que vous cherchez à fuir, à éviter une situation, que vous êtes inhibé, bloqué, que vous devenez agressif, que vous ruminez, râlez, critiquez, que vous vous défendez par la colère ou encore qu’une impulsion vous amène à prendre le contrôle, à prendre le pouvoir, **vous pouvez en déduire que vous êtes manipulé par une peur.**\nObservez-vous!\n&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "**Finalement toutes les situations dans lesquelles vous ressentez un état de malaise récurrent** et que vous ne souhaitez pas continuer à vivre, que ce soit dans votre vie professionnelle, familiale, relationnelle, amoureuse (jalousie, hypersensibilité...)... peuvent être abordées avec la régulation émotionnelle.\n&#x9;\n\nA chaque fois que vous cherchez à fuir, à éviter une situation, que vous êtes inhibé, bloqué, que vous devenez agressif, que vous ruminez, râlez, critiquez, que vous vous défendez par la colère ou encore qu’une impulsion vous amène  à prendre le pouvoir, **vous pouvez en déduire que vous êtes manipulé par une peur.**\nObservez-vous!\n&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     image:
       src: ''
       alt: ''
