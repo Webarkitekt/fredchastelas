@@ -75,6 +75,12 @@ blocks:
           Un super weekend sur l’acceptation de soi : révélateur, salvateur.
           Très enrichissant et bien animé entre exercices, enseignements et
           méditation. De belles rencontres. Merci !!
+      - type: stage "surmonter enfin l'ego"
+        author: Joelle
+        text: >-
+          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
+          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
+          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
       - type: Stage méditation
         author: Evelyne
         text: >-
@@ -95,6 +101,13 @@ blocks:
           pour la méthodologie qui permet doucement d'arriver à trouver son
           propre chemin. Merci pour les explications de la méditation. J'ai
           vraiment appris durant cette formation sur l’acceptation MERCI.
+      - type: Conférence
+        author: Mathieu
+        text: >-
+          Conférence passionnante sur comment repérer son ego et s’en défaire ,
+          conférencier didactique , bienveillant et passionné , je recommande.
+          Cette conférence est primordiale pour retrouver un peu de sérénité en
+          soi dans ce monde complexe
       - type: stage "Apprendre à s'accepter pour se transformer"
         author: Nathalie
         text: >-
@@ -103,12 +116,6 @@ blocks:
           points comme la différence entre émotions et ressentis sont beaucoup
           plus clairs à présent. J’ai également pu avoir une belle prise de
           conscience grâce à l’exercice du pardon. Gratitude !
-      - type: stage "surmonter enfin l'ego"
-        author: Joelle
-        text: >-
-          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
-          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
-          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
       - type: Stage "surmonter enfin l'ego"
         author: Clara
         text: >-
@@ -118,13 +125,6 @@ blocks:
           libérer de l'égo est plus complexe qu'il n'y paraît mais grâce à ce
           week-end ancré dans l'acceptation de soi et l'ouverture aux autres,
           notre nature profonde s'est déjà un peu révélée alors merci.
-      - type: Conférence
-        author: Mathieu
-        text: >-
-          Conférence passionnante sur comment repérer son ego et s’en défaire ,
-          conférencier didactique , bienveillant et passionné , je recommande.
-          Cette conférence est primordiale pour retrouver un peu de sérénité en
-          soi dans ce monde complexe
     _template: testimonials
 ---
 
