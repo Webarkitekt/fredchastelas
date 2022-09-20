@@ -109,11 +109,11 @@ blocks:
     bgColor: bg-secondary
     title: Inhibitions
     body: >
-      Inhibition dans le sens d’\*\*incapacité à agir, de perte de ses moyens
-      physiques et intellectuels \*\*face à une situation qui exigerait
-      pourtant que nous agissions. Blocages lors de la prise de parole en
-      public, lors du passage d’un examen, pour faire des rencontres ou lors
-      d’une compétition sportive, impossibilité de
+      Inhibition dans le sens d’**incapacité à agir, de perte de ses moyens
+      physiques et intellectuels** face à une situation qui exigerait pourtant
+      que nous agissions. Blocages lors de la prise de parole en public, lors du
+      passage d’un examen, pour faire des rencontres ou lors d’une compétition
+      sportive, impossibilité de
 
       dire non...
 
