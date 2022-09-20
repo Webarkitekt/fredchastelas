@@ -75,7 +75,7 @@ blocks:
           Un super weekend sur l’acceptation de soi : révélateur, salvateur.
           Très enrichissant et bien animé entre exercices, enseignements et
           méditation. De belles rencontres. Merci !!
-      - type: Stage
+      - type: Stage méditation
         author: Evelyne
         text: >-
           Première venue à ce type d’évènement. Je suis enchantée du fond comme
