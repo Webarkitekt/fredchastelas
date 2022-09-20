@@ -39,6 +39,18 @@ blocks:
     _template: newsletter
   - title: Témoignages
     testimonial:
+      - type: Stage méditation et Qi Qong
+        author: Elisabeth
+        text: "C'est ma fille, qui était déjà venue, qui a voulu que je l'accompagne. Je lui ai dit d'accord mais moi je ne sais pas méditer, je vais fermer les yeux et je vais penser à tout ce qui m'attend au retour. Il y a une telle sérénité sur le site que je me suis sentie bien. Au cours des méditations, j'ai suivi ma respiration et miracle aucune pensée n'est venue la troubler. \LJ'ai adoré le QI GONG, je fais les mouvements chez moi et je médite tous les deux jours. "
+      - type: Régulation émotionnelle TIPI
+        author: Christelle
+        text: >-
+          La formation en régulation émotionnelle proposée par Frédéric est
+          extrêmement puissante et permet de maîtriser un outil extraodinaire en
+          seulement quelques séances. Frédéric est un formateur expérimenté, qui
+          de part son écoute attentive, répond à toutes les interrogations.
+          Depuis la formation, j’utilise la régulation émotionnelle
+          régulièrement et les bienfaits sont flagrants!
       - type: Régulation émotionnelle TIPI
         author: Sonia
         text: >-
@@ -49,15 +61,6 @@ blocks:
       - type: Régulation émotionnelle TIPI
         author: 'Pierre Emmanuel '
         text: ' La technique de régulation émotionnelle Tipi est à la fois simple, rapide, et très efficace ! Bien qu’elle nécessite un entraînement et un certain engagement, Frédéric nous accompagne avec profondeur et bienveillance pour obtenir les meilleurs résultats en un temps record.'
-      - type: Régulation émotionnelle TIPI
-        author: Christelle
-        text: >-
-          La formation en régulation émotionnelle proposée par Frédéric est
-          extrêmement puissante et permet de maîtriser un outil extraodinaire en
-          seulement quelques séances. Frédéric est un formateur expérimenté, qui
-          de part son écoute attentive, répond à toutes les interrogations.
-          Depuis la formation, j’utilise la régulation émotionnelle
-          régulièrement et les bienfaits sont flagrants!
       - type: Stage méditation
         author: Sara
         text: >-
