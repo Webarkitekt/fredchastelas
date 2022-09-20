@@ -43,6 +43,15 @@ blocks:
     _template: textAndImage
   - title: Témoignages
     testimonial:
+      - type: Stage "surmonter enfin l'ego"
+        author: Clara
+        text: >-
+          Merci à Frédéric pour sa qualité de transmission et son écoute
+          bienveillante donnant à ses évènements une dimension hautement
+          favorable à la transformation spirituelle et au partage humain. Se
+          libérer de l'égo est plus complexe qu'il n'y paraît mais grâce à ce
+          week-end ancré dans l'acceptation de soi et l'ouverture aux autres,
+          notre nature profonde s'est déjà un peu révélée alors merci.
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: sara
         text: >-
