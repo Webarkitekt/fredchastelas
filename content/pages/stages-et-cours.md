@@ -43,6 +43,9 @@ blocks:
     _template: textAndImage
   - title: Témoignages
     testimonial:
+      - type: Stage méditation et Qi Qong
+        author: Elisabeth
+        text: "C'est ma fille, qui était déjà venue, qui a voulu que je l'accompagne. Je lui ai dit d'accord mais moi je ne sais pas méditer, je vais fermer les yeux et je vais penser à tout ce qui m'attend au retour. Il y a une telle sérénité sur le site que je me suis sentie bien. Au cours des méditations, j'ai suivi ma respiration et miracle aucune pensée n'est venue la troubler. \LJ'ai adoré le QI GONG, je fais les mouvements chez moi et je médite tous les deux jours."
       - type: Stage "surmonter enfin l'ego"
         author: Clara
         text: >-
