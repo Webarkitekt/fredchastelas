@@ -135,15 +135,18 @@ blocks:
     bgColor: bg-secondary
     title: 'Irritabilité, colère'
     body: >
-      Le fait de réagir violemment que ce soit en paroles ou en actes, à une
-      situation qui vous semble vous contraindre ou vous empêcher d’aboutir
+      Le fait de **réagir violemment que ce soit en paroles ou en actes**, à
+      une situation qui vous semble vous contraindre ou vous empêcher d’aboutir
       dans ce que vous êtes en train vouloir mener à bien. Cela peut être
       tout simplement un automobiliste qui roule lentement !
 
 
-      Un état de colère récurrent qui vous dépasse, que vous ne savez pas
-      contrôler, mais que vous pouvez regretter juste après. Pour certaines
-      personnes, cette colère ne s’exprime pas et reste intérieure.
+      Un **état de colère récurrent qui vous dépasse**, que vous ne savez
+      pas contrôler, mais que vous pouvez regretter juste après. Pour
+      certaines personnes, cette colère ne s’exprime pas et reste intérieure.
+
+
+      C'est aussi le fait de ruminer, râler, critiquer
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1656847996/simran-sood-qL0t5zNGFVQ-unsplash_bfou39.jpg
