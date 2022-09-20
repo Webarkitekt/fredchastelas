@@ -84,6 +84,12 @@ blocks:
           Première venue à ce type d’évènement. Je suis enchantée du fond comme
           de la forme ! J’entrouvre une porte… que de perspectives !! Merci
           beaucoup!
+      - type: stage "surmonter enfin l'ego"
+        author: Joelle
+        text: >-
+          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
+          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
+          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Sylvie
         text: >-
@@ -119,12 +125,6 @@ blocks:
           points comme la différence entre émotions et ressentis sont beaucoup
           plus clairs à présent. J’ai également pu avoir une belle prise de
           conscience grâce à l’exercice du pardon. Gratitude !
-      - type: stage "surmonter enfin l'ego"
-        author: Joelle
-        text: >-
-          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
-          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
-          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
     _template: testimonials
 ---
 
