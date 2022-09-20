@@ -81,7 +81,7 @@ blocks:
           Première venue à ce type d’évènement. Je suis enchantée du fond comme
           de la forme ! J’entrouvre une porte… que de perspectives !! Merci
           beaucoup!
-      - type: Stage "l'acceptation de soi"
+      - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Frédéric
         text: Super weekend ! On voudrait facilement faire un mois sur ce sujet !
       - type: Stage méditation et Qi Qong
