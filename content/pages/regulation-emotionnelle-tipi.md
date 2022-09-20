@@ -168,7 +168,7 @@ blocks:
       plaisir, votre intérêt diminue pour ce qui vous environne, vous ne
       trouvez plus l’énergie « d’aller vers »**, alors il est probable que cet
       état, survenu éventuellement à la suite d’événements récents, soit
-      engendré par une peur inconsciente sous-jacente que vous pourrez
+      engendré par une** peur inconsciente sous-jacente **que vous pourrez
       éliminer à l’aide du revécu sensoriel.
 
 
