@@ -43,6 +43,17 @@ blocks:
     _template: textAndImage
   - title: Témoignages
     testimonial:
+      - type: Stage "Apprendre à s'accepter pour se transformer"
+        author: sara
+        text: >-
+          Sincèrement merci ! Le stage du weekend dernier m’a fait profondément
+          du bien. Plein de prises de conscience et déblocages importants. Par
+          conséquent, cette semaine tout a été différent autant à la maison
+          qu’au travail. J’ai ressenti une sérénité toute nouvelle et un recul
+          dans la résolution des conflits au travail qui m’ont permis d’être
+          plus juste et pertinent. Merci donc pour la formation que tu as
+          construite et tous les outils et enseignements que tu as partagés avec
+          nous, c’était des véritables cadeaux.
       - type: Stage "l'acceptation de soi"
         author: Sylvie
         text: >-
