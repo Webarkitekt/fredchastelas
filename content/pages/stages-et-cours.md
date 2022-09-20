@@ -101,15 +101,6 @@ blocks:
           Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
           drôle ce qui rend ce séminaire à la fois léger et profond .....grand
           plaisir et beaucoup de matières à retravailler pour avancer ...Merci
-      - type: Stage
-        author: Clara
-        text: >-
-          Merci à Frédéric pour sa qualité de transmission et son écoute
-          bienveillante donnant à ses évènements une dimension hautement
-          favorable à la transformation spirituelle et au partage humain. Se
-          libérer de l'égo est plus complexe qu'il n'y paraît mais grâce à ce
-          week-end ancré dans l'acceptation de soi et l'ouverture aux autres,
-          notre nature profonde s'est déjà un peu révélée alors merci.
       - type: Conférence
         author: Mathieu
         text: >-
