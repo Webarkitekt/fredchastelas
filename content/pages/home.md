@@ -39,7 +39,8 @@ blocks:
     _template: newsletter
   - title: Témoignages
     testimonial:
-      - author: Sonia
+      - type: Régulation émotionnelle TIPI
+        author: Sonia
         text: >-
           La régulation émotionnelle me permet d’apprendre à guérir mes peurs au
           quotidien, en régulant émotionnellement les sensations associées.
