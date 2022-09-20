@@ -75,12 +75,15 @@ blocks:
           Un super weekend sur l’acceptation de soi : révélateur, salvateur.
           Très enrichissant et bien animé entre exercices, enseignements et
           méditation. De belles rencontres. Merci !!
-      - type: stage "surmonter enfin l'ego"
-        author: Joelle
+      - type: Stage "surmonter enfin l'ego"
+        author: Clara
         text: >-
-          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
-          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
-          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
+          Merci à Frédéric pour sa qualité de transmission et son écoute
+          bienveillante donnant à ses évènements une dimension hautement
+          favorable à la transformation spirituelle et au partage humain. Se
+          libérer de l'égo est plus complexe qu'il n'y paraît mais grâce à ce
+          week-end ancré dans l'acceptation de soi et l'ouverture aux autres,
+          notre nature profonde s'est déjà un peu révélée alors merci.
       - type: Stage méditation
         author: Evelyne
         text: >-
@@ -116,15 +119,12 @@ blocks:
           points comme la différence entre émotions et ressentis sont beaucoup
           plus clairs à présent. J’ai également pu avoir une belle prise de
           conscience grâce à l’exercice du pardon. Gratitude !
-      - type: Stage "surmonter enfin l'ego"
-        author: Clara
+      - type: stage "surmonter enfin l'ego"
+        author: Joelle
         text: >-
-          Merci à Frédéric pour sa qualité de transmission et son écoute
-          bienveillante donnant à ses évènements une dimension hautement
-          favorable à la transformation spirituelle et au partage humain. Se
-          libérer de l'égo est plus complexe qu'il n'y paraît mais grâce à ce
-          week-end ancré dans l'acceptation de soi et l'ouverture aux autres,
-          notre nature profonde s'est déjà un peu révélée alors merci.
+          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
+          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
+          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
     _template: testimonials
 ---
 
