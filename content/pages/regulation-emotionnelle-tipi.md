@@ -10,7 +10,7 @@ blocks:
     tagline: Libérez vous de vos émotions envahissantes
     _template: hero
   - name: Description
-    body: >
+    body: >+
       À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
       notre corps possède naturellement la
 
@@ -43,8 +43,8 @@ blocks:
       origine précise : un événement que nous avons vécu, un incident qui
       s’est produit, un instant où tout a
 
-      basculé... Si nous \*\*revivons l'empreinte sensorielle traumatique
-      \*\*associée à cet événement en faisant appel à notre **ressenti
+      basculé... Si nous** revivons l'empreinte sensorielle traumatique**
+      associée à cet événement en faisant appel à notre **ressenti
       physique**, alors **notre émotion envahissante est désamorcée**, et
 
       ce, **définitivement**.
@@ -61,6 +61,7 @@ blocks:
       Nicon](https://www.youtube.com/watch?v=FdOt3Ryt1x0 "")
 
       * Lecture: *Revivre sensoriellement* de Luc Nicon
+
     _template: content
   - name: Dans quels cas
     bgColor: bg-secondary
