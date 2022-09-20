@@ -40,6 +40,9 @@ blocks:
   - title: Témoignages
     testimonial:
       - type: Régulation TIPI
+        author: 'Pierre Emmanuel '
+        text: ' La technique de régulation émotionnelle Tipi est à la fois simple, rapide, et très efficace ! Bien qu’elle nécessite un entraînement et un certain engagement, Frédéric nous accompagne avec profondeur et bienveillance pour obtenir les meilleurs résultats en un temps record.'
+      - type: Régulation TIPI
         author: Christelle
         text: >-
           La formation en régulation émotionnelle proposée par Frédéric est
