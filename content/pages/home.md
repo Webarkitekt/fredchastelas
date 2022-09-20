@@ -106,7 +106,7 @@ blocks:
           Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
           drôle ce qui rend ce séminaire à la fois léger et profond .....grand
           plaisir et beaucoup de matières à retravailler pour avancer ...Merci
-      - type: Stage
+      - type: Stage "surmonter l'ego"
         author: Clara
         text: >-
           Merci à Frédéric pour sa qualité de transmission et son écoute
