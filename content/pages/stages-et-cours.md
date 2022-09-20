@@ -87,7 +87,7 @@ blocks:
           propre chemin. Merci pour les explications de la méditation.
 
           J'ai vraiment appris durant cette formation sur l’acceptation MERCI.
-      - type: stage "l’acceptation de soi"
+      - type: stage "Apprendre à s'accepter pour se transformer"
         author: Nathalie
         text: >-
           Weekend très enrichissant. Concepts profonds et très spirituels. Je
