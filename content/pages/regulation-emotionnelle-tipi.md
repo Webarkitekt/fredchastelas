@@ -146,8 +146,8 @@ blocks:
       certaines personnes, cette colère ne s’exprime pas et reste intérieure.
 
 
-      C'est aussi le fait de\*\* ruminer, critiquer, râler, ressasser des
-      conflits\*\* au travail ou dans la vie personnelle.
+      C'est aussi le fait de **ruminer, critiquer, râler, ressasser des
+      conflits** au travail ou dans la vie personnelle.
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1656847996/simran-sood-qL0t5zNGFVQ-unsplash_bfou39.jpg
