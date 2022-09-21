@@ -39,7 +39,7 @@ blocks:
       "L")
     _template: content
   - name: Activity training
-    body: "## Activity Training\n\nL’activity training est une **série de conseils** provenant de maîtres bouddhistes permettant d’amener notre sagesse dans l’activité. Il permet de** donner du sens à notre activité et de l’accomplir plus créativement et plus efficacement**.\n\nIl fait l’objet de sessions dans lesquelles vous **découvrirez ces conseils**, apprendrez à** les mettre en pratique** ainsi qu'à **repérer les blocages émotionnels qui vous empêchent de les appliquer.**\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "## Activity Training\n\nL’activity training est une **série de conseils** provenant de maîtres bouddhistes permettant d’amener notre sagesse dans l’activité. Il permet de** donner du sens à notre activité et de l’accomplir plus créativement et plus efficacement**.\n\nIl fait l’objet de sessions dans lesquelles vous **découvrirez ces conseils**, **apprendrez à les mettre en pratique** ainsi qu'à **repérer les blocages émotionnels qui vous empêchent de les appliquer.**\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     _template: content
 ---
 
