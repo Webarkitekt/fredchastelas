@@ -1,5 +1,5 @@
 ---
-title: Weekend des Jeunes “48H de pauses“
+title: 'Week-end des Jeunes '
 start_date: '2022-10-21T22:00:00.000Z'
 end_date: '2022-10-22T22:00:00.000Z'
 location: content/locations/Lerabling.md
