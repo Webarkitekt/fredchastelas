@@ -69,7 +69,7 @@ blocks:
           plus juste et pertinent. Merci donc pour la formation que tu as
           construite et tous les outils et enseignements que tu as partagés avec
           nous, c’était des véritables cadeaux.
-      - type: Stage "se libérer enfin l'ego"
+      - type: Stage "se libérer enfin de l'ego"
         author: Clara
         text: >-
           Merci à Frédéric pour sa qualité de transmission et son écoute
