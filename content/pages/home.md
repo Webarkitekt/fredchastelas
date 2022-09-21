@@ -23,7 +23,7 @@ blocks:
         https://res.cloudinary.com/guikem/image/upload/v1657319289/portrait-fred_v8h2mr.jpg
       alt: Frédéric Chastelas
     _template: introduction
-  - subhead: Régulation émotionnelle
+  - subhead: Régulation émotionnelle Tipi
     title: >
       Vos émotions envahissantes ne sont pas une fatalité. Vous pouvez vous en
       libérer simplement et définitivement !
