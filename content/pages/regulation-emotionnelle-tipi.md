@@ -10,12 +10,12 @@ blocks:
     tagline: Libérez vous de vos émotions envahissantes
     _template: hero
   - name: Description
-    body: >
+    body: >+
       À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
-      notre corps possède naturellement la
+      notre corps possède la
 
-      **capacité de réguler définitivement nos émotions**! En effet, en
-      acquérant un savoir faire simple, chacun
+      **capacité naturelle de réguler définitivement nos émotions**! En
+      effet, en acquérant un savoir faire simple, chacun
 
       d’entre nous peut résoudre, une à une et définitivement, les peurs et
       les réactions émotionnelles qui le bloquent. Ce processus de
@@ -61,6 +61,7 @@ blocks:
       Tipi](https://www.youtube.com/watch?v=FdOt3Ryt1x0 "")
 
       * Lecture: *Revivre sensoriellement* de Luc Nicon
+
     _template: content
   - name: Dans quels cas
     bgColor: bg-secondary
