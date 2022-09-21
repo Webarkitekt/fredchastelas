@@ -21,14 +21,13 @@ blocks:
       ## Stages
 
 
-      Je vous propose des stages de un à cinq jours en immersion dans les lieux
-      exceptionnels du Chateau Saint Martin de Grave et du temple bouddhiste de
-      Lerab Ling (à 1h de Montpellier).
+      Je vous propose **des stages de un à cinq jours **en immersion dans les**
+      lieux exceptionnels** du Chateau Saint Martin de Grave et du temple
+      bouddhiste de Lerab Ling (à 1h de Montpellier).
 
 
-      Apprentissage de la méditation, régulation émotionnelle, marches et
-      exercices physiques sont proposés... une expérience complète et unique
-      !
+      Apprentissage de la méditation, régulation émotionnelle, marches,
+      yoga... sont proposés. Une expérience complète et unique !
 
 
       ![Chateau Saint Martin de
