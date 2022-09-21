@@ -43,7 +43,7 @@ blocks:
     _template: textAndImage
   - title: Témoignages
     testimonial:
-      - type: Stage "se libérer enfin l'ego"
+      - type: Stage "se libérer enfin de l'ego"
         author: Clara
         text: >-
           Merci à Frédéric pour sa qualité de transmission et son écoute
