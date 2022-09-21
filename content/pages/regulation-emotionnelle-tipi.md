@@ -163,13 +163,13 @@ blocks:
     body: >
       Il ne s’agit pas de coller une étiquette de dépression à toute forme de
       tristesse ou d’absence d’entrain mais si, en dehors d’une phase de deuil,
-      une grande tristesse vous envahit durablement, \*\*vous n’avez plus le
-      goût d’entreprendre ne serait-ce que les petites choses qui vous
-      faisaient plaisir, votre intérêt diminue pour ce qui vous environne,
-      vous ne trouvez plus l’énergie « d’aller vers », \*\*alors il est
-      probable que cet état, survenu éventuellement à la suite d’événements
-      récents, soit engendré par une **peur inconsciente sous-jacente** que
-      vous pourrez éliminer à l’aide du revécu sensoriel.
+      une grande tristesse vous envahit durablement, **vous n’avez plus le goût
+      d’entreprendre ne serait-ce que les petites choses qui vous faisaient
+      plaisir, votre intérêt diminue pour ce qui vous environne, vous ne
+      trouvez plus l’énergie « d’aller vers »**, alors il est probable que cet
+      état, survenu éventuellement à la suite d’événements récents, soit
+      engendré par une **peur inconsciente sous-jacente** que vous pourrez
+      éliminer à l’aide du revécu sensoriel.
 
 
       Bien entendu, cela ne doit pas vous dispenser de consulter votre médecin
