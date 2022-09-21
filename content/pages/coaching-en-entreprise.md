@@ -14,14 +14,14 @@ blocks:
     _template: content
   - name: Méditation
     bgColor: white
-    body: "## Méditation\n\nLes bienfaits de la méditation ne sont aujourd’hui plus à prouver. Avec une** expérience d’enseignant** **de méditation** à plein temps **depuis quinze ans**, j’amène aujourd’hui mon savoir faire au sein de l’entreprise.\n\n**Méditations guidées, apprentissage de la méditation, gestion des émotions, conseils d’intégration de la méditation dans l’activité...**\n\nLe format et la fréquence des interventions sont à déterminer avec vous...\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "## Méditation\n\nLes bienfaits de la méditation ne sont aujourd’hui plus à prouver. Avec une\\*\\* expérience d’enseignant\\*\\* **de méditation** à plein temps **depuis quinze ans**, j’amène aujourd’hui mon savoir faire au sein de l’entreprise.\n\n**Méditations guidées, apprentissage de la méditation, gestion des émotions, conseils d’intégration de la méditation dans l’activité...**\n\nLe format et la fréquence des interventions sont à déterminer avec vous...\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     _template: content
   - name: Stages
     body: >
       ## Stages
 
 
-      Je vous propose des **stages de un à cinq jours **en immersion dans des**
+      Je vous propose des **stages de un à cinq jours en immersion dans des
       lieux exceptionnels** tels que le Château Saint-Martin de Graves ou le 
       temple bouddhiste de Lerab Ling (à 1h de Montpellier).
 
@@ -39,7 +39,7 @@ blocks:
       "L")
     _template: content
   - name: Activity training
-    body: "## Activity Training\n\nL’activity training est une **série de conseils** provenant de maîtres bouddhistes permettant d’amener notre sagesse dans l’activité. Il permet de** donner du sens à notre activité et de l’accomplir plus créativement et plus efficacement**.\n\nIl fait l’objet de sessions dans lesquelles vous **découvrirez ces conseils**, **apprendrez à les mettre en pratique** ainsi qu'à **repérer les blocages émotionnels qui vous empêchent de les appliquer.**\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "## Activity Training\n\nL’activity training est une **série de conseils** provenant de maîtres bouddhistes permettant d’amener notre sagesse dans l’activité. Il permet de **donner du sens à notre activité et de l’accomplir plus créativement et plus efficacement**.\n\nIl fait l’objet de sessions dans lesquelles vous **découvrirez ces conseils**, **apprendrez à les mettre en pratique** ainsi qu'à **repérer les blocages émotionnels qui vous empêchent de les appliquer.**\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     _template: content
 ---
 
