@@ -57,8 +57,8 @@ blocks:
       libération complète et définitive de tous nos blocages émotionnels**.
 
 
-      * [Video youtube sur la régulation émotionnelle de Luc
-      Nicon](https://www.youtube.com/watch?v=FdOt3Ryt1x0 "")
+      * [Video youtube de Luc Nicon sur la régulation émotionnelle
+      Tipi](https://www.youtube.com/watch?v=FdOt3Ryt1x0 "")
 
       * Lecture: *Revivre sensoriellement* de Luc Nicon
 
