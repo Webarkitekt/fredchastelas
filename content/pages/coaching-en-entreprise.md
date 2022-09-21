@@ -21,7 +21,7 @@ blocks:
       ## Stages
 
 
-      Je vous propose **des stages de un à cinq jours en immersion dans des
+      Je vous propose des **stages de un à cinq jours **en immersion dans des**
       lieux exceptionnels** tels que le Château Saint-Martin de Graves ou le 
       temple bouddhiste de Lerab Ling (à 1h de Montpellier).
 
