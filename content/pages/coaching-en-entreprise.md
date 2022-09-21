@@ -26,8 +26,8 @@ blocks:
       bouddhiste de Lerab Ling (à 1h de Montpellier).
 
 
-      Apprentissage de la méditation, régulation émotionnelle, marches,
-      yoga... sont proposés. Une expérience complète et unique !
+      Apprentissage de la **méditation, régulation émotionnelle, marches,
+      yoga**... sont proposés. Une **expérience complète et unique** !
 
 
       ![Chateau Saint Martin de
