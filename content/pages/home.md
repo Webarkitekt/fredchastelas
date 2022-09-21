@@ -87,7 +87,7 @@ blocks:
           Première venue à ce type d’évènement. Je suis enchantée du fond comme
           de la forme ! J’entrouvre une porte… que de perspectives !! Merci
           beaucoup!
-      - type: stage "se libérer enfin l'ego"
+      - type: stage "se libérer enfin de l'ego"
         author: Joelle
         text: >-
           Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
