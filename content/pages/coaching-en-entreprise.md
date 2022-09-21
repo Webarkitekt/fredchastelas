@@ -14,7 +14,7 @@ blocks:
     _template: content
   - name: Méditation
     bgColor: white
-    body: "## Méditation\n\nLes bienfaits de la méditation ne sont aujourd’hui plus à prouver. Avec une** expérience d’enseignant** de méditation à plein temps **depuis quinze ans**, j’amène aujourd’hui mon savoir faire au sein de l’entreprise.\n\n**Méditations guidées, apprentissage de la méditation, gestion des émotions, conseils d’intégration de la méditation dans l’activité...**\n\nLe format et la fréquence des interventions sont à déterminer avec vous...\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "## Méditation\n\nLes bienfaits de la méditation ne sont aujourd’hui plus à prouver. Avec une** expérience d’enseignant** **de méditation** à plein temps **depuis quinze ans**, j’amène aujourd’hui mon savoir faire au sein de l’entreprise.\n\n**Méditations guidées, apprentissage de la méditation, gestion des émotions, conseils d’intégration de la méditation dans l’activité...**\n\nLe format et la fréquence des interventions sont à déterminer avec vous...\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
     _template: content
   - name: Stages
     body: >
