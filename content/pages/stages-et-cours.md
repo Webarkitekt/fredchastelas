@@ -90,7 +90,7 @@ blocks:
           propre chemin. Merci pour les explications de la méditation.
 
           J'ai vraiment appris durant cette formation sur l’acceptation MERCI.
-      - type: stage "surmonter enfin l'ego"
+      - type: stage "se libérer enfin l'ego"
         author: Joelle
         text: >-
           Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
