@@ -10,7 +10,7 @@ blocks:
     tagline: Libérez vous de vos émotions envahissantes
     _template: hero
   - name: Description
-    body: >+
+    body: >
       À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
       notre corps possède la
 
@@ -61,7 +61,6 @@ blocks:
       Tipi](https://www.youtube.com/watch?v=FdOt3Ryt1x0 "")
 
       * Lecture: *Revivre sensoriellement* de Luc Nicon
-
     _template: content
   - name: Dans quels cas
     bgColor: bg-secondary
