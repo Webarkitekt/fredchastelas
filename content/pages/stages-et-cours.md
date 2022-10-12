@@ -20,15 +20,15 @@ blocks:
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
-    title: Organiser votre séminaire
+    title: Organisez votre séminaire
     body: >
       **Vous souhaitez organiser un séminaire autour de la méditation et du
       développement personnel avec des clients, des amis, une entreprise ?**
 
 
       Je mets mes compétences à votre service en créant avec vous un programme
-      sur mesure. Des activités physiques tels que la marche, le Yoga, le Qi
-      Qong sont aussi proposées.
+      sur mesure dans des lieux exceptionnels. Des activitées comme le Yoga, le
+      Qi Qong et la marche peuvent être incluses.
 
 
       Pour plus d’infos, contactez moi directement par mail ou par téléphone
