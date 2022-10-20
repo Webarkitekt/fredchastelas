@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
-    "@tinacms/auth": "^0.50.4",
+    "@tinacms/auth": "^0.50.5",
     "autoprefixer": "^10.4.7",
     "email-validator": "^2.0.4",
     "jsonp": "^0.2.1",
