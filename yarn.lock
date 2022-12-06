@@ -2763,10 +2763,10 @@
     webfontloader "1.6.28"
     xstate "4.32.1"
 
-"@tinacms/auth@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-1.0.0.tgz#49a7e9763cd47d341496da22dee8d9d351765b9f"
-  integrity sha512-LCUJfruXhx8J3t1DSkNDPEU/4I5abmploGK9ZC/C+XAfpImmZ9hvBkApjXNBh30nYwFPRjvnBU6Nky48jN+s/w==
+"@tinacms/auth@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-1.0.1.tgz#2f8553229949c660c1e03c60645bef59c667628a"
+  integrity sha512-dhY51fmLEKfUCgn+B+tWWmOv98vJ9RCGK60PLVmRye7aUpwAniPfWZ95fNTX0NTY4aTBcCo41f4NTDcCMXzf6Q==
 
 "@tinacms/cli@^1.0.1":
   version "1.0.1"
