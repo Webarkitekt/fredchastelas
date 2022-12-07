@@ -10978,10 +10978,10 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-tinacms@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.0.2.tgz#6322564ecd0b634565c7ca0a6c1bc2a38cbb6898"
-  integrity sha512-hj42VbVC0dOoMG2HB+0OzIGoTmb1vtin++FcuamPr/BhVUdSlCK3XR8VOk9nd5EfsfEFDM0rCYzWSoolpoSzEA==
+tinacms@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.1.0.tgz#45363a5a6b427128fb66f2069bb2bb0fe51c7ea7"
+  integrity sha512-dRvOrHvC0rlncSK8o0qbo8OXsRzxKbf5m1BTwYPkt/U09v+UcJv4reRBLac2JBcviv+PCZHmbcjos1+bd+1oOQ==
   dependencies:
     "@graphql-tools/relay-operation-optimizer" "^6.4.1"
     "@headlessui/react" "^1.5.0"
