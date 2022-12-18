@@ -13,6 +13,12 @@ blocks:
   - title: Stages à Lérab Ling
     location: content/locations/Lerabling.md
     _template: events
+  - title: Autres Stages
+    location: content/locations/autres_stages.md
+    stage: true
+    show_all_link: false
+    limit: 0
+    _template: events
   - name: Cours
     bgColor: white
     size_large: true

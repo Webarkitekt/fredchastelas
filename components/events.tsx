@@ -3,7 +3,6 @@ import Link from "next/link";
 
 export const Events = ( events ) => {
     const eventsList = events?.eventsConnection?.edges
-    console.log('eventsList', events);
     return (
         <>
             {events?.eventsConnection?.edges.map((event) => (
