@@ -74,7 +74,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
                         {loading ? (
                             <h4>Chargement...</h4>) :
                                 (eventsList && eventsList.map((event) => (
-                                    <Event data={event.node}/>
+                                    <Event data={event.node} key={event.node._sys.filename}/>
                                 ))
                             )
                         }
