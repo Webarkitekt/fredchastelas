@@ -34,7 +34,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
     }, []);
 
     return (
-        eventsList.length && (
+        eventsList.length > 0 && (
             <Section>
                 <Container className={`px-5 pt-24 max-w-screen-xl lg:mx-auto`}>
                     <div className="lg:flex lg:flex-col  mb-12 lg:mb-24 justify-between">
@@ -73,10 +73,10 @@ export const EventsList = ({data: data, parentField = ""}) => {
                     <div className="flex flex-col gap-8 lg:flex-row lg:gap-5">
                         {loading ? (
                             <h4>Chargement...</h4>) :
-                                (eventsList && eventsList.map((event) => (
+                                (eventsList.length > 0 && (eventsList.map((event) => (
                                     <Event data={event.node} key={event.node._sys.filename}/>
                                 ))
-                            )
+                            ))
                         }
                     </div>
                 </Container>
