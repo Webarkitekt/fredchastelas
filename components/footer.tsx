@@ -30,7 +30,7 @@ export const Footer = ({ data }) => {
           <hr className="opacity-30 md:hidden mt-4 w-full "/>
           <div >
             <ul className="space-y-2 pb-4 pt-4 md:pt-0">
-              <li><a href="/politique-de-confidentialite">Politique de confidentialite</a></li>
+              <li><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
               <li><a href="/mentions-legales">Mentions légales</a></li>
             </ul>
             <hr className="opacity-30 hidden md:block" />

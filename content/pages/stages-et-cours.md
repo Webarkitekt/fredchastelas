@@ -13,7 +13,7 @@ blocks:
   - title: Stages à Lérab Ling
     location: content/locations/Lerabling.md
     _template: events
-  - title: Autres Stages
+  - title: Autres stages
     location: content/locations/autres_stages.md
     stage: true
     show_all_link: false

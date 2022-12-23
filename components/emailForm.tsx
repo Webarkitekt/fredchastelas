@@ -33,9 +33,9 @@ export const EmailForm = () => {
             <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16 lg:px-5">
                 <div className="bg-secondary py-10 px-6 sm:py-16 sm:px-12 lg:flex lg:items-center lg:p-20">
                     <div className="lg:w-0 lg:flex-1">
-                        <h2 className="text-4xl font-serif tracking-tight text-gray-700">Inscrivez-vous à ma newsletter</h2>
+                        <h2 className="text-4xl font-serif tracking-tight text-gray-700">Inscrivez-vous à la newsletter</h2>
                         <p className="mt-4 max-w-3xl text-lg text-gray-500">
-                            Restez informé des prochains évènements en vous inscrivant à mon infolettre.
+                            Restez informé des prochains cours et évènements en vous inscrivant à la newsletter
                         </p>
                     </div>
                     <div className="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">

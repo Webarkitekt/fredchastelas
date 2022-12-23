@@ -1,5 +1,5 @@
 ---
-name: Château de Saint Martin de Grave
+name: Château de Saint Martin de Graves
 description: >
   *Au cœur de ses vignes, le Domaine de Saint-Martin de Graves est un château
   pinardier datant de la fin du 19ème siècle.*
