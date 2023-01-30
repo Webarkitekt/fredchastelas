@@ -9,7 +9,7 @@ blocks:
       alt: Stages et cours
     headline: Stages et cours
     tagline: Participez à nos prochains évènements
-    as_banner: true
+    as_banner: false
     _template: hero
   - title: Stages au château de Saint-Martin de Graves
     location: content/locations/chateau_de_saint_martin_de_grave.md
