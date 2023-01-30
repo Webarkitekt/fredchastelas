@@ -10,7 +10,7 @@ import IllustrationWaves from "../../public/illust-waves.svg";
 export const Feature = ({data, parentField}) => {
     return (
         <Section>
-            <Container className={'pt-24'}>
+            <Container className={'pt-12 lg:pt-24'}>
                 <div className=" mx-auto ">
                     <div className="relative pt-32 pb-16 ">
                         <div className="absolute right-[120px] top-14 w-[340px] h-[95%] bg-gray-100"/>

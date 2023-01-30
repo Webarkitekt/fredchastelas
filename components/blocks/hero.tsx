@@ -4,10 +4,10 @@ import HeroGraphic from '../../public/hero-graphic.svg'
 
 export const Hero = ({data, parentField}) => {
     return (
-        <div className={`bg-secondary py-16 ${!data.as_banner && `h-screen lg:h-[20rem]`} relative overflow-hidden `}>
+        <div className={`bg-secondary py-16 ${!data.as_banner && `lg:h-[20rem]`} relative overflow-hidden `}>
             {!data.as_banner &&
               <div className="absolute inset-0">
-                <div className="absolute z-10 right-0 bottom-0 text-white">
+                <div className="absolute z-10 right-0 bottom-0 text-white hidden lg:block">
                   <HeroGraphic/>
                 </div>
               </div>

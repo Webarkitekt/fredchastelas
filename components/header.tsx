@@ -42,14 +42,14 @@ export const Header = ({data}) => {
             <div className="relative pt-6 pb-6">
                 <Popover>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                        <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
-                            <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                                <div className="flex items-center justify-between w-full md:w-auto">
+                        <nav className="relative flex items-center justify-between sm:h-10 lg:justify-center" aria-label="Global">
+                            <div className="flex items-center flex-1 lg:absolute lg:inset-y-0 lg:left-0">
+                                <div className="flex items-center justify-between w-full lg:w-auto">
                                     <a href="/">
                                         <span className="sr-only">Frédéric Chastelas</span>
                                         <Logo/>
                                     </a>
-                                    <div className="-mr-2 flex items-center md:hidden">
+                                    <div className="-mr-2 flex items-center lg:hidden">
                                         <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
                                             <span className="sr-only">Ouvrir le menu principal</span>
                                             <MenuIcon className="h-8 w-8" aria-hidden="true" />
@@ -57,7 +57,7 @@ export const Header = ({data}) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="hidden md:flex md:space-x-10">
+                            <div className="hidden lg:flex lg:space-x-10">
                                 {data.nav &&
                                     data.nav.map((item, i) => {
                                         const activeItem =
@@ -75,7 +75,7 @@ export const Header = ({data}) => {
                                     })
                                 }
                             </div>
-                            <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
+                            <div className="hidden lg:absolute lg:flex lg:items-center lg:justify-end lg:inset-y-0 lg:right-0">
                                 <span className="inline-flex rounded-md">
                                   <a href="mailto:frederic.chastelas@gmail.com"
                                        className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-gray-700 rounded-lg text-base font-semibold text-gray-700 hover:bg-white hover:text-gray-800 transition">
@@ -97,7 +97,7 @@ export const Header = ({data}) => {
                     >
                         <Popover.Panel
                             focus
-                            className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                            className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
                         >
                             <div className=" rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                                 <div className="px-5 pt-4 pb-4 flex items-center justify-between">

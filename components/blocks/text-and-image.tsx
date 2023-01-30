@@ -6,11 +6,11 @@ import IllustrationWaterDrops from "../../public/illust-water-drops.svg"
 
 export const TextAndImage = ({data, parentField}) => {
     return (
-        <div className={`${data.bgColor} py-20`}>
+        <div className={`${data.bgColor} py-10 lg:py-20`}>
             <div className="max-w-screen-xl mx-auto px-5 lg:px-16 ">
                 <div className={`flex flex-col xl:flex-row justify-items-start relative ${data.image_position === 'right' ? 'xl:flex-row-reverse': ''}`}>
                     {data.image.src &&
-                      <div className="xl:w-5/12 relative">
+                      <div className="xl:w-5/12 relative pt-[28px]">
                         <div className="w-full">
                           <div className="relative z-10">
                             <img src={data.image.src} alt={data.image.alt}/>

@@ -18,7 +18,7 @@ export const Blocks = ({blocks}: {blocks:PagesBlocks[]}) => {
                     let bottomSpacing: string
 
                     if (nextBlock && (nextBlock.__typename === "PagesBlocksTextAndImage" || nextBlock.__typename === "PagesBlocksContent")) {
-                        bottomSpacing = nextBlock.bgColor === 'bg-secondary' ? "pb-24" : "";
+                        bottomSpacing = nextBlock.bgColor === 'bg-secondary' ? "pb-12 lg:pb-24" : "";
                     } else if (i + 1 === blocks.length) {
                         bottomSpacing = "mb-24"
                     }

@@ -8,7 +8,7 @@ export const Content = ({ className= "", data, parentField = "" }) => {
   return (
       <Section className={`${className} ${data.bgColor}`}>
         <Container
-          className={`mx-auto pt-24 px-5 richtext lg:richtext-lg ${data.size_large && 'lg:max-w-screen-xl'}`}
+          className={`mx-auto pt-12 lg:pt-24 px-5 richtext lg:richtext-lg ${data.size_large && 'lg:max-w-screen-xl'}`}
           data-tinafield={`${parentField}.body`}
         >
           <TinaMarkdown content={data.body} />

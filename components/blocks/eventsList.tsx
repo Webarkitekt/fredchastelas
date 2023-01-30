@@ -36,8 +36,8 @@ export const EventsList = ({data: data, parentField = ""}) => {
     return (
         eventsList.length > 0 && (
             <Section>
-                <Container className={`px-5 pt-24 max-w-screen-xl lg:mx-auto`}>
-                    <div className="lg:flex lg:flex-col  mb-12 lg:mb-24 justify-between">
+                <Container className={`px-5 pt-12 lg:pt-24 max-w-screen-xl lg:mx-auto`}>
+                    <div className="lg:flex lg:flex-col  mb-12 lg:mb-18 justify-between">
                         <div className="lg:flex">
 
 
