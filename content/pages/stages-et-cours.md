@@ -3,7 +3,11 @@ seo:
   title: Découvrez mes stages et cours de régulation émotionnelle
   description: Je vous propose des stages et des cours dans des lieux exceptionnels.
 blocks:
-  - headline: Stages et cours
+  - image:
+      src: >-
+        https://res.cloudinary.com/guikem/image/upload/v1675103575/stages-banner_zeaisq.jpg
+      alt: Stages et cours
+    headline: Stages et cours
     tagline: Participez à nos prochains évènements
     as_banner: true
     _template: hero
