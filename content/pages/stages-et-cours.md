@@ -8,7 +8,7 @@ blocks:
         https://res.cloudinary.com/guikem/image/upload/v1675103575/stages-banner_zeaisq.jpg
       alt: Stages et cours
     headline: Stages et cours
-    tagline: Participez à nos prochains évènements
+    tagline: Participez aux prochains évènements
     as_banner: false
     _template: hero
   - title: Stages au château de Saint-Martin de Graves
