@@ -31,12 +31,12 @@ blocks:
       label: En savoir plus
       url: /regulation-emotionnelle-tipi
     _template: feature
-  - style: default
-    _template: newsletter
   - title: Stages et cours
     show_all_link: true
     limit: 4
     _template: events
+  - style: default
+    _template: newsletter
   - title: Témoignages
     testimonial:
       - type: Régulation émotionnelle TIPI
@@ -127,5 +127,4 @@ blocks:
           conscience grâce à l’exercice du pardon. Gratitude !
     _template: testimonials
 ---
-
 
