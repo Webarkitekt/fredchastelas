@@ -6,6 +6,8 @@ blocks:
     headline: Vivre pleinement
     tagline: 'Libérez vos émotions, bousculez vos croyances'
     _template: hero
+  - style: default
+    _template: newsletter
   - title: Ma démarche
     text: >-
       Enseignant du bouddhisme et de la méditation depuis plus de quinze ans,
@@ -35,8 +37,6 @@ blocks:
     show_all_link: true
     limit: 4
     _template: events
-  - style: default
-    _template: newsletter
   - title: Témoignages
     testimonial:
       - type: Régulation émotionnelle TIPI
@@ -127,5 +127,4 @@ blocks:
           conscience grâce à l’exercice du pardon. Gratitude !
     _template: testimonials
 ---
-
 
