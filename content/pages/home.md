@@ -23,8 +23,6 @@ blocks:
         https://res.cloudinary.com/guikem/image/upload/v1657319289/portrait-fred_v8h2mr.jpg
       alt: Frédéric Chastelas
     _template: introduction
-  - style: default
-    _template: newsletter
   - subhead: Régulation émotionnelle Tipi
     title: >
       Vos émotions envahissantes ne sont pas une fatalité. Vous pouvez vous en
@@ -33,6 +31,8 @@ blocks:
       label: En savoir plus
       url: /regulation-emotionnelle-tipi
     _template: feature
+  - style: default
+    _template: newsletter
   - title: Stages et cours
     show_all_link: true
     limit: 4
