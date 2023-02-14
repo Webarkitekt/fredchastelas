@@ -23,6 +23,8 @@ blocks:
         https://res.cloudinary.com/guikem/image/upload/v1657319289/portrait-fred_v8h2mr.jpg
       alt: Frédéric Chastelas
     _template: introduction
+  - style: default
+    _template: newsletter
   - subhead: Régulation émotionnelle Tipi
     title: >
       Vos émotions envahissantes ne sont pas une fatalité. Vous pouvez vous en
@@ -124,7 +126,5 @@ blocks:
           plus clairs à présent. J’ai également pu avoir une belle prise de
           conscience grâce à l’exercice du pardon. Gratitude !
     _template: testimonials
-  - style: default
-    _template: newsletter
 ---
 
