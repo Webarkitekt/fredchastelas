@@ -17,7 +17,7 @@ blocks:
       personnes désirant se libérer de leurs émotions envahissantes et des
       blocages qui en découlent. Je travaille également à la guérison des
       blessures psychologiques (rejet, abandon, injustice...) avec l’approche
-      Écoute Ton Corps de Lise Bourbeau.
+      Écoute Ton Corps de Lise Bourbeau combinée à la régulation émotionnelle.
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1657319289/portrait-fred_v8h2mr.jpg
