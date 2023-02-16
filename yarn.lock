@@ -2786,10 +2786,10 @@
     webfontloader "1.6.28"
     xstate "4.32.1"
 
-"@tinacms/auth@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-1.0.2.tgz#7d1380cd2bc0bce7a77b9c244aa8a0e1116599d6"
-  integrity sha512-NlrcnAanyKSgB2dBahj9SM9x7Z4vq8a1x0xIaQ3W2vCrSmHGTxsUOcB1PI2gJFU4IipmPhinDMtMv2X/2Hzvcw==
+"@tinacms/auth@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-1.0.3.tgz#059063bb95bb68ef66411c588d83ae0c6954d8b6"
+  integrity sha512-puhv86VFbyzw7DLx1odcvx5p2LvX8UcJMW+UXA85mkRi032DLLZA9v643hcaI4P5jgQgB5Ztarj0tppK3/G8Zg==
   dependencies:
     fetch-ponyfill "^7.1.0"
 
@@ -2945,13 +2945,6 @@
   integrity sha512-alOhmTyLFCWTfy4dqDZMW7LhnXjr1oKDVcK62uqyFClY4yr+JtOGG87yW7d0lWGSvKyXpjEOxB3SNrBKypEwhg==
   dependencies:
     isomorphic-fetch "^3.0.0"
-
-"@tinacms/schema-tools@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-1.2.0.tgz#10b560376a60974d810e113dab452a50d9160d4e"
-  integrity sha512-+2gwhdMazP4rX6+Cz9xVHImEET37NwRgWynG1MTdbUSHErch0DOn+kpcmv94YNNWb8c2ySm2hinNtk7HueX8NA==
-  dependencies:
-    zod "^3.14.3"
 
 "@tinacms/schema-tools@1.2.0":
   version "1.2.0"
