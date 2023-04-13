@@ -374,8 +374,6 @@ export const tinaConfig = defineConfig({
     });
 
     return cms;
-
-    return cms;
   },
   formifyCallback: ({formConfig, createForm, createGlobalForm}) => {
     if (formConfig.id === "getGlobalDocument") {
