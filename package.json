@@ -17,7 +17,7 @@
     "next": "12.1.6",
     "next-seo": "^5.5.0",
     "next-svgr": "^0.0.2",
-    "next-tinacms-cloudinary": "^3.5.30",
+    "next-tinacms-cloudinary": "^4.3.0",
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
     "react": "18.1.0",

@@ -21,6 +21,7 @@ export const tinaConfig = defineConfig({
     outputFolder: 'admin',  // within the public folder
   },
   media: {
+    //@ts-ignore
     loadCustomStore: async() => {
       const pack = await import("next-tinacms-cloudinary");
       return pack.TinaCloudCloudinaryMediaStore;
