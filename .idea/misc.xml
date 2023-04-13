@@ -4,9 +4,4 @@
     <option name="projectType" value="Ibexa OSS" />
     <option name="projectVersion" value="V3_3" />
   </component>
-  <component name="SwUserDefinedSpecifications">
-    <option name="specTypeByUrl">
-      <map />
-    </option>
-  </component>
 </project>
