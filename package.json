@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "tinacms dev  --noTelemetry  -c \"next dev\" ",
     "build": "tinacms build && next build",
-    "start": "tinacms server:start --port 6007 -c \"next start\" ",
+    "start": "tinacms build && next start",
     "export": "yarn build && next export"
   },
   "dependencies": {
@@ -13,7 +13,7 @@
     "autoprefixer": "^10.4.7",
     "email-validator": "^2.0.4",
     "jsonp": "^0.2.1",
-    "next": "12.1.6",
+    "next": "13.3.0",
     "next-seo": "^5.5.0",
     "next-svgr": "^0.0.2",
     "next-tinacms-cloudinary": "^4.3.0",

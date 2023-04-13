@@ -354,6 +354,27 @@ export const tinaConfig = defineConfig({
      */
     cms.flags.set("branch-switcher", true);
 
+    import("tinacms").then(({RouteMappingPlugin}) => {
+      const RouteMapping = new RouteMappingPlugin((collection, document) => {
+        if (["global"].includes(collection.name)) {
+          return undefined;
+        }
+        if (["pages"].includes(collection.name)) {
+          if (document._sys.filename === "home") {
+            return `/`;
+          }
+          return `/${document._sys.filename}`
+        }
+        if (['event'].includes(collection.name)) {
+          return `/events/${document._sys.filename}`;
+        }
+        return undefined
+      });
+      cms.plugins.add(RouteMapping);
+    });
+
+    return cms;
+
     return cms;
   },
   formifyCallback: ({formConfig, createForm, createGlobalForm}) => {

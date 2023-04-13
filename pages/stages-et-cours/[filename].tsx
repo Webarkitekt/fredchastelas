@@ -1,4 +1,4 @@
-import {staticRequest} from "tinacms";
+import { client } from '../../tina/__generated__/client'
 import { useTina } from 'tinacms/dist/react'
 import {Layout} from "../../components/layout";
 import {Hero} from "../../components/blocks/hero";
@@ -24,6 +24,7 @@ const query = `query getEvent($relativePath: String!) {
 
 // Use the props returned by get static props
 export default function EventsPage(props) {
+
     const {data} = useTina({
         query: props.query,
         variables: props.variables,
@@ -72,7 +73,7 @@ export const getStaticProps = async (ctx) => {
     };
     try {
         // @ts-ignore
-        data = await staticRequest({
+        data = await client.request({
             query,
             variables,
         });
@@ -99,34 +100,10 @@ export const getStaticProps = async (ctx) => {
  */
 export const getStaticPaths = async () => {
 
-    const eventsResponse : any = await staticRequest({
-            query: `{
-              eventsConnection {
-                edges {
-                  node {
-                    id
-                    start_date
-                    end_date
-                    title
-                    location {
-                      ... on Location {
-                        name
-                      }
-                    }
-                    description
-                    _sys {
-                      filename
-                    }
-                  }
-                }
-              }
-            }`
-        }
-    );
+    const eventsResponse : any = await client.queries.eventsConnection()
 
-
-    const paths = eventsResponse?.eventsConnection.edges.map((event) => {
-        return { params: { filename: event.node._sys.filename } };
+    const paths = eventsResponse.data.eventsConnection.edges.map((event) => {
+        return { params:{ filename: event.node._sys.filename} };
     });
 
     return {
@@ -134,6 +111,3 @@ export const getStaticPaths = async () => {
         fallback: "blocking",
     };
 };
-
-export type AsyncReturnType<T extends (...args: any) => Promise<any>> =
-    T extends (...args: any) => Promise<infer R> ? R : any;

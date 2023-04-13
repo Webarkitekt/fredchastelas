@@ -62,10 +62,10 @@ export const EventsList = ({data: data, parentField = ""}) => {
                             <Link key={'stages-et-cours'}
                                   href={'stages-et-cours'}
                                   passHref>
-                                <a className="text-interaction-default flex items-center">
+                                <span className="text-interaction-default flex items-center">
                                     Voir tous
                                     <LinkArrowRight/>
-                                </a>
+                                </span>
                             </Link>
                         )}
                     </div>

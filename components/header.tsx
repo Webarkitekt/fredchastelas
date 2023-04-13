@@ -67,9 +67,9 @@ export const Header = ({data}) => {
                                                 : windowUrl.includes(item.href);
                                         return (
                                             <Link key={`${item.label}-${i}`} href={`${prefix}/${item.href}`} passHref>
-                                                <a className="relative inline-block text-sm uppercase font-medium text-gray-700 after:absolute after:w-full after:scale-x-0 after:h-[2px] after:-bottom-1 after:left-0 after:bg-gray-700 after:origin-bottom-right after:transition-transform after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left after:duration-300">
+                                                <span className="relative inline-block text-sm uppercase font-medium text-gray-700 after:absolute after:w-full after:scale-x-0 after:h-[2px] after:-bottom-1 after:left-0 after:bg-gray-700 after:origin-bottom-right after:transition-transform after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left after:duration-300">
                                                     {item.label}
-                                                </a>
+                                                </span>
                                             </Link>
                                         );
                                     })
@@ -121,9 +121,9 @@ export const Header = ({data}) => {
                                                     : windowUrl.includes(item.href);
                                             return (
                                                 <Link key={`${item.label}-${i}`} href={`${prefix}/${item.href}`} passHref>
-                                                    <a className="block px-3 py-2 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-5">
+                                                    <span className="block px-3 py-2 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-5">
                                                         {item.label}
-                                                    </a>
+                                                    </span>
                                                 </Link>
                                             );
                                         })
