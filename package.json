@@ -2,10 +2,10 @@
   "name": "starter-basic",
   "private": true,
   "scripts": {
-    "dev": "yarn tinacms server:start -c \"next dev\" --noTelemetry",
-    "dev-data": "yarn tinacms server:start -c \"next dev\" --experimentalData --noTelemetry",
-    "build": "tinacms server:start -c \"next build\" --experimentalData",
-    "start": "tinacms server:start -c \"next start\" --experimentalData",
+    "dev": "tinacms server:start --port 6007 -c \"next dev\" --noTelemetry",
+    "dev-data": "tinacms server:start --port 6007 -c \"next dev\" --experimentalData --noTelemetry",
+    "build": "tinacms server:start --port 6007 -c \"next build\" --experimentalData",
+    "start": "tinacms server:start --port 6007 -c \"next start\" --experimentalData",
     "export": "yarn build && next export"
   },
   "dependencies": {
