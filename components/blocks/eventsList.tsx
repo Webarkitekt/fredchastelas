@@ -1,8 +1,8 @@
-import {Event} from "../../components/event";
+import {Event} from "../event";
 import {Container} from "../container";
 import {Section} from "../section";
 import Link from "next/link";
-import { client } from '../../tina/client'
+import { client } from '../../tina/__generated__/client'
 import formatISO from "date-fns/formatISO";
 import sub from 'date-fns/sub';
 import {useEffect, useState} from "react";

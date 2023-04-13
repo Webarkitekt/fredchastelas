@@ -3,9 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "tinacms dev  --noTelemetry  -c \"next dev\" ",
-    "dev-data": "tinacms server:start --port 6007 -c \"next dev\" --experimentalData --noTelemetry",
     "build": "tinacms build && next build",
-    "start": "tinacms server:start --port 6007 -c \"next start\" --experimentalData",
+    "start": "tinacms server:start --port 6007 -c \"next start\" ",
     "export": "yarn build && next export"
   },
   "dependencies": {

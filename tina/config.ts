@@ -13,7 +13,7 @@ const branch =
     'main'
 
 export const tinaConfig = defineConfig({
-  branch,
+  branch: 'main',
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
   token: process.env.TINA_TOKEN,
   build: {
@@ -353,29 +353,6 @@ export const tinaConfig = defineConfig({
      * Enables experimental branch switcher
      */
     cms.flags.set("branch-switcher", true);
-    cms.flags.set("experimentalData", true);
-
-    /**
-     * When `tina-admin` is enabled, this plugin configures contextual editing for collections
-     */
-    import("tinacms").then(({RouteMappingPlugin}) => {
-      const RouteMapping = new RouteMappingPlugin((collection, document) => {
-        if (["global"].includes(collection.name)) {
-          return undefined;
-        }
-        if (["pages"].includes(collection.name)) {
-          if (document._sys.filename === "home") {
-            return `/`;
-          }
-          return `/${document._sys.filename}`
-        }
-        if (['event'].includes(collection.name)) {
-          return `/events/${document._sys.filename}`;
-        }
-        return undefined
-      });
-      cms.plugins.add(RouteMapping);
-    });
 
     return cms;
   },
