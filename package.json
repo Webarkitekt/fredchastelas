@@ -2,9 +2,9 @@
   "name": "starter-basic",
   "private": true,
   "scripts": {
-    "dev": "tinacms server:start --port 6007 -c \"next dev\" --noTelemetry",
+    "dev": "tinacms dev  --noTelemetry  -c \"next dev\" ",
     "dev-data": "tinacms server:start --port 6007 -c \"next dev\" --experimentalData --noTelemetry",
-    "build": "tinacms server:start --port 6007 -c \"next build\" --experimentalData",
+    "build": "tinacms build && next build",
     "start": "tinacms server:start --port 6007 -c \"next start\" --experimentalData",
     "export": "yarn build && next export"
   },
