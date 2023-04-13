@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import type {PagesBlocks} from "../.tina/__generated__/types";
+import type {PagesBlocks} from "../tina/__generated__/types";
 import {Hero} from "./blocks/hero";
 import {Introduction} from "./blocks/introduction";
 import {Feature} from "./blocks/feature";

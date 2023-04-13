@@ -2,7 +2,7 @@ import {Event} from "../../components/event";
 import {Container} from "../container";
 import {Section} from "../section";
 import Link from "next/link";
-import { client } from '../../.tina/client'
+import { client } from '../../tina/client'
 import formatISO from "date-fns/formatISO";
 import sub from 'date-fns/sub';
 import {useEffect, useState} from "react";

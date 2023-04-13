@@ -4,7 +4,6 @@ import Head from 'next/head'
 import { DefaultSeo } from 'next-seo'
 import data from '../content/siteConfig.json'
 import "../styles.css";
-import Tina from '../.tina/components/TinaDynamicProvider';
 
 
 const MainLayout = ({ Component, pageProps }) => {
@@ -35,9 +34,7 @@ class Site extends App {
     render() {
         const { Component, pageProps } = this.props
         return (
-            <Tina>
-                <MainLayout Component={Component} pageProps={pageProps} />
-            </Tina>
+            <MainLayout Component={Component} pageProps={pageProps} />
         )
     }
 }

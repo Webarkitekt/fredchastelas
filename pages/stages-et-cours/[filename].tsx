@@ -1,5 +1,5 @@
 import {staticRequest} from "tinacms";
-import {useTina} from "tinacms/dist/edit-state";
+import { useTina } from 'tinacms/dist/react'
 import {Layout} from "../../components/layout";
 import {Hero} from "../../components/blocks/hero";
 import {Content} from "../../components/blocks/content";

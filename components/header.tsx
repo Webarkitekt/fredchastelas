@@ -15,8 +15,8 @@ export const Header = ({data}) => {
     const hasUrl = isBrowser ? window.location.href : "";
 
     const handleScroll = () => {
-        setScrollPos(document.body.getBoundingClientRect().top);
-        setShowHeader(document.body.getBoundingClientRect().top > scrollPos);
+        setScrollPos(document.documentElement.scrollTop);
+        document.documentElement.scrollTop > 90 && setShowHeader(document.documentElement.scrollTop < scrollPos);
     };
 
     React.useEffect(() => {
