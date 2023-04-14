@@ -1,7 +1,7 @@
 ---
 title: Apprendre à s'accepter pour se transformer
-start_date: '2023-06-23T22:00:00.000Z'
-end_date: '2023-06-24T22:00:00.000Z'
+start_date: 2023-06-23T22:00:00.000Z
+end_date: 2023-06-24T22:00:00.000Z
 location: content/locations/chateau_de_saint_martin_de_grave.md
 type: connaissance de soi
 description: >
@@ -31,7 +31,7 @@ description: >
   et à ne pas accepter
 
 
-  Nous explorerons aussi comment nous** libérer de la culpabilité** et nous
+  Nous explorerons aussi comment nous \*\*libérer de la culpabilité\*\* et nous
   découvrirons comment les situations de **tension avec les autres peuvent être
   des opportunités puissantes** pour prendre conscience de ce que nous n’avons
   pas accepté en nous-même, et pour nous transformer.
@@ -49,7 +49,7 @@ description: >
   **Détails pratiques (prix, comment s’inscrire...)**
 
 
-  Quatre **tarifs **selon si:
+  Quatre \*\*tarifs \*\*selon si:
 
 
   1\. Participation externe enseignement seul (sans hébergement-sans repas) :
@@ -71,4 +71,5 @@ description: >
   **Inscriptions et infos** auprès de Karine SANTA au 06 24 54 37 11 ou par
   email contact@lagrandemaison34.fr
 ---
+
 
