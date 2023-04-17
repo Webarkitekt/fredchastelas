@@ -26,7 +26,7 @@ blocks:
   - name: Cours
     bgColor: white
     size_large: true
-    body: "## Cours\n\n### Cours collectifs en visioconférence\n\n**Matinée méditation**\_par\_zoom\_**un dimanche par mois** de 10h à 12h.\_\nCe cours est ouvert à tous.\\\nNous y pratiquons la\_méditation\_et abordons différents thèmes tels que l'ego, l'acceptation de soi ainsi que certains thèmes du bouddhisme.\n\n**Tarif: 14€** *la séance\_(payable par transfert bancaire après la séance)*\n\nPour recevoir chaque mois la\_date de la prochaine séance\_et le\_lien zoom\_pour vous connecter, **inscrivez-vous à ma newsletter** en bas de page.\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n**Tarif : 55€/h**\n"
+    body: "## Cours\n\n### Cours collectifs en visioconférence\n\n**Matinée méditation**\_par\_zoom\_**un dimanche par mois** de 10h à 12h.\_\nCe cours est ouvert à tous.\\\nNous y pratiquons la\_méditation\_et abordons différents thèmes tels que l'ego, l'acceptation de soi ainsi que certains thèmes du bouddhisme.\n\n**Tarif: 14€** *la séance\_(payable par transfert bancaire après la séance)*\n\nPour recevoir chaque mois la\_date de la prochaine séance\_et le\_lien zoom\_pour vous connecter, **inscrivez-vous à ma newsletter** en bas de page.\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n**Tarif horaire: 55€**\n"
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
@@ -125,6 +125,7 @@ blocks:
   - style: default
     _template: newsletter
 ---
+
 
 
 
