@@ -49,7 +49,7 @@ description: >
   **Détails pratiques (prix, comment s’inscrire...)**
 
 
-  Quatre \*\*tarifs \*\*selon si:
+  Quatre **tarifs **selon si:
 
 
   1\. Participation externe enseignement seul (sans hébergement-sans repas) :
@@ -71,5 +71,6 @@ description: >
   **Inscriptions et infos** auprès de Karine SANTA au 06 24 54 37 11 ou par
   email contact@lagrandemaison34.fr
 ---
+
 
 
