@@ -4,7 +4,7 @@ start_date: 2023-06-23T22:00:00.000Z
 end_date: 2023-06-24T22:00:00.000Z
 location: content/locations/chateau_de_saint_martin_de_grave.md
 type: connaissance de soi
-description: >
+description: >+
   **Toute transformation ne peut se produire que par une acceptation authentique
   de nous-même.** Pourtant notre compréhension de l’acceptation de soi et
   surtout sa mise en pratique nous font souvent défaut. **Que signifie
@@ -49,7 +49,7 @@ description: >
   **Détails pratiques (prix, comment s’inscrire...)**
 
 
-  Quatre **tarifs **selon si:
+  Quatre \*\*tarifs \*\*selon si:
 
 
   1\. Participation externe enseignement seul (sans hébergement-sans repas) :
@@ -70,7 +70,43 @@ description: >
 
   **Inscriptions et infos** auprès de Karine SANTA au 06 24 54 37 11 ou par
   email contact@lagrandemaison34.fr
+
+
+  Quelques témoignages:
+
+
+  Sara
+
+
+  Sincèrement merci ! Le stage du weekend dernier m’a fait profondément du bien.
+  Plein de prises de conscience et déblocages importants. Par conséquent, cette
+  semaine tout a été différent autant à la maison qu’au travail. J’ai ressenti
+  une sérennité toute nouvelle et un recul dans la résolution des conflits au
+  travail qui m’ont permis d’être plus juste et pertinent. Merci donc pour la
+  formation que tu as construite et tous les outils et enseignements que tu as
+  partagés avec nous, c’était des véritables cadeaux.
+
+
+
+  Sylvie
+
+
+  Un super weekend sur l’acceptation de soi : révélateur, salvateur. Très
+  enrichissant et bien animé entre exercices, enseignements et méditation. De
+  belles rencontres. Merci !!
+
+
+
+  Nathalie
+
+
+  Weekend très enrichissant. Concepts profonds et très spirituels. Je repars
+  avec une meilleure  compréhension de mon être et certains points comme la
+  différence entre émotions et ressentis sont beaucoup plus clairs à présent.
+  J’ai également pu avoir une belle prise de conscience grâce à l’exercice du
+  pardon. Gratitude !
 ---
+
 
 
 
