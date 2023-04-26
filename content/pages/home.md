@@ -39,6 +39,9 @@ blocks:
     _template: newsletter
   - title: Témoignages
     testimonial:
+      - type: nouveau
+        author: NApolépon
+        text: témoignage lala
       - type: Régulation émotionnelle TIPI
         author: Christelle
         text: >-
@@ -127,5 +130,6 @@ blocks:
           conscience grâce à l’exercice du pardon. Gratitude !
     _template: testimonials
 ---
+
 
 
