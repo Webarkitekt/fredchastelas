@@ -3,8 +3,8 @@ title: Apprendre à s'accepter pour se transformer
 start_date: 2023-06-23T22:00:00.000Z
 end_date: 2023-06-24T22:00:00.000Z
 location: content/locations/chateau_de_saint_martin_de_grave.md
-type: connaissance de soi
-description: >+
+type: Connaissance de soi
+description: >
   **Toute transformation ne peut se produire que par une acceptation authentique
   de nous-même.** Pourtant notre compréhension de l’acceptation de soi et
   surtout sa mise en pratique nous font souvent défaut. **Que signifie
@@ -87,14 +87,12 @@ description: >+
   partagés avec nous, c’était des véritables cadeaux.
 
 
-
   Sylvie
 
 
   Un super weekend sur l’acceptation de soi : révélateur, salvateur. Très
   enrichissant et bien animé entre exercices, enseignements et méditation. De
   belles rencontres. Merci !!
-
 
 
   Nathalie
@@ -106,6 +104,7 @@ description: >+
   J’ai également pu avoir une belle prise de conscience grâce à l’exercice du
   pardon. Gratitude !
 ---
+
 
 
 
