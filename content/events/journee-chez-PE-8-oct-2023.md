@@ -7,22 +7,13 @@ end_date: 2023-10-07T22:00:00.000Z
 location: content/locations/autres_stages.md
 type: Détente/méditation/connaissance de soi
 description: >
-  La
-
-  relation à soi, la relation aux autres
+  ## **La relation à soi, la relation aux autres**
 
 
-  Atelier
-
-  le 8 octobre 2023 à Aix en Provence
+  ### Atelier le 8 octobre 2023 à Aix en Provence
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1690469142/IMG-20230724-WA0016_gba2km.jpg)
-
-
-  avec
-
-  Frédéric Chastelas
 
 
   Une journée pour se
@@ -46,7 +37,7 @@ description: >
 
   Pré-inscription
 
-  nécessaire par email à
+  nécessaire avant le 10 septembre par email à
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
   (Limité à 25 personnes)
@@ -91,6 +82,7 @@ description: >
 
   grandement encouragé car le parking est limité
 ---
+
 
 
 
