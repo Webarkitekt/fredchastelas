@@ -1,7 +1,9 @@
 ---
-title: Journée du 8 octobre à Aix-en-Provence - "la relation à soi..."
-start_date: '2023-10-07T22:00:00.000Z'
-end_date: '2023-10-07T22:00:00.000Z'
+title: >-
+  Journée du 8 octobre à Aix-en-Provence  "la relation à soi, la relation aux
+  autres"
+start_date: 2023-10-07T22:00:00.000Z
+end_date: 2023-10-07T22:00:00.000Z
 location: content/locations/autres_stages.md
 type: Détente/méditation/connaissance de soi
 description: >
@@ -89,6 +91,7 @@ description: >
 
   grandement encouragé car le parking est limité
 ---
+
 
 
 
