@@ -4,50 +4,23 @@ start_date: 2023-10-07T22:00:00.000Z
 end_date: 2023-10-07T22:00:00.000Z
 location: content/locations/autres_stages.md
 type: Détente/méditation/connaissance de soi
-description: >2+
-   La
+description: >
+  La
+
   relation à soi, la relation aux autres
-
-
-
-
-
 
 
   Atelier
 
-  le 8 octobre 2023 à Aix en Provence 
+  le 8 octobre 2023 à Aix en Provence
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1690469142/IMG-20230724-WA0016_gba2km.jpg)
 
 
-
-
-
   avec
 
   Frédéric Chastelas
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   Une journée pour se
@@ -64,19 +37,9 @@ description: >2+
   des blessures qui nous font retomber dans les mêmes shémas.
 
 
-
-
-
-
-
   Cet atelier se
 
   déroulera à 10mn de  Aix en Provence dans un écrin de verdure
-
-
-
-
-
 
 
   Pré-inscription
@@ -87,28 +50,12 @@ description: >2+
   (Limité à 25 personnes)
 
 
-
-
-
-
-
   Horaires: 10h-17h
-
-
-
-
-
 
 
   Tarif participant:
 
-  40€   
-
-
-
-
-
-
+  40€
 
 
   Déroulé de la
@@ -131,11 +78,6 @@ description: >2+
   l’atelier
 
 
-
-
-
-
-
   Amener son
 
   pique-nique, ainsi que tapis de yoga et coussin de méditation si
@@ -143,13 +85,9 @@ description: >2+
   vous en avez un (sinon nous pourrons vous en prêter)
 
 
-
-
-
-
-
   Le covoiturage est
 
   grandement encouragé car le parking est limité
 ---
+
 
