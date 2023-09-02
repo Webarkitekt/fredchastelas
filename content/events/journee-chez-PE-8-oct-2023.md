@@ -77,10 +77,15 @@ description: >
   vous en avez un (sinon nous pourrons vous en prêter)
 
 
+  Adresse: Les 3 Chênes- 860 chemin des Frères Gris - 13080 Luynes
+  -Aix-en-Provence
+
+
   Le covoiturage est
 
   grandement encouragé car le parking est limité
 ---
+
 
 
 
