@@ -1,7 +1,7 @@
 ---
 title: >-
   Journée du 8 octobre à Aix-en-Provence  "la relation à soi, la relation aux
-  autres"
+  autres" COMPLET
 start_date: 2023-10-07T22:00:00.000Z
 end_date: 2023-10-07T22:00:00.000Z
 location: content/locations/autres_stages.md
@@ -85,6 +85,7 @@ description: >
 
   vivement encouragé car le parking est limité
 ---
+
 
 
 
