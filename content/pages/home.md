@@ -4,7 +4,7 @@ blocks:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1657315958/Hero_k3xwov.jpg
     headline: Vivre pleinement
-    tagline: 'Régulez vos émotions, libérez vos croyances'
+    tagline: 'Régulez vos émotions, Libérez vos croyances'
     as_banner: false
     _template: hero
   - title: Ma démarche
@@ -128,6 +128,7 @@ blocks:
           conscience grâce à l’exercice du pardon. Gratitude !
     _template: testimonials
 ---
+
 
 
 
