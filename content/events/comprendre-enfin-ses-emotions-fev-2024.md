@@ -1,13 +1,16 @@
 ---
-title: Comprendre enfin ses émotions et apprendre à s'en libérer
+title: Guérir le 5 blessures
 start_date: 2024-02-23T23:00:00.000Z
 end_date: 2024-02-24T23:00:00.000Z
 location: content/locations/chateau_de_saint_martin_de_grave.md
-type: Libération émotionnelle
-description: "Cher(e)s ami(e)s\n\nJe suis ravi de vous présenter ce nouvel évènement que j'animerai au Château de Saint-Martin de Graves, près de Pézenas.\n\nCet évènement, qui vise à découvrir la régulation émotionnelle Tipi ainsi que l’impact insoupçonné qu’elle peut avoir sur nos vies, est unique.\n\n***\n\n**Dans ce stage,\nVous allez enfin comprendre d'où viennent vos émotions envahissantes (peurs, irritabilité, angoisses, panique, appréhensions, ruminations...) et comment vous en libérer définitivement.**\n\nApport théorique, exercices pratiques, méditation, suivi individuel après le stage... Dans le cadre exceptionnel du château de Saint-Martin de Graves, tout sera mis en place pour exploiter à fond cette pratique et amener de vrais changements dans votre vie.\n\n**Cet évènement est conçu comme une formation qui comprend le stage lui-même ainsi qu'un suivi individuel de\_deux séances dans les semaines qui suivent permettant ainsi un accompagnement personnalisé.**\n\n***\n\n**Il vous permettra :**\n\n* D’arriver à une véritable compréhension de vos blocages émotionnels:  quels sont-ils ? d’où viennent-ils ? Comment ont-t-ils été créés ?\n* D’identifier toutes les situations et tous les comportements où nous sommes en état émotionnel.\n* D’apprendre la régulation émotionnelle et la pratiquer “en situation”, “en différé” et de clarifier les points difficiles.\n* De créer une hygiène de vie autour de régulation émotionnelle.\n* Cerner les obstacles et les difficultés à l’appliquer\_\n* D'aborder les différences avec d’autres approches (méditation, EMDR, EFT, hypnose…)\n* Comprendre les bienfaits à court, moyen et long terme\n* Comment aider un proche qui est en difficulté émotionnelle\n\n***\n\nStage de deux jours et deux nuits pension complète au château de Saint Martin de Graves + suivi individuel :\n\n**Prix total:** 390€ (offre modulable: une nuit, deux nuits et externe)\n\nInformations **et inscriptions** [06 24 54 37 11](tel:0624543711 \"téléphone inscription\") ou [contact@lagrandemaison34.fr](mailto:contact@lagrandemaison34.fr \"contact inscription\")\n"
+type: Connaissance de soi
+description: >
+  Description de l'évènement à venir prochainement. 
+
+
+  Informations **et inscriptions** [06 24 54 37 11](tel:0624543711 "téléphone
+  inscription") ou
+  [contact@lagrandemaison34.fr](mailto:contact@lagrandemaison34.fr "contact
+  inscription")
 ---
-
-
-
-
 
