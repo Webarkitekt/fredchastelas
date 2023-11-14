@@ -11,7 +11,7 @@ description: >
   **Détails pratiques (prix, comment s’inscrire...)**
 
 
-  Quatre \*\*tarifs \*\*selon si:
+  Quatre **tarifs **selon si:
 
 
   1\. Participation externe enseignement seul (sans hébergement-sans repas) :
