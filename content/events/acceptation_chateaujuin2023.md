@@ -69,7 +69,7 @@ description: >
 
 
   **Inscriptions et infos** auprès de Karine SANTA au 06 24 54 37 11 ou par
-  email contact@lagrandemaison34.fr
+  email [contact@lagrandemaison34.fr](mailto:contact@lagrandemaison34.fr)
 
 
   Quelques témoignages:
@@ -104,8 +104,4 @@ description: >
   J’ai également pu avoir une belle prise de conscience grâce à l’exercice du
   pardon. Gratitude !
 ---
-
-
-
-
 
