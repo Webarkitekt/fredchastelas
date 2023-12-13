@@ -36,12 +36,11 @@ blocks:
       développement personnel avec des clients, des amis, une entreprise ?**
 
 
-      Je mets mes compétences à votre service en créant avec vous un programme
-      sur mesure dans des lieux exceptionnels. Des activitées comme le Yoga, le
-      Qi Qong et la marche peuvent être incluses.
+      Je crée avec vous un programme sur mesure incluant la méditation mais
+      aussi des activités telles que la marche, le Yoga, le Qi Qong.
 
 
-      Pour plus d’infos, contactez moi directement par mail ou par téléphone
+      Merci de me contacter pour plus d'infos
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1662116928/WhatsApp_Image_2022-08-13_at_12.07.12-1_eshcn4.jpg
@@ -125,10 +124,4 @@ blocks:
   - style: default
     _template: newsletter
 ---
-
-
-
-
-
-
 
