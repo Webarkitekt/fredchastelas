@@ -29,13 +29,12 @@ description: >
 
   **Pré-inscription nécessaire avant le 31 mars** par email à
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com) (Limité à
-  25
+  25 personnes)
 
-  personnes)
 
   **Horaires**: 10h-17h
 
-  \*\*Tarif \*\*participant: 40€
+  **Tarif **participant: 40€
 
 
   **Déroulé de la journée**
