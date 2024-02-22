@@ -31,7 +31,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
             setLoading(false);
         };
         fetchContent();
-    }, [data.location.name]);
+    }, [data.location?.name]);
 
     return (
         eventsList.length > 0 && (
