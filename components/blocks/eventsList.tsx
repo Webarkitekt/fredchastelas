@@ -31,7 +31,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
             setLoading(false);
         };
         fetchContent();
-    }, []);
+    }, [data.location.name]);
 
     return (
         eventsList.length > 0 && (
@@ -39,7 +39,6 @@ export const EventsList = ({data: data, parentField = ""}) => {
                 <Container className={`px-5 pt-12 lg:pt-24 max-w-screen-xl lg:mx-auto`}>
                     <div className="lg:flex lg:flex-col mb-12 lg:mb-18 justify-between">
                         <div className="lg:flex">
-
 
                             <div className={"flex-1"}>
                                 <h2 className="font-serif text-4xl lg:text-5xl text-gray-700 ">{data.title}</h2>
