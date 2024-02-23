@@ -2,7 +2,7 @@
 title: Le Coeur de la Méditation
 start_date: 2024-04-13T22:00:00.000Z
 end_date: 2024-04-13T22:00:00.000Z
-location: content/locations/aix_en_provence.md
+location: content/locations/autres_stages.md
 type: Méditation
 description: >
   ### &#x20;À 10mn de Aix-en-Provence
