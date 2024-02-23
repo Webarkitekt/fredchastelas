@@ -3,6 +3,11 @@ seo:
   title: Découvrez mes stages et cours de régulation émotionnelle
   description: Je vous propose des stages et des cours dans des lieux exceptionnels.
 blocks:
+  - title: Stages à Aix-en-Provence
+    location: content/locations/aix_en_provence.md
+    stage: true
+    limit: 0
+    _template: events
   - image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1675103575/stages-banner_zeaisq.jpg
