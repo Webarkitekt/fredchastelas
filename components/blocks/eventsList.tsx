@@ -37,7 +37,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
         eventsList.length > 0 && (
             <Section>
                 <Container className={`px-5 pt-12 lg:pt-24 max-w-screen-xl lg:mx-auto`}>
-                    <div className="lg:flex lg:flex-col mb-12 lg:mb-18 justify-between">
+                    <div className={`lg:flex lg:flex-col ${!data.location?.image && 'mb-12 lg:mb-18'} justify-between`}>
                         <div className="lg:flex">
 
                             <div className={"flex-1"}>
@@ -51,7 +51,7 @@ export const EventsList = ({data: data, parentField = ""}) => {
                             </div>
 
                             { data.location?.image &&
-                              <div className={'lg:w-1/4 mr-4'}>
+                              <div className={'lg:w-1/4 mr-4 mb-5'}>
                                 <img src={data.location.image} />
                               </div>
                             }
