@@ -2,7 +2,7 @@
 title: Le Coeur de la Méditation
 start_date: 2024-04-13T22:00:00.000Z
 end_date: 2024-04-13T22:00:00.000Z
-location: content/locations/autres_stages.md
+location: content/locations/aix_en_provence.md
 type: Méditation
 description: >
   ### &#x20;À 10mn de Aix-en-Provence
@@ -34,7 +34,7 @@ description: >
 
   **Horaires**: 10h-17h
 
-  **Tarif **participant: 40€
+  \*\*Tarif \*\*participant: 40€
 
 
   **Déroulé de la journée**
