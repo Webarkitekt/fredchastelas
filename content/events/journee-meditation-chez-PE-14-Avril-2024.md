@@ -5,9 +5,6 @@ end_date: 2024-04-13T22:00:00.000Z
 location: content/locations/aix_en_provence.md
 type: Méditation
 description: >
-  ### &#x20;À 10mn de Aix-en-Provence
-
-
   ![](https://res.cloudinary.com/guikem/image/upload/v1707996461/WhatsApp_Image_2023-10-09_%C3%A0_07.39.06_2259efc0_nxhgva.jpg)
 
 
