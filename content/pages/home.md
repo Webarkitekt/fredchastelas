@@ -137,11 +137,11 @@ blocks:
       - type: stage "Apprendre à s'accepter pour se transformer"
         author: Nathalie
         text: >-
-          "Weekend très enrichissant. Concepts profonds et très spirituels. Je
-          repars avec une meilleure  compréhension de mon être et certains
-          points comme la différence entre émotions et ressentis sont beaucoup
-          plus clairs à présent. J’ai également pu avoir une belle prise de
-          conscience grâce à l’exercice du pardon. Gratitude !"
+          "Weekend très enrichissant avec une approche profonde et très
+          spirituelle. Je repars avec une meilleure  compréhension de mon être
+          et certains points comme la différence entre émotions et ressentis
+          sont beaucoup plus clairs à présent. J’ai également pu avoir une belle
+          prise de conscience grâce à l’exercice du pardon. Gratitude !"
     _template: testimonials
 ---
 
