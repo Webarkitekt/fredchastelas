@@ -53,12 +53,12 @@ blocks:
       - type: Régulation émotionnelle TIPI
         author: Christelle
         text: >-
-          La formation en régulation émotionnelle proposée par Frédéric est
+          "La formation en régulation émotionnelle proposée par Frédéric est
           extrêmement puissante et permet de maîtriser un outil extraodinaire en
           seulement quelques séances. Frédéric est un formateur expérimenté, qui
           de part son écoute attentive, répond à toutes les interrogations.
           Depuis la formation, j’utilise la régulation émotionnelle
-          régulièrement et les bienfaits sont flagrants!
+          régulièrement et les bienfaits sont flagrants!"
       - type: Régulation émotionnelle TIPI
         author: Sonia
         text: >-
