@@ -100,9 +100,9 @@ blocks:
       - type: Stage méditation
         author: Evelyne
         text: >-
-          Première venue à ce type d’évènement. Je suis enchantée du fond comme
+          "Première venue à ce type d’évènement. Je suis enchantée du fond comme
           de la forme ! J’entrouvre une porte… que de perspectives !! Merci
-          beaucoup!
+          beaucoup!"
       - type: stage "se libérer enfin de l'ego"
         author: Joelle
         text: >-
