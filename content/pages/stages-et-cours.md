@@ -58,6 +58,16 @@ blocks:
     _template: textAndImage
   - title: Témoignages
     testimonial:
+      - type: Guérir les blessures intérieures
+        author: Magalie
+        text: >-
+          Ce stage a été une révélation qui me permet aujourd'hui d'avoir une
+          relation plus sereine avec mon conjoint et mes enfants. J'y ai trouvé
+          de nouvelles clés de lecture pour mieux comprendre mes comportements
+          et ceux de mon entourage. Le cadre, la bienveillance, la pertinence
+          des propos ont fait de ce weekend une véritable expérience
+          d'introspection et de compréhension de soi qui révolutionne mon
+          quotidien.
       - type: Stage "se libérer enfin de l'ego"
         author: Clara
         text: >-
