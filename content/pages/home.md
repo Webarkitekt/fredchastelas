@@ -113,9 +113,9 @@ blocks:
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Sylvie
         text: >-
-          Un super weekend sur l’acceptation de soi : révélateur, salvateur.
+          "Un super weekend sur l’acceptation de soi : révélateur, salvateur.
           Très enrichissant et bien animé entre exercices, enseignements et
-          méditation. De belles rencontres. Merci !!
+          méditation. De belles rencontres. Merci !!"
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Frédéric
         text: Super weekend ! On voudrait facilement faire un mois sur ce sujet !
