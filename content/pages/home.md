@@ -122,11 +122,11 @@ blocks:
       - type: Stage méditation
         author: Nicole
         text: >
-          Le formateur Frederic, nous apporte avec sa quiétude et sa douceur
+          "Le formateur Frederic, nous apporte avec sa quiétude et sa douceur
           dans ses propos ,une paix intérieure et un apaisement mental. Merci
           pour la méthodologie qui permet doucement d'arriver à trouver son
           propre chemin. Merci pour les explications de la méditation. J'ai
-          vraiment appris durant cette formation sur l’acceptation MERCI.
+          vraiment appris durant cette formation sur l’acceptation MERCI."
       - type: Conférence
         author: Mathieu
         text: >-
