@@ -106,9 +106,10 @@ blocks:
       - type: stage "se libérer enfin de l'ego"
         author: Joelle
         text: >-
-          Simple, clair, pratique.... Frédéric est chaleureux, aidant et souvent
-          drôle ce qui rend ce séminaire à la fois léger et profond .....grand
-          plaisir et beaucoup de matières à retravailler pour avancer ...Merci
+          "Simple, clair, pratique.... Frédéric est chaleureux, aidant et
+          souvent drôle ce qui rend ce séminaire à la fois léger et profond
+          .....grand plaisir et beaucoup de matières à retravailler pour avancer
+          ...Merci"
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Sylvie
         text: >-
