@@ -130,10 +130,10 @@ blocks:
       - type: Conférence
         author: Mathieu
         text: >-
-          Conférence passionnante sur comment repérer son ego et s’en défaire ,
+          "Conférence passionnante sur comment repérer son ego et s’en défaire ,
           conférencier didactique , bienveillant et passionné , je recommande.
           Cette conférence est primordiale pour retrouver un peu de sérénité en
-          soi dans ce monde complexe
+          soi dans ce monde complexe."
       - type: stage "Apprendre à s'accepter pour se transformer"
         author: Nathalie
         text: >-
