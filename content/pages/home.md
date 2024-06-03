@@ -118,7 +118,7 @@ blocks:
           méditation. De belles rencontres. Merci !!"
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Frédéric
-        text: Super weekend ! On voudrait facilement faire un mois sur ce sujet !
+        text: '"Super weekend ! On voudrait facilement faire un mois sur ce sujet !"'
       - type: Stage méditation
         author: Nicole
         text: >
