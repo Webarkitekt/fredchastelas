@@ -28,8 +28,8 @@ description: >
   Tarif hors nourriture et logement :140€ 
 
 
-  Pour connaitre le prix et la description des logements disponible et des
-  repas, cliquez sur ce lien
+  Pour connaitre le prix et la description des options logements et des repas,
+  cliquez sur ce lien
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
