@@ -12,20 +12,20 @@ description: >
   marche et Qi Qong dans l'environnement exceptionnel de Lerab Ling.
 
 
-  Au programme: 
+  Au programme:
 
 
   séance de méditation samedi et dimanche matin dans le temple
 
 
   Marche dans la forêt de l'escandorgue ou le cirque de Navacel (selon niveau
-  des participants) samedi après-midi 
+  des participants) samedi après-midi
 
 
   Qi Qong avec Audrey Allemand dimanche après-midi
 
 
-  Tarif hors nourriture et logement :140€ 
+  Tarif hors nourriture et logement :140€
 
 
   Pour connaitre le prix et la description des options logements et des repas,
@@ -33,6 +33,7 @@ description: >
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
-  Réservation par e-mail directement à frederic.chastelas\@gmail.com
+  Questions et réservation par e-mail directement à
+  [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 ---
 
