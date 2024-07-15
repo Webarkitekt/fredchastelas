@@ -3,7 +3,7 @@ title: 'Méditation, Marche et Qi Qong'
 start_date: 2024-10-11T22:00:00.000Z
 end_date: 2024-10-12T22:00:00.000Z
 location: content/locations/Lerabling.md
-type: Méditation/Détente
+type: Méditation / Détente
 description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg)
 
@@ -28,11 +28,11 @@ description: >
   Tarif hors nourriture et logement :140€ 
 
 
-  Pour le prix et la description des logements possible et de la nourriture,
-  suivre ce lien
+  Pour connaitre le prix et la description des logements disponible et des
+  repas, cliquez sur ce lien
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
-  Réservation par email à frederic.chastelas\@gmail.com
+  Réservation par e-mail directement à frederic.chastelas\@gmail.com
 ---
 
