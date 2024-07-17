@@ -96,6 +96,10 @@ blocks:
       perte de contact avec la réalité, la peur de mourir ou de devenir fou.**
       Il peut se manifester en présence d’une situation précise ou n’avoir pas
       d’objet apparent.
+
+
+      Ici la **Régulation émotionnelle Tipi va directement agir sur ces
+      symptômes** physiques angoissants et **les libérer**.
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1662248497/2100x1200_Anxiety_p4p8sy.webp
