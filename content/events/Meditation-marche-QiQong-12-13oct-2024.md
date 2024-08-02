@@ -18,7 +18,7 @@ description: >
   S**éances de méditation samedi et dimanche matin dans le temple**
 
 
-  **Marche dans la forêt de l'escandorgue ou le cirque de Navacel **(selon
+  **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel **(selon
   niveau des participants) samedi après-midi
 
 
