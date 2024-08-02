@@ -8,21 +8,21 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg)
 
 
-  Je suis ravi de vous proposer ce stage d'un weekend qui allie méditation,
-  marche et Qi Qong dans l'environnement exceptionnel de Lerab Ling.
+  Je suis ravi de vous proposer ce stage d'un weekend qui allie **méditation,
+  marche et Qi Qong dans l'environnement exceptionnel de Lerab Ling.**
 
 
-  Au programme:
+  **Au programme**:
 
 
-  séance de méditation samedi et dimanche matin dans le temple
+  S**éances de méditation samedi et dimanche matin dans le temple**
 
 
-  Marche dans la forêt de l'escandorgue ou le cirque de Navacel (selon niveau
-  des participants) samedi après-midi
+  **Marche dans la forêt de l'escandorgue ou le cirque de Navacel **(selon
+  niveau des participants) samedi après-midi
 
 
-  Qi Qong avec Audrey Allemand dimanche après-midi
+  **Qi Qong avec Audrey Allemand dimanche après-midi**
 
 
   Tarif hors nourriture et logement :140€
