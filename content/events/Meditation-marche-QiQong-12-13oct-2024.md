@@ -25,7 +25,7 @@ description: >
   **Qi Qong avec Audrey Allemand dimanche après-midi**
 
 
-  Tarif hors nourriture et logement :140€
+  Tarif hors nourriture et logement :140€ 
 
 
   Pour connaitre le prix et la description des options logements et des repas,
