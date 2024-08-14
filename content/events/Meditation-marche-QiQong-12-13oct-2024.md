@@ -18,8 +18,8 @@ description: >
   S**éances de méditation samedi et dimanche matin dans le temple**
 
 
-  \*\*Marche dans la forêt de l'Escandorgue ou le cirque de Navacel \*\*(voir
-  photos plus bas) samedi après-midi
+  **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel** (voir photos
+  plus bas) samedi après-midi
 
 
   **Qi Qong avec Audrey Allemand dimanche après-midi**
