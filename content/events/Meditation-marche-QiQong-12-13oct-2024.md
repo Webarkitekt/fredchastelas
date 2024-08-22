@@ -6,10 +6,8 @@ location: content/locations/Lerabling.md
 type: Méditation / Détente
 description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg)
-
-
-  Je suis ravi de vous proposer ce stage d'un weekend qui allie **méditation,
-  marche et Qi Qong dans l'environnement exceptionnel de Lerab Ling.**
+  vous proposer ce stage d'un weekend qui allie **méditation, marche et Qi Qong
+  dans l'environnement exceptionnel de Lerab Ling.**
 
 
   **Au programme**:
