@@ -18,6 +18,9 @@ description: >
   **Séances de méditation samedi et dimanche matin dans le temple**
 
 
+  Visite privée du temple
+
+
   **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel** (voir photos
   plus bas) samedi après-midi
 
