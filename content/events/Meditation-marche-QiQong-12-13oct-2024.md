@@ -5,7 +5,7 @@ end_date: 2024-10-12T22:00:00.000Z
 location: content/locations/Lerabling.md
 type: Méditation / Détente
 description: >
-  Évènement privé à Lerab Ling
+  ## Évènement privé à Lerab Ling
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg) 
