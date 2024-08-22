@@ -24,8 +24,8 @@ description: >
   Visite privée du temple
 
 
-  **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel** (voir photos
-  plus bas) samedi après-midi
+  **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel** (Grand site
+  de france) samedi après-midi
 
 
   **Qi Qong avec Audrey Allemand dimanche après-midi**
