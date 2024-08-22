@@ -15,7 +15,7 @@ description: >
   **Au programme**:
 
 
-  S**éances de méditation samedi et dimanche matin dans le temple**
+  **Séances de méditation samedi et dimanche matin dans le temple**
 
 
   **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel** (voir photos
