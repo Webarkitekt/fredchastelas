@@ -8,7 +8,7 @@ description: >
   ## Évènement privé à Lerab Ling
 
 
-  ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg) 
+  ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg)
 
 
   Je vous proposer ce stage d'un weekend qui allie **méditation, marche et Qi
@@ -21,7 +21,7 @@ description: >
   **Séances de méditation samedi et dimanche matin dans le temple**
 
 
-  Visite privée du temple 
+  **Visite privée du temple**
 
 
   **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel** (Grand site
@@ -34,12 +34,25 @@ description: >
   Tarif hors nourriture et logement :140€
 
 
+  Arrivée: soit Vendredi après-midi ou samedi entre 8h30 et 9h30 
+
+
+  Début de l'évènement: samedi 12 oct à 9h30
+
+
+  Fin de l'évènement: Dimanche 13 oct à 17h
+
+
   Pour connaitre le prix et la description des options logements et des repas,
   cliquez sur ce lien
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
   Questions et réservation par e-mail directement à
-  [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)![](https://res.cloudinary.com/guikem/image/upload/v1723648659/IMG-20240814-WA0012_qnxy6m.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723648832/WhatsApp_Image_2024-08-14_%C3%A0_16.56.01_0ff453b8_plhvzp.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723646007/IMG-20230913-WA0030_aip1pu.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723645960/IMG-20230913-WA0008_wnkslv.jpg)
+  [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
+
+
+  L'arrivée pour
+  être![](https://res.cloudinary.com/guikem/image/upload/v1723648832/WhatsApp_Image_2024-08-14_%C3%A0_16.56.01_0ff453b8_plhvzp.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723646007/IMG-20230913-WA0030_aip1pu.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723645960/IMG-20230913-WA0008_wnkslv.jpg)
 ---
 
