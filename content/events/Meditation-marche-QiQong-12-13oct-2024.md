@@ -11,27 +11,40 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg)
 
 
-  Je vous proposer ce stage d'un weekend qui allie **méditation, marche et Qi
+  Je vous proposer ce stage d'un weekend qui allie **Méditation, Marche et Qi
   Qong dans l'environnement exceptionnel de Lerab Ling.**
 
 
   **Au programme**:
 
 
-  **Séances de méditation samedi et dimanche matin dans le temple**
+  ***Séances de méditation samedi et dimanche matin dans le temple:***
 
 
-  **Visite privée du temple**
+  *Une belle occasion de pratiquer dans l'atmosphère sacrée du temple et dans la
+  nature et d'approfondir notre compréhension de la méditation*
 
 
-  **Marche dans la forêt de l'Escandorgue ou le cirque de Navacel** (Grand site
-  de france) samedi après-midi
+  ***Marche** **samedi après-midi***
 
 
-  **Qi Qong avec Audrey Allemand dimanche après-midi**
+  Nous ferons selon le niveau des participants, soit une balade dans la forêt
+  enchanteresse de l'Escandorgues (3h), soit une marche pour une découverte du
+  cirque de Navacel - grand site de France - à 30mn en voiture de Lerab Ling
+  (4h) avec possibilité de baignade si le temps le permet.
 
 
-  Tarif hors nourriture et logement :140€
+  ***Qi Qong avec Audrey Allemand dimanche après-midi***
+
+
+  Une séance complète comprenant mouvement mais aussi enseignement, conseil
+  diététiques et auto-massages sera proposer par Audrey.
+
+
+  ***Visite privée du temple***
+
+
+  **Tarif hors nourriture et logement** :140€
 
 
   Arrivée: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
@@ -43,15 +56,15 @@ description: >
   Fin de l'évènement: Dimanche 13 oct à 17h
 
 
-  Pour connaitre le prix et la description des options logements et des repas,
-  cliquez sur ce lien
+  Pour connaitre le** prix et la description des options logements et des
+  repas**, cliquez sur ce lien
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
-  Questions et réservation par e-mail directement à
+  Questions et **réservation **par e-mail directement à
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
 
-  ![](https://res.cloudinary.com/guikem/image/upload/v1723648659/IMG-20240814-WA0012_qnxy6m.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723648832/WhatsApp_Image_2024-08-14_%C3%A0_16.56.01_0ff453b8_plhvzp.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723646007/IMG-20230913-WA0030_aip1pu.jpg)
+  ![](https://res.cloudinary.com/guikem/image/upload/v1723648659/IMG-20240814-WA0012_qnxy6m.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1725270334/WhatsApp_Image_2022-10-23_at_21.06.58_1_qmve9g.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1725270964/images_kdpbf9.jpg)
 ---
 
