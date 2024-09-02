@@ -65,6 +65,6 @@ description: >
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
 
-  ![](https://res.cloudinary.com/guikem/image/upload/v1723648659/IMG-20240814-WA0012_qnxy6m.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1725270334/WhatsApp_Image_2022-10-23_at_21.06.58_1_qmve9g.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1725270964/images_kdpbf9.jpg)
+  ![](https://res.cloudinary.com/guikem/image/upload/v1723648659/IMG-20240814-WA0012_qnxy6m.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1725270334/WhatsApp_Image_2022-10-23_at_21.06.58_1_qmve9g.jpg)
 ---
 
