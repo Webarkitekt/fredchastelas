@@ -56,12 +56,12 @@ description: >
   Fin de l'évènement: Dimanche 13 oct à 17h
 
 
-  Pour connaitre le** prix et la description des options logements et des
-  repas**, cliquez sur ce lien
+  Pour connaitre le** **prix et la description des options logements et des
+  repas, cliquez sur ce lien
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
-  Questions et **réservation **par e-mail directement à
+  Questions et réservation par e-mail directement à
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
 
