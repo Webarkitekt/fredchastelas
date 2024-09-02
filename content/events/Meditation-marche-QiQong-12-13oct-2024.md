@@ -10,7 +10,7 @@ description: >
 
   Je vous propose ce stage qui allie **Méditation, Marche et Qi Qong dans
   l'environnement exceptionnel de Lerab Ling. **Un weekend parfait pour se
-  ressourcer!!
+  ressourcer!! 
 
 
   **Au programme**:
