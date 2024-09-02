@@ -11,7 +11,7 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg)
 
 
-  Je vous proposer ce stage qui allie **Méditation, Marche et Qi Qong dans
+  Je vous propose ce stage qui allie **Méditation, Marche et Qi Qong dans
   l'environnement exceptionnel de Lerab Ling. **Un weekend parfait pour se
   ressourcer!!
 
