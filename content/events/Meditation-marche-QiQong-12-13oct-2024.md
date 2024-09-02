@@ -34,7 +34,7 @@ description: >
   Tarif hors nourriture et logement :140€
 
 
-  Arrivée: soit Vendredi après-midi ou samedi entre 8h30 et 9h30 
+  Arrivée: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
 
 
   Début de l'évènement: samedi 12 oct à 9h30
@@ -52,7 +52,6 @@ description: >
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
 
-  L'arrivée pour
-  être![](https://res.cloudinary.com/guikem/image/upload/v1723648832/WhatsApp_Image_2024-08-14_%C3%A0_16.56.01_0ff453b8_plhvzp.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723646007/IMG-20230913-WA0030_aip1pu.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723645960/IMG-20230913-WA0008_wnkslv.jpg)
+  ![](https://res.cloudinary.com/guikem/image/upload/v1723648659/IMG-20240814-WA0012_qnxy6m.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723648832/WhatsApp_Image_2024-08-14_%C3%A0_16.56.01_0ff453b8_plhvzp.jpg)![](https://res.cloudinary.com/guikem/image/upload/v1723646007/IMG-20230913-WA0030_aip1pu.jpg)
 ---
 
