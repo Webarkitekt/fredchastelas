@@ -8,7 +8,7 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1721056144/lerab-ling-2_z3eebr.jpg)
 
 
-  Je vous propose ce stage qui allie \*\*Méditation, Marche et Qi Qong dans
+  Je vous propose ce stage qui allie Méditation, Marche et Qi Qong dans
   l'environnement exceptionnel de Lerab Ling. \*\*Un weekend parfait pour se
   ressourcer!!
 
@@ -42,10 +42,10 @@ description: >
   ***Visite privée du temple***
 
 
-  **Tarif hors nourriture et logement** :140€              
+  **Tarif hors nourriture et logement** :140€
 
 
-  ** Tarif réduit** (demandez si besoin): 112€
+  \*\* Tarif réduit\*\* (demandez si besoin): 112€
 
 
   Arrivée: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
