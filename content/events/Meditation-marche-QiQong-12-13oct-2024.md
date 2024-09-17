@@ -42,8 +42,10 @@ description: >
   ***Visite privée du temple***
 
 
-  **Tarif hors nourriture et logement** :140€               Tarif réduit
-  (demandez si besoin): 112€
+  **Tarif hors nourriture et logement** :140€              
+
+
+  ** Tarif réduit** (demandez si besoin): 112€
 
 
   Arrivée: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
