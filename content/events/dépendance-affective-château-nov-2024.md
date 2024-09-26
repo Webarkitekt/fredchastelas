@@ -5,9 +5,8 @@ end_date: 2024-09-16T22:00:00.000Z
 location: content/locations/chateau_de_saint_martin_de_grave.md
 type: Connaissance de soi
 description: >
-  “Dépendre de quelqu’un ou de quelque chose, c’est ne pas pouvoir
-  s’épanouirsans l’action ou l’intervention d’une autre personne ou d’une
-  chose.”
+  “Dépendre de quelqu’un ou de quelque chose, c’est ne pas pouvoir s’épanouir
+  sans l’action ou l’intervention d’une autre personne ou d’une chose.”
 
 
   Ce
@@ -21,13 +20,13 @@ description: >
 
   Tant
 
-  que nous sommes dépendants de quelqu’un ou de quelquelque chose,
+  que nous sommes dépendants de quelqu’un ou de quelque chose,
 
   nous sommes soumis à la croyance que nous ne pouvons pas être
 
-  heureux sans cette personne ou cettechose extérieure, ce qui nous amène à
+  heureux sans cette personne ou cette chose extérieure, ce qui nous amène à
 
-  l’impuissance, la frustration et àdes relations empruntes
+  l’impuissance, la frustration et à des relations empruntes
 
   de manipulation.
 
@@ -39,7 +38,7 @@ description: >
 
   \-
 
-  Nous comprendrons l’originede nos dépendances affectives
+  Nous comprendrons l’origine de nos dépendances affectives
 
 
   \-
@@ -48,35 +47,35 @@ description: >
 
   affectives principales et verrons
 
-  les 7 besoins affectifs non-comblésqui sont derrière.
+  les 7 besoins affectifs non-comblés qui sont derrière.
 
 
   -Nous examinerons le
 
-  rôle des dépendances affectives dans nosrelations(couple, famille, amis...)
+  rôle des dépendances affectives dans nos relations(couple, famille, amis...)
 
 
-  -Nous verrons égalementle lien entre dépendances affectiveset dépendances
+  -Nous verrons également le lien entre dépendances affectives et dépendances
   physiques,
 
-  que ce soità des personnes, des objets et des comportements et
+  que ce soit à des personnes, des objets et des comportements et
 
   verrons le processus pour nous en libérer
 
 
   Le
 
-  contenu théorique appuyé par des documents ainsi queles
+  contenu théorique appuyé par des documents ainsi que les
 
   échanges et des
 
-  exercices nous permettrontde faire de ce weekend un véritableprocessus
+  exercices nous permettront de faire de ce weekend un véritable processus
   intérieur. Nous
 
-  en viendrons àprendre conscience et à identifier nos
+  en viendrons à prendre conscience et à identifier nos
 
-  dépendances physiques et affectives, età découvrir
+  dépendances physiques et affectives, et à découvrir
 
-  le chemin qui nous mène à l’autonomieet la liberté.
+  le chemin qui nous mène à l’autonomie et la liberté.
 ---
 
