@@ -26,7 +26,7 @@ description: >
 
   heureux sans cette personne ou cette chose extérieure, ce qui nous amène à
 
-  l’impuissance, la frustration et à des relations empruntes
+  l’impuissance, la frustration et à des relations empreintes
 
   de manipulation.
 
