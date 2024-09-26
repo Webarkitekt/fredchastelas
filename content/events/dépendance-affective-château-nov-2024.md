@@ -5,16 +5,9 @@ end_date: 2024-09-16T22:00:00.000Z
 location: content/locations/chateau_de_saint_martin_de_grave.md
 type: Connaissance de soi
 description: >
-  ![](https://res.cloudinary.com/guikem/image/upload/v1727383932/couple_fil_2_hvzdqe.jpg)
-
-
-
   “Dépendre de quelqu’un ou de quelque chose, c’est ne pas pouvoir
   s’épanouirsans l’action ou l’intervention d’une autre personne ou d’une
   chose.”
-
-
-
 
 
   Ce
@@ -24,9 +17,6 @@ description: >
   affectives afin de développer plus d’autonomie affective et de
 
   vivre le bonheur véritable qui en découle.
-
-
-
 
 
   Tant
@@ -42,23 +32,14 @@ description: >
   de manipulation.
 
 
-
-
-
   Lors
 
-  de ce weekend unique 
-
-
-
+  de ce weekend unique
 
 
   \-
 
   Nous comprendrons l’originede nos dépendances affectives
-
-
-
 
 
   \-
@@ -70,15 +51,9 @@ description: >
   les 7 besoins affectifs non-comblésqui sont derrière.
 
 
-
-
-
   -Nous examinerons le
 
   rôle des dépendances affectives dans nosrelations(couple, famille, amis...)
-
-
-
 
 
   -Nous verrons égalementle lien entre dépendances affectiveset dépendances
@@ -89,12 +64,9 @@ description: >
   verrons le processus pour nous en libérer
 
 
-
-
-
   Le
 
-  contenu théorique appuié par des documents ainsi queles
+  contenu théorique appuyé par des documents ainsi queles
 
   échanges et des
 
