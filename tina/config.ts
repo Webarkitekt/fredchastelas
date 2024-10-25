@@ -267,19 +267,6 @@ export const tinaConfig = defineConfig({
                     label: "Nombre d'évènements à afficher (0 = tous)",
                     name: "limit"
                   }
-                  /*{
-                      type: "object",
-                      list: true,
-                      name: "featuredEvents",
-                      label: "Featured Events",
-                      fields: [{
-                          type: "reference",
-                          label: "Evénements",
-                          name: "events",
-                          collections: ["events"]
-                      }
-                      ]
-                  }*/
                 ]
               }
             ]
