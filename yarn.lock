@@ -4824,12 +4824,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/auth@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@tinacms/auth@npm:1.0.3"
+"@tinacms/auth@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "@tinacms/auth@npm:1.0.8"
   dependencies:
     fetch-ponyfill: "npm:^7.1.0"
-  checksum: 10c0/7a0b569aa71f898d1ae23ba9f19f38f5fd8a725a35c9ac7f9f26c8403ff0dc885e9ba51866dcc7c5e3ea61e35c225e2ea2743b3f11786f0721c6f868ab0dd392
+  checksum: 10c0/256d0c682682a9ff6d7b655bfaf6a052e67592afb47fe4cc81fd2bbd0a4d5b2e9c94f0f392ebd6f9bbcbc3f69eb5833343e204f53cbf0b25e18a09babd9c8930
   languageName: node
   linkType: hard
 
@@ -8479,7 +8479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cloudinary@npm:^1.41.0":
+"cloudinary@npm:^1.41.3":
   version: 1.41.3
   resolution: "cloudinary@npm:1.41.3"
   dependencies:
@@ -14070,15 +14070,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-tinacms-cloudinary@npm:^4.4.5":
-  version: 4.4.5
-  resolution: "next-tinacms-cloudinary@npm:4.4.5"
+"next-tinacms-cloudinary@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "next-tinacms-cloudinary@npm:9.0.0"
   dependencies:
-    cloudinary: "npm:^1.41.0"
+    cloudinary: "npm:^1.41.3"
     multer: "npm:1.4.5-lts.1"
   peerDependencies:
-    tinacms: 1.5.28
-  checksum: 10c0/48e90272b91100612d521015b06f40af0bbdcf8faea0613e3330e7b0f9c04cd55bebbfd62305e02d7ac7e1949f14a480a161fb6ccf04d36bbcb49b5012e6b33a
+    tinacms: 2.3.0
+  checksum: 10c0/75fa7e2130a680de95db214fcd331949a63198f45f894872f2c705547c8d4410d5699d56fdd4d89036bd270eb0a60c868ffa8907f17786b56c78ff248c867ab0
   languageName: node
   linkType: hard
 
@@ -14770,6 +14770,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"picocolors@npm:^1.1.0":
+  version: 1.1.1
+  resolution: "picocolors@npm:1.1.1"
+  checksum: 10c0/e2e3e8170ab9d7c7421969adaa7e1b31434f789afb9b3f115f6b96d91945041ac3ceb02e9ec6fe6510ff036bcc0bf91e69a1772edc0b707e12b19c0f2d6bcf58
+  languageName: node
+  linkType: hard
+
 "picomatch-browser@npm:2.2.6":
   version: 2.2.6
   resolution: "picomatch-browser@npm:2.2.6"
@@ -14927,6 +14934,17 @@ __metadata:
     picocolors: "npm:^1.0.0"
     source-map-js: "npm:^1.0.2"
   checksum: 10c0/e8dd04e48001eb5857abc9475365bf08f4e508ddf9bc0b8525449a95d190f10d025acebc5b56ac2e94b3c7146790e4ae78989bb9633cb7ee20d1cc9b7dc909b2
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.21":
+  version: 8.4.47
+  resolution: "postcss@npm:8.4.47"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.1.0"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10c0/929f68b5081b7202709456532cee2a145c1843d391508c5a09de2517e8c4791638f71dd63b1898dba6712f8839d7a6da046c72a5e44c162e908f5911f57b5f44
   languageName: node
   linkType: hard
 
@@ -15325,15 +15343,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.1.0":
-  version: 18.1.0
-  resolution: "react-dom@npm:18.1.0"
+"react-dom@npm:18.2.0":
+  version: 18.2.0
+  resolution: "react-dom@npm:18.2.0"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.22.0"
+    scheduler: "npm:^0.23.0"
   peerDependencies:
-    react: ^18.1.0
-  checksum: 10c0/aa6b9a134a5837db92ce7ba73cff76ec0137bc643a27f886557a43fb36cdc75e8d950bda05ca3eeb0292be38e7bd8f9fe5c2eecede76f4800d552008e030ad0d
+    react: ^18.2.0
+  checksum: 10c0/66dfc5f93e13d0674e78ef41f92ed21dfb80f9c4ac4ac25a4b51046d41d4d2186abc915b897f69d3d0ebbffe6184e7c5876f2af26bfa956f179225d921be713a
   languageName: node
   linkType: hard
 
@@ -15414,10 +15432,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^18.1.0":
-  version: 18.1.0
-  resolution: "react-is@npm:18.1.0"
-  checksum: 10c0/558874e4c3bd9805a9294426e090919ee6901be3ab07f80b997c36b5a01a8d691112802e7438d146f6c82fd6495d8c030f276ef05ec3410057f8740a8d723f8c
+"react-is@npm:^18.2.0":
+  version: 18.3.1
+  resolution: "react-is@npm:18.3.1"
+  checksum: 10c0/f2f1e60010c683479e74c63f96b09fb41603527cd131a9959e2aee1e5a8b0caf270b365e5ca77d4a6b18aae659b60a86150bb3979073528877029b35aecd2072
   languageName: node
   linkType: hard
 
@@ -15656,12 +15674,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.1.0":
-  version: 18.1.0
-  resolution: "react@npm:18.1.0"
+"react@npm:18.2.0":
+  version: 18.2.0
+  resolution: "react@npm:18.2.0"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/20592b045e82ce809c0fd76c63cb70a11a5e0905a569a08874043097fc1eab759e3a7681d36b3246464e97bab021c4a0d6490ee2fb79c55d176b94e8890ad93a
+  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
   languageName: node
   linkType: hard
 
@@ -16223,12 +16241,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.22.0":
-  version: 0.22.0
-  resolution: "scheduler@npm:0.22.0"
+"scheduler@npm:^0.23.0":
+  version: 0.23.2
+  resolution: "scheduler@npm:0.23.2"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/db3ee5927e66048c97ab3565ee91d7ca5036e75f9600953c6ab2f6fb80938df95d72be8ac077329c2f3f1411d4d88e31cc9f83440540e5d4a881f6d84b0ed6a6
+  checksum: 10c0/26383305e249651d4c58e6705d5f8425f153211aef95f15161c151f7b8de885f24751b377e4a0b3dd42cce09aad3f87a61dab7636859c0d89b7daf1a1e2a5c78
   languageName: node
   linkType: hard
 
@@ -16708,6 +16726,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"source-map-js@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "source-map-js@npm:1.2.1"
+  checksum: 10c0/7bda1fc4c197e3c6ff17de1b8b2c20e60af81b63a52cb32ec5a5d67a20a7d42651e2cb34ebe93833c5a2a084377e17455854fee3e21e7925c64a51b6a52b0faf
+  languageName: node
+  linkType: hard
+
 "source-map@npm:^0.6.1":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
@@ -16806,7 +16831,7 @@ __metadata:
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@tailwindcss/forms": "npm:^0.5.3"
     "@tailwindcss/typography": "npm:^0.5.2"
-    "@tinacms/auth": "npm:^1.0.3"
+    "@tinacms/auth": "npm:^1.0.8"
     "@tinacms/cli": "npm:^1.5.39"
     "@types/js-cookie": "npm:^3.0.2"
     "@types/node": "npm:^17.0.35"
@@ -16820,12 +16845,12 @@ __metadata:
     next: "npm:13.3.0"
     next-seo: "npm:^5.5.0"
     next-svgr: "npm:^0.0.2"
-    next-tinacms-cloudinary: "npm:^4.4.5"
-    postcss: "npm:^8.4.14"
+    next-tinacms-cloudinary: "npm:^9.0.0"
+    postcss: "npm:^8.4.21"
     postcss-import: "npm:^14.1.0"
-    react: "npm:18.1.0"
-    react-dom: "npm:18.1.0"
-    react-is: "npm:^18.1.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    react-is: "npm:^18.2.0"
     styled-components: "npm:^5.3.5"
     swiper: "npm:^8.4.2"
     tailwindcss: "npm:^3.0.24"
