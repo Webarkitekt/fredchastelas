@@ -65,8 +65,11 @@ export const getStaticProps = async (ctx) => {
     const res = await client.request({
         query,
         variables,
+    }, {
+        fetchOptions: {
+            cache: 'no-store'
+        }
     });
-
 
     return {
         props: {

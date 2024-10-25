@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from 'react';
-import PropTypes from 'prop-types';
 
 /**
  * Extrait l'ID de la vidéo YouTube à partir de l'URL
@@ -28,7 +27,7 @@ const convertTimeToSeconds = (time: string): number => {
 interface YoutubeVideoProps {
   data: {
     url: string;
-    thumbnailImage?: string; // Propriété pour l'image de la miniature
+    thumbnailImage?: string;
   };
 }
 
@@ -67,12 +66,4 @@ export const YoutubeVideo: React.FC<YoutubeVideoProps> = ({ data }) => {
       )}
     </div>
   );
-};
-
-// Définition des propTypes
-YoutubeVideo.propTypes = {
-  data: PropTypes.shape({
-    url: PropTypes.string.isRequired, // url est requis
-    thumbnailImage: PropTypes.string, // thumbnailImage est optionnel
-  }).isRequired,
 };
