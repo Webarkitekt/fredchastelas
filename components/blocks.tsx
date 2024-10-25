@@ -106,7 +106,7 @@ export const Blocks = ({blocks}: {blocks:PagesBlocks[]}) => {
                                     data-tinafield={`blocks.${i}`}
                                     key={i + block.__typename}
                                 >
-                                    <YoutubeVideo data={block} parentField={`blocks.${i}`} />
+                                    <YoutubeVideo data={block} />
                                 </div>
                             );
                         default:

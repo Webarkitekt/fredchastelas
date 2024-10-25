@@ -69,6 +69,10 @@ export const YoutubeVideo: React.FC<YoutubeVideoProps> = ({ data }) => {
   );
 };
 
+// Définition des propTypes
 YoutubeVideo.propTypes = {
-    data: PropTypes.object.isRequired,
+  data: PropTypes.shape({
+    url: PropTypes.string.isRequired, // url est requis
+    thumbnailImage: PropTypes.string, // thumbnailImage est optionnel
+  }).isRequired,
 };
