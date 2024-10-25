@@ -45,6 +45,7 @@ module.exports = {
     require('@tailwindcss/typography')({
       className: 'richtext'
     }),
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }

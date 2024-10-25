@@ -8,6 +8,7 @@ import {Content} from "./blocks/content";
 import {EventsList} from "./blocks/eventsList";
 import {Testimonials} from "./blocks/testimonials";
 import {NewsletterBlock} from "./blocks/newsletter";
+import {YoutubeVideo} from "./blocks/YoutubeVideo";
 
 export const Blocks = ({blocks}: {blocks:PagesBlocks[]}) => {
     return (
@@ -97,6 +98,15 @@ export const Blocks = ({blocks}: {blocks:PagesBlocks[]}) => {
                                     key={i + block.__typename}
                                 >
                                     <NewsletterBlock data={block} parentField={`blocks.${i}`} className={`${bottomSpacing}`}></NewsletterBlock>
+                                </div>
+                            );
+                        case "PagesBlocksYoutubeVideo":
+                            return (
+                                <div
+                                    data-tinafield={`blocks.${i}`}
+                                    key={i + block.__typename}
+                                >
+                                    <YoutubeVideo data={block} parentField={`blocks.${i}`} />
                                 </div>
                             );
                         default:

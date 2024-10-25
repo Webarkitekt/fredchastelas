@@ -159,6 +159,23 @@ export const tinaConfig = defineConfig({
               textAndImageBlockSchema,
               newsletterBlockSchema,
               {
+                name: 'youtubeVideo',
+                label: 'YouTube Video',
+                fields: [
+                  {
+                    name: 'url',
+                    label: 'URL de la vidéo YouTube',
+                    type: 'string',
+                    required: true,
+                  },
+                  {
+                    type: "image",
+                    label: "Image de la miniature",
+                    name: "thumbnailImage",
+                  }
+                ],
+              },
+              {
                 name: "testimonials",
                 label: "Témoignages",
                 fields: [

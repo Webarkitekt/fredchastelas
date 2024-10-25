@@ -8,6 +8,7 @@
     "export": "yarn build && next export"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tinacms/auth": "^1.0.3",
     "autoprefixer": "^10.4.7",
@@ -24,7 +25,7 @@
     "react-is": "^18.1.0",
     "styled-components": "^5.3.5",
     "swiper": "^8.4.2",
-    "tinacms": "^1.5.28",
+    "tinacms": "^2.3.0",
     "typescript": "4.7.2"
   },
   "devDependencies": {
@@ -39,6 +40,6 @@
     "tailwindcss": "^3.0.24"
   },
   "volta": {
-    "node": "18.7.0"
+    "node": "18.20.4"
   }
 }

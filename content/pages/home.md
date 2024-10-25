@@ -38,6 +38,9 @@ blocks:
     _template: events
   - style: default
     _template: newsletter
+  - url: 'https://youtu.be/SIX3Ld_0ZI8?si=-h6-QCp-0UaDlV4H'
+    thumbnailImage: ''
+    _template: youtubeVideo
   - title: Témoignages
     testimonial:
       - type: Guérir les blessures intérieures
