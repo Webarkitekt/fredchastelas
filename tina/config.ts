@@ -170,7 +170,7 @@ export const tinaConfig = defineConfig({
                   },
                   {
                     type: "image",
-                    label: "Image de la miniature",
+                    label: "Image de la miniature pour illustrer la vidéo",
                     name: "thumbnailImage",
                   }
                 ],
