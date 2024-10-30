@@ -7,7 +7,7 @@ blocks:
     tagline: 'Réguler ses émotions, libérer ses croyances'
     as_banner: false
     _template: hero
-  - title: Ma démarche
+  - title: La démarche
     text: >-
       Enseignant du bouddhisme et de la méditation depuis plus de quinze ans,
       thérapeute et conférencier, j’anime régulièrement des stages et des cours
