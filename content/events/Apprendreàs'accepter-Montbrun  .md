@@ -96,7 +96,7 @@ description: >
   Quelques témoignages:
 
 
-  Sara
+  Sara 
 
 
   Sincèrement merci ! Le stage du weekend dernier m’a fait profondément du bien.
