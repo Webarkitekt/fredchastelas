@@ -147,8 +147,13 @@ description: >
   pardon. Gratitude
 
 
-  Frédéric Chastelas Diplômé de philosophie à l’université Paul Valérie,
-  Frédéric a étudié et
+  Frédéric Chastelas 
+
+
+  ![](https://res.cloudinary.com/guikem/image/upload/v1731930268/photo_portrait_plus_petite_gnm6lo.png)
+
+
+  Diplômé de philosophie à l’université Paul Valérie, Frédéric a étudié et
 
 
   pratiqué le bouddhisme avec de nombreux maîtres depuis 1997. Il a effectué une
