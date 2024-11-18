@@ -1,7 +1,7 @@
 ---
 title: Apprendre à s'accepter pour se transformer
-start_date: '2025-03-21T23:00:00.000Z'
-end_date: '2025-03-22T23:00:00.000Z'
+start_date: 2025-03-21T23:00:00.000Z
+end_date: 2025-03-22T23:00:00.000Z
 location: content/locations/autres_stages.md
 type: Connaissance de soi/ Méditation
 description: >
@@ -96,7 +96,7 @@ description: >
   Quelques témoignages:
 
 
-  Sara 
+  Sara
 
 
   Sincèrement merci ! Le stage du weekend dernier m’a fait profondément du bien.
@@ -147,7 +147,7 @@ description: >
   pardon. Gratitude
 
 
-  Frédéric Chastelas 
+  Frédéric Chastelas
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1731930268/photo_portrait_plus_petite_gnm6lo.png)
@@ -178,7 +178,4 @@ description: >
 
   blessures psychologiques et la régulation émotionnelle Tipi.
 ---
-
-
-
 
