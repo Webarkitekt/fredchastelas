@@ -74,7 +74,7 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1731929928/gite9_mmjqak.jpg)
 
 
-  **Horaires**:
+  Les h**oraires:**
 
 
   Samedi 10h-13h et 14h30-18h
