@@ -9,13 +9,14 @@ description: >
   **(voir adresse plus bas) va permettre de se familiariser en profondeur avec
   les différentes étapes du processus de la mort et découvrir comment nous
   préparer au mieux pour cette étape si particulière sur notre chemin. Il
-  permettra aussi de découvrir comment aider les mourants et les morts - car
-  nous pouvons en effet continuer d'aider les personnes même après leur mort.
+  permettra aussi de découvrir comment aider les mourants et les morts - nous
+  pouvons en effet continuer d'aider les personnes même après leur mort.
 
 
-  Basé à la fois sur les enseignements bouddhistes tibétains mais aussi sur les
+  Basé à la fois sur les enseignements bouddhistes tibétains ainsi que sur les
   travaux du Dr Christophe Fauré présenter dans son dernier livre: *Cette vie et
-  au-delà*
+  au-delà, *nous découvrirons quelles sont les témoignages et les recherches
+  scientifiques qui corroborent les enseignements spirituels tibétains.
 
    Le bouddhisme tibétain, avec son livre des morts tibétains (Bardo Thödol) est l'une des traditions spirituelles qui a étudiée et connait le processus de la mort le plus en détails. Elle nous révèle avec une grande précision le processus qui attend chacun de nous au terme de cette vie. Connaitre ce processus est la meilleure chose à faire pour nous préparer à ce moment si important. Comme le disait Montaigne: “Ôtons lui l'étrangeté, pratiquons la, accoutumons la. En se rappelant qu'elle est la chose la plus simple et la plus commune, nous lui enlevons son caractère effrayant"
 
