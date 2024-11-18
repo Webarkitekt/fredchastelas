@@ -8,9 +8,9 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1731929210/jump-2731641_1280_rkqobn.jpg)
 
 
-  Cet atelier fait parti des stages essentiels que j'anime. C'est le premier de
-  la série qui comprends l'atelier sur l'ego, la culpabilité, les blessures et
-  dernièrement les dépendances affectives. 
+  **Cet atelier fait parti des stages essentiels que j'anime**. C'est le premier
+  de la série qui comprends l'atelier sur l'ego, la culpabilité, les blessures
+  et dernièrement les dépendances affectives. 
 
 
   En effet, toute transformation ne peut se produire que par une acceptation
@@ -64,13 +64,13 @@ description: >
   pension complète (arrivée le vendredi soir)
 
 
-  \- La réservation : par email auprès de Nathalie Guénel
+  \- **La réservation:** par email auprès de Nathalie Guénel
   [nathalie.guenel@yahoo.fr](mailto:nathalie.guenel@yahoo.fr) Chèque ou virement
   de 40% du montant pour valider la réservation
 
 
-  \- L'adresse : le Hameau de Pave à Montbrun-bocage 31310 -  [La salle - Hameau
-  de Pave](http://www.hameaudepave.fr/la-salle/)
+  \- **L'adresse:** le Hameau de Pave à Montbrun-bocage 31310 -  [La salle -
+  Hameau de Pave](http://www.hameaudepave.fr/la-salle/)
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1731929928/gite9_mmjqak.jpg)
