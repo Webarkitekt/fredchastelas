@@ -8,22 +8,19 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1731929210/jump-2731641_1280_rkqobn.jpg)
 
 
-  Toute transformation ne peut se produire que par une acceptation authentique
-  de nous-même.
+  Cet atelier fait parti des stages essentiels que j'anime. C'est le premier de
+  la série qui comprends l'atelier sur l'ego, la culpabilité, les blessures et
+  dernièrement les dépendances affectives.
 
 
-  Pourtant notre compréhension de l’acceptation de soi et surtout sa mise en
-  pratique nous font souvent
+  En effet, toute transformation ne peut se produire que par une acceptation
+  authentique de nous-même. Pourtant notre compréhension de l’acceptation de soi
+  et surtout sa mise en pratique nous font souvent défaut. Que signifie
+  véritablement s’accepter soi-même ? Quelle est la sagesse qui sous-tend
+  l’acception de soi et comment la mettre en pratique ?
 
 
-  défaut. Que signifie véritablement s’accepter soi-même ? Quelle est la sagesse
-  qui sous-tend l’acception
-
-
-  de soi et comment la mettre en pratique ?
-
-
-  Durant cet évènement qui aujourd'hui devenu un "classique" nous verrons :
+  Durant cet évènement nous verrons :
 
 
   * Le lien étroit entre l’acceptation de soi et la possibilité de nous
