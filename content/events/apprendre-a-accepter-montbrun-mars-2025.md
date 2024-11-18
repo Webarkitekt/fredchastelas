@@ -2,7 +2,7 @@
 title: Apprendre à s'accepter pour se transformer
 start_date: 2025-03-21T23:00:00.000Z
 end_date: 2025-03-22T23:00:00.000Z
-location: content/locations/autres_lieux.md
+location: content/locations/autres_stages.md
 type: Connaissance de soi/ Méditation
 description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1731929210/jump-2731641_1280_rkqobn.jpg)
