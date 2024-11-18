@@ -5,6 +5,9 @@ end_date: 2025-02-01T23:00:00.000Z
 location: content/locations/autres_stages.md
 type: Philosophie
 description: >
+  ![](https://res.cloudinary.com/guikem/image/upload/v1731948359/images_hhinwq.jpg)
+
+
   Cet atelier d'une journée que j'animerai près de **Saint-Rémy-de-Provence
   **(voir adresse plus bas) va permettre de se familiariser en profondeur avec
   les différentes étapes du processus de la mort et découvrir comment nous
