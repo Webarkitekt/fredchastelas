@@ -23,21 +23,18 @@ description: >
   de soi et comment la mettre en pratique ?
 
 
-  Durant cet évènement nous verrons :
+  Durant cet évènement qui aujourd'hui devenu un "classique" nous verrons :
 
 
-  Le lien étroit entre l’acceptation de soi et la possibilité de nous
+  * Le lien étroit entre l’acceptation de soi et la possibilité de nous
   transformer
 
+  * La différence entre acceptation et résignation
 
-  La différence entre acceptation et résignation
+  * Le lien entre acceptation de soi et amour véritable de soi
 
-
-  Le lien entre acceptation de soi et amour véritable de soi
-
-
-  Comment travailler avec l’ego afin de nous libérer de ses tendances à résister
-  et à ne pas accepter
+  * Comment travailler avec l’ego afin de nous libérer de ses tendances à
+  résister et à ne pas accepter
 
 
   Nous explorerons aussi comment nous libérer de la culpabilité et de l’idée que
@@ -77,31 +74,29 @@ description: >
   bouddhiste. Il est ouvert à tous.
 
 
-  Frédéric Chastelas Diplômé de philosophie à l’université Paul Valérie,
-  Frédéric a étudié et
+  \- Le tarif est de 160 € TTC pour les deux jours de stage et les repas du midi
 
 
-  pratiqué le bouddhisme avec de nombreux maîtres depuis 1997. Il a effectué une
-  retraite
+  \- Le tarif est de 234 € TTC pour les deux jours de stage et les repas en
+  pension complète (arrivée le vendredi soir)
 
 
-  traditionnelle de trois ans à Lerab Ling où il a vécu ensuite pendant plus de
-  dix ans au sein de la
+  \- La réservation : par email auprès de Nathalie Guénel
+  [nathalie.guenel@yahoo.fr](mailto:nathalie.guenel@yahoo.fr) Chèque ou virement
+  de 40% du montant pour valider la réservation
 
 
-  communauté et où il a contribué à développer de nombreux programmes. Il
-  enseigne depuis plus
+  \- L'adresse : le Hameau de Pave à Montbrun-bocage 31310 
 
 
-  de quinze ans la méditation et le bouddhisme ainsi que de nombreux thèmes à la
-  fois spirituels et
+  ![](https://res.cloudinary.com/guikem/image/upload/v1731929928/gite9_mmjqak.jpg)
 
 
-  psychologiques puisqu’il est formé à des approches thérapeutiques telles que
-  le travail sur les
+  \-  la salle : [La salle - Hameau de
+  Pave](http://www.hameaudepave.fr/la-salle/)
 
 
-  blessures psychologiques et la régulation émotionnelle Tipi.
+  ![](https://res.cloudinary.com/guikem/image/upload/v1731929980/new-salle4_ojqe0a.jpg)
 
 
   Quelques témoignages
@@ -156,5 +151,32 @@ description: >
 
 
   pardon. Gratitude
+
+
+  Frédéric Chastelas Diplômé de philosophie à l’université Paul Valérie,
+  Frédéric a étudié et
+
+
+  pratiqué le bouddhisme avec de nombreux maîtres depuis 1997. Il a effectué une
+  retraite
+
+
+  traditionnelle de trois ans à Lerab Ling où il a vécu ensuite pendant plus de
+  dix ans au sein de la
+
+
+  communauté et où il a contribué à développer de nombreux programmes. Il
+  enseigne depuis plus
+
+
+  de quinze ans la méditation et le bouddhisme ainsi que de nombreux thèmes à la
+  fois spirituels et
+
+
+  psychologiques puisqu’il est formé à des approches thérapeutiques telles que
+  le travail sur les
+
+
+  blessures psychologiques et la régulation émotionnelle Tipi.
 ---
 
