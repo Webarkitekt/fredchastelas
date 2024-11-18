@@ -10,7 +10,7 @@ description: >
 
   **Cet atelier fait parti des stages essentiels que j'anime**. C'est le premier
   de la série qui comprends l'atelier sur l'ego, la culpabilité, les blessures
-  et dernièrement les dépendances affectives. 
+  et dernièrement les dépendances affectives.
 
 
   En effet, toute transformation ne peut se produire que par une acceptation
@@ -32,8 +32,6 @@ description: >
 
   * Comment travailler avec l’ego afin de nous libérer de ses tendances à
   résister et à ne pas accepter
-
-  *
 
 
   Nous explorerons aussi comment nous libérer de la culpabilité et de l’idée que
