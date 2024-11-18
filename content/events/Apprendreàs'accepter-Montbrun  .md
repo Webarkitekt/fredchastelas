@@ -86,20 +86,14 @@ description: >
   de 40% du montant pour valider la réservation
 
 
-  \- L'adresse : le Hameau de Pave à Montbrun-bocage 31310 
+  \- L'adresse : le Hameau de Pave à Montbrun-bocage 31310 -  [La salle - Hameau
+  de Pave](http://www.hameaudepave.fr/la-salle/)
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1731929928/gite9_mmjqak.jpg)
 
 
-  \-  la salle : [La salle - Hameau de
-  Pave](http://www.hameaudepave.fr/la-salle/)
-
-
-  ![](https://res.cloudinary.com/guikem/image/upload/v1731929980/new-salle4_ojqe0a.jpg)
-
-
-  Quelques témoignages
+  Quelques témoignages:
 
 
   Sara
