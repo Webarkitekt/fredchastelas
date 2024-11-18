@@ -2,7 +2,7 @@
 title: Le processus de la mort et de la réincarnation dans le bouddhisme tibétain
 start_date: 2025-02-01T23:00:00.000Z
 end_date: 2025-02-01T23:00:00.000Z
-location: content/locations/autres_stages.md
+location: content/locations/autres_lieux.md
 type: Philosophie
 description: >
   Le bouddhisme est probablement la tradition spirituelle qui a étudiée et
