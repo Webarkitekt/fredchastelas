@@ -62,20 +62,20 @@ description: >
   (nuits et repas, arrivée le vendredi soir)
 
 
-  \- La réservation: par email auprès de Nathalie Guénel
+  \- Réservation: par email auprès de Nathalie Guénel
   [nathalie.guenel@yahoo.fr](mailto:nathalie.guenel@yahoo.fr) Pour valider la
   réservation : Chèque à l'ordre de Nathalie Guénel de 40% du montant à envoyer
   à l'adresse suivante : N. Guénel Le Village 09240 MONTSERON
 
 
-  \- **L'adresse:** le Hameau de Pave à Montbrun-bocage 31310 -  [La salle -
+  \- **Adresse:** le Hameau de Pave à Montbrun-bocage 31310 -  [La salle -
   Hameau de Pave](http://www.hameaudepave.fr/la-salle/)
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1731929928/gite9_mmjqak.jpg)
 
 
-  Les h**oraires:**
+  **Les horaires:**
 
 
   Samedi 10h-13h et 14h30-18h
