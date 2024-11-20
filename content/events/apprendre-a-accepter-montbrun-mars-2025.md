@@ -58,13 +58,14 @@ description: >
   \- Le tarif est de 160 € TTC pour les deux jours de stage et les repas du midi
 
 
-  \- Le tarif est de 234 € TTC pour les deux jours de stage et les repas en
-  pension complète (arrivée le vendredi soir)
+  \- Le tarif est de 234 € TTC pour les deux jours de stage en pension complète
+  (nuits et repas, arrivée le vendredi soir)
 
 
-  \- **La réservation:** par email auprès de Nathalie Guénel
-  [nathalie.guenel@yahoo.fr](mailto:nathalie.guenel@yahoo.fr) Chèque ou virement
-  de 40% du montant pour valider la réservation
+  \- La réservation: par email auprès de Nathalie Guénel
+  [nathalie.guenel@yahoo.fr](mailto:nathalie.guenel@yahoo.fr) Pour valider la
+  réservation : Chèque à l'ordre de Nathalie Guénel de 40% du montant à envoyer
+  à l'adresse suivante : N. Guénel Le Village 09240 MONTSERON
 
 
   \- **L'adresse:** le Hameau de Pave à Montbrun-bocage 31310 -  [La salle -
