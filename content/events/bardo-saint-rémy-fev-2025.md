@@ -1,14 +1,12 @@
 ---
-title: >-
-  Le processus de la mort et de la réincarnation à la lumière du bouddhisme et
-  des dernières recherches scientifiques - à Saint-Rémy-de-Provence
+title: Le processus de la mort et de la réincarnation - à Saint-Rémy-de-Provence
 start_date: 2025-02-01T23:00:00.000Z
 end_date: 2025-02-01T23:00:00.000Z
 location: content/locations/autres_stages.md
 type: Philosophie
 description: >
-  Explorer le processus de la mort et de la réincarnation à la lumière du
-  bouddhisme et des dernières recherches scientifiques
+  **Explorer le processus de la mort et de la réincarnation à la lumière du
+  bouddhisme et des dernières recherches scientifiques**
 
 
   Cet atelier d'une journée que j'animerai près de **Saint-Rémy-de-Provence**
