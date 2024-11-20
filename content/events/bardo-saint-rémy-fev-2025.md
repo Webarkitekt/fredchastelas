@@ -11,9 +11,9 @@ description: >
   Cet atelier d'une journée que j'animerai près de **Saint-Rémy-de-Provence**
   (voir adresse plus bas) va permettre de **se familiariser en profondeur avec
   les différentes étapes du processus de la mort et découvrir comment nous
-  préparer au mieux pour cette étape si particulière sur notre chemin.** Il
-  permettra aussi de découvrir comment aider les mourants et les morts - nous
-  pouvons en effet continuer d'aider les personnes même après leur décès.
+  préparer au mieux pour cette étape si particulière.** Il permettra aussi de
+  découvrir comment aider les mourants et les morts - nous pouvons en effet
+  continuer d'aider les personnes même après leur décès.
 
 
   **Le bouddhisme tibétain, avec son livre des morts tibétains (Bardo Thödol)
@@ -27,9 +27,9 @@ description: >
 
 
   Basé à la fois sur les enseignements bouddhistes tibétains ainsi que sur les
-  **travaux du Dr Christophe Fauré **présentés dans son dernier livre: *Cette
-  vie et au-delà*, nous découvrirons les **nombreux témoignages d'occidentaux et
-  les dernières recherches scientifiques sur le sujet** .
+  \*\*travaux du Dr Christophe Fauré \*\*présentés dans son dernier livre:
+  *Cette vie et au-delà*, nous découvrirons les **nombreux témoignages
+  d'occidentaux et les dernières recherches scientifiques sur le sujet** .
 
 
   **Tarif**: 55€
