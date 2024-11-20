@@ -9,10 +9,10 @@ description: >
 
 
   La culpabilité - c’est-à-dire l’accusation de soi - s’est immiscée dans de
-  nombreux aspects de notre vie, souvent de façon inconsciente... Des recherches
-  montrent que 90% de nos états de mal-être proviennent de l’accusation de soi
-  et des autres (nous verrons que cela va souvent ensemble) et de se sentir
-  coupable.
+  nombreux aspects de notre vie, souvent de façon inconsciente... **Des
+  recherches montrent que 90% de nos états de mal-être proviennent de
+  l’accusation de soi et des autres **(nous verrons que cela va souvent
+  ensemble) et de se sentir coupable.
 
 
   Dans le bouddhisme, la notion de responsabilité prévaut sur celle de
@@ -21,9 +21,9 @@ description: >
 
   Pourtant la croyance qui consiste à penser que c’est en nous sentant coupable
   que nous pouvons apprendre de nos erreurs , changer et nous améliorer demeure
-  l’une des croyances les plus admises et les plus ancrées. Cette croyance est
+  l’une des croyances les plus admises et les plus ancrées. **Cette croyance est
   parmi celles qui nous font le plus de mal car elle nous empêche de découvrir
-  l’amour de soi et nous garde bloqués dans nos schémas négatifs.
+  l’amour de soi et nous garde bloqués dans nos schémas négatifs.**
 
 
   * Découvrir les croyances derrière notre culpabilité
@@ -37,10 +37,10 @@ description: >
   * Comment se réconcilier avec les autres
 
 
-  Voici ce que nous allons travailler durant cette retraite où nous pratiquerons
-  la méditation et ferons de nombreux exercices concrets et personnels qui nous
-  amèneront, au bout de ce processus, à découvrir le bonheur de vivre sans
-  culpabilité.
+  Voici ce que nous allons travailler durant cette retraite où **nous
+  pratiquerons la méditation et ferons de nombreux exercices concrets et
+  personnels **qui nous amèneront, au bout de ce processus, à découvrir le
+  bonheur de vivre sans culpabilité.
 
 
   **Tarif hors nourriture et logement** :140€
