@@ -13,14 +13,14 @@ description: >
   et dernièrement les dépendances affectives.
 
 
-  En effet, toute transformation ne peut se produire que par une acceptation
-  authentique de nous-même. Pourtant notre compréhension de l’acceptation de soi
-  et surtout sa mise en pratique nous font souvent défaut. Que signifie
+  En effet, **toute transformation ne peut se produire que par une acceptation
+  authentique de nous-même**. Pourtant notre compréhension de l’acceptation de
+  soi et surtout sa mise en pratique nous font souvent défaut. Que signifie
   véritablement s’accepter soi-même ? Quelle est la sagesse qui sous-tend
   l’acception de soi et comment la mettre en pratique ?
 
 
-  Durant cet évènement nous verrons :
+  **Durant cet évènement nous verrons** :
 
 
   * Le lien étroit entre l’acceptation de soi et la possibilité de nous
@@ -34,16 +34,16 @@ description: >
   résister et à ne pas accepter
 
 
-  Nous explorerons aussi comment nous libérer de la culpabilité et de l’idée que
-  c’est en nous blâmant que nous pouvons progresser, et nous découvrirons
+  Nous explorerons aussi **comment nous libérer de la culpabilité et de l’idée
+  que c’est en nous blâmant que nous pouvons progresser**, et nous découvrirons
   comment les situations de tension avec les autres peuvent être des
   opportunités puissantes pour prendre conscience de ce que nous n’avons pas
   accepté en nous-même, et pour nous transformer.
 
 
-  Nous utiliserons des exercices pratiques pour prendre conscience et dépasser
-  ce qui nous bloque sur le chemin de l’acceptation de soi et nous apprendrons
-  et pratiquerons la méditation, outil privilégié pour opérer cette
+  Nous utiliserons **des exercices pratiques pour prendre conscience et dépasser
+  ce qui nous bloque **sur le chemin de l’acceptation de soi et nous apprendrons
+  et** pratiquerons la méditation,** outil privilégié pour opérer cette
   transformation.
 
 
