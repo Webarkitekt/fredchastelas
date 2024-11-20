@@ -43,10 +43,10 @@ description: >
   bonheur de vivre sans culpabilité.
 
 
-  **Tarif hors nourriture et logement** :140€
+  **Tarif hors nourriture et logement** :130€
 
 
-  Tarif réduit (à demander si besoin): 112€
+  Tarif réduit (à demander si besoin): 105€
 
 
   **Arrivée**: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
