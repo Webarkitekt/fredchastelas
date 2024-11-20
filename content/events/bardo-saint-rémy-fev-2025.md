@@ -7,7 +7,7 @@ end_date: 2025-02-01T23:00:00.000Z
 location: content/locations/autres_stages.md
 type: Philosophie
 description: >
-  ![](https://res.cloudinary.com/guikem/image/upload/v1732109215/images_ourrh9.jpg)
+  ![](https://res.cloudinary.com/guikem/image/upload/v1732111822/Amitabha_nxkjeh.jpg)
 
 
   Cet atelier d'une journée que j'animerai près de **Saint-Rémy-de-Provence**
