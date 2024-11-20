@@ -7,6 +7,10 @@ end_date: 2025-02-01T23:00:00.000Z
 location: content/locations/autres_stages.md
 type: Philosophie
 description: >
+  Explorer le processus de la mort et de la réincarnation à la lumière du
+  bouddhisme et des dernières recherches scientifiques
+
+
   Cet atelier d'une journée que j'animerai près de **Saint-Rémy-de-Provence**
   (voir adresse plus bas) va permettre de **se familiariser en profondeur avec
   les différentes étapes du processus de la mort et découvrir comment nous
