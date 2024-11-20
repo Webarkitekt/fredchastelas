@@ -15,9 +15,8 @@ description: >
   coupable.
 
 
-
   Dans le bouddhisme, la notion de responsabilité prévaut sur celle de
-  culpabilité. 
+  culpabilité.
 
 
   Pourtant la croyance qui consiste à penser que c’est en nous sentant coupable
@@ -27,20 +26,41 @@ description: >
   l’amour de soi et nous garde bloqués dans nos schémas négatifs.
 
 
-  * Découvrir les croyances derrière notre culpabilité 
+  * Découvrir les croyances derrière notre culpabilité
 
-  * Transformer la culpabilité en responsabilité 
+  * Transformer la culpabilité en responsabilité
 
-  * Comment la culpabilité bloque la manifestation de nos désirs 
+  * Comment la culpabilité bloque la manifestation de nos désirs
 
-  * Découvrir l’amour de soi et le pardon véritable 
+  * Découvrir l’amour de soi et le pardon véritable
 
-  * Comment se réconcilier avec les autres 
+  * Comment se réconcilier avec les autres
 
 
   Voici ce que nous allons travailler durant cette retraite où nous pratiquerons
   la méditation et ferons de nombreux exercices concrets et personnels qui nous
   amèneront, au bout de ce processus, à découvrir le bonheur de vivre sans
   culpabilité.
+
+
+  **Tarif hors nourriture et logement** :140€
+
+
+  Tarif réduit (à demander si besoin): 112€
+
+
+  **Arrivée**: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
+
+
+  **Début et fin de l'évènement**: samedi 12 oct à 9h30 - Dimanche 13 oct à 17h
+
+
+  Pour connaitre le prix et la **description des options logements et des
+  repas**, cliquez sur ce lien
+  [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
+
+
+  **Questions et réservation** par e-mail directement à
+  [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 ---
 
