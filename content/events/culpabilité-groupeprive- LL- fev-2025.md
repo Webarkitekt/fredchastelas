@@ -5,13 +5,13 @@ end_date: 2025-02-15T23:00:00.000Z
 location: content/locations/Lerabling.md
 type: Connaissance de soi / Méditation
 description: >
-  ![](https://res.cloudinary.com/guikem/image/upload/v1732108415/images_u5vvom.jpg)
+  ![](https://res.cloudinary.com/guikem/image/upload/v1732111303/pngtree-a-woman-stands-on-top-of-a-mountain-with-open-arms-photo-image_15555252_yp03av.png)
 
 
   La culpabilité - c’est-à-dire l’accusation de soi - s’est immiscée dans de
-  nombreux aspects de notre vie, souvent de façon inconsciente... **Des
+  nombreux aspects de notre vie, souvent de façon inconsciente... \*\*Des
   recherches montrent que 90% de nos états de mal-être proviennent de
-  l’accusation de soi et des autres **(nous verrons que cela va souvent
+  l’accusation de soi et des autres \*\*(nous verrons que cela va souvent
   ensemble) et de se sentir coupable.
 
 
