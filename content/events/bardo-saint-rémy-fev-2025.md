@@ -27,9 +27,10 @@ description: >
 
 
   Basé à la fois sur les enseignements bouddhistes tibétains ainsi que sur les
-  \*\*travaux du Dr Christophe Fauré \*\*présentés dans son dernier livre:
-  *Cette vie et au-delà*, nous découvrirons les **nombreux témoignages
-  d'occidentaux et les dernières recherches scientifiques sur le sujet** .
+  **travaux du Dr Christophe Fauré** présentés dans son dernier livre: *Cette
+  vie et au-delà*, nous découvrirons, lors cet atelier, les **nombreux
+  témoignages d'expérience de mort imminente ainsi que les dernières recherches
+  scientifiques sur le sujet** .
 
 
   **Tarif**: 55€
