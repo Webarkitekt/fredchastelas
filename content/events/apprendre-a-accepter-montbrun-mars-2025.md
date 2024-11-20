@@ -1,5 +1,5 @@
 ---
-title: Apprendre à s'accepter pour se transformer - à Montbrun (Gers)
+title: Apprendre à s'accepter pour se transformer - à Montbrun (Haute-Garonne)
 start_date: 2025-03-21T23:00:00.000Z
 end_date: 2025-03-22T23:00:00.000Z
 location: content/locations/autres_stages.md
@@ -62,7 +62,7 @@ description: >
   (nuits et repas, arrivée le vendredi soir)
 
 
-  \- **Réservation: **par email auprès de Nathalie Guénel
+  \- \*\*Réservation: \*\*par email auprès de Nathalie Guénel
   [nathalie.guenel@yahoo.fr](mailto:nathalie.guenel@yahoo.fr) Pour valider la
   réservation : Chèque à l'ordre de Nathalie Guénel de 40% du montant à envoyer
   à l'adresse suivante : N. Guénel Le Village 09240 MONTSERON
