@@ -62,7 +62,7 @@ description: >
   (nuits et repas, arrivée le vendredi soir)
 
 
-  \- Réservation: par email auprès de Nathalie Guénel
+  \- **Réservation: **par email auprès de Nathalie Guénel
   [nathalie.guenel@yahoo.fr](mailto:nathalie.guenel@yahoo.fr) Pour valider la
   réservation : Chèque à l'ordre de Nathalie Guénel de 40% du montant à envoyer
   à l'adresse suivante : N. Guénel Le Village 09240 MONTSERON
