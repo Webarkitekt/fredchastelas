@@ -5,6 +5,9 @@ end_date: 2025-02-01T23:00:00.000Z
 location: content/locations/autres_stages.md
 type: Philosophie
 description: >
+  ****![](https://res.cloudinary.com/guikem/image/upload/v1732135694/depositphotos_723458204-stock-photo-sun-rays-clouds-sunset-golden_fbdfhe.webp)
+
+
   **Explorer le processus de la mort et de la réincarnation à la lumière du
   bouddhisme et des dernières recherches scientifiques**
 
