@@ -9,9 +9,9 @@ description: >
 
 
   La culpabilité - c’est-à-dire l’accusation de soi - s’est immiscée dans de
-  nombreux aspects de notre vie, souvent de façon inconsciente... \*\*Des
+  nombreux aspects de notre vie, souvent de façon inconsciente... **Des
   recherches montrent que 90% de nos états de mal-être proviennent de
-  l’accusation de soi et des autres \*\*(nous verrons que cela va souvent
+  l’accusation de soi et des autres **(nous verrons que cela va souvent
   ensemble) et de se sentir coupable.
 
 
