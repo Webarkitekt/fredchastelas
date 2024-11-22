@@ -37,9 +37,9 @@ description: >
   * Comment se réconcilier avec les autres
 
 
-  Voici ce que nous allons travailler durant cette retraite où \*\*nous
+  Voici ce que nous allons travailler durant cette retraite où **nous
   pratiquerons la méditation et ferons de nombreux exercices concrets et
-  personnels \*\*qui nous amèneront, au bout de ce processus, à découvrir le
+  personnels** qui nous amèneront, au bout de ce processus, à découvrir le
   bonheur de vivre sans culpabilité.
 
 
