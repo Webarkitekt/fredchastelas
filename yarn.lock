@@ -4686,12 +4686,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/auth@npm:^1.0.8":
-  version: 1.0.8
-  resolution: "@tinacms/auth@npm:1.0.8"
+"@tinacms/auth@npm:^1.0.9":
+  version: 1.0.9
+  resolution: "@tinacms/auth@npm:1.0.9"
   dependencies:
     fetch-ponyfill: "npm:^7.1.0"
-  checksum: 10c0/256d0c682682a9ff6d7b655bfaf6a052e67592afb47fe4cc81fd2bbd0a4d5b2e9c94f0f392ebd6f9bbcbc3f69eb5833343e204f53cbf0b25e18a09babd9c8930
+  checksum: 10c0/488d47b542d57a03f766bc5a9b1e181fca540084298de31af30787cea052d19ce3ab037d88e52021195e720a123595079261242cd740858b72ecd6120910a2d1
   languageName: node
   linkType: hard
 
@@ -15387,7 +15387,7 @@ __metadata:
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@tailwindcss/forms": "npm:^0.5.3"
     "@tailwindcss/typography": "npm:^0.5.2"
-    "@tinacms/auth": "npm:^1.0.8"
+    "@tinacms/auth": "npm:^1.0.9"
     "@tinacms/cli": "npm:^1.6.10"
     "@types/js-cookie": "npm:^3.0.2"
     "@types/node": "npm:^17.0.35"
