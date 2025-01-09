@@ -9,9 +9,9 @@ description: >
 
 
   La culpabilité - c’est-à-dire l’accusation de soi - s’est immiscée dans de
-  nombreux aspects de notre vie, souvent de façon inconsciente... **Des
+  nombreux aspects de notre vie, souvent de façon inconsciente... \*\*Des
   recherches montrent que 90% de nos états de mal-être proviennent de
-  l’accusation de soi et des autres **(nous verrons que cela va souvent
+  l’accusation de soi et des autres \*\*(nous verrons que cela va souvent
   ensemble) et de se sentir coupable.
 
 
@@ -53,6 +53,12 @@ description: >
 
 
   **Début et fin de l'évènement**: samedi 12 oct à 9h30 - Dimanche 13 oct à 17h
+
+
+  Attention, cet évènement, bien que se déroulant à Lerab Ling n'est pas
+  organisé par Lerab Ling et vous ne le retrouverez pas sur le site de Lerab
+  Ling. C'est un évènement que j'organise, à titre personnel, dans le lieu de
+  Lerab Ling.
 
 
   Pour connaitre le prix et la **description des options logements et des
