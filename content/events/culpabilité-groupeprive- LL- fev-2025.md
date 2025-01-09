@@ -55,7 +55,7 @@ description: >
   **Début et fin de l'évènement**: samedi 12 oct à 9h30 - Dimanche 13 oct à 17h
 
 
-  Attention, cet évènement, bien que se déroulant à Lerab Ling n'est pas
+  **Attention**, cet évènement, bien que se déroulant à Lerab Ling n'est pas
   organisé par Lerab Ling et vous ne le retrouverez pas sur le site de Lerab
   Ling. C'est un évènement que j'organise, à titre personnel, dans le lieu de
   Lerab Ling.
