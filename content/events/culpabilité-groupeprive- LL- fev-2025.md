@@ -52,7 +52,8 @@ description: >
   **Arrivée**: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
 
 
-  **Début et fin de l'évènement**: samedi 12 oct à 9h30 - Dimanche 13 oct à 17h
+  **Début et fin de l'évènement**: samedi 15 février à 9h30 - Dimanche 16
+  février à 17h
 
 
   **Attention**, cet évènement, bien que se déroulant à Lerab Ling n'est pas
