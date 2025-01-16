@@ -59,7 +59,7 @@ description: >
   **Attention**, cet évènement, bien que se déroulant à Lerab Ling n'est pas
   organisé par Lerab Ling et vous ne le retrouverez pas sur le site de Lerab
   Ling. C'est un évènement que j'organise, à titre personnel, dans le lieu de
-  Lerab Ling.
+  Lerab Ling. 
 
 
   Pour connaitre le prix et la **description des options logements et des
