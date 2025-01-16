@@ -1,5 +1,5 @@
 ---
-title: 'Surmonter la culpabilité '
+title: 'Surmonter la culpabilité  '
 start_date: 2025-02-14T23:00:00.000Z
 end_date: 2025-02-15T23:00:00.000Z
 location: content/locations/Lerabling.md
@@ -13,10 +13,6 @@ description: >
   recherches montrent que 90% de nos états de mal-être proviennent de
   l’accusation de soi et des autres \*\*(nous verrons que cela va souvent
   ensemble) et de se sentir coupable.
-
-
-  Dans le bouddhisme, la notion de responsabilité prévaut sur celle de
-  culpabilité.
 
 
   Pourtant la croyance qui consiste à penser que c’est en nous sentant coupable
