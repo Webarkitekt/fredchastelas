@@ -49,7 +49,7 @@ description: >
 
 
   **Début et fin de l'évènement**: samedi 15 février à 10h - Dimanche 16 février
-  à 17h 
+  à 17h
 
 
   **Attention**, cet évènement, bien que se déroulant à Lerab Ling n'est pas
