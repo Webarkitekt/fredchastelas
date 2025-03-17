@@ -1,0 +1,33 @@
+---
+title: La sagesse de nos émotions
+start_date: 2025-05-09T22:00:00.000Z
+end_date: 2025-05-10T22:00:00.000Z
+location: content/locations/Lerabling.md
+type: Connaissance de soi/Méditation
+description: >
+  Le bouddha donna de nombreux enseignements afin de travailler sur notre esprit
+  et nos émotions. Au niveau le plus profond de son enseignement, il montra que,
+  dans leur essence, les émotions n’étaient autres que la manifestation de notre
+  sagesse!
+
+
+  Difficile de croire cela tant elles nous posent problème!
+
+
+  Pourtant nos émotions nous veulent du bien et sont en elles-mêmes, si nous
+  savons travailler avec elles, une voie de libération. Ainsi ce séminaire va
+  vous proposer une perspective révolutionnaire sur les émotions et montrera que
+  le problème ne sont pas les émotions mais bel et bien la relation que nous
+  entretenons avec elles.
+
+
+  Lors de ce weekend, qui fera le lien entre les dernières recherches
+  scientifiques et les enseignements de sagesse millénaire, nous découvrirons
+  qu'il y a en fait des phénomènes différents au sein de cette grande famille
+  que nous appelons les émotions, et que ceux-ci se traitent différemment. Nous
+  traiterons en profondeur la notion de "blocages émotionnels" et découvrirons
+  comment nous en libérer. Nous aborderons aussi comment travailler avec la
+  colère, et verrons comment, grâce à la méditation, nous pouvons travailler
+  avec chacun de ces aspects et libérer notre potentiel de sagesse.
+---
+
