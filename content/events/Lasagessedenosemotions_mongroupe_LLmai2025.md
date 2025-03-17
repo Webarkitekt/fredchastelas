@@ -29,5 +29,24 @@ description: >
   comment nous en libérer. Nous aborderons aussi comment travailler avec la
   colère, et verrons comment, grâce à la méditation, nous pouvons travailler
   avec chacun de ces aspects et libérer notre potentiel de sagesse.
+
+
+  **Tarif hors nourriture et logement** :125€
+
+
+  **Arrivée**: soit Vendredi après-midi, soit samedi entre 8h30 et 9h30
+
+
+  **Début et fin de l'évènement**: samedi 10 mai à 10h - Dimanche 11 mai à 17h
+
+
+  **Attention**, cet évènement, bien que se déroulant à Lerab Ling n'est pas
+  organisé par Lerab Ling et vous ne le retrouverez pas sur le site de Lerab
+  Ling. C'est un évènement que j'organise, à titre personnel, dans le lieu de
+  Lerab Ling.
+
+
+  Pour connaitre le prix et la **description des options logements et des
+  repas**, cliquez sur ce lien
 ---
 
