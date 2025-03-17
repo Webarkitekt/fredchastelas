@@ -23,12 +23,13 @@ description: >
 
   Lors de ce weekend, qui fera le lien entre les dernières recherches
   scientifiques et les enseignements de sagesse millénaire, nous découvrirons
-  qu'il y a en fait des phénomènes différents au sein de cette grande famille
-  que nous appelons les émotions, et que ceux-ci se traitent différemment. Nous
-  traiterons en profondeur la notion de "blocages émotionnels" et découvrirons
-  comment nous en libérer. Nous aborderons aussi comment travailler avec la
-  colère, et verrons comment, grâce à la méditation, nous pouvons travailler
-  avec chacun de ces aspects et libérer notre potentiel de sagesse.
+  qu'il y a différents phénomènes au sein de cette grande famille que nous
+  appelons les émotions, et que ceux-ci se traitent différemment. Nous
+  aborderons en profondeur la notion encore mal connu de "blocages émotionnels"
+  et découvrirons comment nous en libérer. Nous aborderons aussi comment
+  travailler avec la colère, et verrons comment, grâce à la méditation, nous
+  pouvons travailler avec chacun de ces aspects et libérer notre potentiel de
+  sagesse.
 
 
   **Tarif hors nourriture et logement** :125€
