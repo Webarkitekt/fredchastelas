@@ -44,9 +44,5 @@ description: >
   organisé par Lerab Ling et vous ne le retrouverez pas sur le site de Lerab
   Ling. C'est un évènement que j'organise, à titre personnel, dans le lieu de
   Lerab Ling.
-
-
-  Pour connaitre le prix et la **description des options logements et des
-  repas**, cliquez sur ce lien
 ---
 
