@@ -61,6 +61,6 @@ description: >2
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
 
-  Limité à 25-30 places
+  Limité à 25 places
 ---
 
