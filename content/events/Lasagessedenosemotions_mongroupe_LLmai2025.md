@@ -5,9 +5,11 @@ end_date: 2025-05-10T22:00:00.000Z
 location: content/locations/Lerabling.md
 type: Connaissance de soi/Méditation
 description: >
-  ![](https://res.cloudinary.com/guikem/image/upload/v1742213190/HUMx8doZWJOYwyZ5GgHKfczmJej5OEK2l7d6MuaS_zomxwx.jpg)Le
-  bouddha donna de nombreux enseignements afin de travailler sur notre esprit et
-  nos émotions. Au niveau le plus profond de son enseignement, il montra que,
+  ![](https://res.cloudinary.com/guikem/image/upload/v1742213190/HUMx8doZWJOYwyZ5GgHKfczmJej5OEK2l7d6MuaS_zomxwx.jpg)
+
+
+  Le bouddha donna de nombreux enseignements afin de travailler sur notre esprit
+  et nos émotions. Au niveau le plus profond de son enseignement, il montra que,
   dans leur essence, les émotions n’étaient autres que la manifestation de notre
   sagesse!
 
@@ -27,10 +29,9 @@ description: >
   qu'il y a différents phénomènes au sein de cette grande famille que nous
   appelons les émotions, et que ceux-ci se traitent différemment. Nous
   aborderons en profondeur la notion encore mal connu de "blocages émotionnels"
-  et découvrirons comment nous en libérer. Nous aborderons aussi comment
-  travailler avec la colère, et verrons comment, grâce à la méditation, nous
-  pouvons travailler avec chacun de ces aspects et libérer notre potentiel de
-  sagesse.
+  et découvrirons comment nous en libérer. Nous aborderons aussi le thème de la
+  colère, et verrons comment, grâce à la méditation, nous pouvons travailler
+  avec chacun de ces aspects et libérer notre potentiel de sagesse.
 
 
   **Tarif hors nourriture et logement** :125€
