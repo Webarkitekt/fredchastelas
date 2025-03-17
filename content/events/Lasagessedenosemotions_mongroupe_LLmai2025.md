@@ -4,11 +4,10 @@ start_date: 2025-05-09T22:00:00.000Z
 end_date: 2025-05-10T22:00:00.000Z
 location: content/locations/Lerabling.md
 type: Connaissance de soi/Méditation
-description: >2
-                                                                          ![](https://res.cloudinary.com/guikem/image/upload/v1742213190/HUMx8doZWJOYwyZ5GgHKfczmJej5OEK2l7d6MuaS_zomxwx.jpg)
-
-  Le bouddha donna de nombreux enseignements afin de travailler sur notre esprit
-  et nos émotions. Au niveau le plus profond de son enseignement, il montra que,
+description: >
+  ![](https://res.cloudinary.com/guikem/image/upload/v1742213190/HUMx8doZWJOYwyZ5GgHKfczmJej5OEK2l7d6MuaS_zomxwx.jpg)Le
+  bouddha donna de nombreux enseignements afin de travailler sur notre esprit et
+  nos émotions. Au niveau le plus profond de son enseignement, il montra que,
   dans leur essence, les émotions n’étaient autres que la manifestation de notre
   sagesse!
 
