@@ -46,10 +46,15 @@ description: >
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
-  **Arrivée**: soit Vendredi après-midi, soit samedi entre 8h30 et 9h30
+  **Arrivée**: soit Vendredi après-midi si vous souhaitez profiter un peu plus
+  de Lerab Ling, soit samedi entre 8h30 et 9h30
+
+
+  Vous pourrez aussi repartir Lundi si vous le souhaitez
 
 
   **Début et fin de l'évènement**: Samedi 10 mai à 10h - Dimanche 11 mai à 17h
+  maximun
 
 
   **Attention**, cet évènement, bien que se déroulant à Lerab Ling n'est pas
@@ -60,6 +65,28 @@ description: >
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
 
-  Limité à 25 places
+  **Limité à 25 places**
+
+
+  **Emploi du temps:**
+
+
+  *Samedi*: 
+
+
+  10-12h30  présentation
+
+
+  12h30 pause déjeuner avec balade pour ceux qui le souhaites
+
+
+  15h- 18h30 présentation
+
+
+  Soirée méditation optionnelle
+
+
+  *Dimanche*: emploi du temps similaire excepté que nous commencerons le matin à
+  9h et finirons au plus tard vers 17h
 ---
 
