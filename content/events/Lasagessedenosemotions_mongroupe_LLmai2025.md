@@ -59,5 +59,8 @@ description: >2
   Lerab Ling. C'est pour cela que tout le processus d'inscription se fait en
   s'adressant par email à
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
+
+
+  Limité à 25-30 places
 ---
 
