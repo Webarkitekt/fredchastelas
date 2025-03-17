@@ -34,15 +34,27 @@ description: >
   **Tarif hors nourriture et logement** :125€
 
 
+  **Pour la demande d'inscription au stage ainsi que pour la réservation du
+  logement et toute autre question:** par e-mail directement à
+  [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
+
+
+  **Pour connaitre le prix et la** **description des options logements et des
+  repas**, cliquez sur ce lien
+  [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
+
+
   **Arrivée**: soit Vendredi après-midi, soit samedi entre 8h30 et 9h30
 
 
-  **Début et fin de l'évènement**: samedi 10 mai à 10h - Dimanche 11 mai à 17h
+  **Début et fin de l'évènement**: Samedi 10 mai à 10h - Dimanche 11 mai à 17h
 
 
   **Attention**, cet évènement, bien que se déroulant à Lerab Ling n'est pas
-  organisé par Lerab Ling et vous ne le retrouverez pas sur le site de Lerab
+  organisé par Lerab Ling. Vous ne le retrouverez donc pas sur le site de Lerab
   Ling. C'est un évènement que j'organise, à titre personnel, dans le lieu de
-  Lerab Ling.
+  Lerab Ling. C'est pour cela que tout le processus d'inscription se fait en
+  s'adressant par email à
+  [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 ---
 
