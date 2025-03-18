@@ -10,28 +10,29 @@ description: >
 
   Le bouddha donna de nombreux enseignements afin de travailler sur notre esprit
   et nos émotions. Au niveau le plus profond de son enseignement, il montra que,
-  dans leur essence, les émotions n’étaient autres que la manifestation de notre
-  sagesse!
+  dans leur essence,** les émotions ne sont autres que la manifestation de notre
+  sagesse!**
 
 
-  Difficile de croire cela tant elles nous posent problème!
+  **Difficile de croire cela tant elles nous posent problème!**
 
 
   Pourtant nos émotions nous veulent du bien et sont en elles-mêmes, si nous
-  savons travailler avec elles, une voie de libération. Ainsi ce séminaire va
-  vous proposer une perspective révolutionnaire sur les émotions et montrera que
-  le problème ne sont pas les émotions mais bel et bien la relation que nous
-  entretenons avec elles.
+  savons travailler avec elles, **une voie de libération**. Ainsi ce séminaire
+  va vous proposer une **perspective révolutionnaire sur les émotions** et
+  montrera que le problème ne sont pas les émotions mais bel et bien la relation
+  que nous entretenons avec elles.
 
 
-  Lors de ce weekend, qui fera le lien entre les dernières recherches
-  scientifiques et les enseignements de sagesse millénaire, nous découvrirons
+  Lors de ce weekend, qui fera le lien entre** les dernières recherches
+  scientifiques et les enseignements de sagesse millénaire**, nous découvrirons
   qu'il y a différents phénomènes au sein de cette grande famille que nous
   appelons les émotions, et que ceux-ci se traitent différemment. Nous
-  aborderons en profondeur la notion encore mal connu de "blocages émotionnels"
-  et découvrirons comment nous en libérer. Nous aborderons aussi le thème de la
-  colère, et verrons comment, grâce à la méditation, nous pouvons travailler
-  avec chacun de ces aspects et libérer notre potentiel de sagesse.
+  aborderons en profondeur la notion encore mal connu de** "blocages
+  émotionnels"** et découvrirons comment nous en libérer. Nous aborderons aussi
+  le thème de la **colère**, et verrons comment, grâce à la **méditation**, nous
+  pouvons travailler avec chacun de ces aspects et **libérer notre potentiel de
+  sagesse**.
 
 
   **Tarif hors nourriture et logement** :125€
@@ -72,7 +73,7 @@ description: >
   **Emploi du temps:**
 
 
-  *Samedi*: 
+  *Samedi*:
 
 
   10-12h30  présentation
