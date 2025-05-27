@@ -41,7 +41,7 @@ description: >
   **Horaires**: 10h-17h
 
 
-  \*\*Tarif \*\*: 45€
+  **Tarif **: 45€
 
 
   **Déroulé de la journée**
@@ -67,6 +67,6 @@ description: >
   -Aix-en-Provence
 
 
-  Le \*\*covoiturage \*\*est vivement encouragé car le parking est limité
+  Le **covoiturage **est vivement encouragé car le parking est limité
 ---
 
