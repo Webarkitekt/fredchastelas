@@ -22,7 +22,7 @@ description: >
 
   Dans cette journée, nous ferons le lien entre la méditation, le travail sur
   les émotions et la relation aux autres, afin de retrouver une perspective plus
-  profonde sur notre vie et sur nous-même.
+  profonde à notre vie et à nous-même.
 
 
   Cet atelier se
