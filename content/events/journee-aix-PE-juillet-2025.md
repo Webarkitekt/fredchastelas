@@ -14,17 +14,15 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1690469142/IMG-20230724-WA0016_gba2km.jpg)
 
 
-  Une journée pour se faire du bien, apprendre la méditation et découvrir des
+  **Une journée pour se faire du bien, apprendre la méditation et découvrir des
   clés
 
-  pour approfondir la relation à soi-même et aux autres.
+  pour approfondir la relation à soi-même et aux autres.**
 
 
-  Dans cette journée
-
-  nous verrons comment libérer nos émotions et aller vers la guérison
-
-  des blessures qui nous font retomber dans les mêmes shémas.
+  Dans cette journée, nous ferons le lien entre la méditation, le travail sur
+  les émotions et la relation aux autres, afin de retrouver une perspective plus
+  profonde sur notre vie et sur nous-même.
 
 
   Cet atelier se
