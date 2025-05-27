@@ -30,7 +30,7 @@ description: >
   déroulera à 10mn de  Aix en Provence dans un écrin de verdure
 
 
-  Pré-inscription
+  **Inscription**
 
   nécessaire avant le 10 juillet par email à
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
@@ -38,17 +38,13 @@ description: >
   (Limité à 25 personnes)
 
 
-  Horaires: 10h-17h
+  **Horaires**: 10h-17h
 
 
-  Tarif participant:
-
-  45€
+  **Tarif **: 45€
 
 
-  Déroulé de la
-
-  journée
+  **Déroulé de la journée**
 
 
   10h – 12h45 éveil corporel (Qi Qong) , méditation, et exercices sur le thème
@@ -61,15 +57,16 @@ description: >
   14h- 17h suite de l’atelier
 
 
-  Amener son pique-nique, ainsi que tapis de yoga et coussin de méditation si
+  **Amener son pique-nique**, ainsi que tapis de yoga et coussin de méditation
+  si
 
   vous en avez un (sinon nous pourrons vous en prêter)
 
 
-  Adresse: Les 3 Chênes- 860 chemin des Frères Gris - 13080 Luynes
+  **Adresse**: Les 3 Chênes- 860 chemin des Frères Gris - 13080 Luynes
   -Aix-en-Provence
 
 
-  Le covoiturage est vivement encouragé car le parking est limité
+  Le **covoiturage **est vivement encouragé car le parking est limité
 ---
 
