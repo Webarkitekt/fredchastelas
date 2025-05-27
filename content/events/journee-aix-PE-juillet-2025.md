@@ -11,7 +11,7 @@ description: >
   ### Atelier le samedi 19 juillet à Aix en Provence
 
 
-  ![](https://res.cloudinary.com/guikem/image/upload/v1690469142/IMG-20230724-WA0016_gba2km.jpg)
+  ![](https://res.cloudinary.com/guikem/image/upload/v1708681717/WhatsApp_Image_2023-10-09_a%CC%80_07.39.06_2259efc0_gt2sse.jpg)
 
 
   **Une journée pour se faire du bien, pratiquer la méditation et découvrir des
@@ -41,7 +41,7 @@ description: >
   **Horaires**: 10h-17h
 
 
-  **Tarif **: 45€
+  \*\*Tarif \*\*: 45€
 
 
   **Déroulé de la journée**
@@ -67,6 +67,6 @@ description: >
   -Aix-en-Provence
 
 
-  Le **covoiturage **est vivement encouragé car le parking est limité
+  Le \*\*covoiturage \*\*est vivement encouragé car le parking est limité
 ---
 
