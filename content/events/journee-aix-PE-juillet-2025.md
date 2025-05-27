@@ -14,7 +14,7 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1690469142/IMG-20230724-WA0016_gba2km.jpg)
 
 
-  **Une journée pour se faire du bien, apprendre la méditation et découvrir des
+  **Une journée pour se faire du bien, pratiquer la méditation et découvrir des
   clés
 
   pour approfondir la relation à soi-même et aux autres.**
