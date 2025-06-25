@@ -2,9 +2,6 @@ import React from "react";
 import { format } from "date-fns";
 import { fr } from "date-fns/locale";
 import Link from "next/link";
-import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { Layout } from "../components/layout";
-import type { TinaMarkdownContent, Components } from "tinacms/dist/rich-text";
 
 export const Event = ({ data, compact = false }) => {
   const start_date = new Date(data.start_date);
