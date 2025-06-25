@@ -24,7 +24,7 @@ description: >
 
 
   Qu'est-ce qu' une vision spirituelle , comment la développer et comment
-  peut-elle nous aider dans la vie de tous les jours.
+  peut-elle nous aider dans la vie de tous les jours?
 
 
   Une présentation simple pour comprendre ce qu’est véritablement la
