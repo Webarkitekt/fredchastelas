@@ -54,7 +54,7 @@ description: >
   **Horaires**: 10h-17h
 
 
-  \*\*Tarif \*\*: 45€
+  **Tarif **: 45€
 
 
   **Déroulé de la journée**
