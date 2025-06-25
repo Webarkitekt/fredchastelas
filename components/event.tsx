@@ -44,20 +44,20 @@ export const Event = ({ data, compact = false }) => {
             <div className="bg-gray-50 overflow-hidden h-full flex flex-col group-hover:bg-white group-hover:shadow-lg transition-all duration-200">
               {/* Header compact */}
               <div className="p-4 border-b border-gray-200 group-hover:border-primary/30">
-                <div className="font-serif italic text-primary text-sm mb-1 group-hover:text-primary/80">
+                <div className="font-serif italic text-primary  mb-1 group-hover:text-primary/80">
                   {data.type}
                 </div>
                 <div className="font-bold text-base text-gray-800 mb-1 group-hover:text-gray-900">
                   {date}
                 </div>
-                <div className="text-primary text-sm group-hover:text-primary/80">
+                <div className="text-primary  group-hover:text-primary/80">
                   {data.location.name}
                 </div>
               </div>
 
               {/* Content compact - titre en haut */}
               <div className="p-4 flex-grow">
-                <h3 className="font-serif text-lg text-gray-800 leading-tight group-hover:text-primary transition-colors">
+                <h3 className="font-serif text-xl text-gray-800 leading-tight group-hover:text-primary transition-colors">
                   {data.title}
                 </h3>
               </div>
