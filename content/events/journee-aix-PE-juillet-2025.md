@@ -1,14 +1,17 @@
 ---
-title: 'Journée à Aix-en-Provence  "la relation à soi, la relation aux autres" '
+title: >-
+  La spiritualité au jour le jour - Comment une vision spirituelle peut-elle
+  nous aider dans notre vie quotidienne
 start_date: 2025-07-18T22:00:00.000Z
 end_date: 2025-07-18T22:00:00.000Z
 location: content/locations/aix_en_provence.md
 type: Détente/Méditation/Connaissance de soi
 description: >
-  ## **La relation à soi, la relation aux autres**
+  ## La spiritualité au jour le jour - Comment une vision spirituelle peut-elle
+  nous aider dans notre vie quotidienne
 
 
-  ### Atelier le samedi 19 juillet à Aix en Provence
+  ### **Atelier le samedi 19 juillet à Aix en Provence**
 
 
   ![](https://res.cloudinary.com/guikem/image/upload/v1708681717/WhatsApp_Image_2023-10-09_a%CC%80_07.39.06_2259efc0_gt2sse.jpg)
@@ -17,12 +20,22 @@ description: >
   **Une journée pour se faire du bien, pratiquer la méditation et découvrir des
   clés
 
-  pour approfondir la relation à soi-même et aux autres.**
+  pour approfondir la relation à notre spiritualité.**
 
 
-  Dans cette journée, nous ferons le lien entre la méditation, le travail sur
-  les émotions et la relation aux autres, afin de retrouver une perspective plus
-  profonde sur notre vie et sur nous-même.
+  Qu'est-ce qu' une vision spirituelle , comment la développer et comment
+  peut-elle nous aider dans la vie de tous les jours.
+
+
+  Une présentation simple pour comprendre ce qu’est véritablement la
+  spiritualité et comment cette vision peut nous ouvrir des perspective
+  libératrices dans une vie qui manque parfois de sens à long terme.
+
+
+  Tout ce que vous avez toujours voulu savoir sur l’âme et l’esprit, la
+  réincarnation, le karma et d'autres sujets vous serons présenter clairement,
+  sans dogmes, et nous verrons les répercussions concrètes que ces
+  compréhensions peuvent avoir sur notre vie.
 
 
   Cet atelier se
@@ -32,7 +45,7 @@ description: >
 
   **Inscription**
 
-  nécessaire avant le 10 juillet par email à
+  nécessaire avant le 15 juillet par email à
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 
   (Limité à 25 personnes)
@@ -41,7 +54,7 @@ description: >
   **Horaires**: 10h-17h
 
 
-  **Tarif **: 45€
+  \*\*Tarif \*\*: 45€
 
 
   **Déroulé de la journée**
@@ -67,6 +80,6 @@ description: >
   -Aix-en-Provence
 
 
-  Le **covoiturage **est vivement encouragé car le parking est limité
+  Le \*\*covoiturage \*\*est vivement encouragé car le parking est limité
 ---
 
