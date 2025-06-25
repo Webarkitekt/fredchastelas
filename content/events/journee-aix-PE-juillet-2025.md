@@ -29,7 +29,7 @@ description: >
 
   Vous découvrirez tout ce que vous avez toujours voulu savoir sur l’âme et
   l’esprit, la réincarnation, le karma, la différence entre spiritualité et
-  religion et d'autres sujets vous seront présenter clairement. .
+  religion et bien d'autres sujets.
 
   Cette présentation fondée sur la sagesse bouddhiste permettra de comprendre
   l'essence de toutes les religions et nous aidera à (re)trouver un sens profond
