@@ -1,147 +1,285 @@
-import React from "react";
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import React, { useState, useEffect } from "react";
+import { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
-import Logo from  "../public/logo.svg";
+import { useRouter } from "next/router";
+import Logo from "../public/logo.svg";
+import { motion, AnimatePresence } from "framer-motion";
 
-export const Header = ({data}) => {
-    // If we're on an admin path, other links should also link to their admin paths
-    const [prefix, setPrefix] = React.useState("");
-    const [windowUrl, setUrl] = React.useState("");
-    const [showHeader, setShowHeader] = React.useState(true);
-    const [scrollPos, setScrollPos] = React.useState(0);
-    const isBrowser = typeof window !== "undefined";
-    const hasUrl = isBrowser ? window.location.href : "";
+export const Header = ({ data }) => {
+  const [prefix, setPrefix] = React.useState("");
+  const [windowUrl, setUrl] = React.useState("");
+  const [showHeader, setShowHeader] = React.useState(true);
+  const [scrollPos, setScrollPos] = React.useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const router = useRouter();
 
-    const handleScroll = () => {
-        setScrollPos(document.documentElement.scrollTop);
-        document.documentElement.scrollTop > 90 && setShowHeader(document.documentElement.scrollTop < scrollPos);
+  const isBrowser = typeof window !== "undefined";
+  const hasUrl = isBrowser ? window.location.href : "";
+
+  const handleScroll = () => {
+    const currentScrollY = document.documentElement.scrollTop;
+
+    // Toujours montrer le header si on est en haut de page
+    if (currentScrollY < 90) {
+      setShowHeader(true);
+    } else {
+      // Montrer si on scroll vers le haut, cacher si on scroll vers le bas
+      setShowHeader(currentScrollY < scrollPos);
+    }
+
+    // Mettre à jour la position APRÈS le calcul
+    setScrollPos(currentScrollY);
+  };
+
+  useEffect(() => {
+    const handleRouteChangeStart = () => closeMobileMenu();
+    const handleRouteChangeComplete = () => closeMobileMenu();
+
+    router.events.on("routeChangeStart", handleRouteChangeStart);
+    router.events.on("routeChangeComplete", handleRouteChangeComplete);
+
+    return () => {
+      router.events.off("routeChangeStart", handleRouteChangeStart);
+      router.events.off("routeChangeComplete", handleRouteChangeComplete);
     };
+  }, [router.events]);
 
-    React.useEffect(() => {
-        setUrl(hasUrl);
-    }, [hasUrl]);
+  useEffect(() => {
+    setUrl(hasUrl);
+  }, [hasUrl]);
 
-    React.useEffect(() => {
-        if (window.location.pathname.startsWith("/admin")) {
-            setPrefix("/admin");
-        }
-    });
+  useEffect(() => {
+    if (isBrowser && window.location.pathname.startsWith("/admin")) {
+      setPrefix("/admin");
+    }
+  }, [isBrowser]);
 
-    React.useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    });
+  useEffect(() => {
+    if (isBrowser) {
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [isBrowser]);
 
-    return (
-        <div className={`sticky top-0 z-50 bg-white transition-transform ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}>
+  const openMobileMenu = () => setIsMobileMenuOpen(true);
+  const closeMobileMenu = () => setIsMobileMenuOpen(false);
 
-            <div className="relative pt-6 pb-6">
-                <Popover>
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                        <nav className="relative flex items-center justify-between sm:h-10 lg:justify-center" aria-label="Global">
-                            <div className="flex items-center flex-1 lg:absolute lg:inset-y-0 lg:left-0">
-                                <div className="flex items-center justify-between w-full lg:w-auto">
-                                    <a href="/">
-                                        <span className="sr-only">Frédéric Chastelas</span>
-                                        <Logo/>
-                                    </a>
-                                    <div className="-mr-2 flex items-center lg:hidden">
-                                        <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
-                                            <span className="sr-only">Ouvrir le menu principal</span>
-                                            <MenuIcon className="h-8 w-8" aria-hidden="true" />
-                                        </Popover.Button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="hidden lg:flex lg:space-x-10">
-                                {data.nav &&
-                                    data.nav.map((item, i) => {
-                                        const activeItem =
-                                            item.href === ""
-                                                ? typeof location !== "undefined" &&
-                                                location.pathname == "/"
-                                                : windowUrl.includes(item.href);
-                                        return (
-                                            <Link key={`${item.label}-${i}`} href={`${prefix}/${item.href}`} passHref>
-                                                <span className="relative inline-block text-sm uppercase font-medium text-gray-700 after:absolute after:w-full after:scale-x-0 after:h-[2px] after:-bottom-1 after:left-0 after:bg-gray-700 after:origin-bottom-right after:transition-transform after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left after:duration-300">
-                                                    {item.label}
-                                                </span>
-                                            </Link>
-                                        );
-                                    })
-                                }
-                            </div>
-                            <div className="hidden lg:absolute lg:flex lg:items-center lg:justify-end lg:inset-y-0 lg:right-0">
-                                <span className="inline-flex rounded-md">
-                                  <a href="mailto:frederic.chastelas@gmail.com"
-                                       className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-gray-700 rounded-lg text-base font-semibold text-gray-700 hover:bg-white hover:text-gray-800 transition">
-                                        Me contacter
-                                    </a>
-                                </span>
-                            </div>
-                        </nav>
+  // Animations Framer Motion
+  const menuVariants = {
+    hidden: {
+      opacity: 0,
+      scale: 0.95,
+      y: -20,
+    },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      y: 0,
+      transition: {
+        duration: 0.4,
+        ease: [0.4, 0.0, 0.2, 1],
+        staggerChildren: 0.1,
+        delayChildren: 0.1,
+      },
+    },
+    exit: {
+      opacity: 0,
+      scale: 0.95,
+      y: -20,
+      transition: {
+        duration: 0.2,
+        ease: [0.4, 0.0, 0.2, 1],
+      },
+    },
+  };
+
+  const linkVariants = {
+    hidden: {
+      opacity: 0,
+      x: -30,
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.4,
+        ease: [0.4, 0.0, 0.2, 1],
+      },
+    },
+  };
+
+  const buttonVariants = {
+    hidden: {
+      opacity: 0,
+      y: 30,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.4,
+        ease: [0.4, 0.0, 0.2, 1],
+        delay: 0.3,
+      },
+    },
+  };
+
+  return (
+    <>
+      <div
+        className={`sticky top-0 z-50 bg-white transition-transform ${
+          showHeader ? "translate-y-0" : "-translate-y-full"
+        }`}
+      >
+        <div className="relative pt-6 pb-6">
+          <Popover>
+            {({ open }) => (
+              <>
+                <div className="max-w-7xl mx-auto px-4 sm:px-6">
+                  <nav
+                    className="relative flex items-center justify-between sm:h-10 lg:justify-center"
+                    aria-label="Global"
+                  >
+                    <div className="flex items-center flex-1 lg:absolute lg:inset-y-0 lg:left-0">
+                      <div className="flex items-center justify-between w-full lg:w-auto">
+                        <a href="/">
+                          <span className="sr-only">Frédéric Chastelas</span>
+                          <Logo />
+                        </a>
+                        <div className="-mr-2 flex items-center lg:hidden">
+                          <Popover.Button
+                            onClick={openMobileMenu}
+                            className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
+                          >
+                            <span className="sr-only">
+                              Ouvrir le menu principal
+                            </span>
+                            <MenuIcon className="h-8 w-8" aria-hidden="true" />
+                          </Popover.Button>
+                        </div>
+                      </div>
                     </div>
+                    <div className="hidden lg:flex lg:space-x-10">
+                      {data.nav &&
+                        data.nav.map((item, i) => {
+                          const activeItem =
+                            item.href === ""
+                              ? typeof location !== "undefined" &&
+                                location.pathname == "/"
+                              : windowUrl.includes(item.href);
+                          return (
+                            <Link
+                              key={`${item.label}-${i}`}
+                              href={`${prefix}/${item.href}`}
+                              passHref
+                            >
+                              <span className="relative inline-block text-sm uppercase font-medium text-gray-700 after:absolute after:w-full after:scale-x-0 after:h-[2px] after:-bottom-1 after:left-0 after:bg-gray-700 after:origin-bottom-right after:transition-transform after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left after:duration-300">
+                                {item.label}
+                              </span>
+                            </Link>
+                          );
+                        })}
+                    </div>
+                  </nav>
+                </div>
 
-                    <Transition
-                        as={Fragment}
-                        enter="duration-150 ease-out"
-                        enterFrom="opacity-0 scale-95"
-                        enterTo="opacity-100 scale-100"
-                        leave="duration-100 ease-in"
-                        leaveFrom="opacity-100 scale-100"
-                        leaveTo="opacity-0 scale-95"
+                {/* Menu mobile avec Framer Motion */}
+                <AnimatePresence>
+                  {isMobileMenuOpen && (
+                    <motion.div
+                      initial="hidden"
+                      animate="visible"
+                      exit="exit"
+                      variants={menuVariants}
+                      className="fixed inset-0 z-50 bg-white"
                     >
-                        <Popover.Panel
-                            focus
-                            className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
+                      <div className="flex flex-col h-screen w-full bg-white">
+                        {/* Header avec logo et bouton fermeture */}
+                        <div className="flex items-center justify-between px-6 pt-6 pb-4 bg-white border-b border-gray-200">
+                          <div>
+                            <a href="/">
+                              <span className="sr-only">
+                                Frédéric Chastelas
+                              </span>
+                              <Logo />
+                            </a>
+                          </div>
+                          <div className="-mr-2 flex items-center">
+                            <button
+                              onClick={closeMobileMenu}
+                              className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
+                            >
+                              <span className="sr-only">Fermer le menu</span>
+                              <XIcon className="h-8 w-8" aria-hidden="true" />
+                            </button>
+                          </div>
+                        </div>
+
+                        {/* Navigation principale */}
+                        <motion.div
+                          className="flex-1 px-6 py-8 bg-white"
+                          variants={menuVariants}
                         >
-                            <div className=" rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                <div className="px-5 pt-4 pb-4 flex items-center justify-between">
-                                    <div>
-                                        <Logo/>
-                                    </div>
-                                    <div className="-mr-2">
-                                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
-                                            <span className="sr-only">Close menu</span>
-                                            <XIcon className="h-8 w-8" aria-hidden="true" />
-                                        </Popover.Button>
-                                    </div>
-                                </div>
-                                <div className="px-2 pt-2 pb-3">
-                                    {data.nav &&
-                                        data.nav.map((item, i) => {
-                                            const activeItem =
-                                                item.href === ""
-                                                    ? typeof location !== "undefined" &&
-                                                    location.pathname == "/"
-                                                    : windowUrl.includes(item.href);
-                                            return (
-                                                <Link key={`${item.label}-${i}`} href={`${prefix}/${item.href}`} passHref>
-                                                    <span className="block px-3 py-2 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-5">
-                                                        {item.label}
-                                                    </span>
-                                                </Link>
-                                            );
-                                        })
-                                    }
-                                </div>
-                                <a
-                                    href="mailto:frederic.chastelas@gmail.com"
-                                    className="block w-full px-5 py-3 text-xl text-center font-medium text-gray-700 bg-gray-50 hover:bg-gray-100"
-                                >
-                                    Me contacter
-                                </a>
-                            </div>
-                        </Popover.Panel>
-                    </Transition>
-                </Popover>
-            </div>
+                          <nav className="space-y-4">
+                            {data.nav &&
+                              data.nav.map((item, i) => {
+                                const activeItem =
+                                  item.href === ""
+                                    ? typeof location !== "undefined" &&
+                                      location.pathname == "/"
+                                    : windowUrl.includes(item.href);
+                                return (
+                                  <motion.div
+                                    key={`${item.label}-${i}`}
+                                    variants={linkVariants}
+                                  >
+                                    <Link
+                                      href={`${prefix}/${item.href}`}
+                                      onClick={closeMobileMenu}
+                                      className="block py-3 px-0 text-xl font-medium text-gray-900 hover:text-gray-600 transition-all duration-200 hover:translate-x-2 hover:scale-105"
+                                    >
+                                      <span
+                                        className={`${
+                                          activeItem
+                                            ? "text-gray-900 font-semibold"
+                                            : "text-gray-600"
+                                        }`}
+                                      >
+                                        {item.label}
+                                      </span>
+                                    </Link>
+                                  </motion.div>
+                                );
+                              })}
+                          </nav>
+                        </motion.div>
+
+                        {/* Contact tout en bas */}
+                        <motion.div
+                          className="px-6 pb-8 pt-4 bg-white border-t border-gray-100"
+                          variants={buttonVariants}
+                        >
+                          <a
+                            href="/contact"
+                            onClick={closeMobileMenu}
+                            className="block w-full text-center bg-interaction-default text-white py-4 px-6 rounded-lg font-medium text-lg hover:scale-105 transition-transform duration-200"
+                          >
+                            Me contacter
+                          </a>
+                        </motion.div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </>
+            )}
+          </Popover>
         </div>
-    )
-}
-
-
+      </div>
+    </>
+  );
+};
