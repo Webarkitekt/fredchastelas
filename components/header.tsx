@@ -68,7 +68,7 @@ export const Header = ({ data }) => {
   const openMobileMenu = () => setIsMobileMenuOpen(true);
   const closeMobileMenu = () => setIsMobileMenuOpen(false);
 
-  // Animations Framer Motion
+  // Animations Framer Motion - Version simplifiée pour v12
   const menuVariants = {
     hidden: {
       opacity: 0,
@@ -79,20 +79,21 @@ export const Header = ({ data }) => {
       opacity: 1,
       scale: 1,
       y: 0,
-      transition: {
-        duration: 0.4,
-        ease: [0.4, 0.0, 0.2, 1],
-        staggerChildren: 0.1,
-        delayChildren: 0.1,
-      },
     },
     exit: {
       opacity: 0,
       scale: 0.95,
       y: -20,
+    },
+  };
+
+  // Variants pour les animations staggerées
+  const containerVariants = {
+    hidden: {},
+    visible: {
       transition: {
-        duration: 0.2,
-        ease: [0.4, 0.0, 0.2, 1],
+        staggerChildren: 0.1,
+        delayChildren: 0.1,
       },
     },
   };
@@ -105,10 +106,6 @@ export const Header = ({ data }) => {
     visible: {
       opacity: 1,
       x: 0,
-      transition: {
-        duration: 0.4,
-        ease: [0.4, 0.0, 0.2, 1],
-      },
     },
   };
 
@@ -120,11 +117,6 @@ export const Header = ({ data }) => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: {
-        duration: 0.4,
-        ease: [0.4, 0.0, 0.2, 1],
-        delay: 0.3,
-      },
     },
   };
 
@@ -222,7 +214,9 @@ export const Header = ({ data }) => {
                         {/* Navigation principale */}
                         <motion.div
                           className="flex-1 px-6 py-8 bg-white"
-                          variants={menuVariants}
+                          variants={containerVariants}
+                          initial="hidden"
+                          animate="visible"
                         >
                           <nav className="space-y-4">
                             {data.nav &&

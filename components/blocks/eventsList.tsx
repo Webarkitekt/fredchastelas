@@ -3,13 +3,19 @@ import { Container } from "../container";
 import { Section } from "../section";
 import Link from "next/link";
 import { client } from "../../tina/__generated__/client";
-import formatISO from "date-fns/formatISO";
-import sub from "date-fns/sub";
+import { formatISO } from "date-fns";
+import { sub } from "date-fns";
 import { useEffect, useState, useCallback } from "react";
 import * as React from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import LinkArrowRight from "../../public/link-arrow-right.svg";
 import useEmblaCarousel from "embla-carousel-react";
+
+// Import du SVG via import statique
+const LinkArrowRight = () => (
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+    <path d="M9.293 3.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L11.586 9H2a1 1 0 110-2h9.586L9.293 4.707a1 1 0 010-1.414z" />
+  </svg>
+);
 
 export const EventsList = ({ data: data, parentField = "" }) => {
   const [loading, setLoading] = useState(false);
