@@ -33,9 +33,9 @@ description: >
 
 
   Tout ce que vous avez toujours voulu savoir sur l’âme et l’esprit, la
-  réincarnation, le karma et d'autres sujets vous serons présenter clairement,
-  sans dogmes, et nous verrons les répercussions concrètes que ces
-  compréhensions peuvent avoir sur notre vie.
+  réincarnation, le karma et d'autres sujets vous sera présenter clairement.
+  Nous verrons aussi les répercussions concrètes que ces compréhensions peuvent
+  avoir sur notre vie.
 
 
   Cet atelier se
