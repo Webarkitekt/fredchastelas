@@ -1,7 +1,7 @@
 ---
 title: >-
-  La spiritualité au jour le jour - Comment une vision spirituelle peut-elle
-  nous aider dans notre vie quotidienne
+  La spiritualité au jour le jour - Comment la spiritualité peut-elle nous aider
+  dans notre vie quotidienne
 start_date: 2025-07-18T22:00:00.000Z
 end_date: 2025-07-18T22:00:00.000Z
 location: content/locations/aix_en_provence.md
@@ -52,7 +52,7 @@ description: >
   **Horaires**: 10h-17h
 
 
-  **Tarif **: 45€
+  \*\*Tarif \*\*: 45€
 
 
   **Déroulé de la journée**
