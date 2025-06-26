@@ -1,20 +1,17 @@
 ---
 title: >-
-  La spiritualité au jour le jour - Comment la spiritualité peut-elle nous aider
-  dans notre vie quotidienne
+  La spiritualité au jour le jour - Comment la spiritualité peut nous aider dans
+  notre vie quotidienne
 start_date: 2025-07-18T22:00:00.000Z
 end_date: 2025-07-18T22:00:00.000Z
 location: content/locations/aix_en_provence.md
 type: Détente/Méditation/Connaissance de soi
 description: >
-  #### **Atelier le samedi 19 juillet à Aix en Provence**
-
-
   ![](https://res.cloudinary.com/guikem/image/upload/v1708681717/WhatsApp_Image_2023-10-09_a%CC%80_07.39.06_2259efc0_gt2sse.jpg)
 
 
-  **Une journée pour se faire du bien, pratiquer la méditation et découvrir des
-  clés
+  **Une journée dans un écrin de verdure pour se faire du bien, pratiquer la
+  méditation et découvrir des clés
 
   pour approfondir la relation à notre spiritualité.**
 
