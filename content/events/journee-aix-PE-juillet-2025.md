@@ -1,7 +1,7 @@
 ---
 title: >-
-  La spiritualité au jour le jour - Comment la spiritualité peut nous aider dans
-  notre vie quotidienne
+  La spiritualité au fil des jours - Comment la spiritualité peut nous aider
+  dans notre vie quotidienne
 start_date: 2025-07-18T22:00:00.000Z
 end_date: 2025-07-18T22:00:00.000Z
 location: content/locations/aix_en_provence.md
