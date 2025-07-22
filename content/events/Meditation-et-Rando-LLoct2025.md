@@ -14,41 +14,25 @@ description: >
   d'autonome.**
 
 
-  **Les matinées seront dédiées à la pratique de la méditation et au thème de la
-  spiritualité. Les après-midi seront consacrées à la randonnée. **
-
-
   **Au programme**:
+
+
+  Les matinées seront dédiées à la pratique de la méditation et au thème de la
+  spiritualité. Les après-midi seront consacrées à la randonnée. 
 
 
   ***Séances de méditation samedi et dimanche matin dans le temple:***
 
 
-  Une belle occasion de pratiquer dans l'atmosphère sacrée du temple et dans la
-  nature et d'approfondir notre compréhension de la méditation
+  Une belle occasion de pratiquer dans l'atmosphère sacrée du temple et
+  d'approfondir le sujet de la spiritualité.
 
 
-  ***Marche** **samedi après-midi***
+  ***Randonnées** **samedi et dimanche après-midi***
 
 
-  Nous ferons selon le niveau des participants, soit une balade dans la forêt
-  enchanteresse de l'Escandorgues (3h), soit une marche pour une découverte du
-  cirque de Navacel - grand site de France - à 30mn en voiture de Lerab Ling
-  (4h) avec possibilité de baignade si le temps le permet.
-
-
-  Si ces marches vous semblent trop ambitieuses, une deuxième marche plus courte
-  (1h30) pourra être organisée en parallèle.
-
-
-  ***Qi Qong avec Audrey Allemand dimanche après-midi***
-
-
-  Une séance complète comprenant mouvement mais aussi enseignement, conseil
-  diététiques et auto-massages sera proposer par Audrey.
-
-
-  ***Visite privée du temple***
+  Forêt de l'Escandorgues, Cirque de Navacel ou bien randonnées plus courte
+  autour de Lerab Ling… Nous adapterons en fonction du groupe
 
 
   **Tarif hors nourriture et logement** :140€
