@@ -5,6 +5,9 @@ end_date: 2025-10-04T22:00:00.000Z
 location: content/locations/Lerabling.md
 type: Méditation / Se ressourcer
 description: >
+  ****![](https://res.cloudinary.com/guikem/image/upload/v1753197310/WhatsApp_Image_2022-10-23_at_21.06.58_1_kldauj.jpg)****
+
+
   **Profiter d'un weekend pour randonnée dans le Larzac et méditer ensemble à
   Lerab Ling. C'est ce que je vous propose pour le premier weekend d'octobre.**
 
@@ -41,10 +44,10 @@ description: >
   Tarif réduit (à demander si besoin): 112€
 
 
-  Arrivée: soit Vendredi après-midi ou samedi entre 8h30 et 9h30
+  Arrivée: soit Vendredi après-midi ou samedi entre 9h et 9h30
 
 
-  Début de l'évènement: samedi 12 oct à 9h30
+  Début de l'évènement: samedi 12 oct à 10h
 
 
   Fin de l'évènement: Dimanche 13 oct à 17h
