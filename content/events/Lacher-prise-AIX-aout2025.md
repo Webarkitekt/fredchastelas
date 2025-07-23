@@ -27,5 +27,43 @@ description: >
 
   Piscine et pique-nique durant la pause déjeuner en ferons aussi un moment de
   détente et de convivialité.
+
+
+  **Inscription** par email à
+  [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
+
+  (Limité à 25 personnes)
+
+
+  **Horaires**: 10h-17h
+
+
+  **Tarif **: 60€
+
+
+  **Déroulé de la journée**
+
+
+  10h – 13h éveil corporel (Qi Qong) , méditation, et exercices sur le thème de
+  l’atelier
+
+
+  13h – 14h pique-nique, piscine et détente 
+
+
+  14h- 17h suite de l’atelier
+
+
+  **Amener son pique-nique**, ainsi que tapis de yoga et coussin de méditation
+  si
+
+  vous en avez un (sinon nous pourrons vous en prêter)
+
+
+  **Adresse**: Les 3 Chênes- 860 chemin des Frères Gris - 13080 Luynes
+  -Aix-en-Provence
+
+
+  Le **covoiturage **est vivement encouragé car le parking est limité
 ---
 
