@@ -9,8 +9,8 @@ description: >
 
 
   Cette journée, qui se déroulera dans le cadre exceptionnel du lieu dit "les
-  trois chênes" sera l'opportunité d'intensifier notre pratique de méditation et
-  d'explorer profondément le thème du "lâcher prise".
+  trois chênes" sera **l'opportunité d'intensifier notre pratique de méditation
+  et d'explorer le thème du "lâcher prise".**
 
 
   Le “lâcher prise” est une notion souvent galvauder, difficile à comprendre et
@@ -25,8 +25,8 @@ description: >
   découlent du "lâcher prise"
 
 
-  Piscine et pique-nique durant la pause déjeuner en ferons aussi un moment de
-  détente et de convivialité.
+  **Piscine et pique-nique durant la pause déjeuner en ferons aussi un moment de
+  détente et de convivialité.**
 
 
   **Inscription** par email à
