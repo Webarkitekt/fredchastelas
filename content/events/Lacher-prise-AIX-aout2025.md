@@ -25,7 +25,7 @@ description: >
   découlent du "lâcher prise"
 
 
-  **Piscine et pique-nique durant la pause déjeuner en ferons aussi un moment de
+  **Piscine et pique-nique durant la pause déjeuner en feront aussi un moment de
   détente et de convivialité.**
 
 
