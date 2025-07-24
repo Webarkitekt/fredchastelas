@@ -31,6 +31,19 @@ description: >
   d'approfondir le sujet de la spiritualité.
 
 
+  Qu'est-ce que la spiritualité véritablement? Comment la développer et comment
+  peut-elle nous aider dans la vie de tous les jours?
+
+
+  Vous découvrirez tout ce que vous avez toujours voulu savoir sur l’âme et
+  l’esprit, la réincarnation, le karma, la différence entre spiritualité et
+  religion et bien d'autres sujets.
+
+  Cette présentation fondée sur la sagesse bouddhiste permettra de comprendre
+  l'essence de toutes les religions et nous aidera à (re)trouver un sens profond
+  à nos vies.
+
+
   ***Randonnées** **samedi et dimanche après-midi***
 
 
@@ -58,7 +71,7 @@ description: >
   [https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas](https://www.lerabling.org/lang-fr/la-source-prix-de-l-hebergement-et-des-repas)
 
 
-  Questions et réservation par e-mail directement à
+  **Questions et réservation par e-mail directement à**
   [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
 ---
 
