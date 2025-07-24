@@ -5,10 +5,10 @@ end_date: 2025-10-04T22:00:00.000Z
 location: content/locations/Lerabling.md
 type: Méditation / Se ressourcer
 description: >
-  ****![](https://res.cloudinary.com/guikem/image/upload/v1753197310/WhatsApp_Image_2022-10-23_at_21.06.58_1_kldauj.jpg)****
+  ![](https://res.cloudinary.com/guikem/image/upload/v1753197310/WhatsApp_Image_2022-10-23_at_21.06.58_1_kldauj.jpg)
 
 
-  **Profiter d'un weekend pour randonnée dans le Larzac et méditer ensemble à
+  **Profitez d'un weekend pour randonner dans le Larzac et méditer ensemble à
   Lerab Ling. C'est ce que je vous propose pour le premier weekend d'octobre.**
 
 
@@ -21,7 +21,7 @@ description: >
 
 
   Les matinées seront dédiées à la pratique de la méditation et au thème de la
-  spiritualité. Les après-midi seront consacrées à la randonnée. 
+  spiritualité. Les après-midi seront consacrées à la randonnée.
 
 
   ***Séances de méditation samedi et dimanche matin dans le temple:***
