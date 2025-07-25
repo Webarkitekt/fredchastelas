@@ -51,10 +51,7 @@ description: >
   autour de Lerab Ling… Nous adapterons en fonction du groupe
 
 
-  **Tarif hors nourriture et logement** :140€
-
-
-  Tarif réduit (à demander si besoin): 112€
+  **Tarif hors nourriture et logement** :120€
 
 
   Arrivée: soit Vendredi après-midi ou samedi entre 9h et 9h30
