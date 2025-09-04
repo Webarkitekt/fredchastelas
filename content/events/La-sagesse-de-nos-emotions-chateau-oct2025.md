@@ -27,7 +27,7 @@ description: >
   **Détails pratiques (prix, comment s’inscrire...)**
 
 
-  Quatre **tarifs **selon si:
+  Quatre \*\*tarifs \*\*selon si:
 
 
   1\. Participation externe enseignement seul (sans hébergement-sans repas) :
@@ -53,7 +53,7 @@ description: >
   **Arrivée**: vendredi après-midi ou bien samedi à 9h30
 
 
-  **Début et fin de l'évènement**: samedi 18 oct à 10h
+  **Début et fin de l'évènement**: samedi 18 oct à 10h à dimanche 19 oct à 17h
 
 
   **Emploi du temps:**
