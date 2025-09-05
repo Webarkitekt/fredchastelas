@@ -1,5 +1,5 @@
 ---
-title: Se libérer enfin de l'go
+title: Se libérer enfin de l'ego
 start_date: 2025-11-14T23:00:00.000Z
 end_date: 2025-11-15T23:00:00.000Z
 location: content/locations/Lerabling.md
