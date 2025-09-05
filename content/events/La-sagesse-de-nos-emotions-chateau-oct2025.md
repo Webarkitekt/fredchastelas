@@ -37,13 +37,12 @@ description: >
   2\. Participation externe enseignement + repas : 230€
 
 
-  3\. Enseignement + repas + 1nuit . chambre en dortoir seul : 280€. chambre en
-  dortoir partagé (2 petits lits séparés) : 250€/pers . chambre seul en mobil
-  home : 310€ . chambre seule en maison: 335€
+  3\. Enseignement + repas + 1nuit . chambre en dortoir seul : 300€. chambre
+  seul en mobil home : 335€ . chambre seule en maison: 355€
 
 
-  4\. Enseignement + repas + 2 nuits : + 30€ sur chaque prix selon la catégorie
-  d'hébergement
+  4\. Enseignement + repas + 2 nuits : chambre en dortoir seul : 350€. chambre
+  seul en mobil home : 390€ . chambre seule en maison: 440€
 
 
   **Inscriptions et infos** auprès de Karine SANTA au 06 24 54 37 11 ou par
