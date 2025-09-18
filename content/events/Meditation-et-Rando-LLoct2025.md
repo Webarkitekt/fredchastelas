@@ -60,7 +60,7 @@ description: >
   Début de l'évènement: samedi 4 oct à 10h
 
 
-  Fin de l'évènement: Dimanche 5 oct à 17h
+  Fin de l'évènement: Dimanche 5 oct à 17h 
 
 
   Pour connaitre le prix et la description des options logements et des repas,
