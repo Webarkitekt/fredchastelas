@@ -166,7 +166,7 @@ export const EventsList = ({ data: data, parentField = "" }) => {
                 {/* Image lieu - côté gauche */}
                 {data.location?.image && (
                   <div className="lg:w-1/3 mb-6 lg:mb-0">
-                    <div className="aspect-[4/3] overflow-hidden shadow-lg">
+                    <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
                       <img
                         src={data.location.image}
                         alt={data.location?.name}

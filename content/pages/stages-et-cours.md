@@ -32,21 +32,55 @@ blocks:
   - name: Cours
     bgColor: white
     size_large: true
-    body: "## Cours\n\n### Cours collectifs en visioconférence\n\n**Matinée méditation**\_par\_zoom\_**un dimanche par mois** de 10h à 12h.\_\nCe cours est ouvert à tous.\\\nNous y pratiquons la\_méditation\_et abordons différents thèmes tels que l'ego, l'acceptation de soi ainsi que certains thèmes du bouddhisme.\n\n**Tarif: 15€** *la séance\_(payable par transfert bancaire après la séance)*\n\n**Pour recevoir chaque mois la\_date de la prochaine séance\_et le\_lien zoom\_pour vous connecter,** **merci de vous inscrire à la newsletter en bas de page.**\n\n### Cours particuliers\_\n\nCours particuliers de méditation à domicile ou en visioconférence\_\n\n**Tarif horaire: 55€**\n"
+    body: "## Cours de méditation\n\nDécouvrez la méditation bouddhiste et approfondissez votre pratique à travers des cours adaptés à vos besoins.\n\n### Cours collectifs en visioconférence\n\n**Matinée méditation par Zoom - Un dimanche par mois de 10h à 12h**\n\nCe cours est ouvert à tous, débutants comme pratiquants confirmés.\n\nAu programme :\n- Pratique guidée de la méditation\n- Enseignements sur l'ego et l'acceptation de soi\n- Exploration des thèmes fondamentaux du bouddhisme\n- Échanges et partages d'expériences\n\n**Tarif : 15€ la séance**  \n*Paiement par transfert bancaire après la séance*\n\n**Pour recevoir chaque mois la date de la prochaine séance et le lien Zoom, inscrivez-vous à la newsletter en bas de page.**\n\n---\n\n### Cours particuliers\n\nUn accompagnement personnalisé pour approfondir votre pratique de la méditation.\n\n**Modalités :**\n- À domicile (région de Montpellier)\n- En visioconférence (partout en France)\n- Durée : 1 heure\n- Programme adapté à vos besoins et objectifs\n\n**Tarif : 55€ de l'heure**\n\n[Contactez-moi pour réserver votre séance](/contact)\n"
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
-    title: Organisez votre séminaire
+    title: Organisez votre séminaire sur mesure
     body: >
-      **Vous souhaitez organiser un séminaire autour de la méditation et du
-      développement personnel avec des clients, des amis, une entreprise ?**
+      ## Créez votre événement unique
 
 
-      Je crée avec vous un programme sur mesure incluant la méditation mais
-      aussi des activités telles que la marche, le Yoga, le Qi Qong.
+      Vous souhaitez organiser un séminaire de méditation et développement
+      personnel pour votre entreprise, votre équipe ou un groupe d'amis ?
 
 
-      Merci de me contacter pour plus d'infos
+      ### Ce que je vous propose
+
+
+      **Un programme entièrement personnalisé** qui combine :
+
+      - Méditation guidée et enseignements bouddhistes
+
+      - Régulation émotionnelle TIPI
+
+      - Activités complémentaires : marche méditative, Yoga, Qi Gong
+
+      - Exercices pratiques d'acceptation de soi et de gestion du stress
+
+
+      ### Pour qui ?
+
+
+      - **Entreprises** : cohésion d'équipe, prévention du burn-out, gestion du
+      stress
+
+      - **Groupes privés** : retraites entre amis, événements familiaux
+
+      - **Associations** : ateliers bien-être, développement personnel
+
+
+      ### Formats possibles
+
+
+      - Demi-journée, journée complète ou weekend
+
+      - Dans vos locaux ou dans un lieu inspirant
+
+      - De 5 à 20 participants
+
+
+      [Contactez-moi pour échanger sur vos besoins](/contact)
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1662116928/WhatsApp_Image_2022-08-13_at_12.07.12-1_eshcn4.jpg

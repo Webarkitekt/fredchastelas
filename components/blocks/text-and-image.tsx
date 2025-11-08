@@ -19,7 +19,7 @@ export const TextAndImage = ({ data, parentField }) => {
         >
           {data.image.src && (
             <div className="w-full lg:w-5/12 flex-shrink-0">
-              <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl aspect-[4/5] lg:aspect-square">
+              <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl aspect-[16/9] lg:aspect-[4/5]">
                 <img
                   src={data.image.src}
                   alt={data.image.alt}
