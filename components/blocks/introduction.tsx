@@ -1,21 +1,23 @@
 import * as React from 'react'
-import type {TinaTemplate} from "tinacms";
+import type { TinaTemplate } from "tinacms";
 
-export const Introduction = ({data, parentField}) => {
+export const Introduction = ({ data, parentField }) => {
     return (
-        <div className="lg:flex max-w-screen-md mx-auto mt-20 lg:mt-32">
+        <div className="lg:flex max-w-screen-lg mx-auto mt-20 lg:mt-32">
             <div className="relative">
                 <div data-tinafield={`${parentField}.image`}
                     className="relative z-10 rounded-full overflow-hidden aspect-square lg:mr-10 mb-12 w-48 mx-auto lg:mb-0 lg:w-[13rem]">
-                    <img src={data.image.src} alt={data.image.alt}/>
+                    <img src={data.image.src} alt={data.image.alt} />
                 </div>
             </div>
             <div className="px-6">
                 <h2 data-tinafield={`${parentField}.title`}
                     className="font-serif text-5xl text-gray-700 mb-5">{data.title}</h2>
-                <p data-tinafield={`${parentField}.text`} className="text-gray-500 leading-loose text-lg font-light">
-                    {data.text}
-                </p>
+                <div data-tinafield={`${parentField}.text`} className="text-gray-500 leading-loose text-lg font-light space-y-4">
+                    {data.text.split('\n\n').map((paragraph, index) => (
+                        <p key={index}>{paragraph}</p>
+                    ))}
+                </div>
             </div>
         </div>
     )

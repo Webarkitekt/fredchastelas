@@ -66,7 +66,7 @@ export const Header = ({ data }) => {
         window.removeEventListener("scroll", handleScroll);
       };
     }
-  }, [isBrowser]);
+  }, [isBrowser, scrollPos]);
 
   const openMobileMenu = () => setIsMobileMenuOpen(true);
   const closeMobileMenu = () => setIsMobileMenuOpen(false);
@@ -126,26 +126,25 @@ export const Header = ({ data }) => {
   return (
     <>
       <div
-        className={`sticky top-0 z-50 bg-white transition-transform ${
-          showHeader ? "translate-y-0" : "-translate-y-full"
-        }`}
+        className={`sticky top-0 z-50 bg-white transition-transform ${showHeader ? "translate-y-0" : "-translate-y-full"
+          }`}
       >
         <div className="relative pt-6 pb-6">
           <Popover>
             {({ open }) => (
               <>
-                <div className="max-w-7xl mx-auto px-4 sm:px-6">
+                <div className="w-full px-4 sm:px-6">
                   <nav
-                    className="relative flex items-center justify-between sm:h-10 lg:justify-center"
+                    className="relative flex items-center justify-between sm:h-10 max-w-screen-2xl mx-auto"
                     aria-label="Global"
                   >
-                    <div className="flex items-center flex-1 lg:absolute lg:inset-y-0 lg:left-0">
-                      <div className="flex items-center justify-between w-full lg:w-auto">
+                    <div className="flex items-center flex-1">
+                      <div className="flex items-center justify-between w-full">
                         <a href="/">
                           <span className="sr-only">Frédéric Chastelas</span>
                           <Logo />
                         </a>
-                        <div className="-mr-2 flex items-center lg:hidden">
+                        <div className="flex items-center xl:hidden">
                           <Popover.Button
                             onClick={openMobileMenu}
                             className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
@@ -158,23 +157,30 @@ export const Header = ({ data }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="hidden lg:flex lg:space-x-10">
+                    <div className="hidden xl:flex xl:space-x-10 xl:flex-1 xl:justify-end xl:items-center">
                       {data.nav &&
                         data.nav.map((item, i) => {
                           const activeItem =
                             item.href === ""
                               ? typeof location !== "undefined" &&
-                                location.pathname == "/"
+                              location.pathname == "/"
                               : windowUrl.includes(item.href);
+                          const isContact = item.href === "contact";
                           return (
                             <Link
                               key={`${item.label}-${i}`}
                               href={`${prefix}/${item.href}`}
                               passHref
                             >
-                              <span className="relative inline-block text-sm uppercase font-medium text-gray-700 after:absolute after:w-full after:scale-x-0 after:h-[2px] after:-bottom-1 after:left-0 after:bg-gray-700 after:origin-bottom-right after:transition-transform after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left after:duration-300">
-                                {item.label}
-                              </span>
+                              {isContact ? (
+                                <span className="inline-block px-5 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:border-gray-500 hover:bg-gray-50 transition-all duration-200 whitespace-nowrap">
+                                  {item.label}
+                                </span>
+                              ) : (
+                                <span className="relative inline-block text-sm uppercase font-medium text-gray-700 after:absolute after:w-full after:scale-x-0 after:h-[2px] after:-bottom-1 after:left-0 after:bg-gray-700 after:origin-bottom-right after:transition-transform after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left after:duration-300 whitespace-nowrap">
+                                  {item.label}
+                                </span>
+                              )}
                             </Link>
                           );
                         })}
@@ -216,18 +222,18 @@ export const Header = ({ data }) => {
 
                         {/* Navigation principale */}
                         <motion.div
-                          className="flex-1 px-6 py-8 bg-white"
+                          className="flex-1 px-6 py-12 bg-white flex items-center justify-center"
                           variants={containerVariants}
                           initial="hidden"
                           animate="visible"
                         >
-                          <nav className="space-y-4">
+                          <nav className="space-y-6 w-full max-w-md">
                             {data.nav &&
                               data.nav.map((item, i) => {
                                 const activeItem =
                                   item.href === ""
                                     ? typeof location !== "undefined" &&
-                                      location.pathname == "/"
+                                    location.pathname == "/"
                                     : windowUrl.includes(item.href);
                                 return (
                                   <motion.div
@@ -237,14 +243,13 @@ export const Header = ({ data }) => {
                                     <Link
                                       href={`${prefix}/${item.href}`}
                                       onClick={closeMobileMenu}
-                                      className="block py-3 px-0 text-xl font-medium text-gray-900 hover:text-gray-600 transition-all duration-200 hover:translate-x-2 hover:scale-105"
+                                      className="block py-4 px-0 text-2xl lg:text-3xl font-medium text-gray-700 hover:text-gray-900 transition-all duration-300 hover:translate-x-3 border-b border-gray-100"
                                     >
                                       <span
-                                        className={`${
-                                          activeItem
-                                            ? "text-gray-900 font-semibold"
-                                            : "text-gray-600"
-                                        }`}
+                                        className={`${activeItem
+                                          ? "text-gray-900 font-semibold"
+                                          : "text-gray-700"
+                                          }`}
                                       >
                                         {item.label}
                                       </span>
@@ -255,18 +260,22 @@ export const Header = ({ data }) => {
                           </nav>
                         </motion.div>
 
-                        {/* Contact tout en bas */}
+                        {/* Contact et infos en bas */}
                         <motion.div
-                          className="px-6 pb-8 pt-4 bg-white border-t border-gray-100"
+                          className="px-6 pb-8 pt-6 bg-gray-50 border-t border-gray-200"
                           variants={buttonVariants}
                         >
-                          <a
-                            href="/contact"
-                            onClick={closeMobileMenu}
-                            className="block w-full text-center bg-interaction-default text-white py-4 px-6 rounded-lg font-medium text-lg hover:scale-105 transition-transform duration-200"
-                          >
-                            Me contacter
-                          </a>
+                          <div className="max-w-md mx-auto space-y-4">
+                            <div className="text-center text-sm text-gray-600 space-y-1">
+                              <p className="font-medium">Frédéric Chastelas</p>
+                              <p>
+                                <a href="tel:+33684775544" className="hover:text-gray-900">06 84 77 55 44</a>
+                              </p>
+                              <p>
+                                <a href="mailto:frederic.chastelas@gmail.com" className="hover:text-gray-900">frederic.chastelas@gmail.com</a>
+                              </p>
+                            </div>
+                          </div>
                         </motion.div>
                       </div>
                     </motion.div>

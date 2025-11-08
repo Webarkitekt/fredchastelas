@@ -3,21 +3,27 @@ import { Container } from "../container";
 import { Section } from "../section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { TinaTemplate } from "tinacms";
+import { ContactInfo } from "../ContactInfo";
 
-export const Content = ({ className= "", data, parentField = "" }) => {
+export const Content = ({ className = "", data, parentField = "" }) => {
   return (
-      <Section className={`${className} ${data.bgColor}`}>
-        <Container
-          className={`mx-auto pt-12 lg:pt-24 px-5 richtext lg:richtext-lg ${data.size_large && 'lg:max-w-screen-xl'}`}
-          data-tinafield={`${parentField}.body`}
-        >
-          <TinaMarkdown content={data.body} />
-        </Container>
-      </Section>
+    <Section className={`${className} ${data.bgColor}`}>
+      <Container
+        className={`mx-auto py-12 lg:py-24 px-5 richtext lg:richtext-lg ${data.size_large && 'lg:max-w-screen-xl'}`}
+        data-tinafield={`${parentField}.body`}
+      >
+        <TinaMarkdown
+          content={data.body}
+          components={{
+            ContactInfo: (props) => <ContactInfo {...props} />,
+          }}
+        />
+      </Container>
+    </Section>
   );
 };
 
-export const contentBlockSchema : TinaTemplate = {
+export const contentBlockSchema: TinaTemplate = {
   name: "content",
   label: "Content",
   ui: {
@@ -42,7 +48,7 @@ export const contentBlockSchema : TinaTemplate = {
       options: [{
         value: "bg-secondary",
         label: "Bleu clair"
-      },{
+      }, {
         value: "white",
         label: "Blanc"
       }]
@@ -59,6 +65,42 @@ export const contentBlockSchema : TinaTemplate = {
       type: "rich-text",
       label: "Body",
       name: "body",
+      parser: {
+        type: "mdx",
+      },
+      templates: [
+        {
+          name: "ContactInfo",
+          label: "Informations de contact",
+          fields: [
+            {
+              name: "name",
+              label: "Nom",
+              type: "string",
+            },
+            {
+              name: "address",
+              label: "Adresse",
+              type: "string",
+            },
+            {
+              name: "city",
+              label: "Ville",
+              type: "string",
+            },
+            {
+              name: "phone",
+              label: "Téléphone",
+              type: "string",
+            },
+            {
+              name: "email",
+              label: "Email",
+              type: "string",
+            },
+          ],
+        },
+      ],
     }
   ],
 };

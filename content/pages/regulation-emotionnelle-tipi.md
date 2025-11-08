@@ -1,76 +1,155 @@
 ---
 seo:
-  title: Régulation émotionnelle TIPI
-  description: Libérez vous de vos émotions envahissantes
+  title: >-
+    Régulation Émotionnelle TIPI - Libérez-vous de vos Phobies, Angoisses &
+    Stress
+  description: >-
+    Méthode TIPI (Technique d'Identification des Peurs Inconscientes) par
+    thérapeute certifié Luc Nicon. Traitement définitif des phobies, angoisses,
+    stress, colère, inhibitions. Séances individuelles en visio ou formation
+    autonomie. Résultats rapides et durables. Méthode validée scientifiquement.
 blocks:
   - image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1657319489/Hero2_qi3q8b.jpg
     headline: Régulation émotionnelle TIPI
-    tagline: Libérez vous de vos émotions envahissantes
+    tagline: >-
+      Libérez-vous définitivement de vos phobies, angoisses et blocages
+      émotionnels
     _template: hero
   - name: Description
     body: >
-      À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
-      notre corps possède la
+      ## Une méthode naturelle et définitive
 
-      **capacité naturelle de réguler définitivement nos émotions**! En
-      effet, en acquérant un savoir faire simple, chacun
 
-      d’entre nous peut résoudre, une à une et définitivement, les peurs et
-      les réactions émotionnelles qui le bloquent. Ce processus de
-      **régulation émotionnelle nommé Tipi** (Technique d’Identification
-      sensorielle
+      À travers ses recherches, **Luc Nicon** a mis en évidence le fait que
+      notre corps possède la **capacité naturelle de réguler définitivement nos
+      émotions** !
 
-      des Peurs Inconscientes) est totalement naturel et peut être pratiqué
-      **en accompagnement ou en
 
-      autonomie**, quel que soit notre âge.
+      En acquérant un savoir-faire simple, chacun d'entre nous peut résoudre,
+      une à une et définitivement, les peurs et les réactions émotionnelles qui
+      le bloquent.
+
+
+      Ce processus de **régulation émotionnelle nommé TIPI** (Technique
+      d'Identification sensorielle des Peurs Inconscientes) est totalement
+      naturel et peut être pratiqué **en accompagnement ou en autonomie**, quel
+      que soit notre âge.
+
+
+      ### Des résultats prouvés depuis 15 ans
 
 
       Depuis 15 ans, des **centaines de milliers de personnes ont vu leur vie
-      changer grâce à la régulation
-
-      émotionnelle**. Leurs difficultés émotionnelles ont disparu et ils ont
-      enfin pu commencer à vivre leur vie
-
-      telle qu’ils la souhaitaient.
+      changer grâce à la régulation émotionnelle**.
 
 
-      Le principe de la régulation émotionnelle est simple mais profond: toute
-      émotion désagréable a une
-
-      origine précise : un événement que nous avons vécu, un incident qui
-      s’est produit, un instant où tout a
-
-      basculé... Si nous **revivons l'empreinte sensorielle traumatique**
-      associée à cet événement en faisant appel à notre **ressenti
-      physique**, alors **notre émotion envahissante est désamorcée**, et
-
-      ce, **définitivement**.
+      Leurs difficultés émotionnelles ont disparu et ils ont enfin pu commencer
+      à vivre leur vie telle qu'ils la souhaitaient.
 
 
-      **Bien que simple, cette méthode est très précise**. C’est pour cette
-      raison qu’elle nécessite un **accompagnement** ou un **apprentissage** en
-      bonne et due forme. **L’enjeu, à terme, n’est autre que la
-
-      libération complète et définitive de tous nos blocages émotionnels**.
+      ***
 
 
-      * [Video youtube de Luc Nicon sur la régulation émotionnelle
-      Tipi](https://www.youtube.com/watch?v=FdOt3Ryt1x0)
+      ## Comment ça marche ?
 
-      * Lecture: *Revivre sensoriellement* de Luc Nicon
+
+      Le principe de la régulation émotionnelle est simple mais profond :
+
+
+      **Toute émotion désagréable a une origine précise** : un événement que
+      nous avons vécu, un incident qui s'est produit, un instant où tout a
+      basculé...
+
+
+      Si nous **revivons l'empreinte sensorielle traumatique** associée à cet
+      événement en faisant appel à notre **ressenti physique**, alors **notre
+      émotion envahissante est désamorcée**, et ce, **définitivement**.
+
+
+      > **Bien que simple, cette méthode est très précise.** C'est pour cette
+      raison qu'elle nécessite un **accompagnement** ou un **apprentissage** en
+      bonne et due forme.
+
+
+      **L'enjeu, à terme, n'est autre que la libération complète et définitive
+      de tous nos blocages émotionnels.**
+
+
+      ***
+
+
+      ### Pour aller plus loin
+
+
+      * [Vidéo YouTube de Luc Nicon sur la régulation émotionnelle
+      TIPI](https://www.youtube.com/watch?v=FdOt3Ryt1x0)
+
+      * Lecture recommandée : *Revivre sensoriellement* de Luc Nicon
     _template: content
   - name: Dans quels cas
     bgColor: bg-secondary
-    body: |
-      ## Dans quels cas faire appel à la régulation émotionnelle ?
+    body: >
+      ## Dans quels cas faire appel à la régulation émotionnelle ?
+
+
+      La méthode TIPI s'applique à **toutes les émotions envahissantes et
+      récurrentes** qui vous empêchent de vivre pleinement votre vie.
     _template: content
   - showIllustrations: false
     bgColor: bg-secondary
+    icon: phobies
     title: Phobies
-    body: "### La phobie, c’est tout simplement de la peur:\n\n* **La claustrophobie** : peur d’être enfermé dans un espace clos et étroit.\t\t\t\t\t&#x9;\n* **L’agoraphobie** : peur d’être seul ou dans un endroit d’où l’on ne pourrait s’échapper\n  aisément ni être secouru si l’on venait à être défaillant (la foule, les grands espaces sont\n  les exemples les plus courants).\t\t\t\t&#x9;\n* **La phobie des transports** : peur de prendre l’avion, le train, le bateau ou la voiture, peur\n  de conduire, peur de la vitesse, de prendre le métro...\n* **Les phobies** **du vide**, du noir, de l’eau, peur de tomber dans le vide ou d’être aspiré vers le bas en nageant, la peur du feu...\n* **Les phobies animalières** : peur des insectes et araignées, des reptiles, des rongeurs...\n* **Les phobies comportementales** : peur du contact corporel, d’être souillé ou contaminé, de vomir, de saigner, de s’évanouir, de manger certains aliments...\n* **Les phobies sociales, scolaires** : peur d’être jugé ou observé par les autres.\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: >
+      ### La phobie, c'est tout simplement de la peur
+
+
+      La régulation émotionnelle TIPI traite efficacement toutes les formes de
+      phobies :
+
+
+      **Phobies d'espaces**
+
+
+      * **Claustrophobie** : peur d'être enfermé dans un espace clos et étroit
+
+      * **Agoraphobie** : peur de la foule, des grands espaces, des lieux d'où
+      l'on ne peut s'échapper facilement
+
+      * **Phobie du vide**, du noir, de l'eau, du feu
+
+
+      **Phobies de transports**
+
+
+      * Peur de l'avion, du train, du bateau, de la voiture
+
+      * Peur de conduire, de la vitesse, du métro
+
+
+      **Phobies animalières**
+
+
+      * Peur des insectes et araignées, des reptiles, des rongeurs
+
+
+      **Phobies comportementales**
+
+
+      * Peur du contact corporel, d'être souillé ou contaminé
+
+      * Peur de vomir, de saigner, de s'évanouir
+
+      * Peur de manger certains aliments
+
+
+      **Phobies sociales et scolaires**
+
+
+      * Peur d'être jugé ou observé par les autres
+
+      * Peur de prendre la parole en public
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1654333945/michael-shannon-mE6zS5LwScM-unsplash_swo4se.jpg
@@ -82,24 +161,37 @@ blocks:
     _template: textAndImage
   - showIllustrations: false
     bgColor: bg-secondary
+    icon: angoisses
     title: Angoisses
     body: >
-      L’angoisse est le terme utilisé communément pour définir un **ensemble
-      de sensations corporelles** par exemple : l’estomac se noue, la gorge se
-      serre, le cœur accélère, la respiration devient courte... La plupart du
-      temps, les personnes parlent d’angoisse, sans identifier précisément ces
-      sensations.
+      ### Libérez-vous des sensations d'angoisse
 
 
-      **Cet état physique est perçu comme inquiétant, voire paniquant**. Il
-      peut être associé à la **crainte de perdre le contrôle de soi, la
-      perte de contact avec la réalité, la peur de mourir ou de devenir fou.**
-      Il peut se manifester en présence d’une situation précise ou n’avoir pas
-      d’objet apparent.
+      L'angoisse se manifeste par un **ensemble de sensations corporelles** :
 
 
-      Ici la **Régulation émotionnelle Tipi va directement agir sur ces
-      symptômes** physiques angoissants et **les libérer**.
+      * L'estomac se noue
+
+      * La gorge se serre
+
+      * Le cœur accélère
+
+      * La respiration devient courte
+
+      * Sensation d'oppression
+
+
+      **Cet état physique est perçu comme inquiétant, voire paniquant.** Il peut
+      être associé à la crainte de perdre le contrôle de soi, la perte de
+      contact avec la réalité, la peur de mourir ou de devenir fou.
+
+
+      L'angoisse peut se manifester en présence d'une situation précise ou
+      n'avoir pas d'objet apparent.
+
+
+      > **La régulation émotionnelle TIPI va directement agir sur ces symptômes
+      physiques angoissants et les libérer définitivement.**
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1662248497/2100x1200_Anxiety_p4p8sy.webp
@@ -111,21 +203,35 @@ blocks:
     _template: textAndImage
   - showIllustrations: false
     bgColor: bg-secondary
+    icon: inhibitions
     title: Inhibitions
     body: >
-      Inhibition dans le sens d’**incapacité à agir, de perte de ses moyens
-      physiques et intellectuels** face à une situation qui exigerait pourtant
-      que nous agissions. Blocages lors de la prise de parole en public, lors du
-      passage d’un examen, pour faire des rencontres ou lors d’une compétition
-      sportive, impossibilité de
-
-      dire non...
+      ### Retrouvez vos moyens et votre confiance
 
 
-      Quand la personne vit l’**impression de ne pas pouvoir y arriver, de ne
-      pas être capable, et de ne pas
+      L'inhibition se traduit par une **incapacité à agir, une perte de ses
+      moyens physiques et intellectuels** face à une situation qui exigerait
+      pourtant que nous agissions.
 
-      pouvoir échapper à cette incapacité.**
+
+      **Situations fréquentes d'inhibition :**
+
+
+      * Blocages lors de la **prise de parole en public**
+
+      * Perte de moyens lors du **passage d'un examen**
+
+      * Difficultés à **faire des rencontres** (sociales, amoureuses)
+
+      * Blocages lors d'une **compétition sportive**
+
+      * Impossibilité de **dire non** ou de s'affirmer
+
+      * **Syndrome de l'imposteur**
+
+
+      Ces situations génèrent l'**impression de ne pas pouvoir y arriver, de ne
+      pas être capable, et de ne pas pouvoir échapper à cette incapacité.**
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1659831940/istockphoto-1183325152-612x612_hhmo0l.jpg
@@ -137,21 +243,37 @@ blocks:
     _template: textAndImage
   - showIllustrations: false
     bgColor: bg-secondary
-    title: 'Irritabilité, colère'
+    icon: colere
+    title: Irritabilité & Colère
     body: >
-      Le fait de **réagir violemment que ce soit en paroles ou en actes**, à
-      une situation qui vous semble vous contraindre ou vous empêcher d’aboutir
-      dans ce que vous êtes en train vouloir mener à bien. Cela peut être
-      tout simplement un automobiliste qui roule lentement !
+      ### Apaisez vos réactions émotionnelles
 
 
-      Un **état de colère récurrent qui vous dépasse**, que vous ne savez
-      pas contrôler, mais que vous pouvez regretter juste après. Pour
-      certaines personnes, cette colère ne s’exprime pas et reste intérieure.
+      La colère se manifeste par le fait de **réagir violemment, que ce soit en
+      paroles ou en actes**, à une situation qui vous semble vous contraindre ou
+      vous empêcher d'aboutir dans ce que vous voulez accomplir.
 
 
-      C'est aussi le fait de **ruminer, critiquer, râler, ressasser des
-      conflits** au travail ou dans la vie personnelle.
+      Cela peut être déclenché par des situations anodines : un automobiliste
+      qui roule lentement, une remarque, un imprévu...
+
+
+      **Manifestations de la colère :**
+
+
+      * **État de colère récurrent** qui vous dépasse
+
+      * Réactions que vous ne savez pas contrôler
+
+      * Regrets immédiats après l'explosion
+
+      * **Colère intérieure** qui ne s'exprime pas mais vous ronge
+
+      * **Ruminations** constantes
+
+      * Tendance à **critiquer, râler, ressasser** les conflits
+
+      * Difficultés relationnelles au travail ou dans la vie personnelle
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1656847996/simran-sood-qL0t5zNGFVQ-unsplash_bfou39.jpg
@@ -163,21 +285,42 @@ blocks:
     _template: textAndImage
   - showIllustrations: false
     bgColor: bg-secondary
+    icon: depression
     title: États dépressifs
     body: >
-      Il ne s’agit pas de coller une étiquette de dépression à toute forme de
-      tristesse ou d’absence d’entrain mais si, en dehors d’une phase de deuil,
-      une grande tristesse vous envahit durablement, **vous n’avez plus le goût
-      d’entreprendre ne serait-ce que les petites choses qui vous faisaient
-      plaisir, votre intérêt diminue pour ce qui vous environne, vous ne
-      trouvez plus l’énergie « d’aller vers »**, alors il est probable que cet
-      état, survenu éventuellement à la suite d’événements récents, soit
-      engendré par une **peur inconsciente sous-jacente** que vous pourrez
-      éliminer à l’aide du revécu sensoriel.
+      ### Retrouvez le goût de vivre
 
 
-      Bien entendu, cela ne doit pas vous dispenser de consulter votre médecin
-      si nécessaire.
+      Il ne s'agit pas de coller une étiquette de dépression à toute forme de
+      tristesse ou d'absence d'entrain.
+
+
+      Mais si, en dehors d'une phase de deuil, une grande tristesse vous envahit
+      durablement :
+
+
+      **Signes d'un état dépressif :**
+
+
+      * Vous n'avez **plus le goût d'entreprendre**, même les petites choses qui
+      vous faisaient plaisir
+
+      * Votre **intérêt diminue** pour ce qui vous environne
+
+      * Vous ne trouvez **plus l'énergie « d'aller vers »**
+
+      * Perte de motivation et d'enthousiasme
+
+      * Sentiment de vide ou de tristesse persistante
+
+
+      Cet état, survenu éventuellement à la suite d'événements récents, est
+      souvent engendré par une **peur inconsciente sous-jacente** que vous
+      pourrez éliminer à l'aide du revécu sensoriel.
+
+
+      > **Important** : Cela ne doit pas vous dispenser de consulter votre
+      médecin si nécessaire.
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1656848000/jeremy-vessey-W7VYL56u2sc-unsplash_oxvei5.jpg
@@ -189,8 +332,54 @@ blocks:
     _template: textAndImage
   - showIllustrations: true
     bgColor: bg-secondary
+    icon: autres
     title: Autres situations
-    body: "**Finalement toutes les situations dans lesquelles vous ressentez un état de malaise récurrent** et que vous ne souhaitez pas continuer à vivre, que ce soit **dans votre vie professionnelle, familiale, relationnelle, amoureuse** (jalousie, hypersensibilité...) ou tout simplement **des pensées négatives** que vous ruminez, peuvent être abordées avec la régulation émotionnelle.\n&#x9;\n\nA chaque fois que vous cherchez à fuir, à éviter une situation, que vous êtes inhibé, bloqué, que vous devenez agressif, que vous ruminez, râlez, critiquez, que vous vous défendez par la colère ou encore qu’une impulsion vous amène  à prendre le pouvoir, **vous pouvez en déduire que vous êtes manipulé par une peur inconsciente.**\nObservez-vous!\n&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: >
+      ### Et bien d'autres difficultés émotionnelles
+
+
+      **Finalement, toutes les situations dans lesquelles vous ressentez un état
+      de malaise récurrent** et que vous ne souhaitez pas continuer à vivre
+      peuvent être abordées avec la régulation émotionnelle.
+
+
+      **Domaines d'application :**
+
+
+      * **Vie professionnelle** : stress au travail, conflits, burn-out
+
+      * **Vie familiale** : tensions, conflits récurrents
+
+      * **Relations amoureuses** : jalousie, dépendance affective, peur de
+      l'abandon
+
+      * **Hypersensibilité** émotionnelle
+
+      * **Pensées négatives** et ruminations
+
+      * **Troubles du comportement alimentaire**
+
+      * **Addictions** et compulsions
+
+
+      ***
+
+
+      ### Comment savoir si vous êtes concerné ?
+
+
+      À chaque fois que vous cherchez à **fuir ou éviter une situation**, que
+      vous êtes **inhibé ou bloqué**, que vous devenez **agressif**, que vous
+      **ruminez, râlez, critiquez**, que vous vous défendez par la **colère** ou
+      encore qu'une **impulsion** vous amène à prendre le pouvoir...
+
+
+      **Vous pouvez en déduire que vous êtes manipulé par une peur
+      inconsciente.**
+
+
+      > **Observez-vous !** Ces réactions sont les signaux que votre corps vous
+      envoie.
     image:
       src: ''
       alt: ''
@@ -200,10 +389,145 @@ blocks:
       url: ''
     _template: textAndImage
   - name: Accompagnement
-    body: "## Les séances d'accompagnement\n\nLes séances d’accompagnement de régulation émotionnelle permettent d’**être accompagné dans le traitement d’une ou plusieurs émotions envahissantes**. Lors d’une séance, vous serez accompagné pour **revivre sensoriellement une situation qui génère une réaction émotionnelle.** En étant guidé dans le\nrevécu sensoriel de cette émotion, vous pourrez vous en **libérer définitivement**. Elle ne reviendra plus, que ce soit dans une semaine, un mois ou dix ans!\n\n**Ces séances s’adressent aux adultes, adolescents et enfants de plus de dix ans.** Ce travail, bien que\nrapide, très efficace, et sans risque, **nécessite de votre part une implication et un désir véritable de vous\nlibérer de votre difficulté.**\n\nPour **traiter une difficulté émotionnelle**, la séance peut durer jusqu’à cinquante minutes et le nombre de séances dépendra de nombreux facteurs et peut varier **entre une et quatre séances.**\n\nLes séances se déroulent en visioconférence (Zoom) principalement.\n\n### **Tarif par séance : 55€**\n\nVous pouvez me contacter par email ou téléphone pour que nous évaluions ensemble si la régulation émotionnelle est la solution la plus appropriée à votre difficulté.\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: >
+      ## Les séances d'accompagnement individuel
+
+
+      Les séances d'accompagnement de régulation émotionnelle permettent
+      d'**être accompagné dans le traitement d'une ou plusieurs émotions
+      envahissantes**.
+
+
+      ### Comment se déroule une séance ?
+
+
+      Lors d'une séance, vous serez accompagné pour **revivre sensoriellement
+      une situation qui génère une réaction émotionnelle.**
+
+
+      En étant guidé dans le revécu sensoriel de cette émotion, vous pourrez
+      vous en **libérer définitivement**.
+
+
+      > **Résultat garanti** : Elle ne reviendra plus, que ce soit dans une
+      semaine, un mois ou dix ans !
+
+
+      ***
+
+
+      ### Pour qui ?
+
+
+      **Ces séances s'adressent aux adultes, adolescents et enfants de plus de
+      dix ans.**
+
+
+      Ce travail, bien que rapide, très efficace et sans risque, **nécessite de
+      votre part une implication et un désir véritable de vous libérer de votre
+      difficulté.**
+
+
+      ### Durée et nombre de séances
+
+
+      * **Durée** : jusqu'à 50 minutes par séance
+
+      * **Nombre de séances** : entre **1 et 4 séances** selon la difficulté
+
+      * **Format** : en visioconférence (Zoom) principalement
+
+
+      ***
+
+
+      ### Tarif : 55€ par séance
+
+
+      **Vous pouvez me contacter par email ou téléphone** pour que nous
+      évaluions ensemble si la régulation émotionnelle est la solution la plus
+      appropriée à votre difficulté.
     _template: content
   - name: Devenir autonome
-    body: "## Devenir autonome en régulation émotionnelle\n\nCette formation a pour but d’apprendre et d’acquérir la technique de régulation émotionnelle Tipi. **Elle vous permettra de réguler, par vous-même et de façon définitive, toutes vos émotions\nenvahissantes.**\n\nLa formation que je propose ici est **individuelle et personnalisée**, elle comprend **trois sessions** d’environ **1h15 chacune dans lesquelles nous allons ensemble parcourir un processus d’apprentissage complet.**\n\nCe dernier comprend :\n\n* **L’apprentissage de la méthode**\n* **Apprendre à repérer nos peurs inconscientes**\n* **Découvrir les points subtils de la méthode qui nous permettront de réguler toutes les émotions**\n\nVous obtiendrez plusieurs **documents** pour soutenir votre formation et mettre toutes les chances de\nvotre côté pour qu’elle amène une libération complète de vos états émotionnels !\n\nCette formation se déroule principalement en visioconférence (Zoom).\n\n**Contenu des séances** **:**\n\n* **1ere séance** : comprendre et apprendre le processus de régulation émotionnelle\n* **2ème séance** : retour d'expérience, approfondissement des connaissances\n* **3ème séance** : apprendre à repérer ses peurs inconscientes et agrandir son champ d'expérience.\n\n### **Tarif pour la formation complète: 160€**&#xA;\t\t\t\t\t&#x9;\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    bgColor: bg-secondary
+    body: >
+      ## Formation : Devenir autonome en régulation émotionnelle
+
+
+      Cette formation a pour but d'apprendre et d'acquérir la technique de
+      régulation émotionnelle TIPI.
+
+
+      **Elle vous permettra de réguler, par vous-même et de façon définitive,
+      toutes vos émotions envahissantes.**
+
+
+      ***
+
+
+      ### Une formation individuelle et personnalisée
+
+
+      La formation que je propose est **individuelle et sur-mesure**. Elle
+      comprend **3 sessions d'environ 1h15 chacune** dans lesquelles nous allons
+      ensemble parcourir un processus d'apprentissage complet.
+
+
+      ### Ce que vous allez apprendre
+
+
+      * **L'apprentissage de la méthode** TIPI pas à pas
+
+      * **Repérer vos peurs inconscientes** et comprendre leur origine
+
+      * **Maîtriser les points subtils** de la méthode pour réguler toutes vos
+      émotions
+
+      * **Devenir totalement autonome** dans votre pratique
+
+
+      ***
+
+
+      ### Programme détaillé
+
+
+      **Séance 1** : Comprendre et apprendre le processus de régulation
+      émotionnelle
+
+
+      **Séance 2** : Retour d'expérience, approfondissement des connaissances
+
+
+      **Séance 3** : Apprendre à repérer ses peurs inconscientes et agrandir son
+      champ d'expérience
+
+
+      ### Supports pédagogiques inclus
+
+
+      Vous recevrez plusieurs **documents de formation** pour soutenir votre
+      apprentissage et mettre toutes les chances de votre côté pour une
+      libération complète de vos états émotionnels.
+
+
+      ### Format
+
+
+      * **En visioconférence** (Zoom) principalement
+
+      * **Suivi personnalisé** entre les séances
+
+      * **Accès à vie** aux documents de formation
+
+
+      ***
+
+
+      ### Tarif : 160€ pour la formation complète (3 séances)
+
+
+      **Un investissement pour votre liberté émotionnelle à vie.**
     _template: content
 ---
 

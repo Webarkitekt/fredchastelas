@@ -3,25 +3,28 @@ import type { TinaTemplate } from "tinacms";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import Link from "next/link";
 import { IconArrowRight } from "../icons/IconArrowRight";
+import { DynamicIcon, iconOptions } from "../icons/DynamicIcon";
 import IllustrationWaterDrops from "../../public/illust-water-drops.svg";
 import { Container } from "../container";
 import { Section } from "../section";
 
 export const TextAndImage = ({ data, parentField }) => {
+
   return (
     <div className={`${data.bgColor} py-10 lg:py-20`}>
-      <div className="max-w-screen-xl mx-auto px-5 lg:px-16 ">
+      <div className="max-w-screen-xl mx-auto px-5 lg:px-16">
         <div
-          className={`flex flex-col xl:flex-row justify-items-start relative ${
-            data.image_position === "right" ? "xl:flex-row-reverse" : ""
-          }`}
+          className={`flex flex-col lg:flex-row items-start gap-8 lg:gap-16 ${data.image_position === "right" ? "lg:flex-row-reverse" : ""
+            }`}
         >
           {data.image.src && (
-            <div className="xl:w-5/12 relative pt-[28px]">
-              <div className="w-full">
-                <div className="relative z-10">
-                  <img src={data.image.src} alt={data.image.alt} />
-                </div>
+            <div className="w-full lg:w-5/12 flex-shrink-0">
+              <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl aspect-[4/5] lg:aspect-square">
+                <img
+                  src={data.image.src}
+                  alt={data.image.alt}
+                  className="w-full h-full object-cover"
+                />
               </div>
               {data.showIllustrations && (
                 <div className="absolute z-20 -bottom-12 right-0 hidden lg:block">
@@ -30,24 +33,25 @@ export const TextAndImage = ({ data, parentField }) => {
               )}
             </div>
           )}
-          <div
-            className={`${data.image.src ?? "xl:w-7/12"} ${
-              data.image.src
-                ? data.image_position === "right"
-                  ? "xl:mr-8"
-                  : "xl:ml-8"
-                : "mx-auto text-center"
-            } pt-6`}
-          >
-            <h3 className="font-serif text-4xl lg:text-5xl text-gray-700 mb-12">
-              {data.title}
-            </h3>
+          <div className={`w-full ${data.image.src ? "lg:w-7/12" : "lg:max-w-3xl lg:mx-auto"} flex flex-col justify-center`}>
+            <div className="mb-8">
+              <div className="flex items-center gap-3 mb-4">
+                {data.icon && (
+                  <div className="flex-shrink-0">
+                    <DynamicIcon name={data.icon} size="md" className="text-primary" />
+                  </div>
+                )}
+                <h3 className="font-serif text-3xl lg:text-4xl text-gray-700">
+                  {data.title}
+                </h3>
+              </div>
+            </div>
             <div className="richtext lg:richtext-lg">
               <TinaMarkdown content={data.body} />
             </div>
             {data.link.url && (
               <Link href={data.link.url} passHref>
-                <span className="text-interaction-default flex items-center">
+                <span className="text-interaction-default flex items-center mt-6">
                   {data.link.label}
                   <IconArrowRight />
                 </span>
@@ -107,6 +111,12 @@ export const textAndImageBlockSchema: TinaTemplate = {
           label: "Blanc",
         },
       ],
+    },
+    {
+      type: "string",
+      label: "Icône",
+      name: "icon",
+      options: iconOptions,
     },
     {
       type: "string",

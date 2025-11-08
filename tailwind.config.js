@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xl': '1260px',
+      },
       colors: {
         interaction: {
           default: "#FF922D"
@@ -15,7 +18,7 @@ module.exports = {
       fontFamily: {
         serif: "Baskervville"
       },
-      typography: ({theme}) => ({
+      typography: ({ theme }) => ({
         DEFAULT: {
           css: {
             '--tw-prose-body': theme('colors.gray[500]'),
@@ -32,7 +35,7 @@ module.exports = {
         lg: {
           css: [
             {
-              h2:{
+              h2: {
                 fontSize: ('3rem')
               }
             }
