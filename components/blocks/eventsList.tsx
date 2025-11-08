@@ -52,6 +52,7 @@ export const EventsList = ({ data: data, parentField = "" }) => {
   useEffect(() => {
     const fetchContent = async () => {
       setLoading(true);
+
       const events = await client.queries.eventsConnection({
         sort: "start_date",
         first: data.limit,
@@ -71,8 +72,10 @@ export const EventsList = ({ data: data, parentField = "" }) => {
   // Détermine si on utilise le Layout avec carousel (page stages-et-cours avec lieu) ou le layout classique (homepage)
   const hasSpecificLocation = data.location?.name;
 
-  // Détermine si on a besoin du carousel (4+ événements)
-  const needsCarousel = eventsList.length >= 4;
+  // Détermine si on a besoin du carousel
+  // Desktop: 4+ événements
+  // Mobile: 2+ événements (sauf si 1 seul)
+  const needsCarousel = eventsList.length >= 2;
 
   return (
     eventsList.length > 0 && (
@@ -298,7 +301,7 @@ export const EventsList = ({ data: data, parentField = "" }) => {
               )}
             </div>
 
-            <div className="flex flex-col gap-8 lg:flex-row lg:gap-5">
+            <div className="flex flex-col gap-8 lg:flex-row lg:gap-5 lg:items-stretch">
               {loading ? (
                 <h4>Chargement...</h4>
               ) : (

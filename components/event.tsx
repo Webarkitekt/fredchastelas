@@ -34,9 +34,8 @@ export const Event = ({ data, compact = false }) => {
               : data.external_link ?? ""
           }
           target={data.external_link && `blank`}
-          className={`${
-            compact ? "flex flex-col h-full" : "lg:w-1/4 flex flex-col h-full"
-          } group transition-all duration-200`}
+          className={`${compact ? "flex flex-col h-full" : "lg:w-1/4 flex flex-col"
+            } group transition-all duration-200`}
           passHref
         >
           {/* Compact mode - Layout optimisé */}
@@ -44,13 +43,13 @@ export const Event = ({ data, compact = false }) => {
             <div className="bg-gray-50 overflow-hidden rounded-lg shadow-sm flex flex-col group-hover:bg-white group-hover:shadow-lg transition-all duration-200 h-auto min-h-[280px]">
               {/* Header compact */}
               <div className="p-4 border-b border-gray-200 group-hover:border-primary/30">
-                <div className="font-serif italic text-primary text-sm mb-1 group-hover:text-primary/80">
+                <div className="font-serif italic text-primary text-base lg:text-sm mb-1 group-hover:text-primary/80">
                   {data.type}
                 </div>
-                <div className="font-bold text-lg text-gray-800 mb-2 group-hover:text-gray-900">
+                <div className="font-bold text-xl lg:text-lg text-gray-800 mb-2 group-hover:text-gray-900">
                   {date}
                 </div>
-                <div className="text-primary text-sm group-hover:text-primary/80">
+                <div className="text-primary text-base lg:text-sm group-hover:text-primary/80">
                   {data.location.name}
                 </div>
               </div>
@@ -58,7 +57,7 @@ export const Event = ({ data, compact = false }) => {
               {/* Content compact - titre optimisé */}
               <div className="p-4 flex-grow">
                 <h3
-                  className="font-serif text-lg text-gray-800 leading-snug group-hover:text-primary transition-colors overflow-hidden"
+                  className="font-serif text-xl lg:text-lg text-gray-800 leading-snug group-hover:text-primary transition-colors overflow-hidden"
                   style={{
                     display: "-webkit-box",
                     WebkitLineClamp: 4,
@@ -74,7 +73,7 @@ export const Event = ({ data, compact = false }) => {
             </div>
           ) : (
             /* Mode original - Layout existant */
-            <>
+            <div className="flex flex-col h-full">
               <div className="mb-2">
                 <div className="font-serif italic text-primary text-lg">
                   {data.type}
@@ -90,7 +89,7 @@ export const Event = ({ data, compact = false }) => {
                 </h3>
               </div>
               <hr className="border-interaction-default border-b-4 mt-1" />
-            </>
+            </div>
           )}
         </Link>
       )}
