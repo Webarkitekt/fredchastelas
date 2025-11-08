@@ -1,0 +1,35 @@
+# Robots.txt pour fredericchastelas.com
+# Optimisé pour le référencement SEO
+
+User-agent: *
+Allow: /
+
+# Pages importantes à indexer en priorité
+Allow: /regulation-emotionnelle-tipi
+Allow: /coaching-en-entreprise
+Allow: /stages-et-cours
+Allow: /a-propos
+
+# Bloquer les pages administratives
+Disallow: /admin/
+Disallow: /api/
+
+# Bloquer les fichiers techniques
+Disallow: /*.json$
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://fredericchastelas.com/sitemap.xml
+
+# Règles spécifiques pour les principaux moteurs de recherche
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1

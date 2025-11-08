@@ -1,7 +1,7 @@
 ---
 seo:
-  title: Découvrez mes stages et cours de régulation émotionnelle
-  description: Je vous propose des stages et des cours dans des lieux exceptionnels.
+  title: Stages et Cours de Méditation & Régulation Émotionnelle TIPI | Frédéric Chastelas
+  description: Participez aux stages de méditation et cours de régulation émotionnelle TIPI avec Frédéric Chastelas. Formations à Lérab Ling, Aix-en-Provence, Château Saint-Martin. Stages weekend et semaine, cours collectifs en visio. Libérez vos émotions, apprenez la méditation bouddhiste.
 blocks:
   - image:
       src: >-
@@ -54,7 +54,7 @@ blocks:
     image_position: right
     link:
       label: Read more
-      url: ''
+      url: ""
     _template: textAndImage
   - title: Témoignages
     testimonial:
@@ -140,4 +140,3 @@ blocks:
   - style: default
     _template: newsletter
 ---
-

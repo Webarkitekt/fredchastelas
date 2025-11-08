@@ -7,7 +7,7 @@
       },
       {
         "href": "regulation-emotionnelle-tipi",
-        "label": "Régulation émotionelle Tipi"
+        "label": "Régulation émotionnelle TIPI"
       },
       {
         "href": "accompagnement",
@@ -19,7 +19,11 @@
       },
       {
         "href": "a-propos",
-        "label": "A propos"
+        "label": "À propos"
+      },
+      {
+        "href": "contact",
+        "label": "Me contacter"
       }
     ]
   }

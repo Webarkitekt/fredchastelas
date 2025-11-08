@@ -9,22 +9,16 @@ blocks:
     _template: hero
   - title: Ma démarche
     text: >-
-      Enseignant de méditation bouddhiste depuis plus de quinze ans, j'ai vécu quatorze ans au temple de Lérab Ling, 
-      dont une retraite traditionnelle de trois ans et douze ans comme guide de retraite. 
+      Enseignant du bouddhisme et de la méditation depuis plus de quinze ans,
+      thérapeute et conférencier, j’anime régulièrement des stages et des cours
+      sur de nombreux thèmes permettant d’approfondir la connaissance de soi. 
 
 
-      Aujourd'hui thérapeute certifié en régulation émotionnelle TIPI et conférencier, j'anime régulièrement des stages 
-      de méditation, des cours de développement personnel et des formations sur de nombreux thèmes permettant 
-      d'approfondir la connaissance de soi.
-
-
-      Certifié de la méthode Luc Nicon depuis 2021, j'accompagne les personnes désirant se libérer définitivement 
-      de leurs émotions envahissantes : phobies, angoisses, stress, colère, inhibitions. Je propose également 
-      des interventions de coaching en entreprise pour améliorer le bien-être au travail.
-
-
-      Je travaille aussi à la guérison des blessures psychologiques (rejet, abandon, injustice, trahison, humiliation) 
-      avec l'approche Écoute Ton Corps de Lise Bourbeau combinée à la régulation émotionnelle TIPI.
+      J’accompagne aussi et forme à la régulation émotionnelle toutes les
+      personnes désirant se libérer de leurs émotions envahissantes et des
+      blocages qui en découlent. Je travaille également à la guérison des
+      blessures psychologiques (rejet, abandon, injustice...) avec l’approche
+      Écoute Ton Corps de Lise Bourbeau combinée à la régulation émotionnelle.
     image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1657319289/portrait-fred_v8h2mr.jpg
@@ -66,34 +60,34 @@ blocks:
           extrêmement puissante et permet de maîtriser un outil extraodinaire en
           seulement quelques séances. Frédéric est un formateur expérimenté, qui
           de part son écoute attentive, répond à toutes les interrogations.
-          Depuis la formation, j'utilise la régulation émotionnelle
+          Depuis la formation, j’utilise la régulation émotionnelle
           régulièrement et les bienfaits sont flagrants!"
       - type: Régulation émotionnelle TIPI
         author: Sonia
         text: >-
-          "La régulation émotionnelle me permet d'apprendre à guérir mes peurs
+          "La régulation émotionnelle me permet d’apprendre à guérir mes peurs
           au quotidien, en régulant émotionnellement les sensations associées.
-          Frédéric sait faire preuve d'écoute et de bienveillance dans son
+          Frédéric sait faire preuve d’écoute et de bienveillance dans son
           accompagnement individualisé. Je le recommande de tout cœur!"
       - type: Régulation émotionnelle TIPI
         author: "Pierre Emmanuel "
         text: >-
           "La technique de régulation émotionnelle Tipi est à la fois simple,
-          rapide, et très efficace ! Bien qu'elle nécessite un entraînement et
+          rapide, et très efficace ! Bien qu’elle nécessite un entraînement et
           un certain engagement, Frédéric nous accompagne avec profondeur et
           bienveillance pour obtenir les meilleurs résultats en un temps
           record."
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Sara
         text: >-
-          "Sincèrement merci ! Le stage du weekend dernier m'a fait profondément
+          "Sincèrement merci ! Le stage du weekend dernier m’a fait profondément
           du bien. Plein de prises de conscience et déblocages importants. Par
           conséquent, cette semaine tout a été différent autant à la maison
-          qu'au travail. J'ai ressenti une serenité toute nouvelle et un recul
-          dans la résolution des conflits au travail qui m'ont permis d'être
+          qu’au travail. J’ai ressenti une serenité toute nouvelle et un recul
+          dans la résolution des conflits au travail qui m’ont permis d’être
           plus juste et pertinent. Merci donc pour la formation que tu as
           construite et tous les outils et enseignements que tu as partagés avec
-          nous, c'était des véritables cadeaux."
+          nous, c’était des véritables cadeaux."
       - type: Stage "se libérer enfin de l'ego"
         author: Clara
         text: >-
@@ -109,8 +103,8 @@ blocks:
       - type: Stage méditation
         author: Evelyne
         text: >-
-          "Première venue à ce type d'évènement. Je suis enchantée du fond comme
-          de la forme ! J'entrouvre une porte… que de perspectives !! Merci
+          "Première venue à ce type d’évènement. Je suis enchantée du fond comme
+          de la forme ! J’entrouvre une porte… que de perspectives !! Merci
           beaucoup!"
       - type: stage "se libérer enfin de l'ego"
         author: Joelle
@@ -122,7 +116,7 @@ blocks:
       - type: Stage "Apprendre à s'accepter pour se transformer"
         author: Sylvie
         text: >-
-          "Un super weekend sur l'acceptation de soi : révélateur, salvateur.
+          "Un super weekend sur l’acceptation de soi : révélateur, salvateur.
           Très enrichissant et bien animé entre exercices, enseignements et
           méditation. De belles rencontres. Merci !!"
       - type: Stage "Apprendre à s'accepter pour se transformer"
@@ -135,11 +129,11 @@ blocks:
           dans ses propos ,une paix intérieure et un apaisement mental. Merci
           pour la méthodologie qui permet doucement d'arriver à trouver son
           propre chemin. Merci pour les explications de la méditation. J'ai
-          vraiment appris durant cette formation sur l'acceptation MERCI."
+          vraiment appris durant cette formation sur l’acceptation MERCI."
       - type: Conférence
         author: Mathieu
         text: >-
-          "Conférence passionnante sur comment repérer son ego et s'en défaire ,
+          "Conférence passionnante sur comment repérer son ego et s’en défaire ,
           conférencier didactique , bienveillant et passionné , je recommande.
           Cette conférence est primordiale pour retrouver un peu de sérénité en
           soi dans ce monde complexe."
@@ -149,7 +143,7 @@ blocks:
           "Weekend très enrichissant avec une approche profonde et très
           spirituelle. Je repars avec une meilleure  compréhension de mon être
           et certains points comme la différence entre émotions et ressentis
-          sont beaucoup plus clairs à présent. J'ai également pu avoir une belle
-          prise de conscience grâce à l'exercice du pardon. Gratitude !"
+          sont beaucoup plus clairs à présent. J’ai également pu avoir une belle
+          prise de conscience grâce à l’exercice du pardon. Gratitude !"
     _template: testimonials
 ---

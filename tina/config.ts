@@ -1,16 +1,16 @@
-import {defineSchema, defineConfig} from "tinacms";
-import {heroBlockSchema} from "../components/blocks/hero";
-import {contentBlockSchema} from "../components/blocks/content";
-import {introductionBlockSchema} from "../components/blocks/introduction";
-import {featureBlockSchema} from "../components/blocks/feature";
-import {textAndImageBlockSchema} from "../components/blocks/text-and-image";
-import {newsletterBlockSchema} from "../components/blocks/newsletter";
+import { defineSchema, defineConfig } from "tinacms";
+import { heroBlockSchema } from "../components/blocks/hero";
+import { contentBlockSchema } from "../components/blocks/content";
+import { introductionBlockSchema } from "../components/blocks/introduction";
+import { featureBlockSchema } from "../components/blocks/feature";
+import { textAndImageBlockSchema } from "../components/blocks/text-and-image";
+import { newsletterBlockSchema } from "../components/blocks/newsletter";
 
 const branch =
-    process.env.NEXT_PUBLIC_TINA_BRANCH ||
-    process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
-    process.env.HEAD ||
-    'main'
+  process.env.NEXT_PUBLIC_TINA_BRANCH ||
+  process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
+  process.env.HEAD ||
+  'main'
 
 export const tinaConfig = defineConfig({
   branch: 'main',
@@ -22,12 +22,13 @@ export const tinaConfig = defineConfig({
   },
   media: {
     //@ts-ignore
-    loadCustomStore: async() => {
+    loadCustomStore: async () => {
       const pack = await import("next-tinacms-cloudinary");
       return pack.TinaCloudCloudinaryMediaStore;
     }
   },
-  schema: {collections: [
+  schema: {
+    collections: [
       {
         label: "Global",
         name: "global",
@@ -46,7 +47,7 @@ export const tinaConfig = defineConfig({
                 list: true,
                 ui: {
                   itemProps: (item) => {
-                    return {label: item?.label};
+                    return { label: item?.label };
                   },
                   defaultItem: {
                     href: "home",
@@ -79,7 +80,7 @@ export const tinaConfig = defineConfig({
                 list: true,
                 ui: {
                   itemProps: (item) => {
-                    return {label: item?.label};
+                    return { label: item?.label };
                   },
                   defaultItem: {
                     href: "/lien",
@@ -129,6 +130,9 @@ export const tinaConfig = defineConfig({
         label: "Pages",
         name: "pages",
         path: "content/pages",
+        match: {
+          include: "**/*",
+        },
         fields: [
           {
             type: "object",
@@ -191,7 +195,7 @@ export const tinaConfig = defineConfig({
                     list: true,
                     ui: {
                       itemProps: (item) => {
-                        return {label: item?.author};
+                        return { label: item?.author };
                       },
                       previewSrc: "/blocks/testimonials.png",
                     },
@@ -223,7 +227,7 @@ export const tinaConfig = defineConfig({
                 label: "Events",
                 ui: {
                   itemProps: (item) => {
-                    return {label: item?.title};
+                    return { label: item?.title };
                   },
                   previewSrc: "/blocks/events.png",
                   defaultItem: {
@@ -351,14 +355,15 @@ export const tinaConfig = defineConfig({
             type: "image"
           }]
       }
-    ]},
+    ]
+  },
   cmsCallback: (cms) => {
     /**
      * Enables experimental branch switcher
      */
     cms.flags.set("branch-switcher", true);
 
-    import("tinacms").then(({RouteMappingPlugin}) => {
+    import("tinacms").then(({ RouteMappingPlugin }) => {
       const RouteMapping = new RouteMappingPlugin((collection, document) => {
         if (["global"].includes(collection.name)) {
           return undefined;
@@ -379,7 +384,7 @@ export const tinaConfig = defineConfig({
 
     return cms;
   },
-  formifyCallback: ({formConfig, createForm, createGlobalForm}) => {
+  formifyCallback: ({ formConfig, createForm, createGlobalForm }) => {
     if (formConfig.id === "getGlobalDocument") {
       return createGlobalForm(formConfig);
     }

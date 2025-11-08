@@ -1,45 +1,28 @@
 ---
 seo:
-  title: Coaching en entreprise
+  title: Coaching Entreprise - Formation TIPI & Méditation en Entreprise | Frédéric Chastelas
+  description: Formation professionnelle en régulation émotionnelle TIPI pour entreprises. Coaching méditation, gestion du stress, prévention burn-out. Interventions sur-mesure pour améliorer bien-être au travail, performance et cohésion d'équipe. Enseignant méditation 15 ans d'expérience, thérapeute TIPI certifié. Devis personnalisé.
 blocks:
   - image:
       src: >-
         https://res.cloudinary.com/guikem/image/upload/v1659388750/coaching-en-entreprise_tdn01j.jpg
-      alt: Coaching en entreprise
+      alt: Coaching en entreprise - Formation TIPI et Méditation
     headline: Coaching en entreprise
-    tagline: Formations et stages
+    tagline: Formations et stages professionnels
     _template: hero
-  - name: Formation
-    body: "## Formation à la régulation émotionnelle Tipi\n\nLa régulation émotionnelle Tipi (Technique d’Identification sensorielle des Peurs Inconscientes) est une méthode reconnue et enseignée dans les institutions (CHU de Montpellier) permettant la libération définitive des peurs inconscientes qui sont à l’origine des émotions perturbatrices et des comportements limitants ou conflictuels. Elle peut s’appliquer à l’angoisse, au stress, aux phobies, à l’agressivité, à la perte de moyen, et même à certaines formes de dépression.\n\nConnaissant aujourd’hui l’origine des blocages émotionnels, nous savons comment les libérer simplement et définitivement. Cela transforme concrètement et durablement tous les aspects de notre vie.\n&#x9;\t\t\t&#x9;\n\n**Se former à la régulation émotionnelle** \\*\\*Tipi \\*\\*dans le cadre de votre entreprise vous permettra:\n\n* de vous **libérer de vos peurs et vos inhibitions au travail**\n* de vous **libérer des réactions émotionnelles** qui sont la **source de conflits** entre individus\n* de prendre la parole aisément et **ne plus avoir peur de parler en public**\n* d’être **dans l’instant présent** pour accomplir vos tâches sereinement\n* de **ne plus ruminer mentalement** les conflits et difficultés\n* d’accomplir vos tâches avec **fluidité et enthousiasme**\n* d’**oser prendre les initiatives** qui vous paraissent judicieuses\n* de prendre votre place et **vous affirmer** lorsque cela le requiert\n* d’avoir le courage de **suivre vos intuitions**\n\nCette formation se fait sur une journée avec un groupe de 7 à 25 personnes\n\n### Me contacter pour un devis\n\n![](https://res.cloudinary.com/guikem/image/upload/v1750885082/conference-tipi_vrkx1z.jpg)\n"
+  - name: Formation TIPI
+    bgColor: white
+    body: "## Formation professionnelle TIPI en entreprise\n\n### Libérez le potentiel de vos équipes\n\nLa régulation émotionnelle TIPI (Technique d'Identification sensorielle des Peurs Inconscientes) est une méthode reconnue et enseignée dans les institutions médicales (CHU de Montpellier) permettant la libération définitive des peurs inconscientes à l'origine des émotions perturbatrices et des comportements limitants en milieu professionnel.\n\nCette **formation professionnelle TIPI** s'applique efficacement à la **gestion du stress au travail**, aux phobies professionnelles, à l'agressivité en entreprise, à la perte de moyens lors de présentations, et à la **prévention du burn-out**.\n\n---\n\n### Bénéfices pour vos équipes\n\n**Se former à la régulation émotionnelle TIPI** permettra à vos collaborateurs de :\n\n* Se **libérer des peurs et inhibitions au travail** (syndrome de l'imposteur, peur de l'échec)\n* Éliminer les **réactions émotionnelles sources de conflits**\n* **Prendre la parole en public** avec aisance\n* Être **pleinement présent** dans leurs tâches\n* **Ne plus ruminer** les conflits professionnels\n* Accomplir les missions avec **fluidité et créativité**\n* **Oser prendre des initiatives** et proposer des idées\n* **S'affirmer** avec confiance\n* **Prévenir le burn-out** efficacement\n* Améliorer la **cohésion d'équipe**\n\n---\n\n### Format de la formation\n\n* **Durée** : une journée (adaptable)\n* **Groupe** : 7 à 25 personnes\n* **Options** : demi-journée, journée complète ou cycle de plusieurs sessions\n* **Lieu** : intervention possible dans toute la France\n\n**[Contactez-moi pour un devis personnalisé](/contact)**\n\n![Formation TIPI en entreprise - Conférence](https://res.cloudinary.com/guikem/image/upload/v1750885082/conference-tipi_vrkx1z.jpg)\n"
     _template: content
   - name: Méditation
-    bgColor: white
-    body: "## Méditation\n\nLes bienfaits de la méditation ne sont aujourd’hui plus à prouver. Avec une **expérience d’enseignant** **de méditation** à plein temps **depuis quinze ans**, j’amène aujourd’hui mon savoir faire au sein de l’entreprise.\n\n**Méditations guidées, apprentissage de la méditation, gestion des émotions, conseils d’intégration de la méditation dans l’activité...**\n\nLe format et la fréquence des interventions sont à déterminer avec vous...\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    bgColor: bg-secondary
+    body: "## Méditation en entreprise : cultiver le bien-être et la sérénité\n\nLes bienfaits de la **méditation en entreprise** ne sont aujourd'hui plus à prouver : réduction du stress, amélioration de la concentration, meilleure gestion des émotions, créativité naturelle et renforcement de la cohésion d'équipe.\n\nAvec une **expérience d'enseignant de méditation bouddhiste depuis quinze ans**, dont 12 ans comme guide de retraite au temple de Lérab Ling, j'apporte aujourd'hui mon expertise au sein des entreprises.\n\n---\n\n### Interventions proposées\n\n* **Séances de méditation guidée** pour vos équipes (15-30 minutes)\n* **Ateliers d'apprentissage de la méditation** (demi-journée ou journée)\n* **Formation gestion du stress par la méditation**\n* **Programme bien-être au travail** sur plusieurs semaines\n* **Conseils d'intégration de la méditation** dans l'activité quotidienne\n* **Méditation et présence** : techniques pour améliorer la concentration et la clarté\n\n---\n\n### Format flexible\n\nLe format et la fréquence des interventions sont à déterminer avec vous selon vos besoins : sessions hebdomadaires, mensuelles, ou programme intensif.\n\n**Idéal pour** : entreprises souhaitant améliorer la qualité de vie au travail, cultiver un environnement serein, favoriser la créativité et renforcer l'engagement des collaborateurs.\n"
     _template: content
   - name: Stages
-    body: >
-      ## Stages
-
-
-      Je vous propose des **stages de un à cinq jours en immersion dans des
-      lieux exceptionnels** tels que le Château Saint-Martin de Graves ou le 
-      temple bouddhiste de Lerab Ling (à 1h de Montpellier).
-
-
-      Apprentissage de la **méditation, régulation émotionnelle, marches,
-      yoga**... sont proposés. Une **expérience complète et unique** !
-
-
-      ![Chateau Saint Martin de
-      Grave](https://res.cloudinary.com/guikem/image/upload/v1656882424/chateau_jyg7ra.jpg
-      "Chateau Saint Martin de Grave")
-
-
-      ![](https://res.cloudinary.com/guikem/image/upload/v1656881781/Lerab-Ling_nm14cg.jpg
-      "L")
+    bgColor: bg-secondary
+    body: "## Séminaires et stages d'entreprise sur-mesure\n\nJe vous propose des **séminaires d'entreprise de un à cinq jours en immersion dans des lieux exceptionnels** tels que le Château Saint-Martin de Graves ou le temple bouddhiste de Lérab Ling (à 1h de Montpellier).\n\n---\n\n### Programme des séminaires\n\nApprentissage de la **méditation, régulation émotionnelle TIPI, marches en conscience, yoga, cohésion d'équipe**... Une **expérience complète et transformante** pour vos collaborateurs !\n\n**Objectifs** :\n\n* Renforcer la cohésion d'équipe\n* Développer la présence et l'écoute\n* Améliorer la communication\n* Réduire le stress collectif\n* Favoriser la créativité naturelle\n\n**Idéal pour** : séminaires de direction, team building, retraites stratégiques, programmes de développement du leadership.\n\n---\n\n### Lieux d'exception\n\n![Château Saint-Martin de Grave](https://res.cloudinary.com/guikem/image/upload/v1656882424/chateau_jyg7ra.jpg \"Château Saint-Martin de Grave - Séminaire entreprise\")\n\n![Temple bouddhiste Lérab Ling](https://res.cloudinary.com/guikem/image/upload/v1656881781/Lerab-Ling_nm14cg.jpg \"Lérab Ling - Retraite entreprise\")\n"
     _template: content
   - name: Activity training
-    body: "## Entraînement à l'activité\n\nL’**entraînement à l'activité** est une **série de conseils** provenant de maîtres bouddhistes permettant d’amener notre sagesse dans l’activité. Il permet de **donner du sens à notre activité et de l’accomplir plus créativement et plus efficacement**.\n\nIl fait l’objet de sessions dans lesquelles vous **découvrirez ces conseils**, **apprendrez à les mettre en pratique** ainsi qu'à **repérer les blocages émotionnels qui vous empêchent de les appliquer.**\n\n&#x9;\t\t&#x9;\n&#x9;\t&#x9;\n&#x9;&#x9;\n&#x9;\n"
+    body: "## Entraînement à l'activité professionnelle\n\n### Sagesse bouddhiste appliquée au travail\n\nL'**entraînement à l'activité** est une approche unique combinant **sagesse bouddhiste et vie professionnelle**. Cette série de conseils pratiques provenant de maîtres bouddhistes permet d'amener clarté et fluidité dans l'activité professionnelle.\n\nCette formation permet de **donner du sens à votre activité professionnelle** et de l'accomplir avec plus de **créativité, de fluidité et de sérénité**.\n\n---\n\n### Contenu de la formation\n\nLors de ces sessions, vos collaborateurs :\n\n* **Découvriront des principes de sagesse** applicables au quotidien professionnel\n* **Apprendront à les mettre en pratique** concrètement dans leur activité\n* **Repéreront les blocages émotionnels** qui les empêchent d'être pleinement épanouis\n* Développeront une **approche plus consciente et créative** du travail\n\n---\n\n### Bénéfices\n\nClarté dans la prise de décision, réduction du stress, créativité naturelle, meilleur équilibre vie professionnelle/personnelle.\n\n**Format** : ateliers de 2h à une journée, adaptables selon vos besoins.\n"
     _template: content
 ---
-

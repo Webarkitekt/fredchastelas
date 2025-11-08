@@ -13,6 +13,26 @@
 }
 
 .richtext img {
-    @apply mx-auto;
+    @apply mx-auto rounded-2xl shadow-xl;
 }
 
+.richtext hr {
+    @apply border-gray-300 my-8;
+}
+
+.richtext ul,
+.richtext ol {
+    @apply my-3 space-y-1;
+}
+
+.richtext ul li,
+.richtext ol li {
+    @apply my-0.5;
+}
+
+
+/* Style pour les liens de contact */
+.richtext a[href^="tel:"],
+.richtext a[href^="mailto:"] {
+    @apply text-interaction-default hover:underline font-normal;
+}
