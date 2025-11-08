@@ -17,12 +17,21 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
                     "@type": "Person",
                     "name": "Frédéric Chastelas",
                     "jobTitle": "Enseignant de Méditation Bouddhiste, Thérapeute Certifié TIPI",
-                    "description": "Enseignant de méditation bouddhiste depuis plus de 15 ans, ancien guide de retraite à Lérab Ling (14 ans). Thérapeute certifié en régulation émotionnelle TIPI depuis 2021, méthode Luc Nicon.",
+                    "description": "Enseignant de méditation bouddhiste depuis plus de 15 ans, ancien guide de retraite à Lérab Ling (14 ans dont 12 ans comme guide). Thérapeute certifié en régulation émotionnelle TIPI depuis 2021, méthode Luc Nicon.",
                     "url": baseUrl,
-                    "image": `${baseUrl}/images/frederic-chastelas.jpg`,
+                    "telephone": "+33684775544",
+                    "email": "frederic.chastelas@gmail.com",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "12 rue Amoreux",
+                        "addressLocality": "Montpellier",
+                        "postalCode": "34090",
+                        "addressRegion": "Occitanie",
+                        "addressCountry": "FR"
+                    },
                     "sameAs": [
-                        "https://www.linkedin.com/in/frederic-chastelas",
-                        "https://www.youtube.com/@fredericchastelas"
+                        "https://www.facebook.com/frederic.chastelas.1",
+                        "https://www.instagram.com/fredericchastelas"
                     ],
                     "knowsAbout": [
                         "Régulation émotionnelle TIPI",
@@ -30,7 +39,9 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
                         "Gestion du stress",
                         "Coaching en entreprise",
                         "Développement personnel",
-                        "Thérapie émotionnelle"
+                        "Thérapie émotionnelle",
+                        "Prévention burn-out",
+                        "Lérab Ling"
                     ],
                     "hasOccupation": {
                         "@type": "Occupation",
@@ -39,6 +50,9 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
                             "@type": "Place",
                             "address": {
                                 "@type": "PostalAddress",
+                                "streetAddress": "12 rue Amoreux",
+                                "addressLocality": "Montpellier",
+                                "postalCode": "34090",
                                 "addressRegion": "Occitanie",
                                 "addressCountry": "FR"
                             }
@@ -109,9 +123,18 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
                     "@context": "https://schema.org",
                     "@type": "ProfessionalService",
                     "name": "Frédéric Chastelas - Régulation Émotionnelle & Méditation",
-                    "description": "Cabinet de régulation émotionnelle TIPI, stages de méditation et coaching en entreprise",
+                    "description": "Cabinet de régulation émotionnelle TIPI, stages de méditation et coaching en entreprise. Enseignant méditation 15 ans, thérapeute TIPI certifié 2021.",
                     "url": baseUrl,
-                    "telephone": "+33-XXX-XXX-XXX",
+                    "telephone": "+33684775544",
+                    "email": "frederic.chastelas@gmail.com",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "12 rue Amoreux",
+                        "addressLocality": "Montpellier",
+                        "postalCode": "34090",
+                        "addressRegion": "Occitanie",
+                        "addressCountry": "FR"
+                    },
                     "priceRange": "€€",
                     "areaServed": "France",
                     "serviceArea": {
