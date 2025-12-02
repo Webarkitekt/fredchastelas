@@ -5,6 +5,9 @@ end_date: 2026-02-07T23:00:00.000Z
 location: content/locations/Lerabling.md
 type: Connaissance de soi
 description: >
+  ![](https://res.cloudinary.com/guikem/image/upload/v1764681958/images_gxwfrn.jpg)
+
+
   Nous recherchons tous l'équilibre affectif, pourtant nous ne nous rendons pas
   compte que ce qui nous empêche de le vivre sont nos dépendances affectives. Ce
   sont en effet ces dernières qui nous donnent la sensation de subir certaines
@@ -33,7 +36,7 @@ description: >
   de manipulation.**
 
 
-  Lors de ce weekend 
+  Lors de ce weekend
 
 
   * Nous comprendrons **l’origine de nos dépendances affectives**
