@@ -1,5 +1,5 @@
 ---
-title: Guérir les 5 blessures
+title: Guérir les 5 blessures de l'âme
 start_date: 2026-03-13T23:00:00.000Z
 end_date: 2026-03-14T23:00:00.000Z
 location: content/locations/Lerabling.md
