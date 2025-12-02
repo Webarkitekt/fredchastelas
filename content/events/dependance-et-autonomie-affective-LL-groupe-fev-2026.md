@@ -10,7 +10,7 @@ description: >
 
   A l'aune des enseignements spirituels et de l'approche de Lise Bourbeau, ce
   stage vous propose de **prendre conscience de vos dépendances affectives** et
-  de **développer plus d’autonomie affective.**
+  de **développer plus d’autonomie et de liberté.**
 
 
   Tant que nous sommes dépendants de quelqu’un ou de quelque chose, nous sommes
