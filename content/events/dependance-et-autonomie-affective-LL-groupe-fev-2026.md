@@ -8,60 +8,40 @@ description: >
   ![](https://res.cloudinary.com/guikem/image/upload/v1764681958/images_gxwfrn.jpg)
 
 
-  Nous recherchons tous l'équilibre affectif, pourtant nous ne nous rendons pas
-  compte que ce qui nous empêche de le vivre sont nos dépendances affectives. Ce
-  sont en effet ces dernières qui nous donnent la sensation de subir certaines
-  relations ou tout au moins de ne pas les vivre de la façon désirée.
+  A l'aune des enseignements spirituels et de l'approche de Lise Bourbeau, ce
+  stage vous propose de **prendre conscience de vos dépendances affectives** et
+  de **développer plus d’autonomie affective.**
 
 
-  Ce
-
-  stage vous propose de **prendre conscience de vos dépendances
-
-  affectives** afin de **développer plus d’autonomie affective** et de
-
-  vivre le bonheur véritable qui en découle.
-
-
-  Tant
-
-  que nous sommes dépendants de quelqu’un ou de quelque chose,
-
-  nous sommes\*\* soumis à la croyance que nous ne pouvons pas être
-
-  heureux sans cette personne ou cette chose extérieure,\*\* ce qui nous amène à
-
-  **l’impuissance, la frustration et à des relations empreintes
-
-  de manipulation.**
+  Tant que nous sommes dépendants de quelqu’un ou de quelque chose, nous sommes
+  soumis à la croyance que nous ne pouvons être heureux sans cette personne ou
+  cette chose, ce qui nous mène à **l’impuissance, la frustration ainsi qu'à des
+  relations empreintes de contrôle et de manipulation.**
 
 
   Lors de ce weekend
 
 
-  * Nous comprendrons **l’origine de nos dépendances affectives**
+  *  Nous comprendrons** l'origine de nos dépendances affectives **
 
-  * Nous identifierons les **7 dépendances
-    affectives** principales et verrons
-    **les 7 besoins affectifs non-comblés qui sont derrière.**
-  * Nous examinerons le
-    rôle des dépendances affectives dans **nos relations(couple, famille, amis...)**
+  * Nous identifierons les **7 dépendances affectives** principales et verrons
+  **les croyances qui les alimentent**
+
+  * Nous examinerons le rôle des dépendances affectives dans **nos relations
+  (couple, famille, amis...)**
+
   * Nous verrons également le lien entre dépendances affectives et les
-  **dépendances physiques**
-    que ce soit à des personnes, des choses ou des comportements et
-    verrons le processus pour nous en libérer
+  **dépendances physiques** que ce soit à des personnes, des comportements ou
+  des substances et verrons le processus pour nous en libérer
 
-  Le contenu théorique appuyé par des **documents ainsi que les
 
-  échanges, les
+  Ce séminaire sera aussi une occasion d'aborder le sujet du couple et de mieux
+  comprendre les enjeux qui s'y jouent.
 
-  exercices et la méditation nous permettront de faire de ce weekend un
-  véritable processus intérieur. Nous
 
-  en viendrons à prendre conscience et à identifier nos
-
-  dépendances physiques et affectives, et à découvrir
-
-  le chemin qui nous mène à l’autonomie et la liberté.**
+  Le contenu théorique appuyé par des **documents ainsi que les échanges, les
+  exercices et la méditation nous  permettront de faire de ce weekend un
+  véritable processus intérieur afin d'aller vers l'autonomie affective et de
+  découvrir enfin la plénitude que nous sommes.**
 ---
 
