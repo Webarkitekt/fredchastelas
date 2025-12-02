@@ -30,7 +30,7 @@ function EventsPage({ ...props }) {
     data: props.data,
   });
 
-  const { start_date, end_date, title, type, description } = data.events;
+  const { start_date, end_date, title, type, description, location } = data.events;
 
   const event_start_date = new Date(start_date);
   const formattedStartDate = format(event_start_date, "dd MMM", { locale: fr });
@@ -40,13 +40,19 @@ function EventsPage({ ...props }) {
     locale: fr,
   });
 
+  const locationName = location?.name || '';
+  const taglineParts = [type, `${formattedStartDate} au ${formattedEndDate}`];
+  if (locationName) {
+    taglineParts.push(locationName);
+  }
+
   return (
     <Layout>
       <Hero
         data={{
           as_banner: true,
           headline: title,
-          tagline: `${type} • ${formattedStartDate} au ${formattedEndDate} • ${data.events.location.name}`,
+          tagline: taglineParts.join(' • '),
         }}
         parentField={undefined}
       />
