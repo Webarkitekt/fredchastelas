@@ -20,7 +20,7 @@
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.19.1",
     "jsonp": "^0.2.1",
-    "next": "14.2.5",
+    "next": "14.2.35",
     "next-seo": "^6.6.0",
     "next-svgr": "^0.0.2",
     "next-tinacms-cloudinary": "^12",
