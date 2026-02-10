@@ -6,7 +6,7 @@ location: content/locations/aix_en_provence.md
 type: Connaissance de soi / Méditation
 external_link: 'https://www.lerabling.org/lang-fr/apprendre-a-s-accepter-pour-se-transformer'
 description: |
-  ****![](https://res.cloudinary.com/guikem/image/upload/v1753260243/WhatsApp_Image_2025-07-19_%C3%A0_14.30.12_b03e64d9_rft5db.jpg)
+  \*\*\*\*![](https://res.cloudinary.com/guikem/image/upload/v1753260243/WhatsApp_Image_2025-07-19_%C3%A0_14.30.12_b03e64d9_rft5db.jpg)
 
   **Toute transformation ne peut se produire que par une acceptation authentique de nous-même.** Pourtant notre compréhension de l’acceptation de soi et surtout sa mise en pratique nous font souvent défaut. **Que signifie véritablement s’accepter soi-même ?** Quelle est la sagesse qui sous-tend l’acception de soi et comment la mettre en pratique ?
 
@@ -23,15 +23,19 @@ description: |
 
   **Détails pratiques :**
 
-  Tarif: 125€
+  **Tarif**: 125€
 
-  Repas: pique-nique sur place à midi
+  **Lieu**: Les 3 Chênes - 860 chemin des Frères Gris - 13080 Luynes - Aix-en-Provence
 
-  Logement: pas de logement sur place 
+  Début du stage: Samedi 18 avril à 10h. Merci de prévoir votre arrivée pour 9h45 au plus tard
 
-  **Inscriptions et infos** auprès de Frédéric CHASTELAS au 06 84 77 55 44 ou par email frederic.chastelas\@gmail.com
+  Fin du stage: Dimanche 19 avril à 17h
 
-  Quelques témoignages:
+  **Inscription par email**: [frederic.chastelas@gmail.com](mailto:frederic.chastelas@gmail.com)
+
+  NB: Repas et logement ne sont pas organisés. Possibilité de pique-nique sur place à midi.
+
+  **Quelques témoignages:**
 
   Sara
 
